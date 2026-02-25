@@ -30,3 +30,21 @@ code{background:#e9e0d3;padding:.1rem .35rem;border-radius:.35rem}
 .chip{background:#eadfce;color:#5f4a32;border:1px solid var(--border);border-radius:999px;padding:.18rem .55rem;font-size:.82rem;font-weight:600}
 .foot{color:var(--muted);padding-bottom:2rem}
 summary{cursor:pointer;color:var(--accent)}
+
+nav a:focus-visible,
+.btn:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent2);
+  outline-offset: 2px;
+  border-radius: .35rem;
+}
+
+@media (max-width: 700px) {
+  body { font-size: 15px; }
+  .wrap { padding: .8rem; }
+  .site-header { position: static; }
+  h1 { font-size: 1.45rem; }
+  h2 { font-size: 1.25rem; }
+  .card { padding: .85rem; margin: .7rem 0; }
+  .btn { width: 100%; text-align: center; }
+}

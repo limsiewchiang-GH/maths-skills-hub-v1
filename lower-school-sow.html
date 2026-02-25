@@ -49,6 +49,20 @@
 .diagram-title{font-size:.84rem;font-weight:700;color:#5f4a32;margin-bottom:.35rem}
 .diagram-note{font-size:.8rem;color:var(--muted);margin-top:.2rem}
 .diagram-svg{width:100%;max-width:520px;height:auto;display:block;background:#fff;border:1px solid #e3d7c7;border-radius:.45rem}
+.topic-item, .skill-item { content-visibility: auto; contain-intrinsic-size: 1px 120px; }
+.skill-item > summary { line-height: 1.35; }
+
+@media (max-width: 700px) {
+  .planner-intro { font-size: .93rem; }
+  .year-group > summary,
+  .topic-item > summary,
+  .skill-item > summary { padding: .62rem .65rem; }
+  .skills-block { padding: .5rem .6rem .7rem; }
+  .practice-panel { padding: .2rem .5rem .6rem; }
+  .practice-panel ol { margin-left: 1rem; }
+  .diagram-title { font-size: .8rem; }
+  .diagram-note { font-size: .76rem; }
+}
 </style>
 </head>
 <body>
