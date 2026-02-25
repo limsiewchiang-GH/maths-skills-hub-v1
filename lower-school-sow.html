@@ -1396,9 +1396,14 @@ function graphDiagram(skill) {
             <text x="220" y="198" font-size="11" fill="#4f4438">15-22</text>
             <text x="307" y="198" font-size="11" fill="#4f4438">22-34</text>
             <text x="300" y="28" font-size="12" fill="#4f4438">Class width varies</text>
+            <text x="46" y="183" font-size="10" fill="#4f4438">0</text>
+            <text x="42" y="153" font-size="10" fill="#4f4438">2</text>
+            <text x="42" y="123" font-size="10" fill="#4f4438">4</text>
+            <text x="42" y="93" font-size="10" fill="#4f4438">6</text>
+            <text x="42" y="63" font-size="10" fill="#4f4438">8</text>
             <text x="15" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 15,24)">Frequency density</text>
           </svg>
-          <div class="diagram-note">Use bar area (not just height) to complete missing frequency values.</div>
+          <div class="diagram-note">Use bar area (not just height). Suggested scale: x in class boundaries, y in frequency density steps of 2.</div>
         </div>
       `;
     }
@@ -1418,8 +1423,12 @@ function graphDiagram(skill) {
           <text x="220" y="198" font-size="11" fill="#4f4438">15-22</text>
           <text x="307" y="198" font-size="11" fill="#4f4438">22-34</text>
           <text x="14" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 14,24)">Frequency density</text>
+          <text x="46" y="183" font-size="10" fill="#4f4438">0</text>
+          <text x="42" y="153" font-size="10" fill="#4f4438">2</text>
+          <text x="42" y="123" font-size="10" fill="#4f4438">4</text>
+          <text x="42" y="93" font-size="10" fill="#4f4438">6</text>
         </svg>
-        <div class="diagram-note">Remember: frequency = class width × frequency density.</div>
+        <div class="diagram-note">Remember: frequency = class width × frequency density. Suggested y-scale: 1 large square = 2 density units.</div>
       </div>
     `;
   }
@@ -1438,8 +1447,13 @@ function graphDiagram(skill) {
           <circle cx="320" cy="56" r="3" fill="#8f6a45"/>
           <text x="290" y="198" font-size="11" fill="#4f4438">Class boundary</text>
           <text x="12" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 12,24)">Cum. frequency</text>
+          <text x="44" y="183" font-size="10" fill="#4f4438">0</text>
+          <text x="40" y="153" font-size="10" fill="#4f4438">20</text>
+          <text x="40" y="123" font-size="10" fill="#4f4438">40</text>
+          <text x="40" y="93" font-size="10" fill="#4f4438">60</text>
+          <text x="40" y="63" font-size="10" fill="#4f4438">80</text>
         </svg>
-        <div class="diagram-note">Read quartiles/median by moving horizontally from CF values to the curve, then down.</div>
+        <div class="diagram-note">Read quartiles/median by moving horizontally from CF values to the curve, then down. Suggested scale: x = class boundaries, y = 20 CF per large square.</div>
       </div>
     `;
   }
@@ -1455,9 +1469,13 @@ function graphDiagram(skill) {
           <polyline fill="none" stroke="#8f6a45" stroke-width="3" points="70,170 140,120 200,120 280,70 360,100"/>
           <text x="205" y="114" font-size="11" fill="#4f4438">stationary</text>
           <text x="332" y="196" font-size="11" fill="#4f4438">time</text>
-          <text x="14" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 14,24)">distance</text>
+          <text x="14" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 14,24)">distance (km)</text>
+          <text x="230" y="196" font-size="10" fill="#4f4438">30</text>
+          <text x="310" y="196" font-size="10" fill="#4f4438">45</text>
+          <text x="34" y="143" font-size="10" fill="#4f4438">20</text>
+          <text x="34" y="83" font-size="10" fill="#4f4438">40</text>
         </svg>
-        <div class="diagram-note">Steeper sections mean faster speed. Flat section means stationary.</div>
+        <div class="diagram-note">Steeper sections mean faster speed. Flat section means stationary. Suggested scale: x = 5 min per large square, y = 5 km per large square.</div>
       </div>
     `;
   }
@@ -1480,8 +1498,13 @@ function graphDiagram(skill) {
           <text x="238" y="110" font-size="11" fill="#4f4438">intersection</text>
           <text x="407" y="196" font-size="11" fill="#4f4438">x</text>
           <text x="236" y="24" font-size="11" fill="#4f4438">y</text>
+          <text x="266" y="196" font-size="10" fill="#4f4438">1</text>
+          <text x="306" y="196" font-size="10" fill="#4f4438">2</text>
+          <text x="346" y="196" font-size="10" fill="#4f4438">3</text>
+          <text x="214" y="143" font-size="10" fill="#4f4438">-1</text>
+          <text x="214" y="83" font-size="10" fill="#4f4438">1</text>
         </svg>
-        <div class="diagram-note">Use gradients and intercepts to sketch quickly; intersections solve simultaneous graphically.</div>
+        <div class="diagram-note">Use gradients and intercepts to sketch quickly; intersections solve simultaneous graphically. Suggested scale: 1 large square = 1 unit on both axes.</div>
       </div>
     `;
   }
@@ -1499,8 +1522,11 @@ function graphDiagram(skill) {
           <text x="210" y="195" font-size="11" fill="#4f4438">\(180^\circ\)</text>
           <text x="300" y="195" font-size="11" fill="#4f4438">\(270^\circ\)</text>
           <text x="388" y="195" font-size="11" fill="#4f4438">\(360^\circ\)</text>
+          <text x="35" y="113" font-size="10" fill="#4f4438">0</text>
+          <text x="35" y="53" font-size="10" fill="#4f4438">1</text>
+          <text x="35" y="173" font-size="10" fill="#4f4438">-1</text>
         </svg>
-        <div class="diagram-note">Key points: \(0^\circ,90^\circ,180^\circ,270^\circ,360^\circ\).</div>
+        <div class="diagram-note">Key points: \(0^\circ,90^\circ,180^\circ,270^\circ,360^\circ\). Suggested scale: x = 90° blocks, y = 1 unit per large square.</div>
       </div>
     `;
   }
