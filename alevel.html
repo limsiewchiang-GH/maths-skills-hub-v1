@@ -5,34 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>A-Level Skills | Maths Skills Hub</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 <body>
-  <header class="site-header"><div class="wrap"><h1>A-Level Skills</h1><nav><a href="index.html">Home</a><a href="practice.html">Practice Zone</a></nav></div></header>
+  <header class="site-header"><div class="wrap"><h1>A-Level Skills</h1><nav><a href="index.html">Home</a><a href="lower-school-sow.html">IGCSE</a><a class="active" href="alevel.html">A-Level Skills</a><a href="practice.html">Practice Zone</a></nav></div></header>
   <main class="wrap">
     <section class="card">
       <h2>Skill: Differentiate Polynomials</h2>
       <p><strong>Goal:</strong> Differentiate quickly and accurately using the power rule.</p>
       <h3>Method</h3>
       <ol>
-        <li>For <code>ax^n</code>, bring down <code>n</code> and reduce power by 1.</li>
+        <li>For \(ax^n\), bring down \(n\) and reduce power by 1.</li>
         <li>Constants differentiate to 0.</li>
       </ol>
       <h3>Worked Example</h3>
-      <p>If <code>y = 3x^4 - 5x^2 + 7x - 9</code>, then</p>
-      <p><code>dy/dx = 12x^3 - 10x + 7</code></p>
+      <p>If \(y = 3x^4 - 5x^2 + 7x - 9\), then</p>
+      <p>\(\dfrac{dy}{dx} = 12x^3 - 10x + 7\)</p>
       <p class="mistake"><strong>Common mistake:</strong> forgetting to reduce the power.</p>
     </section>
 
     <section class="card">
       <h3>Quick Practice</h3>
       <ol>
-        <li><code>y = 6x^5 + 2x^3 - x</code></li>
-        <li><code>y = 4x^{-2} + 9x</code></li>
-        <li><code>y = (3x^2 + 1)(x-4)</code> (expand first)</li>
+        <li>\(y = 6x^5 + 2x^3 - x\)</li>
+        <li>\(y = 4x^{-2} + 9x\)</li>
+        <li>\(y = (3x^2 + 1)(x-4)\) (expand first)</li>
       </ol>
       <details>
         <summary>Show Answers</summary>
-        <p>1) 30x^4 + 6x^2 - 1<br/>2) -8x^-3 + 9<br/>3) 9x^2 - 24x + 1</p>
+        <p>1) \(30x^4 + 6x^2 - 1\)<br/>2) \(-8x^{-3} + 9\)<br/>3) \(9x^2 - 24x + 1\)</p>
       </details>
     </section>
   </main>

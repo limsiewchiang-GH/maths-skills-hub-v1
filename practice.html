@@ -5,25 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Practice Zone | Maths Skills Hub</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 <body>
-  <header class="site-header"><div class="wrap"><h1>Practice Zone</h1><nav><a href="index.html">Home</a><a href="gcse.html">GCSE</a><a href="alevel.html">A-Level</a></nav></div></header>
+  <header class="site-header"><div class="wrap"><h1>Practice Zone</h1><nav><a href="index.html">Home</a><a href="lower-school-sow.html">IGCSE</a><a href="alevel.html">A-Level Skills</a><a class="active" href="practice.html">Practice Zone</a></nav></div></header>
   <main class="wrap">
     <section class="grid two">
       <article class="card">
-        <h2>GCSE Drill (5 mins)</h2>
+        <h2>IGCSE Drill (5 mins)</h2>
         <ol>
-          <li>Solve: <code>3x + 7 = 25</code></li>
-          <li>Expand: <code>(x+5)(x-2)</code></li>
-          <li>Area of circle radius 4 (leave in π)</li>
+          <li>Solve: \(3x + 7 = 25\)</li>
+          <li>Expand: \((x+5)(x-2)\)</li>
+          <li>Area of circle radius 4 (leave in \(\pi\))</li>
         </ol>
       </article>
       <article class="card">
         <h2>A-Level Drill (7 mins)</h2>
         <ol>
-          <li>Differentiate: <code>y = 2x^3 - 4x + 1</code></li>
-          <li>Integrate: <code>∫(6x^2 - 3) dx</code></li>
-          <li>Solve: <code>2sin x = 1</code>, 0°≤x≤360°</li>
+          <li>Differentiate: \(y = 2x^3 - 4x + 1\)</li>
+          <li>Integrate: \(\int(6x^2 - 3)\,dx\)</li>
+          <li>Solve: \(2\sin x = 1\), \(0^\circ \le x \le 360^\circ\)</li>
         </ol>
       </article>
     </section>
@@ -31,8 +38,8 @@
       <h3>Answer Check (no peeking until done)</h3>
       <details>
         <summary>Show answers</summary>
-        <p><strong>GCSE:</strong> 1) x=6 2) x²+3x-10 3) 16π<br/>
-        <strong>A-Level:</strong> 1) 6x²-4 2) 2x³-3x+c 3) x=30°,150°</p>
+        <p><strong>IGCSE:</strong> 1) \(x=6\) 2) \(x^2+3x-10\) 3) \(16\pi\)<br/>
+        <strong>A-Level:</strong> 1) \(6x^2-4\) 2) \(2x^3-3x+c\) 3) \(x=30^\circ,150^\circ\)</p>
       </details>
     </section>
   </main>

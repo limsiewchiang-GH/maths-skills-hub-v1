@@ -1,28 +1,32 @@
 :root{
-  --bg:#f4f7fb;
-  --card:#ffffff;
-  --text:#1f2a37;
-  --muted:#5f6b7a;
-  --accent:#4f7cac;
-  --accent2:#7bbfa8;
-  --border:#dbe4ee;
+  --bg:#eee8de;
+  --card:#f6f1e8;
+  --text:#2c2722;
+  --muted:#665e55;
+  --accent:#8f6a45;
+  --accent2:#70896f;
+  --border:#d7cbbb;
 }
 *{box-sizing:border-box}
 body{margin:0;font:16px/1.55 Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
 .wrap{max-width:980px;margin:0 auto;padding:1rem}
-.site-header{border-bottom:1px solid var(--border);background:#edf3f9;position:sticky;top:0}
+.site-header{border-bottom:1px solid var(--border);background:#e4dccf;position:sticky;top:0}
 h1,h2,h3{margin:.2rem 0 .6rem}
 .tag{color:var(--muted);margin:0 0 .7rem}
-nav a{color:var(--text);text-decoration:none;margin-right:1rem}
+nav{display:flex;flex-wrap:wrap;gap:.8rem}
+nav a{color:var(--text);text-decoration:none;padding:.15rem 0;border-bottom:2px solid transparent}
 nav a:hover{color:var(--accent)}
+nav a.active{color:var(--accent);border-bottom-color:var(--accent);font-weight:700}
 .hero{padding:1.2rem 0}
 .cta-row{display:flex;gap:.7rem;flex-wrap:wrap}
 .btn{display:inline-block;background:var(--accent);color:#fff;padding:.6rem .9rem;border-radius:.6rem;font-weight:700;text-decoration:none}
-.btn-alt{background:var(--accent2);color:#123329}
+.btn-alt{background:var(--accent2);color:#102413}
 .grid{display:grid;gap:1rem}
 .grid.two{grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
-.card{background:var(--card);padding:1rem;border:1px solid var(--border);border-radius:.8rem;margin:1rem 0;box-shadow:0 2px 10px rgba(42,66,99,.05)}
-code{background:#eef3f8;padding:.1rem .35rem;border-radius:.35rem}
-.mistake{color:#9a6a00}
+.card{background:var(--card);padding:1rem;border:1px solid var(--border);border-radius:.8rem;margin:1rem 0;box-shadow:0 1px 8px rgba(68,52,34,.05)}
+code{background:#e9e0d3;padding:.1rem .35rem;border-radius:.35rem}
+.mistake{color:#7d5418}
+.chip-row{display:flex;gap:.45rem;flex-wrap:wrap;margin:.2rem 0 .7rem}
+.chip{background:#eadfce;color:#5f4a32;border:1px solid var(--border);border-radius:999px;padding:.18rem .55rem;font-size:.82rem;font-weight:600}
 .foot{color:var(--muted);padding-bottom:2rem}
 summary{cursor:pointer;color:var(--accent)}

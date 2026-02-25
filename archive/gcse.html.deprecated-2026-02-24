@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GCSE Skills | Maths Skills Hub</title>
+  <title>IGCSE Skills | Maths Skills Hub</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header"><div class="wrap"><h1>GCSE Skills</h1><nav><a href="index.html">Home</a><a href="practice.html">Practice Zone</a></nav></div></header>
+  <header class="site-header"><div class="wrap"><h1>IGCSE Skills</h1><nav><a href="index.html">Home</a><a href="lower-school-sow.html">IGCSE</a><a class="active" href="gcse.html">IGCSE Skills</a><a href="alevel.html">A-Level Skills</a><a href="practice.html">Practice Zone</a></nav></div></header>
   <main class="wrap">
     <section class="card">
       <h2>Skill: Factorising Quadratics</h2>
