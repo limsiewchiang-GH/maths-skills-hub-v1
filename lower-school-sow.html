@@ -1348,6 +1348,9 @@ function latexifyLine(line) {
     return key;
   };
 
+  // Recurring decimals written with combining overline marker, e.g. 0.̅7 or 1.̅41
+  marked = marked.replace(/(\d+)\.\u0305(\d+)/g, (_, whole, rep) => pushMath(`${whole}.\\overline{${rep}}`));
+
   // Mixed numbers first, e.g. 2 3/5
   marked = marked.replace(/(\d+)\s+(\d+)\s*\/\s*(\d+)/g, (_, whole, n, d) => `${whole} ${pushMath(`${n}/${d}`)}`);
   // Standalone fractions
