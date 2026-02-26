@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maths Skills Hub | IGCSE</title>
+  <title>IGCSE | Maths Skills Hub</title>
   <link rel="stylesheet" href="styles.css" />
   <script>
     window.MathJax = {
@@ -1289,7 +1289,7 @@ function normalizeMath(expr) {
   t = t.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, c => sup[c] || c);
   t = t.replace(/[₀₁₂₃₄₅₆₇₈₉]/g, c => sub[c] || c);
 
-  t = t.replace(/\bdy\/dx\b/g, '\\frac{dy}{dx}');
+  t = t.replace(/\bdy\/dx\b/g, '\\dfrac{dy}{dx}');
   t = t.replace(/√\(([^)]+)\)/g, '\\sqrt{$1}');
   t = t.replace(/√([A-Za-z0-9]+)/g, '\\sqrt{$1}');
   t = t.replace(/∛([A-Za-z0-9]+)/g, '\\sqrt[3]{$1}');
