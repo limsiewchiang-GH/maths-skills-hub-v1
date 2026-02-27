@@ -1601,9 +1601,21 @@ function isAnswerClose(user, expected) {
   if (!u || !e) return false;
   if (u === e) return true;
 
-  // Allow one branch when expected has "or" style alternatives.
-  const parts = e.split(/or|,/).map(p => p.trim()).filter(Boolean);
-  if (parts.length > 1 && parts.includes(u)) return true;
+  // Accept either branch of ± answers.
+  if (e.includes('±')) {
+    const plus = e.replace('±', '+');
+    const minus = e.replace('±', '-');
+    if (u === plus || u === minus) return true;
+    if (u === plus.replace(/^[a-z]+=+/,'') || u === minus.replace(/^[a-z]+=+/,'')) return true;
+  }
+
+  // Accept one alternative for "or" forms, and tolerate missing leading variable labels.
+  const parts = e.split(/or/).map(p => p.trim()).filter(Boolean).flatMap(p => [p, p.replace(/^[a-z]+=+/, '')]);
+  if (parts.includes(u)) return true;
+
+  // Accept a single coordinate pair when expected contains multiple intersections.
+  const tuples = [...e.matchAll(/-?\d+(?:\.\d+)?,-?\d+(?:\.\d+)?/g)].map(m => m[0]);
+  if (tuples.length && tuples.includes(u.replace(/^[a-z,=]+/, ''))) return true;
 
   // Numeric tolerance fallback for decimal answers.
   const un = Number(u.replace(/[^0-9.-]/g, ''));
