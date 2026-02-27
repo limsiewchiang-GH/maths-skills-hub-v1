@@ -1298,6 +1298,8 @@ function normalizeMath(expr) {
   t = t.replace(/θ/g, '\\theta');
   t = t.replace(/×/g, '\\times ');
   t = t.replace(/÷/g, '\\div ');
+  t = t.replace(/±/g, '\\pm ');
+  t = t.replace(/∓/g, '\\mp ');
   t = t.replace(/≤/g, '\\le ');
   t = t.replace(/≥/g, '\\ge ');
   t = t.replace(/≠/g, '\\ne ');
@@ -1329,8 +1331,8 @@ function latexifyLine(line) {
 
   // Pure expression-like lines (e.g. x=6, 30x^4+6x^2-1) can be fully latexified.
   const startsWithInstruction = /^(find|solve|write|state|plot|given|if|show|prove|convert|estimate|simplify)\b/i.test(raw);
-  const expressionLike = /^[0-9A-Za-z\s()+\-*/^=.,≤≥≠πθ]+$/.test(raw)
-    && /[=+\-*/^≤≥≠]|\bdy\/dx\b|[²³⁴⁵⁶⁷⁸⁹]/.test(raw)
+  const expressionLike = /^[0-9A-Za-z\s()+\-*/^=.,≤≥≠πθ√±∓⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉]+$/.test(raw)
+    && /[=+\-*/^≤≥≠√±∓]|\bdy\/dx\b|[²³⁴⁵⁶⁷⁸⁹]/.test(raw)
     && raw.split(/\s+/).length <= 8
     && !/[A-Za-z]{5,}/.test(raw)
     && !startsWithInstruction;
