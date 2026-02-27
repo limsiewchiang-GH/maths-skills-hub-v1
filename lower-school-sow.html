@@ -45,6 +45,15 @@
 .solution-box summary { color: var(--accent); font-weight:700; }
 .note-lite { color: var(--muted); font-size:.9rem; }
 .badge-bespoke{display:inline-block;background:#f4ebdd;border:1px solid var(--border);color:#6d4d28;padding:.1rem .45rem;border-radius:999px;font-size:.75rem;margin-left:.4rem}
+.practice-q{margin:.45rem 0 .7rem;padding:.45rem .55rem;border:1px solid var(--border);border-radius:.5rem;background:#fbf6ed}
+.answer-row{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center;margin-top:.35rem}
+.answer-row input{padding:.38rem .5rem;border:1px solid var(--border);border-radius:.4rem;min-width:180px;max-width:100%;font:inherit}
+.btn-check,.btn-hint{padding:.34rem .55rem;border:1px solid var(--border);border-radius:.45rem;background:#fff;cursor:pointer;font:inherit}
+.btn-check{background:#f2e7d7}
+.feedback{margin-top:.3rem;font-size:.85rem}
+.feedback.ok{color:#1f6d3b}.feedback.no{color:#8a2f2f}
+.hints{margin-top:.28rem;color:var(--muted);font-size:.84rem}
+.misconception-note{margin:.35rem 0 .55rem;padding:.38rem .5rem;border-left:3px solid var(--accent);background:#f7efe2;font-size:.84rem}
 .diagram-card{margin:.5rem 0 .7rem;padding:.55rem .65rem;border:1px solid var(--border);border-radius:.6rem;background:#f3eadb}
 .diagram-title{font-size:.84rem;font-weight:700;color:#5f4a32;margin-bottom:.35rem}
 .diagram-note{font-size:.8rem;color:var(--muted);margin-top:.2rem}
@@ -1557,27 +1566,126 @@ function graphDiagram(skill) {
   return '';
 }
 
+const misconceptionMap = {
+  "Completing the Square": "Common mistake: forgetting to add/subtract the balancing constant after making a perfect square.",
+  "1 linear, 1 quadratic": "Common mistake: solving for x only. Always substitute back to get the corresponding y-values.",
+  "Converting recurring decimals into fractions:": "Common mistake: place-value mismatch. Align powers of 10 with the repeating block length.",
+  "Compounding percentage change": "Common mistake: adding percentages linearly. Use a multiplier each step.",
+  "Reverse percentages": "Common mistake: subtracting instead of dividing by the percentage multiplier.",
+  "Quadratic Inequalities": "Common mistake: forgetting interval logic after finding roots.",
+  "Using SoHCaHToA": "Common mistake: picking the wrong ratio from the labelled triangle.",
+  "Standard Form": "Common mistake: final number must be 1 ≤ a < 10 in a×10^n.",
+  "Simultaneous Equations 2": "Common mistake: algebra slips during substitution. Keep bracket signs explicit.",
+  "Formula": "Common mistake: sign error in b²−4ac under the square root."
+};
+
+function normalizeAnswerForCheck(s) {
+  return String(s || '')
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/\(/g, '')
+    .replace(/\)/g, '')
+    .replace(/\[/g, '')
+    .replace(/\]/g, '')
+    .replace(/\{/g, '')
+    .replace(/\}/g, '')
+    .replace(/×/g, 'x')
+    .replace(/≈/g, '=')
+    .replace(/−/g, '-')
+    .replace(/\u2212/g, '-');
+}
+
+function isAnswerClose(user, expected) {
+  const u = normalizeAnswerForCheck(user);
+  const e = normalizeAnswerForCheck(expected);
+  if (!u || !e) return false;
+  if (u === e) return true;
+
+  // Allow one branch when expected has "or" style alternatives.
+  const parts = e.split(/or|,/).map(p => p.trim()).filter(Boolean);
+  if (parts.length > 1 && parts.includes(u)) return true;
+
+  // Numeric tolerance fallback for decimal answers.
+  const un = Number(u.replace(/[^0-9.-]/g, ''));
+  const en = Number(e.replace(/[^0-9.-]/g, ''));
+  if (Number.isFinite(un) && Number.isFinite(en) && Math.abs(un - en) <= 0.02) return true;
+
+  return false;
+}
+
+function scaffoldSteps(q, a) {
+  return [
+    `Step 1: identify the method from the command word in the question.`,
+    `Step 2: carry out the key algebra/arithmetic carefully and keep intermediate values clear.`,
+    `Step 3: write the final answer in expected form. Example target: ${a}`
+  ];
+}
+
 function renderPractice(panel) {
 
   if (panel.dataset.loaded === '1') return;
   const skill = panel.dataset.skill || 'This skill';
   const year = panel.dataset.year || '';
   const set = pickSet(skill, year);
-
-  const qItems = set.q.map(q => `<li>${latexifyLine(q)}</li>`).join('');
-  const aItems = set.a.map(a => `<li>${latexifyLine(a)}</li>`).join('');
   const diagramHtml = graphDiagram(skill);
+  const misconception = misconceptionMap[skill] || '';
+
+  const qBlocks = set.q.map((q, i) => {
+    const ans = set.a[i] || '';
+    const steps = scaffoldSteps(q, ans);
+    return `
+      <li class="practice-q" data-i="${i}" data-answer="${escapeHtml(ans)}">
+        <div>${latexifyLine(q)}</div>
+        <div class="answer-row">
+          <input type="text" class="student-answer" placeholder="Type your answer" aria-label="Answer for question ${i + 1}" />
+          <button type="button" class="btn-check">Check</button>
+          <button type="button" class="btn-hint">Hint</button>
+        </div>
+        <div class="feedback" aria-live="polite"></div>
+        <div class="hints" hidden>
+          <div>• ${escapeHtml(steps[0])}</div>
+          <div>• ${escapeHtml(steps[1])}</div>
+          <div>• ${escapeHtml(steps[2])}</div>
+        </div>
+      </li>
+    `;
+  }).join('');
+
+  const aItems = set.a.map(a => `<li>${latexifyLine(a)}</li>`).join('');
 
   panel.innerHTML = `
     <h4>Quick Practice — ${escapeHtml(skill)} ${set.bespoke ? '<span class="badge-bespoke">bespoke</span>' : ''}</h4>
-    <ol>${qItems}</ol>
+    ${misconception ? `<div class="misconception-note">${escapeHtml(misconception)}</div>` : ''}
+    <ol>${qBlocks}</ol>
     ${diagramHtml}
     <details class="solution-box">
-      <summary>Show solutions</summary>
+      <summary>Show full solutions</summary>
       <ol>${aItems}</ol>
     </details>
   `;
   panel.dataset.loaded = '1';
+
+  panel.querySelectorAll('.practice-q').forEach((qEl) => {
+    const expected = qEl.dataset.answer || '';
+    const input = qEl.querySelector('.student-answer');
+    const feedback = qEl.querySelector('.feedback');
+    const hintBtn = qEl.querySelector('.btn-hint');
+    const checkBtn = qEl.querySelector('.btn-check');
+    const hints = qEl.querySelector('.hints');
+
+    checkBtn?.addEventListener('click', () => {
+      const user = input?.value || '';
+      const ok = isAnswerClose(user, expected);
+      feedback.className = `feedback ${ok ? 'ok' : 'no'}`;
+      feedback.textContent = ok
+        ? '✅ Good — your answer is accepted.'
+        : 'Not quite yet. Try a hint, then check notation/rounding.';
+    });
+
+    hintBtn?.addEventListener('click', () => {
+      if (hints) hints.hidden = !hints.hidden;
+    });
+  });
 
   if (window.MathJax && window.MathJax.typesetPromise) {
     window.MathJax.typesetPromise([panel]).catch(() => {});
