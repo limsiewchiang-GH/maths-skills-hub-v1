@@ -1628,11 +1628,37 @@ function isAnswerClose(user, expected) {
   return false;
 }
 
-function scaffoldSteps(q, a) {
+function hintPackForSkill(skill) {
+  const s = (skill || '').toLowerCase();
+
+  if (s.includes('foil') || s.includes('2 brackets')) {
+    return [
+      'Hint 1: Use FOIL (first, outer, inner, last), then collect like terms.',
+      'Hint 2 (worked similar): (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6.',
+      'Hint 3: Keep terms ordered as x², then x, then constant.'
+    ];
+  }
+
+  if (s.includes('compounding percentage')) {
+    return [
+      'Hint 1: Use a multiplier each step, not repeated addition/subtraction.',
+      'Hint 2 (worked similar): £100 grows by 10% for 2 years → 100×1.1² = 121.',
+      'Hint 3: Final value = start × (multiplier)^number of periods.'
+    ];
+  }
+
+  if (s.includes('completing the square')) {
+    return [
+      'Hint 1: Make a perfect square first, then balance the constant term.',
+      'Hint 2 (worked similar): x²+6x+5 = (x+3)²−4.',
+      'Hint 3: For solving, isolate the square, then ± after square root.'
+    ];
+  }
+
   return [
-    `Step 1: identify the method from the command word in the question.`,
-    `Step 2: carry out the key algebra/arithmetic carefully and keep intermediate values clear.`,
-    `Step 3: write the final answer in expected form. Example target: ${a}`
+    'Hint 1: Identify the method from the command word.',
+    'Hint 2 (worked similar): Try a simpler similar example first, then map the same steps back.',
+    'Hint 3: Check notation/rounding and whether your final form matches the question demand.'
   ];
 }
 
@@ -1647,21 +1673,17 @@ function renderPractice(panel) {
 
   const qBlocks = set.q.map((q, i) => {
     const ans = set.a[i] || '';
-    const steps = scaffoldSteps(q, ans);
+    const hints = hintPackForSkill(skill);
     return `
-      <li class="practice-q" data-i="${i}" data-answer="${escapeHtml(ans)}">
+      <li class="practice-q" data-i="${i}" data-answer="${escapeHtml(ans)}" data-h1="${escapeHtml(hints[0])}" data-h2="${escapeHtml(hints[1])}" data-h3="${escapeHtml(hints[2])}" data-hint-level="0">
         <div>${latexifyLine(q)}</div>
         <div class="answer-row">
           <input type="text" class="student-answer" placeholder="Type your answer" aria-label="Answer for question ${i + 1}" />
           <button type="button" class="btn-check">Check</button>
-          <button type="button" class="btn-hint">Hint</button>
+          <button type="button" class="btn-hint">Hint 1</button>
         </div>
         <div class="feedback" aria-live="polite"></div>
-        <div class="hints" hidden>
-          <div>• ${escapeHtml(steps[0])}</div>
-          <div>• ${escapeHtml(steps[1])}</div>
-          <div>• ${escapeHtml(steps[2])}</div>
-        </div>
+        <div class="hints" hidden></div>
       </li>
     `;
   }).join('');
@@ -1698,7 +1720,14 @@ function renderPractice(panel) {
     });
 
     hintBtn?.addEventListener('click', () => {
-      if (hints) hints.hidden = !hints.hidden;
+      if (!hints) return;
+      let level = Number(qEl.dataset.hintLevel || '0');
+      level = Math.min(3, level + 1);
+      qEl.dataset.hintLevel = String(level);
+      const text = qEl.dataset[`h${level}`] || '';
+      hints.hidden = false;
+      hints.textContent = `• ${text}`;
+      hintBtn.textContent = level >= 3 ? 'Hint 3 (max)' : `Hint ${level + 1}`;
     });
   });
 
