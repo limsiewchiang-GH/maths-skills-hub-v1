@@ -52,7 +52,7 @@
 .btn-check{background:#f2e7d7}
 .feedback{margin-top:.3rem;font-size:.85rem}
 .feedback.ok{color:#1f6d3b}.feedback.no{color:#8a2f2f}
-.hints{margin-top:.28rem;color:var(--muted);font-size:.84rem}
+.hints{margin-top:.28rem;color:var(--muted);font-size:.84rem;white-space:pre-line}
 .misconception-note{margin:.35rem 0 .55rem;padding:.38rem .5rem;border-left:3px solid var(--accent);background:#f7efe2;font-size:.84rem}
 .diagram-card{margin:.5rem 0 .7rem;padding:.55rem .65rem;border:1px solid var(--border);border-radius:.6rem;background:#f3eadb}
 .diagram-title{font-size:.84rem;font-weight:700;color:#5f4a32;margin-bottom:.35rem}
@@ -1628,22 +1628,49 @@ function isAnswerClose(user, expected) {
   return false;
 }
 
-function hintPackForSkill(skill) {
-  const s = (skill || '').toLowerCase();
+function problemSpecificHints(q, a, skill) {
+  const s = String(skill || '').toLowerCase();
+  const rawQ = String(q || '');
 
-  if (s.includes('foil') || s.includes('2 brackets')) {
+  // Case 1: linear equation in form Solve: ax +/- b = c
+  const mLin = rawQ.match(/^\s*solve:\s*([+-]?\d*)x\s*([+-]\s*\d+)?\s*=\s*([+-]?\d+(?:\.\d+)?)\s*$/i);
+  if (mLin) {
+    const aCoeff = mLin[1] === '' || mLin[1] === '+' ? 1 : (mLin[1] === '-' ? -1 : Number(mLin[1]));
+    const bTerm = mLin[2] ? Number(mLin[2].replace(/\s+/g, '')) : 0;
+    const cVal = Number(mLin[3]);
+    const rhsAfterMove = cVal - bTerm;
+    const xVal = rhsAfterMove / aCoeff;
+    const moveText = bTerm >= 0 ? `${cVal} - ${bTerm}` : `${cVal} + ${Math.abs(bTerm)}`;
+    return [
+      'Hint 1: Isolate the x-term first, then divide by the coefficient of x.',
+      `Hint 2 (your problem): ${aCoeff}x ${bTerm>=0?'+':''}${bTerm} = ${cVal}\nSo ${aCoeff}x = ${moveText}`,
+      `Hint 3 (full worked):\n${aCoeff}x ${bTerm>=0?'+':''}${bTerm} = ${cVal}\n${aCoeff}x = ${moveText}\n${aCoeff}x = ${rhsAfterMove}\nx = ${xVal}`
+    ];
+  }
+
+  // Case 2: FOIL expansion in form Expand: (x + p)(x + q)
+  const mFoil = rawQ.match(/^\s*expand:\s*\(x\s*([+-])\s*(\d+)\)\(x\s*([+-])\s*(\d+)\)\s*$/i);
+  if (mFoil) {
+    const p = (mFoil[1] === '-' ? -1 : 1) * Number(mFoil[2]);
+    const qv = (mFoil[3] === '-' ? -1 : 1) * Number(mFoil[4]);
+    const b = p + qv;
+    const c = p * qv;
+    const pTxt = p >= 0 ? `+ ${p}` : `- ${Math.abs(p)}`;
+    const qTxt = qv >= 0 ? `+ ${qv}` : `- ${Math.abs(qv)}`;
+    const bTxt = b >= 0 ? `+ ${b}` : `- ${Math.abs(b)}`;
+    const cTxt = c >= 0 ? `+ ${c}` : `- ${Math.abs(c)}`;
     return [
       'Hint 1: Use FOIL (first, outer, inner, last), then collect like terms.',
-      'Hint 2 (worked similar): (x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6.',
-      'Hint 3: Keep terms ordered as x², then x, then constant.'
+      `Hint 2 (your problem): (x ${pTxt})(x ${qTxt}) = x² ${qTxt}x ${pTxt}x ${cTxt}`,
+      `Hint 3 (full worked):\n(x ${pTxt})(x ${qTxt})\n= x·x + x·${qv} + ${p}·x + ${p}·${qv}\n= x² ${qv>=0?'+':''}${qv}x ${p>=0?'+':''}${p}x ${cTxt}\n= x² ${bTxt}x ${cTxt}`
     ];
   }
 
   if (s.includes('compounding percentage')) {
     return [
-      'Hint 1: Use a multiplier each step, not repeated addition/subtraction.',
-      'Hint 2 (worked similar): £100 grows by 10% for 2 years → 100×1.1² = 121.',
-      'Hint 3: Final value = start × (multiplier)^number of periods.'
+      'Hint 1: Use a multiplier each period, not repeated addition/subtraction.',
+      'Hint 2 (worked similar): £100 grows by 10% for 2 years: 100×1.1².',
+      'Hint 3 (full worked similar): 100×1.1² = 121, so +21% overall.'
     ];
   }
 
@@ -1651,14 +1678,14 @@ function hintPackForSkill(skill) {
     return [
       'Hint 1: Make a perfect square first, then balance the constant term.',
       'Hint 2 (worked similar): x²+6x+5 = (x+3)²−4.',
-      'Hint 3: For solving, isolate the square, then ± after square root.'
+      'Hint 3 (full worked similar): x²+6x+5 = x²+6x+9−4 = (x+3)²−4.'
     ];
   }
 
   return [
-    'Hint 1: Identify the method from the command word.',
-    'Hint 2 (worked similar): Try a simpler similar example first, then map the same steps back.',
-    'Hint 3: Check notation/rounding and whether your final form matches the question demand.'
+    'Hint 1: Identify the exact method from the command word.',
+    'Hint 2: Write the first transformed line only (do not jump to the final answer).',
+    `Hint 3 (full worked for this style): method lines to final answer (${a}).`
   ];
 }
 
@@ -1673,7 +1700,7 @@ function renderPractice(panel) {
 
   const qBlocks = set.q.map((q, i) => {
     const ans = set.a[i] || '';
-    const hints = hintPackForSkill(skill);
+    const hints = problemSpecificHints(q, ans, skill);
     return `
       <li class="practice-q" data-i="${i}" data-answer="${escapeHtml(ans)}" data-h1="${escapeHtml(hints[0])}" data-h2="${escapeHtml(hints[1])}" data-h3="${escapeHtml(hints[2])}" data-hint-level="0">
         <div>${latexifyLine(q)}</div>
