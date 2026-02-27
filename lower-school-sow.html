@@ -1617,10 +1617,13 @@ function isAnswerClose(user, expected) {
   const tuples = [...e.matchAll(/-?\d+(?:\.\d+)?,-?\d+(?:\.\d+)?/g)].map(m => m[0]);
   if (tuples.length && tuples.includes(u.replace(/^[a-z,=]+/, ''))) return true;
 
-  // Numeric tolerance fallback for decimal answers.
-  const un = Number(u.replace(/[^0-9.-]/g, ''));
-  const en = Number(e.replace(/[^0-9.-]/g, ''));
-  if (Number.isFinite(un) && Number.isFinite(en) && Math.abs(un - en) <= 0.02) return true;
+  // Numeric tolerance fallback for decimal answers only (avoid symbolic forms like √, π, fractions).
+  const symbolic = /[√π\/]|[a-z]/i.test(e);
+  if (!symbolic) {
+    const un = Number(u.replace(/[^0-9.-]/g, ''));
+    const en = Number(e.replace(/[^0-9.-]/g, ''));
+    if (Number.isFinite(un) && Number.isFinite(en) && Math.abs(un - en) <= 0.02) return true;
+  }
 
   return false;
 }
