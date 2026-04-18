@@ -1,0 +1,203 @@
+{
+  "year": "Remove",
+  "topicNumber": 32,
+  "topicTitle": "Sequences",
+  "skills": {
+    "Definition of a sequence": {
+      "items": [
+        {
+          "q": "What is the next term in 3, 6, 9, 12, ...?",
+          "a": "15"
+        },
+        {
+          "q": "What is the next term in 5, 8, 11, 14, ...?",
+          "a": "17"
+        },
+        {
+          "q": "Is 2, 4, 8, 16, ... a sequence?",
+          "a": "Yes"
+        },
+        {
+          "q": "What is the common difference in 7, 10, 13, 16, ...?",
+          "a": "3"
+        },
+        {
+          "q": "What is the next term in 1, 4, 9, 16, ...?",
+          "a": "25"
+        },
+        {
+          "q": "What is the first term of 12, 15, 18, ...?",
+          "a": "12"
+        }
+      ]
+    },
+    "AdMaths recurrence relationships (there’s not a lot here, but this can extend to difference equations if you want to!)": {
+      "items": [
+        {
+          "q": "Given u_(n+1) = u_n + 3 and u_1 = 2, find u_2.",
+          "a": "5"
+        },
+        {
+          "q": "Given u_(n+1) = 2u_n and u_1 = 4, find u_3.",
+          "a": "16"
+        },
+        {
+          "q": "Given u_(n+1) = u_n - 5 and u_1 = 20, find u_4.",
+          "a": "5"
+        },
+        {
+          "q": "Given u_(n+1) = 3u_n and u_1 = 1, find u_4.",
+          "a": "27"
+        },
+        {
+          "q": "Given u_(n+1) = u_n + 2 and u_1 = 7, find u_5.",
+          "a": "15"
+        },
+        {
+          "q": "Given u_(n+1) = u_n / 2 and u_1 = 32, find u_3.",
+          "a": "8"
+        }
+      ]
+    },
+    "Quadratic sequences are a good area for investigation.": {
+      "items": [
+        {
+          "q": "Find the next term in 1, 4, 9, 16, ...",
+          "a": "25"
+        },
+        {
+          "q": "Find the next term in 2, 6, 12, 20, ...",
+          "a": "30"
+        },
+        {
+          "q": "The nth term is n^2 + 1. Find the 4th term.",
+          "a": "17"
+        },
+        {
+          "q": "Find the next term in 3, 8, 15, 24, ...",
+          "a": "35"
+        },
+        {
+          "q": "The nth term is n^2 - n. Find the 5th term.",
+          "a": "20"
+        },
+        {
+          "q": "Find the next term in 5, 10, 17, 26, ...",
+          "a": "37"
+        }
+      ]
+    },
+    "Geometric sequences and series": {
+      "items": [
+        {
+          "q": "Find the next term in 2, 6, 18, 54, ...",
+          "a": "162"
+        },
+        {
+          "q": "Find the common ratio of 5, 10, 20, 40, ...",
+          "a": "2"
+        },
+        {
+          "q": "Find the 5th term of a geometric sequence with first term 3 and ratio 2.",
+          "a": "48"
+        },
+        {
+          "q": "Find the sum of the first 4 terms of 2, 4, 8, 16, ...",
+          "a": "30"
+        },
+        {
+          "q": "Find the next term in 81, 27, 9, 3, ...",
+          "a": "1"
+        },
+        {
+          "q": "A geometric series has first term 1 and ratio 3. Find the first 3-term sum.",
+          "a": "13"
+        }
+      ]
+    },
+    "Arithmetic sequences": {
+      "items": [
+        {
+          "q": "Find the next term in 4, 9, 14, 19, ...",
+          "a": "24"
+        },
+        {
+          "q": "Find the common difference of 12, 17, 22, 27, ...",
+          "a": "5"
+        },
+        {
+          "q": "Find the 10th term of an arithmetic sequence with first term 3 and difference 4.",
+          "a": "39"
+        },
+        {
+          "q": "Find the nth term of 5, 8, 11, 14, ...",
+          "a": "3n + 2"
+        },
+        {
+          "q": "Find the 7th term of 2, 6, 10, 14, ...",
+          "a": "26"
+        },
+        {
+          "q": "Find the nth term of 9, 13, 17, 21, ...",
+          "a": "4n + 5"
+        }
+      ]
+    },
+    "Arithmetic series": {
+      "items": [
+        {
+          "q": "Find the sum of the first 5 terms of 3, 7, 11, 15, ...",
+          "a": "55"
+        },
+        {
+          "q": "Find the sum of the first 10 natural numbers.",
+          "a": "55"
+        },
+        {
+          "q": "Find the sum of the first 4 terms of 6, 9, 12, 15, ...",
+          "a": "42"
+        },
+        {
+          "q": "Find the sum of the first 6 terms of 2, 5, 8, 11, ...",
+          "a": "57"
+        },
+        {
+          "q": "Find the sum of the first 8 terms of 1, 4, 7, 10, ...",
+          "a": "92"
+        },
+        {
+          "q": "Find the sum of the first 3 terms of 10, 13, 16, ...",
+          "a": "39"
+        }
+      ]
+    },
+    "Problem solving": {
+      "items": [
+        {
+          "q": "A ladder 10 m long makes an angle of 30° with the ground. Find the vertical height reached.",
+          "a": "5"
+        },
+        {
+          "q": "A ship travels 12 km east then 5 km north. Find the direct distance from the start.",
+          "a": "13"
+        },
+        {
+          "q": "In a triangle, two sides are 7 cm and 9 cm with angle 60° between them. Find the area.",
+          "a": "63sqrt(3)/4"
+        },
+        {
+          "q": "A kite string is 20 m long and makes a 45° angle with the ground. Find the height.",
+          "a": "10sqrt(2)"
+        },
+        {
+          "q": "Two sides of a triangle are 8 cm and 15 cm at right angles. Find the third side.",
+          "a": "17"
+        },
+        {
+          "q": "A man walks 6 km south and 8 km east. Find how far he is from the start.",
+          "a": "10"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "year": "Remove",
+  "topicNumber": 25,
+  "topicTitle": "Ratio & Basic Proportion",
+  "skills": {
+    "Simplifying ratios": {
+      "items": [
+        {
+          "q": "Simplify the ratio 18:24.",
+          "a": "3:4"
+        },
+        {
+          "q": "Simplify the ratio 14:35.",
+          "a": "2:5"
+        },
+        {
+          "q": "Simplify the ratio 45:60.",
+          "a": "3:4"
+        },
+        {
+          "q": "Simplify the ratio 27:9.",
+          "a": "3:1"
+        },
+        {
+          "q": "Simplify the ratio 32:48.",
+          "a": "2:3"
+        },
+        {
+          "q": "Simplify the ratio 21:49.",
+          "a": "3:7"
+        }
+      ]
+    },
+    "Comparing ratios": {
+      "items": [
+        {
+          "q": "Which is greater: 2:3 or 3:4?",
+          "a": "3:4"
+        },
+        {
+          "q": "Are the ratios 4:6 and 10:15 equivalent?",
+          "a": "Yes"
+        },
+        {
+          "q": "Which is greater: 5:8 or 7:12?",
+          "a": "5:8"
+        },
+        {
+          "q": "Are 9:12 and 3:4 equivalent?",
+          "a": "Yes"
+        },
+        {
+          "q": "Which is greater: 4:5 or 7:9?",
+          "a": "4:5"
+        },
+        {
+          "q": "Are 8:14 and 12:21 equivalent?",
+          "a": "Yes"
+        }
+      ]
+    },
+    "Basic idea of inverse proportion can be introduced (e.g. twice as many people  half the time)": {
+      "items": [
+        {
+          "q": "If twice as many workers do a job, what happens to the time?",
+          "a": "It halves"
+        },
+        {
+          "q": "If the number of people triples, what happens to the time in inverse proportion?",
+          "a": "It becomes a third"
+        },
+        {
+          "q": "4 workers take 6 hours. In inverse proportion, how long do 8 workers take?",
+          "a": "3"
+        },
+        {
+          "q": "5 taps fill a tank in 12 minutes. How long would 10 taps take in inverse proportion?",
+          "a": "6"
+        },
+        {
+          "q": "True or false: in inverse proportion, one quantity increases while the other decreases.",
+          "a": "True"
+        },
+        {
+          "q": "3 people take 20 minutes. How long would 1 person take in inverse proportion?",
+          "a": "60"
+        }
+      ]
+    }
+  }
+}

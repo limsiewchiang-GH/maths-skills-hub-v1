@@ -1,0 +1,175 @@
+{
+  "year": "Shell",
+  "topicNumber": 1,
+  "topicTitle": "Basic Algebra",
+  "skills": {
+    "Simplifying by collecting like terms": {
+      "items": [
+        {
+          "q": "Simplify: 3x + 5 - 2x + 7",
+          "a": "x + 12"
+        },
+        {
+          "q": "Simplify: 4a - 3b + 6a + b",
+          "a": "10a - 2b"
+        },
+        {
+          "q": "Simplify: 2p + 3q - 5p + 8 - q",
+          "a": "-3p + 2q + 8"
+        },
+        {
+          "q": "Simplify: 9m - 4 + 2m + 11",
+          "a": "11m + 7"
+        },
+        {
+          "q": "Simplify: 7y - 3x + 5y + x",
+          "a": "12y - 2x"
+        },
+        {
+          "q": "Simplify: 6r + 8 - 2r - 3 + r",
+          "a": "5r + 5"
+        }
+      ]
+    },
+    "Multiplying out:": {
+      "items": [
+        {
+          "q": "Expand: 4(x + 3)",
+          "a": "4x + 12"
+        },
+        {
+          "q": "Expand: -2(3y - 5)",
+          "a": "-6y + 10"
+        },
+        {
+          "q": "Expand: 5(a - 2b + 1)",
+          "a": "5a - 10b + 5"
+        },
+        {
+          "q": "Expand: 3(2m + n)",
+          "a": "6m + 3n"
+        },
+        {
+          "q": "Expand: -4(p - q + 2)",
+          "a": "-4p + 4q - 8"
+        },
+        {
+          "q": "Expand: 6(r + 2s - 1)",
+          "a": "6r + 12s - 6"
+        }
+      ]
+    },
+    "1 bracket with constant term": {
+      "items": [
+        {
+          "q": "Expand: 7(x - 4)",
+          "a": "7x - 28"
+        },
+        {
+          "q": "Expand: -3(2x + 1)",
+          "a": "-6x - 3"
+        },
+        {
+          "q": "Expand: 9(1 - y)",
+          "a": "9 - 9y"
+        },
+        {
+          "q": "Expand: -5(a - 3)",
+          "a": "-5a + 15"
+        },
+        {
+          "q": "Expand: 8(2 - b)",
+          "a": "16 - 8b"
+        },
+        {
+          "q": "Expand: 4(3p + 2)",
+          "a": "12p + 8"
+        }
+      ]
+    },
+    "2 brackets (‘FOIL’)": {
+      "items": [
+        {
+          "q": "Expand: (x + 4)(x + 1)",
+          "a": "x^2 + 5x + 4"
+        },
+        {
+          "q": "Expand: (x - 3)(x + 5)",
+          "a": "x^2 + 2x - 15"
+        },
+        {
+          "q": "Expand: (2x + 1)(x - 2)",
+          "a": "2x^2 - 3x - 2"
+        },
+        {
+          "q": "Expand: (x + 7)(x - 2)",
+          "a": "x^2 + 5x - 14"
+        },
+        {
+          "q": "Expand: (3x - 1)(x + 4)",
+          "a": "3x^2 + 11x - 4"
+        },
+        {
+          "q": "Expand: (2x - 5)(x - 3)",
+          "a": "2x^2 - 11x + 15"
+        }
+      ]
+    },
+    "3 brackets": {
+      "items": [
+        {
+          "q": "Expand: (x + 1)(x + 2)(x + 3)",
+          "a": "x^3 + 6x^2 + 11x + 6"
+        },
+        {
+          "q": "Expand: (x - 1)(x + 2)(x + 4)",
+          "a": "x^3 + 5x^2 + 2x - 8"
+        },
+        {
+          "q": "Expand: (2x + 1)(x - 1)(x + 3)",
+          "a": "2x^3 + 5x^2 - 4x - 3"
+        },
+        {
+          "q": "Expand: (x + 2)(x + 2)(x - 1)",
+          "a": "x^3 + 3x^2 - 4"
+        },
+        {
+          "q": "Expand: (x - 2)(x - 1)(x + 5)",
+          "a": "x^3 + 2x^2 - 13x + 10"
+        },
+        {
+          "q": "Expand: (2x - 1)(x + 1)(x + 2)",
+          "a": "2x^3 + 5x^2 + x - 2"
+        }
+      ]
+    },
+    "Factorising by taking out a common factor": {
+      "items": [
+        {
+          "q": "Factorise: 12x + 18",
+          "a": "6(2x + 3)"
+        },
+        {
+          "q": "Factorise: 15a^2b - 20ab",
+          "a": "5ab(3a - 4)"
+        },
+        {
+          "q": "Factorise: 9y^3 + 6y^2 - 3y",
+          "a": "3y(3y^2 + 2y - 1)"
+        },
+        {
+          "q": "Factorise: 14p - 21",
+          "a": "7(2p - 3)"
+        },
+        {
+          "q": "Factorise: 8m^2n + 12mn",
+          "a": "4mn(2m + 3)"
+        },
+        {
+          "q": "Factorise: 5x^3 - 10x^2 + 15x",
+          "a": "5x(x^2 - 2x + 3)"
+        }
+      ]
+    }
+  }
+}

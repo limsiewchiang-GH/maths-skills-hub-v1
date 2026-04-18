@@ -1,0 +1,63 @@
+{
+  "year": "Shell",
+  "topicNumber": 20,
+  "topicTitle": "Histograms",
+  "skills": {
+    "Drawing a histogram from a data set": {
+      "items": [
+        {
+          "q": "A class has width 5 and frequency 15. Find the frequency density.",
+          "a": "3"
+        },
+        {
+          "q": "A class has width 10 and frequency 25. Find the frequency density.",
+          "a": "2.5"
+        },
+        {
+          "q": "Why does the area of a histogram bar represent frequency?",
+          "a": "Because frequency density x class width = frequency"
+        },
+        {
+          "q": "A class has width 4 and frequency 12. Find the frequency density.",
+          "a": "3"
+        },
+        {
+          "q": "A class has width 8 and frequency 20. Find the frequency density.",
+          "a": "2.5"
+        },
+        {
+          "q": "What goes on the vertical axis of a histogram?",
+          "a": "Frequency density"
+        }
+      ]
+    },
+    "Completing a table from a histogram": {
+      "items": [
+        {
+          "q": "A class has width 4 and density 2.5. Find the frequency.",
+          "a": "10"
+        },
+        {
+          "q": "A class has width 6 and density 1.5. Find the frequency.",
+          "a": "9"
+        },
+        {
+          "q": "If the bar area is 18 and the class width is 3, find the density.",
+          "a": "6"
+        },
+        {
+          "q": "A class has width 5 and density 4. Find the frequency.",
+          "a": "20"
+        },
+        {
+          "q": "A class has width 8 and density 1.25. Find the frequency.",
+          "a": "10"
+        },
+        {
+          "q": "If a class has frequency 12 and width 3, find the density.",
+          "a": "4"
+        }
+      ]
+    }
+  }
+}

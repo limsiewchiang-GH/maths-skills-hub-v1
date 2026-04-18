@@ -5,75 +5,216 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Maths Skills Hub</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .home-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 1.2rem 1.3rem 1.25rem;
+      background:
+        radial-gradient(circle at top right, rgba(112, 137, 111, .18), transparent 30%),
+        linear-gradient(135deg, #f7f1e7 0%, #efe4d5 100%);
+    }
+    .home-hero::after {
+      content: "";
+      position: absolute;
+      inset: auto -3rem -4rem auto;
+      width: 13rem;
+      height: 13rem;
+      border-radius: 50%;
+      background: rgba(118, 84, 52, .08);
+      pointer-events: none;
+    }
+    .hero-kicker {
+      display: inline-block;
+      margin-bottom: .45rem;
+      padding: .2rem .6rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255,255,255,.55);
+      color: var(--accent);
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+    }
+    .home-hero h2 {
+      max-width: 10ch;
+      font-size: clamp(1.9rem, 3.2vw, 2.95rem);
+      line-height: .98;
+      letter-spacing: -.03em;
+      margin-bottom: .75rem;
+    }
+    .hero-copy {
+      max-width: 38rem;
+      font-size: 1rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+    .hero-points {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+      margin: .9rem 0 0;
+    }
+    .launch-grid {
+      display: grid;
+      gap: .9rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: .95rem;
+    }
+    .launch-card {
+      display: flex;
+      flex-direction: column;
+      gap: .6rem;
+      margin: 0;
+      min-height: 100%;
+    }
+    .launch-card p {
+      margin: 0;
+    }
+    .launch-meta {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .launch-link {
+      margin-top: auto;
+      font-weight: 700;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .launch-link:hover {
+      text-decoration: underline;
+    }
+    .prompt-strip {
+      display: grid;
+      gap: .8rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .prompt-box {
+      margin: 0;
+      padding: .9rem 1rem;
+      border: 1px dashed var(--border);
+      border-radius: .75rem;
+      background: #fbf6ed;
+    }
+    .prompt-box strong {
+      display: block;
+      margin-bottom: .2rem;
+      color: var(--accent);
+    }
+    .section-compact {
+      margin-top: .95rem;
+    }
+    .focus-banner {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .focus-banner p {
+      margin: 0;
+      max-width: 42rem;
+      color: var(--muted);
+    }
+    @media (max-width: 980px) {
+      .launch-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 700px) {
+      .home-hero {
+        padding: 1.1rem;
+      }
+      .home-hero h2 {
+        max-width: none;
+      }
+      .launch-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <h1>Maths Skills Hub</h1>
-      <p class="tag">Learn the method. Practise it. Master it.</p>
+      <p class="tag">Shell, Remove, Fifth Form, and Practice Zone.</p>
       <nav>
         <a class="active" href="index.html">Home</a>
-        <a href="lower-school-sow.html">IGCSE</a>
-        <a href="alevel.html">A-Level Skills</a>
+        <a href="lower-school-sow.html#shell">Shell</a>
+        <a href="lower-school-sow.html#remove">Remove</a>
+        <a href="lower-school-sow.html#fifth-form">Fifth Form</a>
         <a href="practice.html">Practice Zone</a>
       </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="hero">
-      <h2>No-nonsense maths support for pupils</h2>
-      <p>Pick your year or level and start learning skills immediately. No waffle. Clear steps, worked examples, and practice.</p>
-      <div class="cta-row">
-        <a class="btn" href="lower-school-sow.html">Open IGCSE</a>
-        <a class="btn btn-alt" href="alevel.html">Start A-Level</a>
+    <section class="card home-hero">
+      <span class="hero-kicker">Ready To Teach</span>
+      <h2>Open the year group you need and get straight to work.</h2>
+      <p class="hero-copy">This hub is now built only for Shell, Remove, Fifth Form, and a randomised Practice Zone. No A-Level section, no extra pathways, just the year-group skills and drills you actually want to use.</p>
+      <div class="hero-points">
+        <span class="chip">Shell topics and skills</span>
+        <span class="chip">Remove topics and skills</span>
+        <span class="chip">Fifth Form topics and skills</span>
+        <span class="chip">3-question practice sets</span>
       </div>
     </section>
 
-    <section class="grid two">
-      <article class="card">
-        <h3>IGCSE</h3>
-        <p class="tag">Interactive scheme by year group</p>
-        <div class="chip-row">
-          <span class="chip">Shell</span>
-          <span class="chip">Remove</span>
-          <span class="chip">Fifth Form</span>
-        </div>
-        <p>
-          Browse by year, open a topic, and go straight to skills/resources.
-        </p>
-        <a href="lower-school-sow.html">Open IGCSE planner →</a>
+    <section class="launch-grid">
+      <article class="card launch-card">
+        <h3>Shell</h3>
+        <p class="launch-meta">Foundations and fluency</p>
+        <p>Core algebra, number, percentages, coordinates, and the first layer of structured problem solving.</p>
+        <a class="launch-link" href="lower-school-sow.html#shell">Open Shell skills →</a>
       </article>
 
-      <article class="card">
+      <article class="card launch-card">
+        <h3>Remove</h3>
+        <p class="launch-meta">Build accuracy and range</p>
+        <p>Trig, inequalities, ratio, bounds, quadratics, probability, and stronger graphical interpretation.</p>
+        <a class="launch-link" href="lower-school-sow.html#remove">Open Remove skills →</a>
+      </article>
+
+      <article class="card launch-card">
+        <h3>Fifth Form</h3>
+        <p class="launch-meta">Consolidation and stretch</p>
+        <p>Higher-end algebra, functions, proof, vectors, constructions, and revision-ready mixed techniques.</p>
+        <a class="launch-link" href="lower-school-sow.html#fifth-form">Open Fifth Form skills →</a>
+      </article>
+
+      <article class="card launch-card">
         <h3>Practice Zone</h3>
-        <ul>
-          <li>Quick mixed drills for IGCSE and A-Level</li>
-          <li>Fast answer checks</li>
-          <li>Ideal for starter or homework retrieval</li>
-        </ul>
-        <a href="practice.html">Go to Practice Zone →</a>
-      </article>
-
-      <article class="card">
-        <h3>A-Level</h3>
-        <ul>
-          <li>Pure, statistics, mechanics core skills</li>
-          <li>Method-first teaching approach</li>
-          <li>Exam question drills with model answers</li>
-        </ul>
-        <a href="alevel.html">Go to A-Level skills →</a>
+        <p class="launch-meta">Random retrieval</p>
+        <p>Choose Shell, Remove, Fifth Form, or Mixed Practice and pull 3 random questions from the authored pool each time.</p>
+        <a class="launch-link" href="practice.html">Go to Practice Zone →</a>
       </article>
     </section>
 
-    <section class="card">
-      <h3>How this site works</h3>
-      <ol>
-        <li>Pick your year group or level.</li>
-        <li>Open the exact topic you are teaching today.</li>
-        <li>Use one clear example, then move straight to practice.</li>
-        <li>Check misconceptions and reteach only what’s needed.</li>
-      </ol>
+    <section class="card section-compact">
+      <div class="focus-banner">
+        <div>
+          <h3>How To Use It Fast</h3>
+          <p>Keep the homepage simple: jump to a year group when you know the class, or head straight to Practice Zone when you want retrieval without choosing a topic first.</p>
+        </div>
+        <span class="chip">A-Level removed</span>
+      </div>
+      <div class="prompt-strip">
+        <div class="prompt-box">
+          <strong>Teaching today?</strong>
+          Open the year group, jump to the topic, and use one skill panel as your worked-example plus practice starter.
+        </div>
+        <div class="prompt-box">
+          <strong>Need retrieval?</strong>
+          Use Practice Zone for a quick 3-question set, then reroll with <code>New set</code> if you want another batch.
+        </div>
+        <div class="prompt-box">
+          <strong>Need revision focus?</strong>
+          Stay inside one year group for targeted practice, or use Mixed Practice when you want a broader sweep.
+        </div>
+      </div>
     </section>
   </main>
 

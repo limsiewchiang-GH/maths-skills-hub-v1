@@ -1,0 +1,91 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 46,
+  "topicTitle": "Vectors",
+  "skills": {
+    "Definitions": {
+      "items": [
+        {
+          "q": "What is a vector?",
+          "a": "A quantity with magnitude and direction"
+        },
+        {
+          "q": "Can the magnitude of a vector be negative?",
+          "a": "No"
+        },
+        {
+          "q": "Are vectors with the same magnitude and direction equal?",
+          "a": "Yes"
+        },
+        {
+          "q": "What symbol is often used to describe the magnitude of vector a?",
+          "a": "|a|"
+        },
+        {
+          "q": "Does direction matter for vectors?",
+          "a": "Yes"
+        },
+        {
+          "q": "True or false: vectors can represent displacement.",
+          "a": "True"
+        }
+      ]
+    },
+    "Adding & subtracting vectors": {
+      "items": [
+        {
+          "q": "If a = (2,3) and b = (5,-1), find a + b.",
+          "a": "(7,2)"
+        },
+        {
+          "q": "If a = (2,3) and b = (5,-1), find a - b.",
+          "a": "(-3,4)"
+        },
+        {
+          "q": "If a = (2,3), find 2a.",
+          "a": "(4,6)"
+        },
+        {
+          "q": "If p = (1,4) and q = (-2,3), find p + q.",
+          "a": "(-1,7)"
+        },
+        {
+          "q": "If p = (1,4) and q = (-2,3), find p - q.",
+          "a": "(3,1)"
+        },
+        {
+          "q": "If a = (3,-2) and b = (1,5), find 2a + b.",
+          "a": "(7,1)"
+        }
+      ]
+    },
+    "Vector proof": {
+      "items": [
+        {
+          "q": "Complete: AB + BC = ?",
+          "a": "AC"
+        },
+        {
+          "q": "In a parallelogram, vector AB equals which opposite side vector?",
+          "a": "DC"
+        },
+        {
+          "q": "If P divides AB in the ratio 1:2, which point is closer to A or B?",
+          "a": "A"
+        },
+        {
+          "q": "True or false: vector proofs rely on direction as well as length.",
+          "a": "True"
+        },
+        {
+          "q": "What law states AB + BC = AC?",
+          "a": "Triangle law"
+        },
+        {
+          "q": "In a parallelogram, vector AD equals which opposite side vector?",
+          "a": "BC"
+        }
+      ]
+    }
+  }
+}

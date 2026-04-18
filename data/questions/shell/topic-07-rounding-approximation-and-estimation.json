@@ -1,0 +1,63 @@
+{
+  "year": "Shell",
+  "topicNumber": 7,
+  "topicTitle": "Rounding, Approximation & Estimation",
+  "skills": {
+    "Rounding to a given number of sig fig and d.p.": {
+      "items": [
+        {
+          "q": "Round 0.004786 to 2 s.f.",
+          "a": "0.0048"
+        },
+        {
+          "q": "Round 73.486 to 1 d.p.",
+          "a": "73.5"
+        },
+        {
+          "q": "Round 12995 to 3 s.f.",
+          "a": "13000"
+        },
+        {
+          "q": "Round 5.0873 to 2 d.p.",
+          "a": "5.09"
+        },
+        {
+          "q": "Round 90451 to 2 s.f.",
+          "a": "90000"
+        },
+        {
+          "q": "Round 0.08951 to 3 s.f.",
+          "a": "0.0895"
+        }
+      ]
+    },
+    "Approximate values by rounding to 1s.f or another sensible value": {
+      "items": [
+        {
+          "q": "Estimate 19.8 × 4.1",
+          "a": "80"
+        },
+        {
+          "q": "Estimate 298/6.2",
+          "a": "50"
+        },
+        {
+          "q": "Estimate sqrt(399)",
+          "a": "20"
+        },
+        {
+          "q": "Estimate 0.198 × 49",
+          "a": "10"
+        },
+        {
+          "q": "Estimate 602 ÷ 19.7",
+          "a": "30"
+        },
+        {
+          "q": "Estimate 31.4 + 8.7 - 1.9",
+          "a": "38"
+        }
+      ]
+    }
+  }
+}

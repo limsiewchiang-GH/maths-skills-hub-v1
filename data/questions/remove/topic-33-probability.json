@@ -1,0 +1,175 @@
+{
+  "year": "Remove",
+  "topicNumber": 33,
+  "topicTitle": "Probability",
+  "skills": {
+    "Basic ideas and results": {
+      "items": [
+        {
+          "q": "What is the probability of getting a head on a fair coin?",
+          "a": "1/2"
+        },
+        {
+          "q": "What is the probability of rolling a 4 on a fair six-sided die?",
+          "a": "1/6"
+        },
+        {
+          "q": "If P(A) = 0.35, find P(not A).",
+          "a": "0.65"
+        },
+        {
+          "q": "Can a probability be greater than 1?",
+          "a": "No"
+        },
+        {
+          "q": "The probability of rain is 0.2. Write this as a percentage.",
+          "a": "20%"
+        },
+        {
+          "q": "A bag has 3 red and 2 blue counters. Find P(red).",
+          "a": "3/5"
+        }
+      ]
+    },
+    "Sample space": {
+      "items": [
+        {
+          "q": "How many outcomes are there when two fair coins are tossed?",
+          "a": "4"
+        },
+        {
+          "q": "List the sample space size for rolling a die and flipping a coin.",
+          "a": "12"
+        },
+        {
+          "q": "How many outcomes are there when two six-sided dice are rolled?",
+          "a": "36"
+        },
+        {
+          "q": "A spinner has 5 equal sections. It is spun twice. How many outcomes are there?",
+          "a": "25"
+        },
+        {
+          "q": "How many outcomes are there when a die is rolled three times?",
+          "a": "216"
+        },
+        {
+          "q": "A card is chosen from 4 cards labelled A, B, C, D and a coin is tossed. How many outcomes?",
+          "a": "8"
+        }
+      ]
+    },
+    "Definitions of independent and mutually exclusive": {
+      "items": [
+        {
+          "q": "Can two mutually exclusive events happen together?",
+          "a": "No"
+        },
+        {
+          "q": "If two events are independent, does one affect the probability of the other?",
+          "a": "No"
+        },
+        {
+          "q": "Are getting a head and getting a tail on one coin toss mutually exclusive?",
+          "a": "Yes"
+        },
+        {
+          "q": "Are rolling a 3 and rolling an odd number on one die mutually exclusive?",
+          "a": "No"
+        },
+        {
+          "q": "Are tossing a coin and rolling a die independent events?",
+          "a": "Yes"
+        },
+        {
+          "q": "If events A and B are mutually exclusive, what is P(A and B)?",
+          "a": "0"
+        }
+      ]
+    },
+    "Multiplication law": {
+      "items": [
+        {
+          "q": "A coin is tossed twice. Find the probability of two heads.",
+          "a": "1/4"
+        },
+        {
+          "q": "A die is rolled twice. Find the probability of getting a 6 both times.",
+          "a": "1/36"
+        },
+        {
+          "q": "Two independent events have probabilities 0.3 and 0.5. Find the probability both occur.",
+          "a": "0.15"
+        },
+        {
+          "q": "A bag has 2 red and 3 blue counters. Two counters are chosen with replacement. Find P(red then red).",
+          "a": "4/25"
+        },
+        {
+          "q": "Find the probability of choosing an ace from a pack and then rolling an even number.",
+          "a": "1/26"
+        },
+        {
+          "q": "A spinner lands on green with probability 0.4. It is spun twice. Find P(green both times).",
+          "a": "0.16"
+        }
+      ]
+    },
+    "Tree diagrams": {
+      "items": [
+        {
+          "q": "A bag has 1 red and 3 blue counters. One counter is chosen, replaced, then another is chosen. Find P(red then blue).",
+          "a": "3/16"
+        },
+        {
+          "q": "A fair coin is tossed twice. What is the probability of exactly one head?",
+          "a": "1/2"
+        },
+        {
+          "q": "A bag has 2 red and 1 green counter. One is chosen with replacement twice. Find P(two greens).",
+          "a": "1/9"
+        },
+        {
+          "q": "A die is rolled twice. Find the probability of getting an odd number both times.",
+          "a": "1/4"
+        },
+        {
+          "q": "A spinner has equal sections red, blue, blue. It is spun twice. Find P(red then red).",
+          "a": "1/9"
+        },
+        {
+          "q": "A bag has 4 black and 1 white counter. With replacement, find P(one black then one white).",
+          "a": "4/25"
+        }
+      ]
+    },
+    "Basic binomial": {
+      "items": [
+        {
+          "q": "Find (x + 2)^2.",
+          "a": "x^2 + 4x + 4"
+        },
+        {
+          "q": "Find (x + 3)^2.",
+          "a": "x^2 + 6x + 9"
+        },
+        {
+          "q": "Find (2x + 1)^2.",
+          "a": "4x^2 + 4x + 1"
+        },
+        {
+          "q": "Find (x - 5)^2.",
+          "a": "x^2 - 10x + 25"
+        },
+        {
+          "q": "Find (3x - 2)^2.",
+          "a": "9x^2 - 12x + 4"
+        },
+        {
+          "q": "Find (2x + 5)^2.",
+          "a": "4x^2 + 20x + 25"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 45,
+  "topicTitle": "Algebraic Proof",
+  "skills": {
+    "What is ‘proof’?": {
+      "items": [
+        {
+          "q": "What is the aim of a mathematical proof?",
+          "a": "To show a statement is always true"
+        },
+        {
+          "q": "Can one example prove a statement for all integers?",
+          "a": "No"
+        },
+        {
+          "q": "Name one proof method.",
+          "a": "Direct proof"
+        },
+        {
+          "q": "True or false: proof is different from checking a few examples.",
+          "a": "True"
+        },
+        {
+          "q": "What does a proof rely on: logic or guesswork?",
+          "a": "Logic"
+        },
+        {
+          "q": "Does a proof need to work for all valid cases?",
+          "a": "Yes"
+        }
+      ]
+    },
+    "Direct (‘algebraic’) proof": {
+      "items": [
+        {
+          "q": "Prove the sum of two even numbers is even. Write the conclusion form.",
+          "a": "2(a + b)"
+        },
+        {
+          "q": "Write an odd number in algebraic form.",
+          "a": "2n + 1"
+        },
+        {
+          "q": "Write an even number in algebraic form.",
+          "a": "2n"
+        },
+        {
+          "q": "The product of two odd numbers is of the form what?",
+          "a": "2k + 1"
+        },
+        {
+          "q": "Is n(n + 1) always even or odd?",
+          "a": "Even"
+        },
+        {
+          "q": "True or false: a direct proof should start from known facts.",
+          "a": "True"
+        }
+      ]
+    },
+    "Some very simple examples can demonstrate this – e.g. prove that": {
+      "items": [
+        {
+          "q": "Is 2n + 1 even or odd?",
+          "a": "Odd"
+        },
+        {
+          "q": "If n is even, is n^2 even or odd?",
+          "a": "Even"
+        },
+        {
+          "q": "Simplify 3(n + 1) - 3n.",
+          "a": "3"
+        },
+        {
+          "q": "If n = 2k, write n^2 in terms of k.",
+          "a": "4k^2"
+        },
+        {
+          "q": "Can 2n represent any odd integer?",
+          "a": "No"
+        },
+        {
+          "q": "Does 2n + 1 always represent an odd integer?",
+          "a": "Yes"
+        }
+      ]
+    },
+    "The idea “start from what we know” and progress from there is a key idea.": {
+      "items": [
+        {
+          "q": "In direct proof, where should you usually start?",
+          "a": "From known facts or definitions"
+        },
+        {
+          "q": "Why should you avoid assuming the final statement is already true?",
+          "a": "It can become circular"
+        },
+        {
+          "q": "What should each line in a proof follow from?",
+          "a": "The previous valid line"
+        },
+        {
+          "q": "True or false: proof should proceed logically step by step.",
+          "a": "True"
+        },
+        {
+          "q": "Does direct proof work best with clear definitions?",
+          "a": "Yes"
+        },
+        {
+          "q": "What is the danger of starting from the result instead of the assumptions?",
+          "a": "Circular reasoning"
+        }
+      ]
+    },
+    "They can do some ‘jottings’ first, but insist they develop the habit of starting from a known result and reaching the desired conclusion.": {
+      "items": [
+        {
+          "q": "What should a polished proof contain after rough jottings?",
+          "a": "A clear logical argument"
+        },
+        {
+          "q": "Should large unexplained jumps be allowed in a proof?",
+          "a": "No"
+        },
+        {
+          "q": "Why is logical ordering important in proof writing?",
+          "a": "So each step can be checked"
+        },
+        {
+          "q": "True or false: rough work should be turned into a clear final argument.",
+          "a": "True"
+        },
+        {
+          "q": "Should you state definitions when useful in a proof?",
+          "a": "Yes"
+        },
+        {
+          "q": "What is better in a proof: neat logic or guesswork?",
+          "a": "Neat logic"
+        }
+      ]
+    },
+    "It’s helpful to discuss how we may represent even and odd numbers algebraically.": {
+      "items": [
+        {
+          "q": "Write a general even integer.",
+          "a": "2k"
+        },
+        {
+          "q": "Write a general odd integer.",
+          "a": "2k + 1"
+        },
+        {
+          "q": "Is 2k + 3 even or odd?",
+          "a": "Odd"
+        },
+        {
+          "q": "Is 2k + 4 even or odd?",
+          "a": "Even"
+        },
+        {
+          "q": "Can every even integer be written as 2k?",
+          "a": "Yes"
+        },
+        {
+          "q": "Can every odd integer be written as 2k + 1?",
+          "a": "Yes"
+        }
+      ]
+    },
+    "Squares are non-negative": {
+      "items": [
+        {
+          "q": "Can x^2 ever be negative for real x?",
+          "a": "No"
+        },
+        {
+          "q": "What is the minimum value of (x - 3)^2?",
+          "a": "0"
+        },
+        {
+          "q": "Solve x^2 = -4 over the reals.",
+          "a": "No real solution"
+        },
+        {
+          "q": "True or false: the square of a real number is always non-negative.",
+          "a": "True"
+        },
+        {
+          "q": "What is the minimum value of x^2 + 5?",
+          "a": "5"
+        },
+        {
+          "q": "If a square is 0, what can the original real number be?",
+          "a": "0"
+        }
+      ]
+    }
+  }
+}

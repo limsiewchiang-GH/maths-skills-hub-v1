@@ -1,0 +1,175 @@
+{
+  "year": "Shell",
+  "topicNumber": 8,
+  "topicTitle": "Pythagoras’ Theorem & Intro to Surds",
+  "skills": {
+    "Finding lengths using Pythagoras in 2D": {
+      "items": [
+        {
+          "q": "Right triangle legs 6 and 8. Find the hypotenuse.",
+          "a": "10"
+        },
+        {
+          "q": "Hypotenuse 13, one leg 5. Find the other leg.",
+          "a": "12"
+        },
+        {
+          "q": "Rectangle 9 by 12. Find the diagonal.",
+          "a": "15"
+        },
+        {
+          "q": "Right triangle legs 5 and 12. Find the hypotenuse.",
+          "a": "13"
+        },
+        {
+          "q": "Hypotenuse 25, one leg 7. Find the other leg.",
+          "a": "24"
+        },
+        {
+          "q": "A square has side 10. Find its diagonal.",
+          "a": "10sqrt(2)"
+        }
+      ]
+    },
+    "Pythagoras in 3D": {
+      "items": [
+        {
+          "q": "A cuboid is 3 by 4 by 12. Find the body diagonal.",
+          "a": "13"
+        },
+        {
+          "q": "A cuboid is 2 by 3 by 6. Find the body diagonal.",
+          "a": "7"
+        },
+        {
+          "q": "Find the distance from (0,0,0) to (1,2,2).",
+          "a": "3"
+        },
+        {
+          "q": "A cuboid is 6 by 8 by 24. Find the body diagonal.",
+          "a": "26"
+        },
+        {
+          "q": "Find the distance from (1,1,1) to (4,5,13).",
+          "a": "13"
+        },
+        {
+          "q": "A cuboid is 5 by 12 by 12. Find the body diagonal.",
+          "a": "17"
+        }
+      ]
+    },
+    "Simplifying Surds": {
+      "items": [
+        {
+          "q": "Simplify sqrt(50)",
+          "a": "5sqrt(2)"
+        },
+        {
+          "q": "Simplify sqrt(72)",
+          "a": "6sqrt(2)"
+        },
+        {
+          "q": "Simplify sqrt(200)",
+          "a": "10sqrt(2)"
+        },
+        {
+          "q": "Simplify sqrt(98)",
+          "a": "7sqrt(2)"
+        },
+        {
+          "q": "Simplify sqrt(45)",
+          "a": "3sqrt(5)"
+        },
+        {
+          "q": "Simplify sqrt(147)",
+          "a": "7sqrt(3)"
+        }
+      ]
+    },
+    "Multiplying Surds": {
+      "items": [
+        {
+          "q": "Simplify: (2sqrt(3))(5sqrt(6))",
+          "a": "30sqrt(2)"
+        },
+        {
+          "q": "Simplify: (3sqrt(2))(4sqrt(8))",
+          "a": "24"
+        },
+        {
+          "q": "Simplify: sqrt(5) x sqrt(20)",
+          "a": "10"
+        },
+        {
+          "q": "Simplify: (2sqrt(7))(3sqrt(14))",
+          "a": "42sqrt(2)"
+        },
+        {
+          "q": "Simplify: sqrt(12) x sqrt(3)",
+          "a": "6"
+        },
+        {
+          "q": "Simplify: (4sqrt(5))(sqrt(15))",
+          "a": "20sqrt(3)"
+        }
+      ]
+    },
+    "Adding surds": {
+      "items": [
+        {
+          "q": "Simplify: 3sqrt(2) + 5sqrt(2)",
+          "a": "8sqrt(2)"
+        },
+        {
+          "q": "Simplify: 7sqrt(3) - 2sqrt(3)",
+          "a": "5sqrt(3)"
+        },
+        {
+          "q": "Simplify: sqrt(50) + sqrt(8)",
+          "a": "7sqrt(2)"
+        },
+        {
+          "q": "Simplify: 4sqrt(5) + 3sqrt(5)",
+          "a": "7sqrt(5)"
+        },
+        {
+          "q": "Simplify: sqrt(27) + sqrt(12)",
+          "a": "5sqrt(3)"
+        },
+        {
+          "q": "Simplify: 6sqrt(7) - sqrt(7)",
+          "a": "5sqrt(7)"
+        }
+      ]
+    },
+    "Dividing two surd terms": {
+      "items": [
+        {
+          "q": "Simplify: sqrt(18) / sqrt(2)",
+          "a": "3"
+        },
+        {
+          "q": "Simplify: (6sqrt(15))/(3sqrt(5))",
+          "a": "2sqrt(3)"
+        },
+        {
+          "q": "Simplify: sqrt(48)/sqrt(3)",
+          "a": "4"
+        },
+        {
+          "q": "Simplify: sqrt(75)/sqrt(3)",
+          "a": "5"
+        },
+        {
+          "q": "Simplify: (8sqrt(6))/(2sqrt(3))",
+          "a": "4sqrt(2)"
+        },
+        {
+          "q": "Simplify: sqrt(98)/sqrt(2)",
+          "a": "7"
+        }
+      ]
+    }
+  }
+}

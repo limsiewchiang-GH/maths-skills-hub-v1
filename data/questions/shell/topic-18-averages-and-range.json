@@ -1,0 +1,119 @@
+{
+  "year": "Shell",
+  "topicNumber": 18,
+  "topicTitle": "Averages & Range",
+  "skills": {
+    "Data collection": {
+      "items": [
+        {
+          "q": "If you collect 10 class heights, what type of variable is this?",
+          "a": "Continuous"
+        },
+        {
+          "q": "Give one primary and one secondary data source.",
+          "a": "Survey and published dataset"
+        },
+        {
+          "q": "State one risk of a small sample size.",
+          "a": "It may be less representative"
+        },
+        {
+          "q": "What is a census?",
+          "a": "Data from every member of the population"
+        },
+        {
+          "q": "What is a sample?",
+          "a": "A subset of the population"
+        },
+        {
+          "q": "Why might bias be a problem in data collection?",
+          "a": "It can distort the results"
+        }
+      ]
+    },
+    "Measures of Location": {
+      "items": [
+        {
+          "q": "Find the mean of 4, 6, 8, 10.",
+          "a": "7"
+        },
+        {
+          "q": "Find the median of 2, 9, 1, 7, 6.",
+          "a": "6"
+        },
+        {
+          "q": "Find the mode of 3, 5, 5, 2, 5, 1.",
+          "a": "5"
+        },
+        {
+          "q": "Find the mean of 12, 15, 18.",
+          "a": "15"
+        },
+        {
+          "q": "Find the median of 4, 8, 10, 13.",
+          "a": "9"
+        },
+        {
+          "q": "Find the mode of 7, 9, 7, 6, 9, 7.",
+          "a": "7"
+        }
+      ]
+    },
+    "Measures of Dispersion": {
+      "items": [
+        {
+          "q": "Find the range of 12, 7, 20, 9.",
+          "a": "13"
+        },
+        {
+          "q": "Find the interquartile range of 1, 2, 4, 7, 8, 10, 13.",
+          "a": "7"
+        },
+        {
+          "q": "Which data set is more spread out: range 8 or range 14?",
+          "a": "Range 14"
+        },
+        {
+          "q": "Find the range of 5, 11, 3, 19.",
+          "a": "16"
+        },
+        {
+          "q": "Find the interquartile range of 2, 3, 5, 7, 9, 12, 14.",
+          "a": "9"
+        },
+        {
+          "q": "Which is more spread out: IQR 6 or IQR 11?",
+          "a": "IQR 11"
+        }
+      ]
+    },
+    "Grouped Data": {
+      "items": [
+        {
+          "q": "For classes 0-10, 10-20, 20-30, find the class midpoints.",
+          "a": "5, 15, 25"
+        },
+        {
+          "q": "A grouped table has midpoints 5, 15, 25 with frequencies 3, 5, 2. Estimate the mean.",
+          "a": "14"
+        },
+        {
+          "q": "Why is a grouped mean estimated rather than exact?",
+          "a": "Exact values inside each class are unknown"
+        },
+        {
+          "q": "For classes 20-30, 30-40, 40-50, find the class midpoints.",
+          "a": "25, 35, 45"
+        },
+        {
+          "q": "A grouped table has midpoints 10, 20, 30 with frequencies 2, 4, 4. Estimate the mean.",
+          "a": "22"
+        },
+        {
+          "q": "What is frequency density?",
+          "a": "Frequency divided by class width"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "year": "Shell",
+  "topicNumber": 5,
+  "topicTitle": "Percentages",
+  "skills": {
+    "Basic ideas: one number as a percent of another; finding a percent of a number": {
+      "items": [
+        {
+          "q": "What is 18 as a percentage of 60?",
+          "a": "30%"
+        },
+        {
+          "q": "Find 35% of 240.",
+          "a": "84"
+        },
+        {
+          "q": "Find 12.5% of 64.",
+          "a": "8"
+        },
+        {
+          "q": "What is 45 as a percentage of 90?",
+          "a": "50%"
+        },
+        {
+          "q": "Find 18% of 350.",
+          "a": "63"
+        },
+        {
+          "q": "What is 27 as a percentage of 45?",
+          "a": "60%"
+        }
+      ]
+    },
+    "Percentage change": {
+      "items": [
+        {
+          "q": "Price rises from 50 to 62.5. % increase?",
+          "a": "25% increase"
+        },
+        {
+          "q": "Population drops from 800 to 680. % decrease?",
+          "a": "15% decrease"
+        },
+        {
+          "q": "Value rises from 20 to 23. % change?",
+          "a": "15% increase"
+        },
+        {
+          "q": "A score moves from 40 to 46. % increase?",
+          "a": "15% increase"
+        },
+        {
+          "q": "A price falls from 120 to 102. % decrease?",
+          "a": "15% decrease"
+        },
+        {
+          "q": "A balance rises from 200 to 250. % increase?",
+          "a": "25% increase"
+        }
+      ]
+    },
+    "Reverse percentages": {
+      "items": [
+        {
+          "q": "After 20% off, the price is 72. Find the original price.",
+          "a": "90"
+        },
+        {
+          "q": "After a 15% increase, the value is 230. Find the original value.",
+          "a": "200"
+        },
+        {
+          "q": "After a 10% decrease, the value is 54. Find the original value.",
+          "a": "60"
+        },
+        {
+          "q": "After 25% off, a jumper costs 45. Find the original price.",
+          "a": "60"
+        },
+        {
+          "q": "After a 20% increase, a population is 960. Find the original population.",
+          "a": "800"
+        },
+        {
+          "q": "After a 5% decrease, a balance is 190. Find the original balance.",
+          "a": "200"
+        }
+      ]
+    },
+    "Compounding percentage change": {
+      "items": [
+        {
+          "q": "A price is 200 and increases by 10% each year for 2 years. Find the final price.",
+          "a": "242"
+        },
+        {
+          "q": "A value is 500 and decreases by 8% each year for 3 years. Find the final value to the nearest whole number.",
+          "a": "389"
+        },
+        {
+          "q": "A population grows by 4% per year from 1200 for 5 years. Find the population to the nearest whole number.",
+          "a": "1460"
+        },
+        {
+          "q": "A bike worth 800 loses 15% of its value each year for 2 years. Find the value after 2 years.",
+          "a": "578"
+        },
+        {
+          "q": "Savings of 150 grow by 6% per year for 3 years. Find the final amount to 2 d.p.",
+          "a": "178.65"
+        },
+        {
+          "q": "A town with population 2500 grows by 2% per year for 4 years. Find the population to the nearest whole number.",
+          "a": "2706"
+        }
+      ]
+    }
+  }
+}

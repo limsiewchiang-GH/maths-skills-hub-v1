@@ -1,0 +1,63 @@
+{
+  "year": "Remove",
+  "topicNumber": 29,
+  "topicTitle": "Volume & Surface Area",
+  "skills": {
+    "Prisms, cylinders & spheres": {
+      "items": [
+        {
+          "q": "Find the volume of a cylinder of radius 3 cm and height 10 cm.",
+          "a": "90pi"
+        },
+        {
+          "q": "Find the surface area of a cylinder of radius 4 cm and height 5 cm.",
+          "a": "72pi"
+        },
+        {
+          "q": "Find the volume of a sphere of radius 6 cm.",
+          "a": "288pi"
+        },
+        {
+          "q": "Find the volume of a prism with cross-sectional area 12 cm^2 and length 8 cm.",
+          "a": "96"
+        },
+        {
+          "q": "Find the curved surface area of a cylinder of radius 7 cm and height 9 cm.",
+          "a": "126pi"
+        },
+        {
+          "q": "Find the surface area of a sphere of radius 5 cm.",
+          "a": "100pi"
+        }
+      ]
+    },
+    "Compound figures": {
+      "items": [
+        {
+          "q": "A solid is made from a cylinder of volume 50pi and a hemisphere of volume 18pi. Find the total volume.",
+          "a": "68pi"
+        },
+        {
+          "q": "A cuboid has volume 120 cm^3 and a cylinder hole of volume 15pi cm^3 is removed. Find the remaining volume.",
+          "a": "120 - 15pi"
+        },
+        {
+          "q": "A prism of volume 72 cm^3 is joined to a cube of volume 27 cm^3. Find the total volume.",
+          "a": "99"
+        },
+        {
+          "q": "A cylinder of volume 81pi cm^3 has a cone of volume 21pi cm^3 removed. Find the remaining volume.",
+          "a": "60pi"
+        },
+        {
+          "q": "Two spheres each have volume 36pi cm^3. Find the combined volume.",
+          "a": "72pi"
+        },
+        {
+          "q": "A hemisphere of volume 144pi cm^3 is joined to a cylinder of volume 80pi cm^3. Find the total volume.",
+          "a": "224pi"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "year": "Remove",
+  "topicNumber": 28,
+  "topicTitle": "Arcs & Sectors",
+  "skills": {
+    "Length of an arc": {
+      "items": [
+        {
+          "q": "Find the arc length of a sector with radius 6 cm and angle 120°.",
+          "a": "4pi"
+        },
+        {
+          "q": "Find the arc length of a sector with radius 10 cm and angle 90°.",
+          "a": "5pi"
+        },
+        {
+          "q": "Find the arc length of a sector with radius 8 cm and angle 45°.",
+          "a": "2pi"
+        },
+        {
+          "q": "Find the arc length of a sector with radius 12 cm and angle 150°.",
+          "a": "10pi"
+        },
+        {
+          "q": "Find the arc length of a sector with radius 14 cm and angle 180°.",
+          "a": "14pi"
+        },
+        {
+          "q": "Find the arc length of a sector with radius 9 cm and angle 80°.",
+          "a": "4pi"
+        }
+      ]
+    },
+    "Area of a sector": {
+      "items": [
+        {
+          "q": "Find the area of a sector with radius 6 cm and angle 120°.",
+          "a": "12pi"
+        },
+        {
+          "q": "Find the area of a sector with radius 10 cm and angle 90°.",
+          "a": "25pi"
+        },
+        {
+          "q": "Find the area of a sector with radius 8 cm and angle 45°.",
+          "a": "8pi"
+        },
+        {
+          "q": "Find the area of a sector with radius 12 cm and angle 150°.",
+          "a": "60pi"
+        },
+        {
+          "q": "Find the area of a semicircle with radius 14 cm.",
+          "a": "98pi"
+        },
+        {
+          "q": "Find the area of a sector with radius 9 cm and angle 80°.",
+          "a": "18pi"
+        }
+      ]
+    },
+    "Area of a segment": {
+      "items": [
+        {
+          "q": "A 90° sector of radius 6 cm has the triangle removed. Find the area of the segment.",
+          "a": "9pi - 18"
+        },
+        {
+          "q": "A 60° sector of radius 12 cm has the triangle removed. Find the area of the segment.",
+          "a": "24pi - 36sqrt(3)"
+        },
+        {
+          "q": "A 180° sector of radius 5 cm has the triangle removed. Find the area of the segment.",
+          "a": "25pi/2 - 25/2"
+        },
+        {
+          "q": "A 120° sector of radius 3 cm has the triangle removed. Find the area of the segment.",
+          "a": "3pi - 9sqrt(3)/4"
+        },
+        {
+          "q": "A 90° sector of radius 4 cm has the triangle removed. Find the area of the segment.",
+          "a": "4pi - 8"
+        },
+        {
+          "q": "A 60° sector of radius 6 cm has the triangle removed. Find the area of the segment.",
+          "a": "6pi - 9sqrt(3)"
+        }
+      ]
+    }
+  }
+}

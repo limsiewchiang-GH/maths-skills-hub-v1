@@ -1,0 +1,147 @@
+{
+  "year": "Shell",
+  "topicNumber": 2,
+  "topicTitle": "Linear Algebra",
+  "skills": {
+    "Solving linear equations with one occurrence of the unknown": {
+      "items": [
+        {
+          "q": "Solve: 3x + 7 = 25",
+          "a": "x = 6"
+        },
+        {
+          "q": "Solve: 5x - 4 = 2x + 11",
+          "a": "x = 5"
+        },
+        {
+          "q": "Solve: 9 - 2x = 1",
+          "a": "x = 4"
+        },
+        {
+          "q": "Solve: 4x + 3 = 31",
+          "a": "x = 7"
+        },
+        {
+          "q": "Solve: 6x - 5 = 19",
+          "a": "x = 4"
+        },
+        {
+          "q": "Solve: 2x + 15 = 33",
+          "a": "x = 9"
+        }
+      ]
+    },
+    "Equations with brackets": {
+      "items": [
+        {
+          "q": "Solve: 2(x + 3) = 18",
+          "a": "x = 6"
+        },
+        {
+          "q": "Solve: 3(x - 2) + 4 = 19",
+          "a": "x = 7"
+        },
+        {
+          "q": "Solve: 5 - (2x - 1) = 10",
+          "a": "x = -2"
+        },
+        {
+          "q": "Solve: 4(x + 1) = 28",
+          "a": "x = 6"
+        },
+        {
+          "q": "Solve: 2(3x - 5) = 14",
+          "a": "x = 4"
+        },
+        {
+          "q": "Solve: 7 - (x + 2) = 1",
+          "a": "x = 4"
+        }
+      ]
+    },
+    "Equations with fractions": {
+      "items": [
+        {
+          "q": "Solve: x/3 + 5 = 9",
+          "a": "x = 12"
+        },
+        {
+          "q": "Solve: x/4 - 2 = 3",
+          "a": "x = 20"
+        },
+        {
+          "q": "Solve: (2x/5) + 1 = 7",
+          "a": "x = 15"
+        },
+        {
+          "q": "Solve: x/6 + 4 = 9",
+          "a": "x = 30"
+        },
+        {
+          "q": "Solve: 3x/4 = 12",
+          "a": "x = 16"
+        },
+        {
+          "q": "Solve: x/8 - 1 = 5",
+          "a": "x = 48"
+        }
+      ]
+    },
+    "Unknown appears more than once": {
+      "items": [
+        {
+          "q": "Solve: 4x + 7 = 2x + 19",
+          "a": "x = 6"
+        },
+        {
+          "q": "Solve: 3(x + 1) = 2x + 11",
+          "a": "x = 8"
+        },
+        {
+          "q": "Solve: 7 - x = 2x - 5",
+          "a": "x = 4"
+        },
+        {
+          "q": "Solve: 5x - 3 = 2x + 12",
+          "a": "x = 5"
+        },
+        {
+          "q": "Solve: 4(x - 1) = 2x + 10",
+          "a": "x = 7"
+        },
+        {
+          "q": "Solve: 9 + 2x = x + 14",
+          "a": "x = 5"
+        }
+      ]
+    },
+    "Forming linear equations from word problems": {
+      "items": [
+        {
+          "q": "A number plus 9 is 25. Find the number.",
+          "a": "16"
+        },
+        {
+          "q": "Twice a number minus 3 is 17. Find the number.",
+          "a": "10"
+        },
+        {
+          "q": "A rectangle has perimeter 34 cm and width 7 cm. Find the length.",
+          "a": "10"
+        },
+        {
+          "q": "Three times a number plus 4 is 22. Find the number.",
+          "a": "6"
+        },
+        {
+          "q": "Five more than half a number is 17. Find the number.",
+          "a": "24"
+        },
+        {
+          "q": "One ribbon piece is 6 cm longer than the other and the total is 30 cm. Find the shorter piece.",
+          "a": "12"
+        }
+      ]
+    }
+  }
+}

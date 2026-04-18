@@ -1,0 +1,63 @@
+{
+  "year": "Shell",
+  "topicNumber": 16,
+  "topicTitle": "Perimeter and Area in 2D",
+  "skills": {
+    "Basic perimeter and area expressions (includes, squares, rectangles, parallelograms, trapezia, triangles, circles, semi- and quarter-circles)": {
+      "items": [
+        {
+          "q": "Find the area of a rectangle with sides 8 and x + 3.",
+          "a": "8x + 24"
+        },
+        {
+          "q": "Find the circumference of a circle of radius r.",
+          "a": "2pi r"
+        },
+        {
+          "q": "Find the area of a trapezium with parallel sides 8 and 12 and height 5.",
+          "a": "50"
+        },
+        {
+          "q": "Find the area of a triangle with base 14 and height 9.",
+          "a": "63"
+        },
+        {
+          "q": "Find the area of a semicircle of radius 6.",
+          "a": "18pi"
+        },
+        {
+          "q": "Find the perimeter of a square of side 3x.",
+          "a": "12x"
+        }
+      ]
+    },
+    "Compound shapes (all rectilinear shapes; other obviously compound shapes)": {
+      "items": [
+        {
+          "q": "An L-shape is made from rectangles 8 by 3 and 5 by 2. Find the total area.",
+          "a": "34"
+        },
+        {
+          "q": "A circle of radius 7 sits inside a square of side 14. Find the shaded area outside the circle.",
+          "a": "196 - 49pi"
+        },
+        {
+          "q": "Find the area of a semicircle of radius 6.",
+          "a": "18pi"
+        },
+        {
+          "q": "A shape is made from a 10 by 4 rectangle and a 3 by 6 rectangle. Find the total area.",
+          "a": "58"
+        },
+        {
+          "q": "A 12 by 9 rectangle has a 4 by 3 rectangle removed. Find the remaining area.",
+          "a": "96"
+        },
+        {
+          "q": "Two rectangles 7 by 5 and 2 by 9 are joined without overlap. Find the total area.",
+          "a": "53"
+        }
+      ]
+    }
+  }
+}

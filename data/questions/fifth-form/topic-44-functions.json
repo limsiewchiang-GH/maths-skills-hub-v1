@@ -1,0 +1,231 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 44,
+  "topicTitle": "Functions",
+  "skills": {
+    "Domain and Range": {
+      "items": [
+        {
+          "q": "For f(x) = x^2 with x in R, what is the range?",
+          "a": "y >= 0"
+        },
+        {
+          "q": "For f(x) = 1/x, what is the domain?",
+          "a": "x != 0"
+        },
+        {
+          "q": "For x in [0,3], f(x) = 2x + 1. What is the range?",
+          "a": "[1,7]"
+        },
+        {
+          "q": "For f(x) = sqrt(x), what is the domain?",
+          "a": "x >= 0"
+        },
+        {
+          "q": "For f(x) = x + 4, what is the domain if no restriction is given?",
+          "a": "All real numbers"
+        },
+        {
+          "q": "For f(x) = (x - 2)^2, what is the minimum value in the range?",
+          "a": "0"
+        }
+      ]
+    },
+    "Composite functions": {
+      "items": [
+        {
+          "q": "If f(x) = 2x + 1 and g(x) = x^2, find f(g(3)).",
+          "a": "19"
+        },
+        {
+          "q": "If f(x) = 2x + 1 and g(x) = x^2, find g(f(x)).",
+          "a": "(2x + 1)^2"
+        },
+        {
+          "q": "If f(x) = 2x + 1 and g(x) = x^2, find f(g(x)).",
+          "a": "2x^2 + 1"
+        },
+        {
+          "q": "If f(x) = x - 4 and g(x) = 3x, find f(g(2)).",
+          "a": "2"
+        },
+        {
+          "q": "If f(x) = x + 5 and g(x) = 2x, find g(f(1)).",
+          "a": "12"
+        },
+        {
+          "q": "If f(x) = x^2 and g(x) = x + 1, find f(g(2)).",
+          "a": "9"
+        }
+      ]
+    },
+    "Inverses": {
+      "items": [
+        {
+          "q": "Find the inverse of f(x) = 3x - 4.",
+          "a": "f^-1(x) = (x + 4)/3"
+        },
+        {
+          "q": "For f(x) = 3x - 4, find f^-1(11).",
+          "a": "5"
+        },
+        {
+          "q": "What condition must a function satisfy to have an inverse on its full domain?",
+          "a": "It must be one-to-one"
+        },
+        {
+          "q": "Find the inverse of f(x) = x + 7.",
+          "a": "f^-1(x) = x - 7"
+        },
+        {
+          "q": "Find the inverse of f(x) = 2x + 3.",
+          "a": "f^-1(x) = (x - 3)/2"
+        },
+        {
+          "q": "True or false: a many-to-one function has an inverse on the full domain.",
+          "a": "False"
+        }
+      ]
+    },
+    "Inverse of a quadratic": {
+      "items": [
+        {
+          "q": "Why does y = x^2 not have an inverse on all real x?",
+          "a": "It is not one-to-one"
+        },
+        {
+          "q": "If y = x^2 with x >= 0, find the inverse.",
+          "a": "y = sqrt(x)"
+        },
+        {
+          "q": "If y = (x - 2)^2 with x >= 2, find the inverse.",
+          "a": "y = 2 + sqrt(x)"
+        },
+        {
+          "q": "If y = (x + 3)^2 with x >= -3, find the inverse.",
+          "a": "y = -3 + sqrt(x)"
+        },
+        {
+          "q": "What restriction on x makes y = x^2 invertible?",
+          "a": "x >= 0 or x <= 0"
+        },
+        {
+          "q": "True or false: restricting the domain can make a quadratic invertible.",
+          "a": "True"
+        }
+      ]
+    },
+    "Transformation of graphs": {
+      "items": [
+        {
+          "q": "Write the graph y = x^2 shifted up 3.",
+          "a": "y = x^2 + 3"
+        },
+        {
+          "q": "Write the graph y = x^2 shifted right 4.",
+          "a": "y = (x - 4)^2"
+        },
+        {
+          "q": "Write the graph y = x^2 reflected in the x-axis.",
+          "a": "y = -x^2"
+        },
+        {
+          "q": "Write the graph y = sqrt(x) shifted left 2.",
+          "a": "y = sqrt(x + 2)"
+        },
+        {
+          "q": "Write the graph y = x^2 shifted down 5.",
+          "a": "y = x^2 - 5"
+        },
+        {
+          "q": "Write the graph y = x^3 reflected in the y-axis.",
+          "a": "y = -x^3"
+        }
+      ]
+    },
+    "Algebraic manipulation, including quadratics and inequalities;": {
+      "items": [
+        {
+          "q": "Solve: x^2 - 5x + 6 = 0.",
+          "a": "x = 2 or x = 3"
+        },
+        {
+          "q": "Simplify: (x^2 - 9)/(x - 3).",
+          "a": "x + 3"
+        },
+        {
+          "q": "Solve: x^2 - 4 < 0.",
+          "a": "-2 < x < 2"
+        },
+        {
+          "q": "Factorise: x^2 + 7x + 10.",
+          "a": "(x + 5)(x + 2)"
+        },
+        {
+          "q": "Solve: x^2 + x - 12 = 0.",
+          "a": "x = 3 or x = -4"
+        },
+        {
+          "q": "Solve: x^2 - x - 6 >= 0.",
+          "a": "x <= -2 or x >= 3"
+        }
+      ]
+    },
+    "Circle theorems": {
+      "items": [
+        {
+          "q": "How does the angle at the centre compare with the angle at the circumference on the same arc?",
+          "a": "It is double"
+        },
+        {
+          "q": "What do opposite angles in a cyclic quadrilateral add up to?",
+          "a": "180"
+        },
+        {
+          "q": "What angle is formed between a tangent and a radius at the point of contact?",
+          "a": "90"
+        },
+        {
+          "q": "Angles in the same segment are what?",
+          "a": "Equal"
+        },
+        {
+          "q": "The angle in a semicircle is always what?",
+          "a": "90"
+        },
+        {
+          "q": "True or false: the alternate segment angle equals the angle between the tangent and chord.",
+          "a": "True"
+        }
+      ]
+    },
+    "Probability": {
+      "items": [
+        {
+          "q": "If P(A) = 0.35, find P(not A).",
+          "a": "0.65"
+        },
+        {
+          "q": "A fair die is rolled. Find the probability of a prime number.",
+          "a": "1/2"
+        },
+        {
+          "q": "Two coins are tossed. Find the probability of exactly one head.",
+          "a": "1/2"
+        },
+        {
+          "q": "A bag has 4 red and 6 blue counters. Find P(red).",
+          "a": "2/5"
+        },
+        {
+          "q": "True or false: probabilities must be between 0 and 1 inclusive.",
+          "a": "True"
+        },
+        {
+          "q": "If events are mutually exclusive, what is P(A and B)?",
+          "a": "0"
+        }
+      ]
+    }
+  }
+}

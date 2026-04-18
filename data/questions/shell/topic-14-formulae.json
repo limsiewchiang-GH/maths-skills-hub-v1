@@ -1,0 +1,91 @@
+{
+  "year": "Shell",
+  "topicNumber": 14,
+  "topicTitle": "Formulae",
+  "skills": {
+    "Derive a formula to represent a scenario": {
+      "items": [
+        {
+          "q": "If the perimeter P of a rectangle is 2l + 2w, make l the subject.",
+          "a": "l = (P - 2w)/2"
+        },
+        {
+          "q": "If C = 5n + 7, make n the subject.",
+          "a": "n = (C - 7)/5"
+        },
+        {
+          "q": "If A = bh/2, make h the subject.",
+          "a": "h = 2A/b"
+        },
+        {
+          "q": "If V = lwh, make w the subject.",
+          "a": "w = V/(lh)"
+        },
+        {
+          "q": "If F = 9c/5 + 32, make c the subject.",
+          "a": "c = 5(F - 32)/9"
+        },
+        {
+          "q": "If d = st, make s the subject.",
+          "a": "s = d/t"
+        }
+      ]
+    },
+    "Rearranging formulae where the desired subject appears once": {
+      "items": [
+        {
+          "q": "Make x the subject: y = 3x + 4.",
+          "a": "x = (y - 4)/3"
+        },
+        {
+          "q": "Make r the subject: A = pi r^2.",
+          "a": "r = sqrt(A/pi)"
+        },
+        {
+          "q": "Make t the subject: v = u + at.",
+          "a": "t = (v - u)/a"
+        },
+        {
+          "q": "Make b the subject: P = 2a + 2b.",
+          "a": "b = (P - 2a)/2"
+        },
+        {
+          "q": "Make m the subject: C = mn + p.",
+          "a": "m = (C - p)/n"
+        },
+        {
+          "q": "Make x the subject: k = x/7 - 2.",
+          "a": "x = 7(k + 2)"
+        }
+      ]
+    },
+    "Rearranging formulae where the desired subject appears more than once": {
+      "items": [
+        {
+          "q": "Make x the subject: P = 3x + 2x.",
+          "a": "x = P/5"
+        },
+        {
+          "q": "Make y the subject: A = 2y + 5y - 7.",
+          "a": "y = (A + 7)/7"
+        },
+        {
+          "q": "Make a the subject: K = 4a - a + 9.",
+          "a": "a = (K - 9)/3"
+        },
+        {
+          "q": "Make t the subject: d = 3t + 2t.",
+          "a": "t = d/5"
+        },
+        {
+          "q": "Make p the subject: M = 6p - p + 10.",
+          "a": "p = (M - 10)/5"
+        },
+        {
+          "q": "Make n the subject: Q = 8n + n - 18.",
+          "a": "n = (Q + 18)/9"
+        }
+      ]
+    }
+  }
+}

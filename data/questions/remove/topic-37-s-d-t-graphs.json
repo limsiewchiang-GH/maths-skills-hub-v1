@@ -1,0 +1,35 @@
+{
+  "year": "Remove",
+  "topicNumber": 37,
+  "topicTitle": "S-D-T graphs",
+  "skills": {
+    "Drawing and interpreting travel graphs": {
+      "items": [
+        {
+          "q": "On a distance-time graph, what does a flat section mean?",
+          "a": "Stationary"
+        },
+        {
+          "q": "On a distance-time graph, what does a steeper line mean?",
+          "a": "Faster speed"
+        },
+        {
+          "q": "A journey covers 120 km in 3 hours on a travel graph. Find the average speed.",
+          "a": "40"
+        },
+        {
+          "q": "A travel graph goes from 0 km to 90 km in 1.5 hours. Find the speed.",
+          "a": "60"
+        },
+        {
+          "q": "A section slopes downwards on a distance-time graph. What does this mean?",
+          "a": "Returning towards the start"
+        },
+        {
+          "q": "If a travel graph is horizontal for 20 minutes, what is happening?",
+          "a": "No movement"
+        }
+      ]
+    }
+  }
+}

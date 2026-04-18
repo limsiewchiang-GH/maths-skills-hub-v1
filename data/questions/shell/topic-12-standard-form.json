@@ -1,0 +1,119 @@
+{
+  "year": "Shell",
+  "topicNumber": 12,
+  "topicTitle": "Standard Form",
+  "skills": {
+    "Converting from standard form to base 10 (and vice versa)": {
+      "items": [
+        {
+          "q": "Write 5.2 x 10^3 as an ordinary number.",
+          "a": "5200"
+        },
+        {
+          "q": "Write 0.00078 in standard form.",
+          "a": "7.8 x 10^-4"
+        },
+        {
+          "q": "Write 3450000 in standard form.",
+          "a": "3.45 x 10^6"
+        },
+        {
+          "q": "Write 6.03 x 10^5 as an ordinary number.",
+          "a": "603000"
+        },
+        {
+          "q": "Write 0.0045 in standard form.",
+          "a": "4.5 x 10^-3"
+        },
+        {
+          "q": "Write 98000000 in standard form.",
+          "a": "9.8 x 10^7"
+        }
+      ]
+    },
+    "Multiplication and Division of numbers in standard form": {
+      "items": [
+        {
+          "q": "Simplify: (2 x 10^4)(3 x 10^2)",
+          "a": "6 x 10^6"
+        },
+        {
+          "q": "Simplify: (8 x 10^7) / (2 x 10^3)",
+          "a": "4 x 10^4"
+        },
+        {
+          "q": "Simplify: (5 x 10^-2)(4 x 10^6)",
+          "a": "2 x 10^5"
+        },
+        {
+          "q": "Simplify: (3 x 10^5)(2 x 10^-2)",
+          "a": "6 x 10^3"
+        },
+        {
+          "q": "Simplify: (9 x 10^6) / (3 x 10^2)",
+          "a": "3 x 10^4"
+        },
+        {
+          "q": "Simplify: (7 x 10^-3)(2 x 10^4)",
+          "a": "1.4 x 10^2"
+        }
+      ]
+    },
+    "Addition and subtraction of numbers in standard form": {
+      "items": [
+        {
+          "q": "Add: 3.2 x 10^5 + 1.1 x 10^5",
+          "a": "4.3 x 10^5"
+        },
+        {
+          "q": "Subtract: 7.5 x 10^4 - 2.0 x 10^4",
+          "a": "5.5 x 10^4"
+        },
+        {
+          "q": "Add: 4.8 x 10^-3 + 1.2 x 10^-3",
+          "a": "6.0 x 10^-3"
+        },
+        {
+          "q": "Add: 6.4 x 10^6 + 2.1 x 10^6",
+          "a": "8.5 x 10^6"
+        },
+        {
+          "q": "Subtract: 9.0 x 10^-2 - 3.5 x 10^-2",
+          "a": "5.5 x 10^-2"
+        },
+        {
+          "q": "Add: 1.7 x 10^3 + 4.6 x 10^3",
+          "a": "6.3 x 10^3"
+        }
+      ]
+    },
+    "Combining standard form with indices laws": {
+      "items": [
+        {
+          "q": "Simplify: (2 x 10^3)^2",
+          "a": "4 x 10^6"
+        },
+        {
+          "q": "Simplify: (6 x 10^5)(2 x 10^-3)",
+          "a": "1.2 x 10^3"
+        },
+        {
+          "q": "Simplify: (9 x 10^8)/(3 x 10^2)",
+          "a": "3 x 10^6"
+        },
+        {
+          "q": "Simplify: (5 x 10^4)^2",
+          "a": "2.5 x 10^9"
+        },
+        {
+          "q": "Simplify: (4 x 10^7)/(2 x 10^-1)",
+          "a": "2 x 10^8"
+        },
+        {
+          "q": "Simplify: (3 x 10^-2)^2",
+          "a": "9 x 10^-4"
+        }
+      ]
+    }
+  }
+}

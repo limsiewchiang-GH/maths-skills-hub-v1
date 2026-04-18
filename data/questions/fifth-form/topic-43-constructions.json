@@ -1,0 +1,119 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 43,
+  "topicTitle": "Constructions",
+  "skills": {
+    "Constructions": {
+      "items": [
+        {
+          "q": "Construct a line segment 6 cm long and find its midpoint. Where is the midpoint?",
+          "a": "3 cm from each end"
+        },
+        {
+          "q": "What angle should a constructed perpendicular make with the line?",
+          "a": "90"
+        },
+        {
+          "q": "A construction uses arcs from both endpoints of a segment. What line do the arc intersections help construct?",
+          "a": "Perpendicular bisector"
+        },
+        {
+          "q": "What does SSS mean when constructing a triangle?",
+          "a": "Side-side-side"
+        },
+        {
+          "q": "In a valid construction, should measurements be guessed freehand?",
+          "a": "No"
+        },
+        {
+          "q": "What tool is used to draw the arc in a construction?",
+          "a": "Compass"
+        }
+      ]
+    },
+    "Bisecting an angle": {
+      "items": [
+        {
+          "q": "If an angle is 70°, what is each half after bisecting?",
+          "a": "35"
+        },
+        {
+          "q": "If an angle is 118°, what is each half after bisecting?",
+          "a": "59"
+        },
+        {
+          "q": "What do points on an angle bisector have equal distance from?",
+          "a": "Both arms of the angle"
+        },
+        {
+          "q": "If an angle is 96°, what is each half after bisecting?",
+          "a": "48"
+        },
+        {
+          "q": "A bisected angle gives two equal angles of 27°. What was the original angle?",
+          "a": "54"
+        },
+        {
+          "q": "What tool is essential for constructing an angle bisector?",
+          "a": "Compass"
+        }
+      ]
+    },
+    "Perpendicular bisector": {
+      "items": [
+        {
+          "q": "What angle does a perpendicular bisector make with the segment?",
+          "a": "90"
+        },
+        {
+          "q": "What does a perpendicular bisector do to a line segment?",
+          "a": "Cuts it into two equal parts"
+        },
+        {
+          "q": "What is the locus of points equidistant from A and B?",
+          "a": "Perpendicular bisector"
+        },
+        {
+          "q": "A segment is 14 cm long. Where is the midpoint on its perpendicular bisector?",
+          "a": "7 cm from each end"
+        },
+        {
+          "q": "True or false: a perpendicular bisector passes through the midpoint.",
+          "a": "True"
+        },
+        {
+          "q": "What pair of arcs are used to construct a perpendicular bisector?",
+          "a": "Equal-radius arcs from each endpoint"
+        }
+      ]
+    },
+    "Constructing an equilateral triangle": {
+      "items": [
+        {
+          "q": "If one side of an equilateral triangle is 8 cm, what are the other sides?",
+          "a": "8 cm each"
+        },
+        {
+          "q": "What is each interior angle of an equilateral triangle?",
+          "a": "60"
+        },
+        {
+          "q": "When constructing an equilateral triangle, what compass radius is used from each endpoint?",
+          "a": "The side length"
+        },
+        {
+          "q": "If an equilateral triangle has side 5 cm, what is its perimeter?",
+          "a": "15"
+        },
+        {
+          "q": "True or false: all angles in an equilateral triangle are equal.",
+          "a": "True"
+        },
+        {
+          "q": "What shape is formed when three sides are all equal?",
+          "a": "Equilateral triangle"
+        }
+      ]
+    }
+  }
+}

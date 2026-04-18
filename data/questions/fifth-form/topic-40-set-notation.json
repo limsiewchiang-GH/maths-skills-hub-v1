@@ -1,0 +1,119 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 40,
+  "topicTitle": "Set notation",
+  "skills": {
+    "Definition: what is a set": {
+      "items": [
+        {
+          "q": "Write the set of even numbers less than 10.",
+          "a": "{2,4,6,8}"
+        },
+        {
+          "q": "Is 3 in the set {1,2,4}?",
+          "a": "No"
+        },
+        {
+          "q": "List the set of prime numbers less than 8.",
+          "a": "{2,3,5,7}"
+        },
+        {
+          "q": "What brackets are used for a set?",
+          "a": "Curly brackets"
+        },
+        {
+          "q": "Is {a,e,i,o,u} a set?",
+          "a": "Yes"
+        },
+        {
+          "q": "Can a set contain repeated elements?",
+          "a": "No"
+        }
+      ]
+    },
+    "Universal set": {
+      "items": [
+        {
+          "q": "If U = {1,2,3,4,5,6}, find the complement of {1,3,5}.",
+          "a": "{2,4,6}"
+        },
+        {
+          "q": "Is 11 in U = {1,2,3,4,5,6,7,8,9,10}?",
+          "a": "No"
+        },
+        {
+          "q": "True or false: every set A discussed in a question is a subset of U.",
+          "a": "True"
+        },
+        {
+          "q": "If U = {a,b,c,d} and A = {a,c}, find A'.",
+          "a": "{b,d}"
+        },
+        {
+          "q": "What does the universal set represent?",
+          "a": "All elements being considered"
+        },
+        {
+          "q": "If U = {1,2,3,4} and B = {2,4}, find B'.",
+          "a": "{1,3}"
+        }
+      ]
+    },
+    "Intersection and union": {
+      "items": [
+        {
+          "q": "If A = {1,2,3} and B = {3,4,5}, find A n B.",
+          "a": "{3}"
+        },
+        {
+          "q": "If A = {1,2,3} and B = {3,4,5}, find A u B.",
+          "a": "{1,2,3,4,5}"
+        },
+        {
+          "q": "If A and B have no common elements, what is A n B?",
+          "a": "{}"
+        },
+        {
+          "q": "If A = {2,4,6} and B = {4,6,8}, find A n B.",
+          "a": "{4,6}"
+        },
+        {
+          "q": "If A = {a,b} and B = {b,c,d}, find A u B.",
+          "a": "{a,b,c,d}"
+        },
+        {
+          "q": "What word describes two sets with empty intersection?",
+          "a": "Disjoint"
+        }
+      ]
+    },
+    "Venn diagrams (Euler diagrams)": {
+      "items": [
+        {
+          "q": "In a class of 30, 18 like maths, 12 like physics, and 7 like both. How many like maths only?",
+          "a": "11"
+        },
+        {
+          "q": "In the same class, how many like neither subject?",
+          "a": "7"
+        },
+        {
+          "q": "How many like at least one subject?",
+          "a": "23"
+        },
+        {
+          "q": "A Venn diagram has 5 in A only, 3 in both, and 4 in B only. How many are in A?",
+          "a": "8"
+        },
+        {
+          "q": "If 20 are in U, 6 in A only, 5 in both, and 3 in B only, how many are outside both?",
+          "a": "6"
+        },
+        {
+          "q": "What does the overlap in a Venn diagram represent?",
+          "a": "Intersection"
+        }
+      ]
+    }
+  }
+}

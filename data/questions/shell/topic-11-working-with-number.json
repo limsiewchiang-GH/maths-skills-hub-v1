@@ -1,0 +1,147 @@
+{
+  "year": "Shell",
+  "topicNumber": 11,
+  "topicTitle": "Working with Number",
+  "skills": {
+    "Prime Factors": {
+      "items": [
+        {
+          "q": "Prime factorise 84.",
+          "a": "2^2 x 3 x 7"
+        },
+        {
+          "q": "Prime factorise 150.",
+          "a": "2 x 3 x 5^2"
+        },
+        {
+          "q": "Prime factorise 360.",
+          "a": "2^3 x 3^2 x 5"
+        },
+        {
+          "q": "Prime factorise 126.",
+          "a": "2 x 3^2 x 7"
+        },
+        {
+          "q": "Prime factorise 196.",
+          "a": "2^2 x 7^2"
+        },
+        {
+          "q": "Prime factorise 270.",
+          "a": "2 x 3^3 x 5"
+        }
+      ]
+    },
+    "HCF and LCM of two numbers": {
+      "items": [
+        {
+          "q": "Find the HCF and LCM of 18 and 24.",
+          "a": "HCF 6, LCM 72"
+        },
+        {
+          "q": "Find the HCF and LCM of 20 and 30.",
+          "a": "HCF 10, LCM 60"
+        },
+        {
+          "q": "Find the HCF and LCM of 12 and 45.",
+          "a": "HCF 3, LCM 180"
+        },
+        {
+          "q": "Find the HCF and LCM of 36 and 54.",
+          "a": "HCF 18, LCM 108"
+        },
+        {
+          "q": "Find the HCF and LCM of 14 and 35.",
+          "a": "HCF 7, LCM 70"
+        },
+        {
+          "q": "Find the HCF and LCM of 16 and 40.",
+          "a": "HCF 8, LCM 80"
+        }
+      ]
+    },
+    "Laws of Indices": {
+      "items": [
+        {
+          "q": "Simplify: x^5 x x^2",
+          "a": "x^7"
+        },
+        {
+          "q": "Simplify: a^9 / a^4",
+          "a": "a^5"
+        },
+        {
+          "q": "Simplify: (m^3)^4",
+          "a": "m^12"
+        },
+        {
+          "q": "Simplify: y^6 x y^3",
+          "a": "y^9"
+        },
+        {
+          "q": "Simplify: p^8 / p^2",
+          "a": "p^6"
+        },
+        {
+          "q": "Simplify: (q^2)^5",
+          "a": "q^10"
+        }
+      ]
+    },
+    "Negative Indices": {
+      "items": [
+        {
+          "q": "Simplify: x^-3",
+          "a": "1/x^3"
+        },
+        {
+          "q": "Simplify: 2a^-2",
+          "a": "2/a^2"
+        },
+        {
+          "q": "Rewrite 1/(5x^3) using a negative index.",
+          "a": "(1/5)x^-3"
+        },
+        {
+          "q": "Simplify: y^-1",
+          "a": "1/y"
+        },
+        {
+          "q": "Simplify: 4b^-3",
+          "a": "4/b^3"
+        },
+        {
+          "q": "Rewrite 3/(k^2) using a negative index.",
+          "a": "3k^-2"
+        }
+      ]
+    },
+    "Fractional Indices": {
+      "items": [
+        {
+          "q": "Simplify: x^(1/2)",
+          "a": "sqrt(x)"
+        },
+        {
+          "q": "Simplify: 27^(1/3)",
+          "a": "3"
+        },
+        {
+          "q": "Simplify: 16^(3/4)",
+          "a": "8"
+        },
+        {
+          "q": "Simplify: 81^(1/2)",
+          "a": "9"
+        },
+        {
+          "q": "Simplify: 32^(2/5)",
+          "a": "4"
+        },
+        {
+          "q": "Simplify: x^(3/2)",
+          "a": "xsqrt(x)"
+        }
+      ]
+    }
+  }
+}

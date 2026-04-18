@@ -1,0 +1,63 @@
+{
+  "year": "Remove",
+  "topicNumber": 36,
+  "topicTitle": "Speed & Compound Measures",
+  "skills": {
+    "Speed-distance-time": {
+      "items": [
+        {
+          "q": "A car travels 150 km in 3 hours. Find the speed.",
+          "a": "50"
+        },
+        {
+          "q": "A runner moves at 8 m/s for 25 s. Find the distance.",
+          "a": "200"
+        },
+        {
+          "q": "A plane travels 600 km at 200 km/h. Find the time.",
+          "a": "3"
+        },
+        {
+          "q": "A cyclist travels 45 km in 1.5 hours. Find the speed.",
+          "a": "30"
+        },
+        {
+          "q": "A train moves at 90 km/h for 2 hours. Find the distance.",
+          "a": "180"
+        },
+        {
+          "q": "A boat covers 72 km at 24 km/h. Find the time.",
+          "a": "3"
+        }
+      ]
+    },
+    "Other compound measures": {
+      "items": [
+        {
+          "q": "A force of 60 N acts on an area of 12 m^2. Find the pressure.",
+          "a": "5"
+        },
+        {
+          "q": "A density is 8 g/cm^3 and the volume is 15 cm^3. Find the mass.",
+          "a": "120"
+        },
+        {
+          "q": "A mass is 54 g and the volume is 6 cm^3. Find the density.",
+          "a": "9"
+        },
+        {
+          "q": "A force of 45 N acts on 9 m^2. Find the pressure.",
+          "a": "5"
+        },
+        {
+          "q": "A pressure is 7 N/m^2 over an area of 4 m^2. Find the force.",
+          "a": "28"
+        },
+        {
+          "q": "A density is 2.5 g/cm^3 and the mass is 20 g. Find the volume.",
+          "a": "8"
+        }
+      ]
+    }
+  }
+}

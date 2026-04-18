@@ -1,0 +1,175 @@
+{
+  "year": "Remove",
+  "topicNumber": 34,
+  "topicTitle": "Further Trig",
+  "skills": {
+    "Sine rule": {
+      "items": [
+        {
+          "q": "In triangle ABC, a = 8, A = 30°, B = 45°. Find b.",
+          "a": "8sqrt(2)"
+        },
+        {
+          "q": "In triangle ABC, a = 10, A = 90°, B = 30°. Find b.",
+          "a": "5"
+        },
+        {
+          "q": "In triangle ABC, a = 12, A = 60°, B = 45°. Find b.",
+          "a": "4sqrt(6)"
+        },
+        {
+          "q": "In triangle ABC, a = 14, A = 45°, B = 30°. Find b.",
+          "a": "7sqrt(2)"
+        },
+        {
+          "q": "In triangle ABC, a = 6, A = 30°, B = 60°. Find b.",
+          "a": "6sqrt(3)"
+        },
+        {
+          "q": "In triangle ABC, a = 9, A = 90°, B = 45°. Find b.",
+          "a": "9sqrt(2)/2"
+        }
+      ]
+    },
+    "Cosine rule": {
+      "items": [
+        {
+          "q": "Two sides of a triangle are 5 cm and 7 cm with included angle 60°. Find the third side.",
+          "a": "sqrt(39)"
+        },
+        {
+          "q": "Two sides are 8 cm and 10 cm with included angle 90°. Find the third side.",
+          "a": "2sqrt(41)"
+        },
+        {
+          "q": "Two sides are 6 cm and 9 cm with included angle 120°. Find the third side.",
+          "a": "3sqrt(7)"
+        },
+        {
+          "q": "Two sides are 7 cm and 7 cm with included angle 60°. Find the third side.",
+          "a": "7"
+        },
+        {
+          "q": "Two sides are 12 cm and 5 cm with included angle 180°. Find the third side.",
+          "a": "17"
+        },
+        {
+          "q": "Two sides are 9 cm and 9 cm with included angle 120°. Find the third side.",
+          "a": "9sqrt(3)"
+        }
+      ]
+    },
+    "Area of a triangle": {
+      "items": [
+        {
+          "q": "Find the area of a triangle with sides 8 cm and 10 cm including angle 30°.",
+          "a": "20"
+        },
+        {
+          "q": "Find the area of a triangle with sides 6 cm and 7 cm including angle 90°.",
+          "a": "21"
+        },
+        {
+          "q": "Find the area of a triangle with sides 12 cm and 5 cm including angle 60°.",
+          "a": "15sqrt(3)"
+        },
+        {
+          "q": "Find the area of a triangle with sides 9 cm and 9 cm including angle 45°.",
+          "a": "81sqrt(2)/4"
+        },
+        {
+          "q": "Find the area of a triangle with sides 14 cm and 4 cm including angle 30°.",
+          "a": "14"
+        },
+        {
+          "q": "Find the area of a triangle with sides 11 cm and 13 cm including angle 180°.",
+          "a": "0"
+        }
+      ]
+    },
+    "Problem solving": {
+      "items": [
+        {
+          "q": "A ladder 10 m long makes an angle of 30° with the ground. Find the vertical height reached.",
+          "a": "5"
+        },
+        {
+          "q": "A ship travels 12 km east then 5 km north. Find the direct distance from the start.",
+          "a": "13"
+        },
+        {
+          "q": "In a triangle, two sides are 7 cm and 9 cm with angle 60° between them. Find the area.",
+          "a": "63sqrt(3)/4"
+        },
+        {
+          "q": "A kite string is 20 m long and makes a 45° angle with the ground. Find the height.",
+          "a": "10sqrt(2)"
+        },
+        {
+          "q": "Two sides of a triangle are 8 cm and 15 cm at right angles. Find the third side.",
+          "a": "17"
+        },
+        {
+          "q": "A man walks 6 km south and 8 km east. Find how far he is from the start.",
+          "a": "10"
+        }
+      ]
+    },
+    "Sine rule ambiguous case": {
+      "items": [
+        {
+          "q": "A triangle has side a = 10, angle A = 30°, and side b = 12. How many possible triangles are there?",
+          "a": "2"
+        },
+        {
+          "q": "A triangle has side a = 8, angle A = 45°, and side b = 5. How many possible triangles are there?",
+          "a": "1"
+        },
+        {
+          "q": "A triangle has side a = 6, angle A = 30°, and side b = 14. How many possible triangles are there?",
+          "a": "0"
+        },
+        {
+          "q": "A triangle has side a = 9, angle A = 35°, and side b = 11. How many possible triangles are there?",
+          "a": "2"
+        },
+        {
+          "q": "A triangle has side a = 7, angle A = 60°, and side b = 6. How many possible triangles are there?",
+          "a": "1"
+        },
+        {
+          "q": "A triangle has side a = 5, angle A = 20°, and side b = 9. How many possible triangles are there?",
+          "a": "0"
+        }
+      ]
+    },
+    "Trig graphs": {
+      "items": [
+        {
+          "q": "For y = sin x, find the value at x = 90°.",
+          "a": "1"
+        },
+        {
+          "q": "For y = cos x, find the value at x = 180°.",
+          "a": "-1"
+        },
+        {
+          "q": "For y = sin x, find the value at x = 0°.",
+          "a": "0"
+        },
+        {
+          "q": "For y = cos x, find the value at x = 0°.",
+          "a": "1"
+        },
+        {
+          "q": "For y = sin x, find the value at x = 270°.",
+          "a": "-1"
+        },
+        {
+          "q": "For y = cos x, find the value at x = 90°.",
+          "a": "0"
+        }
+      ]
+    }
+  }
+}

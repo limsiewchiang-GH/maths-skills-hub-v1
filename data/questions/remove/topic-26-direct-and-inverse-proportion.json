@@ -1,0 +1,119 @@
+{
+  "year": "Remove",
+  "topicNumber": 26,
+  "topicTitle": "Direct and Inverse Proportion",
+  "skills": {
+    "Direct proportion of two quantities": {
+      "items": [
+        {
+          "q": "If y is directly proportional to x and y = 12 when x = 3, find y when x = 5.",
+          "a": "20"
+        },
+        {
+          "q": "If y is directly proportional to x and y = 18 when x = 6, find y when x = 10.",
+          "a": "30"
+        },
+        {
+          "q": "If y is directly proportional to x and y = 7 when x = 1, find y when x = 4.",
+          "a": "28"
+        },
+        {
+          "q": "If y is directly proportional to x and y = 15 when x = 5, find x when y = 24.",
+          "a": "8"
+        },
+        {
+          "q": "If y is directly proportional to x and y = 9 when x = 2, find y when x = 6.",
+          "a": "27"
+        },
+        {
+          "q": "If y is directly proportional to x and y = 40 when x = 8, find y when x = 3.",
+          "a": "15"
+        }
+      ]
+    },
+    "Direct prop’n of functions of two quantities": {
+      "items": [
+        {
+          "q": "If y is directly proportional to x^2 and y = 18 when x = 3, find y when x = 5.",
+          "a": "50"
+        },
+        {
+          "q": "If y is directly proportional to x^2 and y = 8 when x = 2, find y when x = 6.",
+          "a": "72"
+        },
+        {
+          "q": "If y is directly proportional to sqrt(x) and y = 6 when x = 9, find y when x = 25.",
+          "a": "10"
+        },
+        {
+          "q": "If y is directly proportional to x^3 and y = 16 when x = 2, find y when x = 3.",
+          "a": "54"
+        },
+        {
+          "q": "If y is directly proportional to x^2 and y = 27 when x = 3, find x when y = 75.",
+          "a": "5"
+        },
+        {
+          "q": "If y is directly proportional to sqrt(x) and y = 4 when x = 16, find y when x = 81.",
+          "a": "9"
+        }
+      ]
+    },
+    "Inverse prop’n of two quantities": {
+      "items": [
+        {
+          "q": "If y is inversely proportional to x and y = 12 when x = 2, find y when x = 8.",
+          "a": "3"
+        },
+        {
+          "q": "If y is inversely proportional to x and y = 15 when x = 3, find y when x = 5.",
+          "a": "9"
+        },
+        {
+          "q": "If y is inversely proportional to x and y = 20 when x = 4, find y when x = 10.",
+          "a": "8"
+        },
+        {
+          "q": "If y is inversely proportional to x and y = 18 when x = 6, find x when y = 9.",
+          "a": "12"
+        },
+        {
+          "q": "If y is inversely proportional to x and y = 7 when x = 1, find y when x = 14.",
+          "a": "1/2"
+        },
+        {
+          "q": "If y is inversely proportional to x and y = 30 when x = 5, find y when x = 3.",
+          "a": "50"
+        }
+      ]
+    },
+    "Inverse prop’n of functions of two quantities": {
+      "items": [
+        {
+          "q": "If y is inversely proportional to x^2 and y = 8 when x = 2, find y when x = 4.",
+          "a": "2"
+        },
+        {
+          "q": "If y is inversely proportional to sqrt(x) and y = 12 when x = 9, find y when x = 25.",
+          "a": "36/5"
+        },
+        {
+          "q": "If y is inversely proportional to x^2 and y = 18 when x = 3, find y when x = 6.",
+          "a": "9/2"
+        },
+        {
+          "q": "If y is inversely proportional to x^3 and y = 16 when x = 2, find y when x = 4.",
+          "a": "2"
+        },
+        {
+          "q": "If y is inversely proportional to sqrt(x) and y = 20 when x = 4, find y when x = 25.",
+          "a": "8"
+        },
+        {
+          "q": "If y is inversely proportional to x^2 and y = 50 when x = 1, find y when x = 5.",
+          "a": "2"
+        }
+      ]
+    }
+  }
+}

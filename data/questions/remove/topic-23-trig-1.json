@@ -1,0 +1,147 @@
+{
+  "year": "Remove",
+  "topicNumber": 23,
+  "topicTitle": "Trig 1",
+  "skills": {
+    "Ratios within a right-angled triangle": {
+      "items": [
+        {
+          "q": "In a right triangle with angle 30°, opposite side 5, and hypotenuse 10, find sin 30°.",
+          "a": "1/2"
+        },
+        {
+          "q": "In a right triangle with angle 45°, adjacent side 1, and hypotenuse sqrt(2), find cos 45°.",
+          "a": "sqrt(2)/2"
+        },
+        {
+          "q": "In a right triangle with angle 60°, opposite side sqrt(3), adjacent side 1, find tan 60°.",
+          "a": "sqrt(3)"
+        },
+        {
+          "q": "In a right triangle, opposite side 8 and hypotenuse 17. Find sin theta.",
+          "a": "8/17"
+        },
+        {
+          "q": "In a right triangle, adjacent side 12 and hypotenuse 13. Find cos theta.",
+          "a": "12/13"
+        },
+        {
+          "q": "In a right triangle, opposite side 7 and adjacent side 24. Find tan theta.",
+          "a": "7/24"
+        }
+      ]
+    },
+    "Using SoHCaHToA": {
+      "items": [
+        {
+          "q": "Find the missing side: opposite = 6, angle = 30°. Use sine to find the hypotenuse.",
+          "a": "12"
+        },
+        {
+          "q": "Find the missing side: adjacent = 8, angle = 60°. Use cosine to find the hypotenuse.",
+          "a": "16"
+        },
+        {
+          "q": "Find the missing side: opposite = 9, angle = 45°. Use tangent to find the adjacent side.",
+          "a": "9"
+        },
+        {
+          "q": "Find the angle: opposite = 5, hypotenuse = 10.",
+          "a": "30"
+        },
+        {
+          "q": "Find the angle: adjacent = 6, hypotenuse = 12.",
+          "a": "60"
+        },
+        {
+          "q": "Find the angle: opposite = 1, adjacent = 1.",
+          "a": "45"
+        }
+      ]
+    },
+    "Angles of elevation and depression": {
+      "items": [
+        {
+          "q": "A ladder reaches 5 m up a wall and is 12 m from the wall. Find the angle of elevation.",
+          "a": "23"
+        },
+        {
+          "q": "A kite is 20 m high and 20sqrt(3) m away horizontally. Find the angle of elevation.",
+          "a": "30"
+        },
+        {
+          "q": "A cliff top is seen at an angle of elevation of 45° from 30 m away. Find the height.",
+          "a": "30"
+        },
+        {
+          "q": "A ship is seen at an angle of depression of 30° from a lighthouse 40sqrt(3) m high. Find the horizontal distance.",
+          "a": "120"
+        },
+        {
+          "q": "A tree top is seen at 60° from a point 10 m away. Find the height.",
+          "a": "10sqrt(3)"
+        },
+        {
+          "q": "A balloon is 50 m high and seen at 45°. Find the horizontal distance.",
+          "a": "50"
+        }
+      ]
+    },
+    "Bearings": {
+      "items": [
+        {
+          "q": "A ship travels on a bearing of 090°. What direction is this?",
+          "a": "East"
+        },
+        {
+          "q": "A plane travels due south. Write the bearing.",
+          "a": "180"
+        },
+        {
+          "q": "A point is north-west of another. Is the bearing 315°?",
+          "a": "Yes"
+        },
+        {
+          "q": "A town lies on a bearing of 045° from a village. What compass direction is this?",
+          "a": "North-east"
+        },
+        {
+          "q": "A ship travels on a bearing of 270°. What direction is this?",
+          "a": "West"
+        },
+        {
+          "q": "Write the bearing for due north.",
+          "a": "000"
+        }
+      ]
+    },
+    "Trig in 3D": {
+      "items": [
+        {
+          "q": "A cuboid is 3 by 4 by 12. Find the body diagonal.",
+          "a": "13"
+        },
+        {
+          "q": "A cuboid is 6 by 8 by 24. Find the body diagonal.",
+          "a": "26"
+        },
+        {
+          "q": "Find the angle between the base and the diagonal of a cuboid with height 12 and base diagonal 5.",
+          "a": "67"
+        },
+        {
+          "q": "A ladder reaches a window 12 m above the ground and 5 m out from the wall. Find the ladder length.",
+          "a": "13"
+        },
+        {
+          "q": "A cuboid has base diagonal 15 and height 8. Find the body diagonal.",
+          "a": "17"
+        },
+        {
+          "q": "A cuboid is 9 by 12 by 20. Find the body diagonal.",
+          "a": "25"
+        }
+      ]
+    }
+  }
+}

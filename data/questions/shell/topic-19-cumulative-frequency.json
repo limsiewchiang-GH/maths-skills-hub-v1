@@ -1,0 +1,91 @@
+{
+  "year": "Shell",
+  "topicNumber": 19,
+  "topicTitle": "Cumulative Frequency",
+  "skills": {
+    "Drawing a cumulative frequency graph from a set of grouped data": {
+      "items": [
+        {
+          "q": "Frequencies are 3, 5, 7, 4. Find the cumulative frequencies.",
+          "a": "3, 8, 15, 19"
+        },
+        {
+          "q": "What is plotted on the horizontal axis of a cumulative frequency graph?",
+          "a": "Upper class boundaries"
+        },
+        {
+          "q": "What is plotted on the vertical axis of a cumulative frequency graph?",
+          "a": "Cumulative frequency"
+        },
+        {
+          "q": "Frequencies are 6, 4, 3. Find the cumulative frequencies.",
+          "a": "6, 10, 13"
+        },
+        {
+          "q": "What does the final point on a cumulative frequency graph show?",
+          "a": "The total frequency"
+        },
+        {
+          "q": "Should the cumulative frequency graph join the points smoothly?",
+          "a": "Yes"
+        }
+      ]
+    },
+    "Completing a table from a given cumulative frequency graph": {
+      "items": [
+        {
+          "q": "If the cumulative frequencies are 3, 8, 15, 19, find the class frequencies.",
+          "a": "3, 5, 7, 4"
+        },
+        {
+          "q": "If the final cumulative frequency is 19, what is the total frequency?",
+          "a": "19"
+        },
+        {
+          "q": "If cumulative frequencies are 4, 9, 14, find the class frequencies.",
+          "a": "4, 5, 5"
+        },
+        {
+          "q": "If the cumulative frequencies are 2, 6, 11, 18, find the class frequencies.",
+          "a": "2, 4, 5, 7"
+        },
+        {
+          "q": "If the graph reads 12 at an upper boundary, what does this mean?",
+          "a": "12 data values are at or below that boundary"
+        },
+        {
+          "q": "If the total cumulative frequency is 40, what is the total number of data values?",
+          "a": "40"
+        }
+      ]
+    },
+    "Using a c.f. graph to find values (e.g. median, quartiles, percentiles)": {
+      "items": [
+        {
+          "q": "A data set has size 80. Which cumulative frequency gives the median?",
+          "a": "40"
+        },
+        {
+          "q": "A data set has size 80. Which cumulative frequency gives Q1?",
+          "a": "20"
+        },
+        {
+          "q": "A data set has size 80. Which cumulative frequency gives Q3?",
+          "a": "60"
+        },
+        {
+          "q": "A data set has size 120. Which cumulative frequency gives the median?",
+          "a": "60"
+        },
+        {
+          "q": "A data set has size 120. Which cumulative frequency gives Q1?",
+          "a": "30"
+        },
+        {
+          "q": "A data set has size 120. Which cumulative frequency gives Q3?",
+          "a": "90"
+        }
+      ]
+    }
+  }
+}

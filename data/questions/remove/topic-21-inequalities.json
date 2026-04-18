@@ -1,0 +1,91 @@
+{
+  "year": "Remove",
+  "topicNumber": 21,
+  "topicTitle": "Inequalities",
+  "skills": {
+    "Linear inequalities": {
+      "items": [
+        {
+          "q": "Solve: 3x + 5 > 17",
+          "a": "x > 4"
+        },
+        {
+          "q": "Solve: 2x - 7 <= 9",
+          "a": "x <= 8"
+        },
+        {
+          "q": "Solve: 5 - x < 11",
+          "a": "x > -6"
+        },
+        {
+          "q": "Solve: 4x + 1 >= 13",
+          "a": "x >= 3"
+        },
+        {
+          "q": "Solve: 7 - 2x > 1",
+          "a": "x < 3"
+        },
+        {
+          "q": "Solve: x/3 + 2 <= 5",
+          "a": "x <= 9"
+        }
+      ]
+    },
+    "To include quadratic inequalities that factorise": {
+      "items": [
+        {
+          "q": "Solve: x^2 - 5x + 6 > 0",
+          "a": "x < 2 or x > 3"
+        },
+        {
+          "q": "Solve: x^2 - 4 < 0",
+          "a": "-2 < x < 2"
+        },
+        {
+          "q": "Solve: x^2 + x - 6 >= 0",
+          "a": "x <= -3 or x >= 2"
+        },
+        {
+          "q": "Solve: x^2 - x - 12 < 0",
+          "a": "-3 < x < 4"
+        },
+        {
+          "q": "Solve: x^2 - 9 >= 0",
+          "a": "x <= -3 or x >= 3"
+        },
+        {
+          "q": "Solve: x^2 + 2x - 8 <= 0",
+          "a": "-4 <= x <= 2"
+        }
+      ]
+    },
+    "Includes shading regions": {
+      "items": [
+        {
+          "q": "For the region y > 2x + 1, should the boundary line be solid or dashed?",
+          "a": "Dashed"
+        },
+        {
+          "q": "For the region y <= x - 3, should the boundary line be solid or dashed?",
+          "a": "Solid"
+        },
+        {
+          "q": "Does the point (0,0) satisfy y > x + 2?",
+          "a": "No"
+        },
+        {
+          "q": "Does the point (2,5) satisfy y >= 2x + 1?",
+          "a": "Yes"
+        },
+        {
+          "q": "For the inequality y < -x + 4, should the region be above or below the line?",
+          "a": "Below"
+        },
+        {
+          "q": "For the inequality y >= 3, should the region be above or below the horizontal line?",
+          "a": "Above"
+        }
+      ]
+    }
+  }
+}

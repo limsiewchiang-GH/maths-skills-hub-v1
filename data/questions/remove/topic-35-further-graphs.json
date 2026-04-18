@@ -1,0 +1,119 @@
+{
+  "year": "Remove",
+  "topicNumber": 35,
+  "topicTitle": "Further graphs",
+  "skills": {
+    "Plotting graphs": {
+      "items": [
+        {
+          "q": "Find the y-value when x = 2 for y = x^2 - 3.",
+          "a": "1"
+        },
+        {
+          "q": "Find the y-value when x = -1 for y = 2x + 5.",
+          "a": "3"
+        },
+        {
+          "q": "Find the y-value when x = 3 for y = x^2 + 1.",
+          "a": "10"
+        },
+        {
+          "q": "Find the y-value when x = 0 for y = 4 - x.",
+          "a": "4"
+        },
+        {
+          "q": "Find the y-value when x = -2 for y = x^2 - 1.",
+          "a": "3"
+        },
+        {
+          "q": "Find the y-value when x = 5 for y = 3x - 4.",
+          "a": "11"
+        }
+      ]
+    },
+    "Reading solutions off a graph": {
+      "items": [
+        {
+          "q": "If the graph of y = x^2 - 4 crosses the x-axis at x = a and x = b, find a and b.",
+          "a": "-2 and 2"
+        },
+        {
+          "q": "The line y = 2x + 1 crosses the y-axis at what value?",
+          "a": "1"
+        },
+        {
+          "q": "The graph y = x^2 has minimum point at what coordinate?",
+          "a": "(0,0)"
+        },
+        {
+          "q": "The graph y = x - 3 crosses the x-axis at x = what?",
+          "a": "3"
+        },
+        {
+          "q": "The graph y = (x - 1)^2 has vertex at what coordinate?",
+          "a": "(1,0)"
+        },
+        {
+          "q": "The graph y = -x + 5 crosses the y-axis at what value?",
+          "a": "5"
+        }
+      ]
+    },
+    "Rearranging before finding a graphical solution": {
+      "items": [
+        {
+          "q": "Rearrange x + y = 7 into the form y = mx + c.",
+          "a": "y = 7 - x"
+        },
+        {
+          "q": "Rearrange 2x + y = 9 into the form y = mx + c.",
+          "a": "y = 9 - 2x"
+        },
+        {
+          "q": "Rearrange x - y = 4 into the form y = mx + c.",
+          "a": "y = x - 4"
+        },
+        {
+          "q": "Rearrange 3x + 2y = 8 into the form y = mx + c.",
+          "a": "y = 4 - 3x/2"
+        },
+        {
+          "q": "Rearrange y - x = 6 into the form y = mx + c.",
+          "a": "y = x + 6"
+        },
+        {
+          "q": "Rearrange 4x - y = 1 into the form y = mx + c.",
+          "a": "y = 4x - 1"
+        }
+      ]
+    },
+    "Drawing a tangent to estimate gradient": {
+      "items": [
+        {
+          "q": "A tangent rises 6 units for a run of 2 units. Estimate the gradient.",
+          "a": "3"
+        },
+        {
+          "q": "A tangent falls 4 units over a run of 8 units. Estimate the gradient.",
+          "a": "-1/2"
+        },
+        {
+          "q": "A tangent rises 5 units over a run of 5 units. Estimate the gradient.",
+          "a": "1"
+        },
+        {
+          "q": "A tangent falls 9 units over a run of 3 units. Estimate the gradient.",
+          "a": "-3"
+        },
+        {
+          "q": "A tangent rises 2 units over a run of 10 units. Estimate the gradient.",
+          "a": "1/5"
+        },
+        {
+          "q": "A tangent falls 1 unit over a run of 4 units. Estimate the gradient.",
+          "a": "-1/4"
+        }
+      ]
+    }
+  }
+}

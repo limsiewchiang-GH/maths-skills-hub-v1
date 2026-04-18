@@ -1,0 +1,63 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 42,
+  "topicTitle": "Transformations",
+  "skills": {
+    "Transformations": {
+      "items": [
+        {
+          "q": "Translate the point (2,-1) by the vector (3,4).",
+          "a": "(5,3)"
+        },
+        {
+          "q": "Reflect the point (5,2) in the y-axis.",
+          "a": "(-5,2)"
+        },
+        {
+          "q": "Rotate the point (1,0) by 90° anticlockwise about the origin.",
+          "a": "(0,1)"
+        },
+        {
+          "q": "Translate the point (-2,3) by the vector (4,-1).",
+          "a": "(2,2)"
+        },
+        {
+          "q": "Reflect the point (4,-6) in the x-axis.",
+          "a": "(4,6)"
+        },
+        {
+          "q": "Rotate the point (0,2) by 180° about the origin.",
+          "a": "(0,-2)"
+        }
+      ]
+    },
+    "Half term prep: get a compass": {
+      "items": [
+        {
+          "q": "Name two tools needed for geometric constructions.",
+          "a": "Compass and ruler"
+        },
+        {
+          "q": "Why should the compass width stay fixed when drawing equal arcs?",
+          "a": "To keep the radius equal"
+        },
+        {
+          "q": "What should be drawn lightly first in a construction?",
+          "a": "Construction arcs"
+        },
+        {
+          "q": "What does a ruler without markings help preserve in constructions?",
+          "a": "Accuracy of straight lines"
+        },
+        {
+          "q": "Should construction lines usually be erased before checking?",
+          "a": "No"
+        },
+        {
+          "q": "What is the main purpose of a compass in constructions?",
+          "a": "Drawing equal distances or arcs"
+        }
+      ]
+    }
+  }
+}

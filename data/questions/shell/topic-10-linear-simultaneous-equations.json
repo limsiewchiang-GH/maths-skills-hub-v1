@@ -1,0 +1,91 @@
+{
+  "year": "Shell",
+  "topicNumber": 10,
+  "topicTitle": "Linear Simultaneous Equations",
+  "skills": {
+    "Elimination": {
+      "items": [
+        {
+          "q": "Solve: 2x + y = 11 and x - y = 1",
+          "a": "x = 4, y = 3"
+        },
+        {
+          "q": "Solve: 3x + 2y = 16 and x + y = 6",
+          "a": "x = 4, y = 2"
+        },
+        {
+          "q": "Solve: 4x - y = 9 and 2x + y = 7",
+          "a": "x = 8/3, y = 5/3"
+        },
+        {
+          "q": "Solve: x + y = 9 and x - y = 3",
+          "a": "x = 6, y = 3"
+        },
+        {
+          "q": "Solve: 5x + y = 17 and 2x - y = 1",
+          "a": "x = 18/7, y = 29/7"
+        },
+        {
+          "q": "Solve: 3x + y = 13 and x + y = 9",
+          "a": "x = 2, y = 7"
+        }
+      ]
+    },
+    "Substitution": {
+      "items": [
+        {
+          "q": "Solve: y = 2x + 1 and x + y = 10",
+          "a": "x = 3, y = 7"
+        },
+        {
+          "q": "Solve: x = y + 3 and 2x + y = 12",
+          "a": "x = 5, y = 2"
+        },
+        {
+          "q": "Solve: y = 5 - x and 3x + y = 13",
+          "a": "x = 4, y = 1"
+        },
+        {
+          "q": "Solve: y = x + 2 and 2x + y = 11",
+          "a": "x = 3, y = 5"
+        },
+        {
+          "q": "Solve: x = 2y - 1 and x + y = 11",
+          "a": "x = 7, y = 4"
+        },
+        {
+          "q": "Solve: y = 3x - 2 and x + y = 14",
+          "a": "x = 4, y = 10"
+        }
+      ]
+    },
+    "Geometrical interpretation": {
+      "items": [
+        {
+          "q": "Find the intersection of y = 2x + 1 and y = 7 - x.",
+          "a": "(2,5)"
+        },
+        {
+          "q": "Find the intersection of y = 3x - 4 and y = x + 2.",
+          "a": "(3,5)"
+        },
+        {
+          "q": "Do y = 2x + 1 and y = 2x - 3 intersect?",
+          "a": "No, they are parallel"
+        },
+        {
+          "q": "Find the intersection of y = x + 4 and y = 10 - x.",
+          "a": "(3,7)"
+        },
+        {
+          "q": "Do y = -x + 2 and y = -x - 5 intersect?",
+          "a": "No, they are parallel"
+        },
+        {
+          "q": "Find the intersection of y = 4x - 1 and y = x + 8.",
+          "a": "(3,11)"
+        }
+      ]
+    }
+  }
+}

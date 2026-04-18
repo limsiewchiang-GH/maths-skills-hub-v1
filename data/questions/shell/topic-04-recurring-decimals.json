@@ -1,0 +1,147 @@
+{
+  "year": "Shell",
+  "topicNumber": 4,
+  "topicTitle": "Recurring decimals",
+  "skills": {
+    "Terminating decimals as fractions": {
+      "items": [
+        {
+          "q": "Write 0.6 as a fraction.",
+          "a": "3/5"
+        },
+        {
+          "q": "Write 0.125 as a fraction.",
+          "a": "1/8"
+        },
+        {
+          "q": "Write 2.75 as a fraction.",
+          "a": "11/4"
+        },
+        {
+          "q": "Write 0.04 as a fraction.",
+          "a": "1/25"
+        },
+        {
+          "q": "Write 1.2 as a fraction.",
+          "a": "6/5"
+        },
+        {
+          "q": "Write 0.375 as a fraction.",
+          "a": "3/8"
+        }
+      ]
+    },
+    "Converting recurring decimals into fractions:": {
+      "items": [
+        {
+          "q": "Convert 0.777... to a fraction.",
+          "a": "7/9"
+        },
+        {
+          "q": "Convert 0.333... to a fraction.",
+          "a": "1/3"
+        },
+        {
+          "q": "Convert 0.999... to a fraction.",
+          "a": "1"
+        },
+        {
+          "q": "Convert 0.121212... to a fraction.",
+          "a": "4/33"
+        },
+        {
+          "q": "Convert 1.414141... to a fraction.",
+          "a": "140/99"
+        },
+        {
+          "q": "Convert 0.1666... to a fraction.",
+          "a": "1/6"
+        }
+      ]
+    },
+    "One recurring unit": {
+      "items": [
+        {
+          "q": "Convert 0.222... to a fraction.",
+          "a": "2/9"
+        },
+        {
+          "q": "Convert 0.888... to a fraction.",
+          "a": "8/9"
+        },
+        {
+          "q": "Convert 1.666... to a fraction.",
+          "a": "5/3"
+        },
+        {
+          "q": "Convert 0.444... to a fraction.",
+          "a": "4/9"
+        },
+        {
+          "q": "Convert 2.111... to a fraction.",
+          "a": "19/9"
+        },
+        {
+          "q": "Convert 3.555... to a fraction.",
+          "a": "32/9"
+        }
+      ]
+    },
+    "Two recurring units": {
+      "items": [
+        {
+          "q": "Convert 0.121212... to a fraction.",
+          "a": "4/33"
+        },
+        {
+          "q": "Convert 0.272727... to a fraction.",
+          "a": "3/11"
+        },
+        {
+          "q": "Convert 1.414141... to a fraction.",
+          "a": "140/99"
+        },
+        {
+          "q": "Convert 0.343434... to a fraction.",
+          "a": "34/99"
+        },
+        {
+          "q": "Convert 2.565656... to a fraction.",
+          "a": "254/99"
+        },
+        {
+          "q": "Convert 0.838383... to a fraction.",
+          "a": "83/99"
+        }
+      ]
+    },
+    "One or two recurring units with a leading non-recurring element": {
+      "items": [
+        {
+          "q": "Convert 0.1666... to a fraction.",
+          "a": "1/6"
+        },
+        {
+          "q": "Convert 0.2333... to a fraction.",
+          "a": "7/30"
+        },
+        {
+          "q": "Convert 0.41666... to a fraction.",
+          "a": "5/12"
+        },
+        {
+          "q": "Convert 2.08333... to a fraction.",
+          "a": "25/12"
+        },
+        {
+          "q": "Convert 0.1454545... to a fraction.",
+          "a": "8/55"
+        },
+        {
+          "q": "Convert 0.2777... to a fraction.",
+          "a": "5/18"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "year": "Fifth Form",
+  "topicNumber": 38,
+  "topicTitle": "Surds 2",
+  "skills": {
+    "Revise basics": {
+      "items": [
+        {
+          "q": "Simplify sqrt(18) + sqrt(8).",
+          "a": "5sqrt(2)"
+        },
+        {
+          "q": "Simplify 3sqrt(5) - sqrt(5).",
+          "a": "2sqrt(5)"
+        },
+        {
+          "q": "Simplify sqrt(27) + 2sqrt(3).",
+          "a": "5sqrt(3)"
+        },
+        {
+          "q": "Simplify sqrt(50) - sqrt(8).",
+          "a": "3sqrt(2)"
+        },
+        {
+          "q": "Simplify 4sqrt(7) + 3sqrt(7).",
+          "a": "7sqrt(7)"
+        },
+        {
+          "q": "Simplify sqrt(12) + sqrt(75).",
+          "a": "7sqrt(3)"
+        }
+      ]
+    },
+    "Rationalising": {
+      "items": [
+        {
+          "q": "Rationalise the denominator: 1/sqrt(2).",
+          "a": "sqrt(2)/2"
+        },
+        {
+          "q": "Rationalise the denominator: 3/sqrt(5).",
+          "a": "3sqrt(5)/5"
+        },
+        {
+          "q": "Rationalise the denominator: 2/(3sqrt(7)).",
+          "a": "2sqrt(7)/21"
+        },
+        {
+          "q": "Rationalise the denominator: 5/sqrt(3).",
+          "a": "5sqrt(3)/3"
+        },
+        {
+          "q": "Rationalise the denominator: 4/(sqrt(11)).",
+          "a": "4sqrt(11)/11"
+        },
+        {
+          "q": "Rationalise the denominator: 7/(2sqrt(2)).",
+          "a": "7sqrt(2)/4"
+        }
+      ]
+    }
+  }
+}

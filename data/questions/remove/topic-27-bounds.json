@@ -1,0 +1,119 @@
+{
+  "year": "Remove",
+  "topicNumber": 27,
+  "topicTitle": "Bounds",
+  "skills": {
+    "Levels of accuracy; d.p. and s.f.": {
+      "items": [
+        {
+          "q": "A value 7.36 is given to 1 d.p. What are the lower and upper bounds?",
+          "a": "7.35 and 7.45"
+        },
+        {
+          "q": "A value 580 is given to 2 s.f. What are the lower and upper bounds?",
+          "a": "575 and 585"
+        },
+        {
+          "q": "A length 3.4 cm is correct to 1 d.p. State the error interval.",
+          "a": "3.35 <= x < 3.45"
+        },
+        {
+          "q": "A mass 2.75 kg is given to 2 d.p. What is the upper bound?",
+          "a": "2.755"
+        },
+        {
+          "q": "A population 4300 is given to 2 s.f. What is the lower bound?",
+          "a": "4250"
+        },
+        {
+          "q": "A number 9.81 is correct to 2 d.p. State the lower bound.",
+          "a": "9.805"
+        }
+      ]
+    },
+    "Upper and lower bounds of values": {
+      "items": [
+        {
+          "q": "A length is 8.2 cm correct to 1 d.p. Find the lower bound.",
+          "a": "8.15"
+        },
+        {
+          "q": "A width is 15 cm correct to the nearest cm. Find the upper bound.",
+          "a": "15.5"
+        },
+        {
+          "q": "A time is 2.4 s correct to 1 d.p. Find the upper bound.",
+          "a": "2.45"
+        },
+        {
+          "q": "A mass is 350 g correct to 2 s.f. Find the lower bound.",
+          "a": "345"
+        },
+        {
+          "q": "A distance is 1.25 km correct to 2 d.p. Find the lower bound.",
+          "a": "1.245"
+        },
+        {
+          "q": "A value is 74 correct to the nearest integer. Find the error interval.",
+          "a": "73.5 <= x < 74.5"
+        }
+      ]
+    },
+    "Calculations with bounds": {
+      "items": [
+        {
+          "q": "A length is 5.2 cm and width is 3.1 cm, both correct to 1 d.p. Find the upper bound for the area.",
+          "a": "16.8975"
+        },
+        {
+          "q": "A distance is 120 m and time is 15 s, both correct to the nearest integer. Find the upper bound for the speed.",
+          "a": "8.0333"
+        },
+        {
+          "q": "A rectangle is 8.4 m by 2.6 m, both to 1 d.p. Find the lower bound for the area.",
+          "a": "21.375"
+        },
+        {
+          "q": "A mass is 7.5 kg and 3 equal bags are made. Both values exact except the mass is correct to 1 d.p. Find the upper bound for one bag.",
+          "a": "2.5167"
+        },
+        {
+          "q": "A distance is 40 km correct to the nearest km and fuel used is 5 L correct to the nearest litre. Find the lower bound for km/L.",
+          "a": "7.1818"
+        },
+        {
+          "q": "A square has side 6.0 cm correct to 1 d.p. Find the upper bound for its perimeter.",
+          "a": "24.2"
+        }
+      ]
+    },
+    "Include “…an appropriate degree of accuracy”": {
+      "items": [
+        {
+          "q": "A calculation gives 18.67391 for a length in cm. State an appropriate degree of accuracy.",
+          "a": "18.7 cm"
+        },
+        {
+          "q": "A population estimate is 2486.7 people. Give an appropriate degree of accuracy.",
+          "a": "2487"
+        },
+        {
+          "q": "A cost is 12.384 pounds. State an appropriate degree of accuracy.",
+          "a": "12.38"
+        },
+        {
+          "q": "A speed is 17.246 m/s. Give an appropriate degree of accuracy.",
+          "a": "17.2 m/s"
+        },
+        {
+          "q": "An area is 53.998 cm^2. State an appropriate degree of accuracy.",
+          "a": "54.0 cm^2"
+        },
+        {
+          "q": "A journey time is 2.483 hours. State an appropriate degree of accuracy.",
+          "a": "2.48 h"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "year": "Shell",
+  "topicNumber": 13,
+  "topicTitle": "Straight line graphs",
+  "skills": {
+    "Gradient": {
+      "items": [
+        {
+          "q": "Find the gradient between (1,2) and (5,10).",
+          "a": "2"
+        },
+        {
+          "q": "Find the gradient between (-2,3) and (4,-9).",
+          "a": "-2"
+        },
+        {
+          "q": "Find the gradient of the line y = 3x - 7.",
+          "a": "3"
+        },
+        {
+          "q": "Find the gradient between (0,4) and (6,1).",
+          "a": "-1/2"
+        },
+        {
+          "q": "Find the gradient of the line through (2,5) and (10,9).",
+          "a": "1/2"
+        },
+        {
+          "q": "Find the gradient of y = -4x + 6.",
+          "a": "-4"
+        }
+      ]
+    },
+    "Equation of a line": {
+      "items": [
+        {
+          "q": "Find the equation of the line with gradient 2 through (0,3).",
+          "a": "y = 2x + 3"
+        },
+        {
+          "q": "Find the equation of the line through (1,4) with gradient -3.",
+          "a": "y = -3x + 7"
+        },
+        {
+          "q": "Find the equation of the line through (2,5) and (6,13).",
+          "a": "y = 2x + 1"
+        },
+        {
+          "q": "Find the equation of the line with gradient 4 through (0,-2).",
+          "a": "y = 4x - 2"
+        },
+        {
+          "q": "Find the equation of the line with gradient -1 through (3,5).",
+          "a": "y = -x + 8"
+        },
+        {
+          "q": "Find the equation of the line through (0,7) and (2,11).",
+          "a": "y = 2x + 7"
+        }
+      ]
+    },
+    "Drawing straight lines": {
+      "items": [
+        {
+          "q": "Give two points on y = 2x + 1.",
+          "a": "(0,1) and (2,5)"
+        },
+        {
+          "q": "Give two points on y = -x + 4.",
+          "a": "(0,4) and (4,0)"
+        },
+        {
+          "q": "Give two points on y = 3.",
+          "a": "(0,3) and (5,3)"
+        },
+        {
+          "q": "Give two points on y = x - 2.",
+          "a": "(0,-2) and (2,0)"
+        },
+        {
+          "q": "Give two points on y = -2x + 6.",
+          "a": "(0,6) and (3,0)"
+        },
+        {
+          "q": "Give two points on x = 4.",
+          "a": "(4,0) and (4,5)"
+        }
+      ]
+    },
+    "Intersection of two lines": {
+      "items": [
+        {
+          "q": "Find the intersection of y = 2x + 1 and y = 9 - x.",
+          "a": "(8/3,19/3)"
+        },
+        {
+          "q": "Find the intersection of y = 3x - 2 and y = x + 6.",
+          "a": "(4,10)"
+        },
+        {
+          "q": "Find the intersection of y = -x + 7 and y = 2x + 1.",
+          "a": "(2,5)"
+        },
+        {
+          "q": "Find the intersection of y = x + 4 and y = 2x + 1.",
+          "a": "(3,7)"
+        },
+        {
+          "q": "Find the intersection of y = 5 - x and y = x - 1.",
+          "a": "(3,2)"
+        },
+        {
+          "q": "Find the intersection of y = 4x + 3 and y = x + 9.",
+          "a": "(2,11)"
+        }
+      ]
+    },
+    "Parallel lines": {
+      "items": [
+        {
+          "q": "Find the equation of the line parallel to y = 3x - 2 through (0,5).",
+          "a": "y = 3x + 5"
+        },
+        {
+          "q": "Are y = 2x + 1 and y = 2x - 9 parallel?",
+          "a": "Yes"
+        },
+        {
+          "q": "Find k if y = kx + 4 is parallel to y = -1/2 x + 1.",
+          "a": "k = -1/2"
+        },
+        {
+          "q": "Find the equation of the line parallel to y = -4x + 7 through (1,2).",
+          "a": "y = -4x + 6"
+        },
+        {
+          "q": "Are y = 5x - 1 and y = 5x + 8 parallel?",
+          "a": "Yes"
+        },
+        {
+          "q": "Find the equation of the line parallel to y = x - 3 through (0,6).",
+          "a": "y = x + 6"
+        }
+      ]
+    },
+    "Perpendicular lines": {
+      "items": [
+        {
+          "q": "Find the gradient perpendicular to 2.",
+          "a": "-1/2"
+        },
+        {
+          "q": "Find the equation of the line perpendicular to y = 3x + 1 through the origin.",
+          "a": "y = -1/3 x"
+        },
+        {
+          "q": "Are y = 1/2 x + 4 and y = -2x + 1 perpendicular?",
+          "a": "Yes"
+        },
+        {
+          "q": "Find the gradient perpendicular to -4.",
+          "a": "1/4"
+        },
+        {
+          "q": "Find the equation of the line perpendicular to y = x + 2 through (0,5).",
+          "a": "y = -x + 5"
+        },
+        {
+          "q": "Are y = 3x - 2 and y = -1/3 x + 7 perpendicular?",
+          "a": "Yes"
+        }
+      ]
+    }
+  }
+}
