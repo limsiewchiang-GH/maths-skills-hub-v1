@@ -1,6 +1,6 @@
 # Maths Skills Hub Content Roadmap And Tracker
 
-Last updated: 2026-04-18
+Last updated: 2026-04-18 (post-refactor)
 
 ## Current Baseline
 
@@ -12,7 +12,11 @@ Last updated: 2026-04-18
 | Random practice engine | Skills can support 3 random questions from a larger pool, with `New set` where available | Complete |
 | Question banks | Shell, Remove, and Fifth Form now have full 6-question pools | Complete |
 | Hints | All three year groups now have question-specific hint support | Complete |
+| Question bank structure | Authored questions now live in topic-based files under `data/questions/` | Complete |
+| Diagram workflow | Image-backed questions can use real source diagrams stored beside the topic assets | Complete |
+| Practice Zone balance | Mixed Practice now draws one question each from Shell, Remove, and Fifth Form | Complete |
 | QA | Static smoke checks are passing | Complete |
+| GitHub sync | Current refactor pushed to `origin/main` at commit `4aa6838` | Complete |
 
 ## Scope Snapshot
 
@@ -46,7 +50,7 @@ Last updated: 2026-04-18
 | 2026-05-25 | Remove Topics 13-17 | Finish Remove coverage and close obvious hint gaps | Complete early |
 | 2026-06-01 | Fifth Form Topics 1-5 | Expand higher-tier algebra, functions, geometry, proof foundations | Complete early |
 | 2026-06-08 | Fifth Form Topics 6-9 | Finish Fifth Form coverage, vectors, constructions, revision content | Complete early |
-| 2026-06-15 | QA and refinement | Cross-year hint pass, Practice Zone balancing, release-ready content review | Not started |
+| 2026-06-15 | QA and refinement | Cross-year hint pass, Practice Zone balancing, release-ready content review | In progress |
 
 ## Session Tracker
 
@@ -59,16 +63,18 @@ Last updated: 2026-04-18
 | Fifth Form authoring | Build 6-10 question pools for Topics 1-5 | Codex + user | Complete | Topics 38-42 expanded with supporting hints |
 | Fifth Form authoring | Build 6-10 question pools for Topics 6-9 | Codex + user | Complete | Fifth Form is now fully expanded |
 | Hint writing | Cross-year hint review and polish | Codex + user | Next | Content build-out is complete across all year groups |
-| Practice Zone quality | Check balance across Shell, Remove, Fifth Form, Mixed | Codex | Backlog | Useful now that all pools are in place |
+| Practice Zone quality | Check balance across Shell, Remove, Fifth Form, Mixed | Codex | Complete | Mixed Practice now balances one question per year group |
+| Diagram authoring | Keep using real source diagrams as image assets instead of redraws | Codex + user | Active pattern | Best workflow established during Topic 22 work |
 | Browser QA | Add a lightweight interactive smoke test | Codex | Backlog | Good next protection before more polish |
+| Author guidance | Add a short checklist for image-backed question authoring | Codex | Backlog | Would help keep future diagram questions consistent |
 
 ## Recommended Order Of Work
 
 | Order | What we do next | Why this comes now |
 | --- | --- | --- |
-| 1 | Cross-year hint and QA polish | Content build-out is now complete across all three year groups |
-| 2 | Practice Zone balancing | The mixed and year-group pools can now be reviewed properly |
-| 3 | Browser smoke testing | Best next safety net before further polish or release use |
+| 1 | Cross-year hint and QA polish | Content build-out and bank refactor are now complete across all three year groups |
+| 2 | Browser smoke testing | Best next safety net before further polish or release use |
+| 3 | Image author checklist | Locks in the real-diagram workflow now that Topic 22 proved it |
 
 ## Progress Log
 
@@ -89,3 +95,8 @@ Last updated: 2026-04-18
 | 2026-04-18 | Remove Topics 33-37 expanded into fuller authored question pools covering probability, further trig, further graphs, compound measures, and travel graphs, with matching hint support |
 | 2026-04-18 | Fifth Form Topics 38-42 expanded into fuller authored question pools covering surds, differentiation, set notation, algebraic fractions, and transformations, with matching hint support |
 | 2026-04-18 | Fifth Form Topics 43-46 expanded into fuller authored question pools covering constructions, functions, algebraic proof, and vectors, with matching hint support |
+| 2026-04-18 | Practice Zone rebalanced so Mixed Practice now pulls one question each from Shell, Remove, and Fifth Form |
+| 2026-04-18 | Authored question banks refactored into topic-based files under `data/questions/`, with a manifest loader for the pages |
+| 2026-04-18 | Image support added to the question renderer so topic questions can point directly to diagram assets |
+| 2026-04-18 | Topic 22 workflow switched from hand-drawn SVG attempts to using the real source diagram image as the asset pattern for future diagram questions |
+| 2026-04-18 | Current refactor pushed to GitHub on `main` at commit `4aa6838` |

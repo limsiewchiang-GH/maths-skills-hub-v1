@@ -22,6 +22,8 @@ function normalizeMath(expr) {
   let text = String(expr || "");
   text = text.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, (char) => superscripts[char] || char);
   text = text.replace(/[₀₁₂₃₄₅₆₇₈₉]/g, (char) => subscripts[char] || char);
+  text = text.replace(/sqrt\(([^)]+)\)/gi, "\\sqrt{$1}");
+  text = text.replace(/cbrt\(([^)]+)\)/gi, "\\sqrt[3]{$1}");
   text = text.replace(/\bdy\/dx\b/g, "\\dfrac{dy}{dx}");
   text = text.replace(/√\(([^)]+)\)/g, "\\sqrt{$1}");
   text = text.replace(/√([A-Za-z0-9]+)/g, "\\sqrt{$1}");
@@ -30,6 +32,8 @@ function normalizeMath(expr) {
   text = text.replace(/×/g, "\\times ");
   text = text.replace(/÷/g, "\\div ");
   text = text.replace(/±/g, "\\pm ");
+  text = text.replace(/>=/g, "\\ge ");
+  text = text.replace(/<=/g, "\\le ");
   text = text.replace(/≤/g, "\\le ");
   text = text.replace(/≥/g, "\\ge ");
   text = text.replace(/≠/g, "\\ne ");
@@ -44,6 +48,12 @@ function wrapMath(expr) {
     .replace(/\s+or\s+/g, " \\text{ or } ")}\\)`;
 }
 
+function isLikelyMathSnippet(text) {
+  const allowedWords = new Set(["sqrt", "cbrt", "pi", "sin", "cos", "tan", "log", "ln", "exp"]);
+  const words = String(text || "").match(/[A-Za-z]+/g) || [];
+  return words.every((word) => allowedWords.has(word.toLowerCase()) || word.length <= 2);
+}
+
 function formatInlineMathText(raw) {
   let marked = raw;
   const tokens = [];
@@ -53,6 +63,20 @@ function formatInlineMathText(raw) {
     return key;
   };
 
+  marked = marked.replace(/(\d+(?:\.\d+)?)pi\s*(cm|mm|m)\^([23])/gi, (_, value, unit, power) =>
+    pushMath(`${value}\\pi \\text{ ${unit} }^${power}`)
+  );
+  marked = marked.replace(/(\d+(?:\.\d+)?)\s*(cm|mm|m)\^([23])/gi, (_, value, unit, power) =>
+    pushMath(`${value}\\text{ ${unit} }^${power}`)
+  );
+  marked = marked.replace(/(\d+(?:\.\d+)?)pi\b/gi, (_, value) => pushMath(`${value}\\pi`));
+  marked = marked.replace(/\((-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?){1,2})\)/g, (_, coords) => pushMath(`(${coords})`));
+  marked = marked.replace(/\b([A-Za-z])\s+in\s+(R|\[[^\]]+\])/g, (_, variable, setExpr) => pushMath(`${variable} \\in ${setExpr}`));
+  marked = marked.replace(/\[[^\[\]]+\]/g, (value) => (/[\d,]/.test(value) ? pushMath(value) : value));
+  marked = marked.replace(
+    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*[^,.;!?]+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,.!?;]|$)/g,
+    (candidate) => (isLikelyMathSnippet(candidate) ? pushMath(candidate.trim()) : candidate)
+  );
   marked = marked.replace(/(\d+)\.\u0305(\d+)/g, (_, whole, recurring) => pushMath(`${whole}.\\overline{${recurring}}`));
   marked = marked.replace(/(\d+)\s+(\d+)\s*\/\s*(\d+)/g, (_, whole, numerator, denominator) => `${whole} ${pushMath(`${numerator}/${denominator}`)}`);
   marked = marked.replace(/\b(\d+)\s*\/\s*(\d+)\b/g, (_, numerator, denominator) => pushMath(`${numerator}/${denominator}`));
