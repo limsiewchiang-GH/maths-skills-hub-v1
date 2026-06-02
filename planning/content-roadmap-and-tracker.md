@@ -106,4 +106,4 @@ Last updated: 2026-05-31 (browser QA phase)
 | 2026-04-18 | Current refactor pushed to GitHub on `main` at commit `4aa6838` |
 | 2026-04-18 | Follow-up polish pushed to GitHub on `main` at commit `0ce0172` |
 | 2026-05-31 | Browser QA phase started with a dedicated live smoke checklist for Home, Shell, Remove, Fifth Form, and Practice Zone |
-| 2026-06-02 | GA4 installed on the public pages using measurement ID `G-211HN0VRSS` |
+| 2026-06-02 | GA4 installed on the public pages using measurement ID `G-0ZWQVNS505` |
