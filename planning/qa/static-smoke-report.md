@@ -2,7 +2,7 @@
 
 - HTML files scanned: 11
 - Local JS files checked: 6
-- Inline scripts checked: 3
+- Inline scripts checked: 7
 - Broken internal links: 0
 - Inline JS syntax errors: 0
 - Local JS syntax errors: 0

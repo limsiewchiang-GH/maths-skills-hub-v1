@@ -1,6 +1,6 @@
 # Maths Skills Hub Content Roadmap And Tracker
 
-Last updated: 2026-04-18 (post-refactor)
+Last updated: 2026-05-31 (browser QA phase)
 
 ## Current Baseline
 
@@ -15,8 +15,9 @@ Last updated: 2026-04-18 (post-refactor)
 | Question bank structure | Authored questions now live in topic-based files under `data/questions/` | Complete |
 | Diagram workflow | Image-backed questions can use real source diagrams stored beside the topic assets | Complete |
 | Practice Zone balance | Mixed Practice now draws one question each from Shell, Remove, and Fifth Form | Complete |
+| Analytics | GA4 page-view tracking is installed on the public student-facing pages | Complete |
 | QA | Static smoke checks are passing | Complete |
-| GitHub sync | Current refactor pushed to `origin/main` at commit `4aa6838` | Complete |
+| GitHub sync | Latest polish pushed to `origin/main` at commit `0ce0172` | Complete |
 
 ## Scope Snapshot
 
@@ -50,7 +51,7 @@ Last updated: 2026-04-18 (post-refactor)
 | 2026-05-25 | Remove Topics 13-17 | Finish Remove coverage and close obvious hint gaps | Complete early |
 | 2026-06-01 | Fifth Form Topics 1-5 | Expand higher-tier algebra, functions, geometry, proof foundations | Complete early |
 | 2026-06-08 | Fifth Form Topics 6-9 | Finish Fifth Form coverage, vectors, constructions, revision content | Complete early |
-| 2026-06-15 | QA and refinement | Cross-year hint pass, Practice Zone balancing, release-ready content review | In progress |
+| 2026-06-15 | QA and refinement | Browser smoke pass, cross-year polish, release-ready content review | In progress |
 
 ## Session Tracker
 
@@ -62,19 +63,22 @@ Last updated: 2026-04-18 (post-refactor)
 | Remove authoring | Build 6-10 question pools for Topics 13-17 | Codex + user | Complete | Remove is now fully expanded |
 | Fifth Form authoring | Build 6-10 question pools for Topics 1-5 | Codex + user | Complete | Topics 38-42 expanded with supporting hints |
 | Fifth Form authoring | Build 6-10 question pools for Topics 6-9 | Codex + user | Complete | Fifth Form is now fully expanded |
-| Hint writing | Cross-year hint review and polish | Codex + user | Next | Content build-out is complete across all year groups |
+| Hint writing | Cross-year hint review and polish | Codex + user | Next | Run after live browser issues are collected |
 | Practice Zone quality | Check balance across Shell, Remove, Fifth Form, Mixed | Codex | Complete | Mixed Practice now balances one question per year group |
 | Diagram authoring | Keep using real source diagrams as image assets instead of redraws | Codex + user | Active pattern | Best workflow established during Topic 22 work |
-| Browser QA | Add a lightweight interactive smoke test | Codex | Backlog | Good next protection before more polish |
+| Browser QA | Run the live browser smoke checklist and fix issues found | Codex + user | In progress | Checklist lives in `planning/qa/browser-smoke-checklist.md` |
 | Author guidance | Add a short checklist for image-backed question authoring | Codex | Backlog | Would help keep future diagram questions consistent |
+| Maths formatting | Final Fifth Form and cross-year LaTeX cleanup pass | Codex + user | Backlog | Pick up any remaining sentence-pattern edge cases after browser QA |
+| Analytics review | Confirm GA4 receives live traffic after deployment | User | Next | Check Realtime in Google Analytics after visiting the live GitHub Pages site |
 
 ## Recommended Order Of Work
 
 | Order | What we do next | Why this comes now |
 | --- | --- | --- |
-| 1 | Cross-year hint and QA polish | Content build-out and bank refactor are now complete across all three year groups |
-| 2 | Browser smoke testing | Best next safety net before further polish or release use |
-| 3 | Image author checklist | Locks in the real-diagram workflow now that Topic 22 proved it |
+| 1 | Browser smoke testing | Highest-value next step now that content and refactor work are complete |
+| 2 | Cross-year hint and QA polish | Use live-browser findings to target the real weak spots |
+| 3 | Final LaTeX cleanup pass | Catch remaining Fifth Form or sentence-pattern formatting edge cases |
+| 4 | Image author checklist | Locks in the real-diagram workflow now that Topic 22 proved it |
 
 ## Progress Log
 
@@ -100,3 +104,6 @@ Last updated: 2026-04-18 (post-refactor)
 | 2026-04-18 | Image support added to the question renderer so topic questions can point directly to diagram assets |
 | 2026-04-18 | Topic 22 workflow switched from hand-drawn SVG attempts to using the real source diagram image as the asset pattern for future diagram questions |
 | 2026-04-18 | Current refactor pushed to GitHub on `main` at commit `4aa6838` |
+| 2026-04-18 | Follow-up polish pushed to GitHub on `main` at commit `0ce0172` |
+| 2026-05-31 | Browser QA phase started with a dedicated live smoke checklist for Home, Shell, Remove, Fifth Form, and Practice Zone |
+| 2026-06-02 | GA4 installed on the public pages using measurement ID `G-211HN0VRSS` |
