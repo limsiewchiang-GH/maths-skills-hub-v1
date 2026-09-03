@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Translate the point (2,-1) by the vector (3,4).",
-          "a": "(5,3)"
+          "a": "(5,3)",
+          "hints": [
+            "Add the vector's components to the point's coordinates.",
+            "(2+3, -1+4).",
+            "(5,3)"
+          ]
         },
         {
           "q": "Reflect the point (5,2) in the y-axis.",
-          "a": "(-5,2)"
+          "a": "(-5,2)",
+          "hints": [
+            "Reflecting in the y-axis negates the x-coordinate and keeps y the same.",
+            "(-5, 2).",
+            "(-5,2)"
+          ]
         },
         {
           "q": "Rotate the point (1,0) by 90° anticlockwise about the origin.",
-          "a": "(0,1)"
+          "a": "(0,1)",
+          "hints": [
+            "A 90° anticlockwise rotation about the origin sends (x,y) to (-y,x).",
+            "(1,0) → (-0, 1).",
+            "(0,1)"
+          ]
         },
         {
           "q": "Translate the point (-2,3) by the vector (4,-1).",
-          "a": "(2,2)"
+          "a": "(2,2)",
+          "hints": [
+            "Add the vector's components to the point's coordinates.",
+            "(-2+4, 3+(-1)).",
+            "(2,2)"
+          ]
         },
         {
           "q": "Reflect the point (4,-6) in the x-axis.",
-          "a": "(4,6)"
+          "a": "(4,6)",
+          "hints": [
+            "Reflecting in the x-axis negates the y-coordinate and keeps x the same.",
+            "(4, -(-6)).",
+            "(4,6)"
+          ]
         },
         {
           "q": "Rotate the point (0,2) by 180° about the origin.",
-          "a": "(0,-2)"
+          "a": "(0,-2)",
+          "hints": [
+            "A 180° rotation about the origin sends (x,y) to (-x,-y).",
+            "(0,2) → (-0, -2).",
+            "(0,-2)"
+          ]
         }
       ]
     }

@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Simplify: 2/3 + 5/12",
-          "a": "13/12"
+          "a": "13/12",
+          "hints": [
+            "Find a common denominator, then add the numerators.",
+            "8/12 + 5/12.",
+            "13/12"
+          ]
         },
         {
           "q": "Simplify: 7/(x+1) - 2/(x+1)",
-          "a": "5/(x+1)"
+          "a": "5/(x+1)",
+          "hints": [
+            "The denominators already match — just subtract the numerators.",
+            "(7 - 2)/(x+1).",
+            "5/(x+1)"
+          ]
         },
         {
           "q": "Simplify: x/(x-2) + 1/(x-2)",
-          "a": "(x+1)/(x-2)"
+          "a": "(x+1)/(x-2)",
+          "hints": [
+            "The denominators already match — just add the numerators.",
+            "(x + 1)/(x-2).",
+            "(x+1)/(x-2)"
+          ]
         },
         {
           "q": "Simplify: 3/(x+4) + 2/(x+4)",
-          "a": "5/(x+4)"
+          "a": "5/(x+4)",
+          "hints": [
+            "The denominators already match — just add the numerators.",
+            "(3 + 2)/(x+4).",
+            "5/(x+4)"
+          ]
         },
         {
           "q": "Simplify: 5/a - 1/a",
-          "a": "4/a"
+          "a": "4/a",
+          "hints": [
+            "The denominators already match — just subtract the numerators.",
+            "(5 - 1)/a.",
+            "4/a"
+          ]
         },
         {
           "q": "Simplify: 2/(x-1) + 3/(x-1)",
-          "a": "5/(x-1)"
+          "a": "5/(x-1)",
+          "hints": [
+            "The denominators already match — just add the numerators.",
+            "(2 + 3)/(x-1).",
+            "5/(x-1)"
+          ]
         }
       ]
     }
