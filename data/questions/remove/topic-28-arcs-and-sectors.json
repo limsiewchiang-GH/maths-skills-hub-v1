@@ -58,6 +58,15 @@
             "(80/360) x 2 x pi x 9.",
             "4pi"
           ]
+        },
+        {
+          "q": "A sector has radius 6 cm and arc length 4pi cm. Find the angle.",
+          "a": "120",
+          "hints": [
+            "Rearrange arc length = (angle/360) x 2πr to solve for the angle.",
+            "4pi = (angle/360) x 2 x pi x 6 = (angle/360) x 12pi, so angle/360 = 4/12.",
+            "120"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "(80/360) x pi x 9^2.",
             "18pi"
           ]
+        },
+        {
+          "q": "A sector has angle 90° and area 25pi cm^2. Find the radius.",
+          "a": "10",
+          "hints": [
+            "Rearrange sector area = (angle/360) x πr^2 to solve for r.",
+            "25pi = (90/360) x pi x r^2 = (1/4)pi r^2, so r^2 = 100.",
+            "10"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "Segment area = sector area - triangle area.",
             "Sector area = (60/360) x pi x 6^2 = 6pi; triangle area = (1/2)(6)(6)sin(60°) = 9sqrt(3).",
             "6pi - 9sqrt(3)"
+          ]
+        },
+        {
+          "q": "A 90° sector of radius 6 cm. The segment's perimeter is the arc length plus the chord length (chord = 6sqrt(2) for a 90° sector). Find the perimeter.",
+          "a": "3pi + 6sqrt(2)",
+          "hints": [
+            "Add the arc length to the given chord length.",
+            "Arc length = (90/360) x 2 x pi x 6 = 3pi, so perimeter = 3pi + 6sqrt(2).",
+            "3pi + 6sqrt(2)"
           ]
         }
       ]
