@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Find the area of a rectangle with sides 8 and x + 3.",
-          "a": "8x + 24"
+          "a": "8x + 24",
+          "hints": [
+            "Area of a rectangle = length x width.",
+            "8 x (x + 3).",
+            "8x + 24"
+          ]
         },
         {
           "q": "Find the circumference of a circle of radius r.",
-          "a": "2pi r"
+          "a": "2pi r",
+          "hints": [
+            "Recall the circumference formula in terms of the radius.",
+            "Circumference = 2 x pi x r.",
+            "2pi r"
+          ]
         },
         {
           "q": "Find the area of a trapezium with parallel sides 8 and 12 and height 5.",
-          "a": "50"
+          "a": "50",
+          "hints": [
+            "Use area = (1/2)(sum of parallel sides)(height).",
+            "(1/2)(8 + 12)(5).",
+            "50"
+          ]
         },
         {
           "q": "Find the area of a triangle with base 14 and height 9.",
-          "a": "63"
+          "a": "63",
+          "hints": [
+            "Use area = (1/2) x base x height.",
+            "(1/2)(14)(9).",
+            "63"
+          ]
         },
         {
           "q": "Find the area of a semicircle of radius 6.",
-          "a": "18pi"
+          "a": "18pi",
+          "hints": [
+            "A semicircle's area is half the area of a full circle: (1/2)πr^2.",
+            "(1/2) x pi x 6^2.",
+            "18pi"
+          ]
         },
         {
           "q": "Find the perimeter of a square of side 3x.",
-          "a": "12x"
+          "a": "12x",
+          "hints": [
+            "A square's perimeter is 4 times the side length.",
+            "4 x 3x.",
+            "12x"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "An L-shape is made from rectangles 8 by 3 and 5 by 2. Find the total area.",
-          "a": "34"
+          "a": "34",
+          "hints": [
+            "Split the L-shape into two rectangles and add their areas.",
+            "(8 x 3) + (5 x 2).",
+            "34"
+          ]
         },
         {
           "q": "A circle of radius 7 sits inside a square of side 14. Find the shaded area outside the circle.",
-          "a": "196 - 49pi"
+          "a": "196 - 49pi",
+          "hints": [
+            "Subtract the circle's area from the square's area.",
+            "14^2 - pi(7)^2.",
+            "196 - 49pi"
+          ]
         },
         {
           "q": "Find the area of a semicircle of radius 6.",
-          "a": "18pi"
+          "a": "18pi",
+          "hints": [
+            "A semicircle's area is half the area of a full circle: (1/2)πr^2.",
+            "(1/2) x pi x 6^2.",
+            "18pi"
+          ]
         },
         {
           "q": "A shape is made from a 10 by 4 rectangle and a 3 by 6 rectangle. Find the total area.",
-          "a": "58"
+          "a": "58",
+          "hints": [
+            "Add the areas of the two rectangles together.",
+            "(10 x 4) + (3 x 6).",
+            "58"
+          ]
         },
         {
           "q": "A 12 by 9 rectangle has a 4 by 3 rectangle removed. Find the remaining area.",
-          "a": "96"
+          "a": "96",
+          "hints": [
+            "Subtract the removed rectangle's area from the whole rectangle's area.",
+            "(12 x 9) - (4 x 3).",
+            "96"
+          ]
         },
         {
           "q": "Two rectangles 7 by 5 and 2 by 9 are joined without overlap. Find the total area.",
-          "a": "53"
+          "a": "53",
+          "hints": [
+            "Add the areas of the two rectangles together.",
+            "(7 x 5) + (2 x 9).",
+            "53"
+          ]
         }
       ]
     }
