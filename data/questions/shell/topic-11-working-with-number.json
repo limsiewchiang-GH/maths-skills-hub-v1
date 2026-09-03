@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Prime factorise 84.",
-          "a": "2^2 x 3 x 7"
+          "a": "2^2 x 3 x 7",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "84 = 2 x 42 = 2 x 2 x 21 = 2 x 2 x 3 x 7.",
+            "2^2 x 3 x 7"
+          ]
         },
         {
           "q": "Prime factorise 150.",
-          "a": "2 x 3 x 5^2"
+          "a": "2 x 3 x 5^2",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "150 = 2 x 75 = 2 x 3 x 25 = 2 x 3 x 5 x 5.",
+            "2 x 3 x 5^2"
+          ]
         },
         {
           "q": "Prime factorise 360.",
-          "a": "2^3 x 3^2 x 5"
+          "a": "2^3 x 3^2 x 5",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "360 = 2 x 180 = 2 x 2 x 90 = 2 x 2 x 2 x 45 = 2^3 x 3 x 3 x 5.",
+            "2^3 x 3^2 x 5"
+          ]
         },
         {
           "q": "Prime factorise 126.",
-          "a": "2 x 3^2 x 7"
+          "a": "2 x 3^2 x 7",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "126 = 2 x 63 = 2 x 3 x 21 = 2 x 3 x 3 x 7.",
+            "2 x 3^2 x 7"
+          ]
         },
         {
           "q": "Prime factorise 196.",
-          "a": "2^2 x 7^2"
+          "a": "2^2 x 7^2",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "196 = 2 x 98 = 2 x 2 x 49 = 2 x 2 x 7 x 7.",
+            "2^2 x 7^2"
+          ]
         },
         {
           "q": "Prime factorise 270.",
-          "a": "2 x 3^3 x 5"
+          "a": "2 x 3^3 x 5",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "270 = 2 x 135 = 2 x 3 x 45 = 2 x 3 x 3 x 15 = 2 x 3 x 3 x 3 x 5.",
+            "2 x 3^3 x 5"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Find the HCF and LCM of 18 and 24.",
-          "a": "HCF 6, LCM 72"
+          "a": "HCF 6, LCM 72",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(18,24) = 6, so LCM = (18 x 24)/6.",
+            "HCF 6, LCM 72"
+          ]
         },
         {
           "q": "Find the HCF and LCM of 20 and 30.",
-          "a": "HCF 10, LCM 60"
+          "a": "HCF 10, LCM 60",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(20,30) = 10, so LCM = (20 x 30)/10.",
+            "HCF 10, LCM 60"
+          ]
         },
         {
           "q": "Find the HCF and LCM of 12 and 45.",
-          "a": "HCF 3, LCM 180"
+          "a": "HCF 3, LCM 180",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(12,45) = 3, so LCM = (12 x 45)/3.",
+            "HCF 3, LCM 180"
+          ]
         },
         {
           "q": "Find the HCF and LCM of 36 and 54.",
-          "a": "HCF 18, LCM 108"
+          "a": "HCF 18, LCM 108",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(36,54) = 18, so LCM = (36 x 54)/18.",
+            "HCF 18, LCM 108"
+          ]
         },
         {
           "q": "Find the HCF and LCM of 14 and 35.",
-          "a": "HCF 7, LCM 70"
+          "a": "HCF 7, LCM 70",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(14,35) = 7, so LCM = (14 x 35)/7.",
+            "HCF 7, LCM 70"
+          ]
         },
         {
           "q": "Find the HCF and LCM of 16 and 40.",
-          "a": "HCF 8, LCM 80"
+          "a": "HCF 8, LCM 80",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(16,40) = 8, so LCM = (16 x 40)/8.",
+            "HCF 8, LCM 80"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Simplify: x^5 x x^2",
-          "a": "x^7"
+          "a": "x^7",
+          "hints": [
+            "When multiplying powers of the same base, add the indices.",
+            "5 + 2.",
+            "x^7"
+          ]
         },
         {
           "q": "Simplify: a^9 / a^4",
-          "a": "a^5"
+          "a": "a^5",
+          "hints": [
+            "When dividing powers of the same base, subtract the indices.",
+            "9 - 4.",
+            "a^5"
+          ]
         },
         {
           "q": "Simplify: (m^3)^4",
-          "a": "m^12"
+          "a": "m^12",
+          "hints": [
+            "When raising a power to a power, multiply the indices.",
+            "3 x 4.",
+            "m^12"
+          ]
         },
         {
           "q": "Simplify: y^6 x y^3",
-          "a": "y^9"
+          "a": "y^9",
+          "hints": [
+            "When multiplying powers of the same base, add the indices.",
+            "6 + 3.",
+            "y^9"
+          ]
         },
         {
           "q": "Simplify: p^8 / p^2",
-          "a": "p^6"
+          "a": "p^6",
+          "hints": [
+            "When dividing powers of the same base, subtract the indices.",
+            "8 - 2.",
+            "p^6"
+          ]
         },
         {
           "q": "Simplify: (q^2)^5",
-          "a": "q^10"
+          "a": "q^10",
+          "hints": [
+            "When raising a power to a power, multiply the indices.",
+            "2 x 5.",
+            "q^10"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Simplify: x^-3",
-          "a": "1/x^3"
+          "a": "1/x^3",
+          "hints": [
+            "A negative index means 'one over' the positive power.",
+            "x^-3 = 1/x^3.",
+            "1/x^3"
+          ]
         },
         {
           "q": "Simplify: 2a^-2",
-          "a": "2/a^2"
+          "a": "2/a^2",
+          "hints": [
+            "A negative index means 'one over' the positive power — only the a is affected, not the 2.",
+            "2a^-2 = 2 x (1/a^2).",
+            "2/a^2"
+          ]
         },
         {
           "q": "Rewrite 1/(5x^3) using a negative index.",
-          "a": "(1/5)x^-3"
+          "a": "(1/5)x^-3",
+          "hints": [
+            "Move the power of x to the numerator by making its index negative.",
+            "1/(5x^3) = (1/5) x (1/x^3).",
+            "(1/5)x^-3"
+          ]
         },
         {
           "q": "Simplify: y^-1",
-          "a": "1/y"
+          "a": "1/y",
+          "hints": [
+            "A negative index means 'one over' the positive power.",
+            "y^-1 = 1/y^1.",
+            "1/y"
+          ]
         },
         {
           "q": "Simplify: 4b^-3",
-          "a": "4/b^3"
+          "a": "4/b^3",
+          "hints": [
+            "A negative index means 'one over' the positive power — only the b is affected, not the 4.",
+            "4b^-3 = 4 x (1/b^3).",
+            "4/b^3"
+          ]
         },
         {
           "q": "Rewrite 3/(k^2) using a negative index.",
-          "a": "3k^-2"
+          "a": "3k^-2",
+          "hints": [
+            "Move the power of k to the numerator by making its index negative.",
+            "3/(k^2) = 3 x (1/k^2) = 3 x k^-2.",
+            "3k^-2"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "Simplify: x^(1/2)",
-          "a": "sqrt(x)"
+          "a": "sqrt(x)",
+          "hints": [
+            "A power of 1/2 means the square root.",
+            "x^(1/2) = sqrt(x).",
+            "sqrt(x)"
+          ]
         },
         {
           "q": "Simplify: 27^(1/3)",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "A power of 1/3 means the cube root.",
+            "27^(1/3) = cube root of 27.",
+            "3"
+          ]
         },
         {
           "q": "Simplify: 16^(3/4)",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Take the 4th root first, then cube the result.",
+            "16^(1/4) = 2, so 16^(3/4) = 2^3.",
+            "8"
+          ]
         },
         {
           "q": "Simplify: 81^(1/2)",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "A power of 1/2 means the square root.",
+            "81^(1/2) = square root of 81.",
+            "9"
+          ]
         },
         {
           "q": "Simplify: 32^(2/5)",
-          "a": "4"
+          "a": "4",
+          "hints": [
+            "Take the 5th root first, then square the result.",
+            "32^(1/5) = 2, so 32^(2/5) = 2^2.",
+            "4"
+          ]
         },
         {
           "q": "Simplify: x^(3/2)",
-          "a": "xsqrt(x)"
+          "a": "xsqrt(x)",
+          "hints": [
+            "Split the power into a whole part and a square root part: x^(3/2) = x^1 x x^(1/2).",
+            "x^(3/2) = x x sqrt(x).",
+            "xsqrt(x)"
+          ]
         }
       ]
     }

@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "What is 18 as a percentage of 60?",
-          "a": "30%"
+          "a": "30%",
+          "hints": [
+            "Divide the part by the whole, then multiply by 100.",
+            "(18/60) x 100.",
+            "30%"
+          ]
         },
         {
           "q": "Find 35% of 240.",
-          "a": "84"
+          "a": "84",
+          "hints": [
+            "Convert the percentage to a decimal, then multiply.",
+            "0.35 x 240.",
+            "84"
+          ]
         },
         {
           "q": "Find 12.5% of 64.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Convert the percentage to a decimal, then multiply.",
+            "0.125 x 64.",
+            "8"
+          ]
         },
         {
           "q": "What is 45 as a percentage of 90?",
-          "a": "50%"
+          "a": "50%",
+          "hints": [
+            "Divide the part by the whole, then multiply by 100.",
+            "(45/90) x 100.",
+            "50%"
+          ]
         },
         {
           "q": "Find 18% of 350.",
-          "a": "63"
+          "a": "63",
+          "hints": [
+            "Convert the percentage to a decimal, then multiply.",
+            "0.18 x 350.",
+            "63"
+          ]
         },
         {
           "q": "What is 27 as a percentage of 45?",
-          "a": "60%"
+          "a": "60%",
+          "hints": [
+            "Divide the part by the whole, then multiply by 100.",
+            "(27/45) x 100.",
+            "60%"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Price rises from 50 to 62.5. % increase?",
-          "a": "25% increase"
+          "a": "25% increase",
+          "hints": [
+            "Divide the change by the original value, then multiply by 100.",
+            "(62.5 - 50)/50 x 100.",
+            "25% increase"
+          ]
         },
         {
           "q": "Population drops from 800 to 680. % decrease?",
-          "a": "15% decrease"
+          "a": "15% decrease",
+          "hints": [
+            "Divide the change by the original value, then multiply by 100.",
+            "(800 - 680)/800 x 100.",
+            "15% decrease"
+          ]
         },
         {
           "q": "Value rises from 20 to 23. % change?",
-          "a": "15% increase"
+          "a": "15% increase",
+          "hints": [
+            "Divide the change by the original value, then multiply by 100.",
+            "(23 - 20)/20 x 100.",
+            "15% increase"
+          ]
         },
         {
           "q": "A score moves from 40 to 46. % increase?",
-          "a": "15% increase"
+          "a": "15% increase",
+          "hints": [
+            "Divide the change by the original value, then multiply by 100.",
+            "(46 - 40)/40 x 100.",
+            "15% increase"
+          ]
         },
         {
           "q": "A price falls from 120 to 102. % decrease?",
-          "a": "15% decrease"
+          "a": "15% decrease",
+          "hints": [
+            "Divide the change by the original value, then multiply by 100.",
+            "(120 - 102)/120 x 100.",
+            "15% decrease"
+          ]
         },
         {
           "q": "A balance rises from 200 to 250. % increase?",
-          "a": "25% increase"
+          "a": "25% increase",
+          "hints": [
+            "Divide the change by the original value, then multiply by 100.",
+            "(250 - 200)/200 x 100.",
+            "25% increase"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "After 20% off, the price is 72. Find the original price.",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "20% off leaves 80% of the original — divide by that decimal to reverse it.",
+            "72 ÷ 0.8.",
+            "90"
+          ]
         },
         {
           "q": "After a 15% increase, the value is 230. Find the original value.",
-          "a": "200"
+          "a": "200",
+          "hints": [
+            "A 15% increase means the new value is 115% of the original — divide by that decimal to reverse it.",
+            "230 ÷ 1.15.",
+            "200"
+          ]
         },
         {
           "q": "After a 10% decrease, the value is 54. Find the original value.",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "A 10% decrease leaves 90% of the original — divide by that decimal to reverse it.",
+            "54 ÷ 0.9.",
+            "60"
+          ]
         },
         {
           "q": "After 25% off, a jumper costs 45. Find the original price.",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "25% off leaves 75% of the original — divide by that decimal to reverse it.",
+            "45 ÷ 0.75.",
+            "60"
+          ]
         },
         {
           "q": "After a 20% increase, a population is 960. Find the original population.",
-          "a": "800"
+          "a": "800",
+          "hints": [
+            "A 20% increase means the new value is 120% of the original — divide by that decimal to reverse it.",
+            "960 ÷ 1.2.",
+            "800"
+          ]
         },
         {
           "q": "After a 5% decrease, a balance is 190. Find the original balance.",
-          "a": "200"
+          "a": "200",
+          "hints": [
+            "A 5% decrease leaves 95% of the original — divide by that decimal to reverse it.",
+            "190 ÷ 0.95.",
+            "200"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "A price is 200 and increases by 10% each year for 2 years. Find the final price.",
-          "a": "242"
+          "a": "242",
+          "hints": [
+            "Multiply by the growth multiplier once for each year.",
+            "200 x 1.1 x 1.1.",
+            "242"
+          ]
         },
         {
           "q": "A value is 500 and decreases by 8% each year for 3 years. Find the final value to the nearest whole number.",
-          "a": "389"
+          "a": "389",
+          "hints": [
+            "Multiply by the decay multiplier once for each year.",
+            "500 x 0.92^3.",
+            "389"
+          ]
         },
         {
           "q": "A population grows by 4% per year from 1200 for 5 years. Find the population to the nearest whole number.",
-          "a": "1460"
+          "a": "1460",
+          "hints": [
+            "Multiply by the growth multiplier once for each year.",
+            "1200 x 1.04^5.",
+            "1460"
+          ]
         },
         {
           "q": "A bike worth 800 loses 15% of its value each year for 2 years. Find the value after 2 years.",
-          "a": "578"
+          "a": "578",
+          "hints": [
+            "Multiply by the decay multiplier once for each year.",
+            "800 x 0.85 x 0.85.",
+            "578"
+          ]
         },
         {
           "q": "Savings of 150 grow by 6% per year for 3 years. Find the final amount to 2 d.p.",
-          "a": "178.65"
+          "a": "178.65",
+          "hints": [
+            "Multiply by the growth multiplier once for each year.",
+            "150 x 1.06^3.",
+            "178.65"
+          ]
         },
         {
           "q": "A town with population 2500 grows by 2% per year for 4 years. Find the population to the nearest whole number.",
-          "a": "2706"
+          "a": "2706",
+          "hints": [
+            "Multiply by the growth multiplier once for each year.",
+            "2500 x 1.02^4.",
+            "2706"
+          ]
         }
       ]
     }
