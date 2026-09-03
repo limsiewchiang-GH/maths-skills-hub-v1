@@ -58,6 +58,15 @@
             "2x = 33 - 15.",
             "2x = 18, so x = 9"
           ]
+        },
+        {
+          "q": "Solve: -3x + 8 = 26",
+          "a": "x = -6",
+          "hints": [
+            "Isolate the x-term first, then divide by the coefficient — watch the sign.",
+            "-3x = 26 - 8, so -3x = 18.",
+            "x = -6"
+          ]
         }
       ]
     },
@@ -173,6 +182,15 @@
             "Isolate the fraction term first, then multiply to clear the denominator.",
             "x/8 = 5 + 1.",
             "x/8 = 6, so x = 48"
+          ]
+        },
+        {
+          "q": "Solve: x/2 + x/3 = 10",
+          "a": "x = 12",
+          "hints": [
+            "Combine the two fraction terms over a common denominator first.",
+            "x/2 + x/3 = 3x/6 + 2x/6 = 5x/6, so 5x/6 = 10.",
+            "x = 12"
           ]
         }
       ]

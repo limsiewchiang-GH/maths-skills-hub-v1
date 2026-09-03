@@ -58,6 +58,15 @@
             "(27/45) x 100.",
             "60%"
           ]
+        },
+        {
+          "q": "Find 15% of 20% of 400.",
+          "a": "12",
+          "hints": [
+            "Work from the inside out: find 20% of 400 first, then find 15% of that result.",
+            "20% of 400 = 80, then 15% of 80.",
+            "12"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "(250 - 200)/200 x 100.",
             "25% increase"
           ]
+        },
+        {
+          "q": "A price rises 20% then falls 10%. Find the overall percentage change from the original.",
+          "a": "8% increase",
+          "hints": [
+            "Multiply the two growth/decay multipliers together, then compare the result to 1.",
+            "1.2 x 0.9 = 1.08.",
+            "8% increase"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "A 5% decrease leaves 95% of the original — divide by that decimal to reverse it.",
             "190 ÷ 0.95.",
             "200"
+          ]
+        },
+        {
+          "q": "A value is increased by 20% then decreased by 10%, giving 108. Find the original value.",
+          "a": "100",
+          "hints": [
+            "Combine the two percentage changes into one multiplier, then divide to reverse it.",
+            "1.2 x 0.9 = 1.08, so original = 108 / 1.08.",
+            "100"
           ]
         }
       ]

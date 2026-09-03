@@ -58,6 +58,15 @@
             "15 x 3 = 45, so multiply the numerator by 3 too: 2 x 3.",
             "6/45"
           ]
+        },
+        {
+          "q": "Find x if 5/x = 15/24.",
+          "a": "8",
+          "hints": [
+            "Cross-multiply the two fractions, then solve for x.",
+            "5 x 24 = 15 x x, so 120 = 15x.",
+            "8"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Divide the numerator by the denominator — the whole-number part is the quotient, the remainder becomes the new numerator.",
             "29 ÷ 5 = 5 remainder 4.",
             "5 4/5"
+          ]
+        },
+        {
+          "q": "Which is bigger, 3 1/4 or 10/4?",
+          "a": "3 1/4",
+          "hints": [
+            "Convert the mixed number to an improper fraction so you can compare directly.",
+            "3 1/4 = 13/4, which is bigger than 10/4.",
+            "3 1/4"
           ]
         }
       ]
