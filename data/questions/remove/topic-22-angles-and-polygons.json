@@ -10,27 +10,57 @@
           "a": "60",
           "image": "assets/questions/remove/topic-22-angles-and-polygons/q-parallel-lines.png",
           "imageAlt": "Parallel lines AB and CD cut by a transversal, with a 60 degree marked angle on the right and angle y on the left.",
-          "imageCaption": "Original diagram image stored beside its topic file."
+          "imageCaption": "Original diagram image stored beside its topic file.",
+          "hints": [
+            "Use the parallel-line angle facts (alternate, corresponding, or co-interior) to relate y to the marked 60° angle.",
+            "y and the 60° angle are equal by one of the parallel-line angle rules shown in the diagram.",
+            "60"
+          ]
         },
         {
           "q": "Co-interior angles on parallel lines are x and 115°. Find x.",
-          "a": "65"
+          "a": "65",
+          "hints": [
+            "Co-interior (allied) angles on parallel lines sum to 180°.",
+            "x + 115 = 180.",
+            "65"
+          ]
         },
         {
           "q": "Alternate angles on parallel lines are x and 47°. Find x.",
-          "a": "47"
+          "a": "47",
+          "hints": [
+            "Alternate angles on parallel lines are equal.",
+            "x = 47.",
+            "47"
+          ]
         },
         {
           "q": "A straight-line angle is split into x and 132°. Find x.",
-          "a": "48"
+          "a": "48",
+          "hints": [
+            "Angles on a straight line sum to 180°.",
+            "x + 132 = 180.",
+            "48"
+          ]
         },
         {
           "q": "A vertically opposite angle to 83° is x. Find x.",
-          "a": "83"
+          "a": "83",
+          "hints": [
+            "Vertically opposite angles are equal.",
+            "x = 83.",
+            "83"
+          ]
         },
         {
           "q": "Corresponding angles are 3x and 96°. Find x.",
-          "a": "32"
+          "a": "32",
+          "hints": [
+            "Corresponding angles on parallel lines are equal.",
+            "3x = 96.",
+            "32"
+          ]
         }
       ]
     },
@@ -38,27 +68,57 @@
       "items": [
         {
           "q": "Find the sum of the interior angles of a pentagon.",
-          "a": "540"
+          "a": "540",
+          "hints": [
+            "Use the formula: sum of interior angles = (n - 2) x 180°, where n is the number of sides.",
+            "(5 - 2) x 180.",
+            "540"
+          ]
         },
         {
           "q": "Find the sum of the interior angles of an octagon.",
-          "a": "1080"
+          "a": "1080",
+          "hints": [
+            "Use the formula: sum of interior angles = (n - 2) x 180°, where n is the number of sides.",
+            "(8 - 2) x 180.",
+            "1080"
+          ]
         },
         {
           "q": "Each interior angle of a regular hexagon is x. Find x.",
-          "a": "120"
+          "a": "120",
+          "hints": [
+            "Find the total interior angle sum, then divide by the number of sides.",
+            "(6 - 2) x 180 = 720, then 720 / 6.",
+            "120"
+          ]
         },
         {
           "q": "A quadrilateral has angles 90°, 88°, 101°, and x. Find x.",
-          "a": "81"
+          "a": "81",
+          "hints": [
+            "The interior angles of a quadrilateral sum to 360°.",
+            "x = 360 - 90 - 88 - 101.",
+            "81"
+          ]
         },
         {
           "q": "A pentagon has interior angles summing to how many degrees?",
-          "a": "540"
+          "a": "540",
+          "hints": [
+            "Use the formula: sum of interior angles = (n - 2) x 180°, where n is the number of sides.",
+            "(5 - 2) x 180.",
+            "540"
+          ]
         },
         {
           "q": "Find one exterior angle of a regular nonagon.",
-          "a": "40"
+          "a": "40",
+          "hints": [
+            "The exterior angles of any regular polygon sum to 360° — divide by the number of sides.",
+            "360 / 9.",
+            "40"
+          ]
         }
       ]
     },
@@ -66,27 +126,57 @@
       "items": [
         {
           "q": "Find one exterior angle of a regular decagon.",
-          "a": "36"
+          "a": "36",
+          "hints": [
+            "The exterior angles of any regular polygon sum to 360° — divide by the number of sides.",
+            "360 / 10.",
+            "36"
+          ]
         },
         {
           "q": "A regular polygon has exterior angle 45°. How many sides does it have?",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "The exterior angles sum to 360° — divide 360 by the given exterior angle to find the number of sides.",
+            "360 / 45.",
+            "8"
+          ]
         },
         {
           "q": "Find one interior angle of a regular pentagon.",
-          "a": "108"
+          "a": "108",
+          "hints": [
+            "Find the exterior angle first (360° / n), then subtract from 180°.",
+            "Exterior angle = 360/5 = 72, so interior = 180 - 72.",
+            "108"
+          ]
         },
         {
           "q": "A regular polygon has 12 sides. Find one exterior angle.",
-          "a": "30"
+          "a": "30",
+          "hints": [
+            "The exterior angles of any regular polygon sum to 360° — divide by the number of sides.",
+            "360 / 12.",
+            "30"
+          ]
         },
         {
           "q": "A regular polygon has exterior angle 24°. How many sides does it have?",
-          "a": "15"
+          "a": "15",
+          "hints": [
+            "The exterior angles sum to 360° — divide 360 by the given exterior angle to find the number of sides.",
+            "360 / 24.",
+            "15"
+          ]
         },
         {
           "q": "Find one interior angle of a regular octagon.",
-          "a": "135"
+          "a": "135",
+          "hints": [
+            "Find the exterior angle first (360° / n), then subtract from 180°.",
+            "Exterior angle = 360/8 = 45, so interior = 180 - 45.",
+            "135"
+          ]
         }
       ]
     }
