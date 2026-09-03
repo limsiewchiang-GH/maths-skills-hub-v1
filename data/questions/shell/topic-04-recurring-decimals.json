@@ -58,6 +58,15 @@
             "0.375 = 375/1000.",
             "375/1000 = 3/8"
           ]
+        },
+        {
+          "q": "Write 0.0625 as a fraction.",
+          "a": "1/16",
+          "hints": [
+            "Write the decimal over the correct power of 10, then simplify fully.",
+            "0.0625 = 625/10000.",
+            "1/16"
+          ]
         }
       ]
     },
@@ -174,6 +183,15 @@
             "10x = 35.555..., so 10x - x = 32.",
             "9x = 32, so x = 32/9"
           ]
+        },
+        {
+          "q": "Find 0.555... + 0.222... as a fraction.",
+          "a": "7/9",
+          "hints": [
+            "Convert each recurring decimal to a fraction first, then add.",
+            "0.555... = 5/9 and 0.222... = 2/9, so 5/9 + 2/9.",
+            "7/9"
+          ]
         }
       ]
     },
@@ -232,6 +250,15 @@
             "100x = 83.8383..., so 100x - x = 83.",
             "99x = 83, so x = 83/99"
           ]
+        },
+        {
+          "q": "Find 0.181818... - 0.090909... as a fraction.",
+          "a": "1/11",
+          "hints": [
+            "Convert each recurring decimal to a fraction first, then subtract.",
+            "0.181818... = 2/11 and 0.090909... = 1/11, so 2/11 - 1/11.",
+            "1/11"
+          ]
         }
       ]
     },
@@ -289,6 +316,15 @@
             "The first digit doesn't repeat, but the rest does — multiply to line up the repeating parts before subtracting.",
             "10x = 2.777..., 100x = 27.777..., so 100x - 10x = 25.",
             "90x = 25, so x = 25/90 = 5/18"
+          ]
+        },
+        {
+          "q": "Convert 0.58333... to a fraction.",
+          "a": "7/12",
+          "hints": [
+            "The first digit doesn't repeat, but the rest does — multiply to line up the repeating parts before subtracting.",
+            "100x = 58.333..., 1000x = 583.333..., so 1000x - 100x = 525, and 900x = 525.",
+            "7/12"
           ]
         }
       ]

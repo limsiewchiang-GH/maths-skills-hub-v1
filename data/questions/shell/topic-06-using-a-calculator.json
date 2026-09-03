@@ -58,6 +58,15 @@
             "3^4 = 81, and 2^5 = 32.",
             "3^4 - 2^5 = 81 - 32 = 49"
           ]
+        },
+        {
+          "q": "Evaluate: (2.5 + 1.5)^2 - sqrt(16)",
+          "a": "12",
+          "hints": [
+            "Work through in order: brackets first, then the power and the root, then subtract.",
+            "(2.5 + 1.5)^2 = 4^2 = 16, and sqrt(16) = 4.",
+            "12"
+          ]
         }
       ]
     }

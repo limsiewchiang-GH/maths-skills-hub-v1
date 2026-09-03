@@ -58,6 +58,15 @@
             "The first 3 s.f. are 8, 9, 5; the next digit is 1, which rounds down.",
             "0.08951 -> keep 8, 9, 5, next digit is 1 (rounds down) -> 0.0895"
           ]
+        },
+        {
+          "q": "Round 9.96 to 1 d.p.",
+          "a": "10.0",
+          "hints": [
+            "Look at the 2nd decimal digit to decide whether to round up — watch out for the rounding causing the whole number to change.",
+            "9.96 rounds up because the digit after the 1st decimal place is 6; rounding 9.9 up by 0.1 gives 10.0.",
+            "10.0"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Round each number to 1 significant figure before combining.",
             "31.4 ≈ 30, 8.7 ≈ 9, and 1.9 ≈ 2.",
             "30 + 9 - 2 = 37"
+          ]
+        },
+        {
+          "q": "Estimate (19.8 × 5.2) / 2.1",
+          "a": "50",
+          "hints": [
+            "Round each number to 1 significant figure first, then calculate.",
+            "(20 x 5) / 2.",
+            "50"
           ]
         }
       ]
