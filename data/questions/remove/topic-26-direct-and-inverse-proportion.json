@@ -58,6 +58,15 @@
             "k = 40/8 = 5, so y = 5 x 3.",
             "15"
           ]
+        },
+        {
+          "q": "The cost of fabric is directly proportional to its length. 5 m costs £20. Find the cost of 8 m.",
+          "a": "£32",
+          "hints": [
+            "Find the cost per metre first, then multiply by the new length.",
+            "£20 / 5 m = £4 per m, so 8 x £4.",
+            "£32"
+          ]
         }
       ]
     },
@@ -174,6 +183,15 @@
             "k = 30 x 5 = 150, so y = 150/3.",
             "50"
           ]
+        },
+        {
+          "q": "The time to fill a pool is inversely proportional to the number of pumps used. 3 pumps take 8 hours. How long would 6 pumps take?",
+          "a": "4",
+          "hints": [
+            "In inverse proportion, pumps x time stays constant.",
+            "3 x 8 = 24, so 6 x time = 24.",
+            "4"
+          ]
         }
       ]
     },
@@ -231,6 +249,15 @@
             "Find k using y = k/x^2 (so k = x^2 y), then use it for the new x.",
             "k = 50 x 1^2 = 50, so y = 50/5^2.",
             "2"
+          ]
+        },
+        {
+          "q": "If y is inversely proportional to x^2 and y = 4 when x = 3, find x when y = 1.",
+          "a": "6",
+          "hints": [
+            "Find k using y = k/x^2 (so k = x^2 y), then rearrange and take the square root to find x.",
+            "k = 4 x 3^2 = 36, so x^2 = 36/1 = 36.",
+            "6"
           ]
         }
       ]

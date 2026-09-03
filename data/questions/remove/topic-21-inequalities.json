@@ -116,6 +116,15 @@
             "(x + 4)(x - 2) <= 0 — the roots are x = -4 and x = 2; between them the expression is non-positive.",
             "-4 <= x <= 2"
           ]
+        },
+        {
+          "q": "Solve: x^2 + 4x < 5",
+          "a": "-5 < x < 1",
+          "hints": [
+            "Rearrange into '...< 0' form first, then factorise and find the roots.",
+            "x^2 + 4x - 5 < 0, which factorises to (x + 5)(x - 1) < 0 — the roots are x = -5 and x = 1; between them the expression is negative.",
+            "-5 < x < 1"
+          ]
         }
       ]
     },
@@ -173,6 +182,15 @@
             "'y greater than or equal to' means the shaded region sits on or above the line.",
             "y >= 3 describes points with a y-value of 3 or more.",
             "Above"
+          ]
+        },
+        {
+          "q": "Does the point (1,2) satisfy both y > x and y < 3?",
+          "a": "Yes",
+          "hints": [
+            "Substitute the point into each inequality separately and check both hold.",
+            "y > x: 2 > 1 is true. y < 3: 2 < 3 is true.",
+            "Yes"
           ]
         }
       ]

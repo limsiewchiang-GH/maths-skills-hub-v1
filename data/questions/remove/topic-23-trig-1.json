@@ -58,6 +58,15 @@
             "7 / 24.",
             "7/24"
           ]
+        },
+        {
+          "q": "In a right triangle, opposite side 3 and hypotenuse 5. Find cos theta.",
+          "a": "4/5",
+          "hints": [
+            "cos needs the adjacent side — find it first using Pythagoras.",
+            "adjacent = sqrt(5^2 - 3^2) = sqrt(16) = 4, so cos theta = 4/5.",
+            "4/5"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Use tan(angle) = opposite / adjacent, then take the inverse tangent.",
             "tan(angle) = 1/1 = 1.",
             "45"
+          ]
+        },
+        {
+          "q": "A ramp rises 2 m over a horizontal distance of 10 m. Find the angle of the ramp to the nearest degree.",
+          "a": "11",
+          "hints": [
+            "Use tan(angle) = opposite / adjacent = rise / horizontal distance.",
+            "tan(angle) = 2/10, so angle = tan^-1(0.2).",
+            "11"
           ]
         }
       ]
@@ -174,6 +192,15 @@
             "distance = 50 / tan(45°) = 50 / 1.",
             "50"
           ]
+        },
+        {
+          "q": "A tower is seen at an angle of elevation of 30° from 50 m away, with the observer's eye 1.5 m above the ground. Find the tower's height to 1 d.p.",
+          "a": "30.4",
+          "hints": [
+            "Find the height above eye level using tan(angle) = height / distance, then add the eye height.",
+            "50 x tan(30°) = 28.87, so total height = 28.87 + 1.5.",
+            "30.4"
+          ]
         }
       ]
     },
@@ -231,6 +258,15 @@
             "Bearings are measured clockwise from north, always as 3 digits.",
             "North itself is the starting point, 0°.",
             "000"
+          ]
+        },
+        {
+          "q": "A is on a bearing of 060° from B. Find the bearing of B from A.",
+          "a": "240",
+          "hints": [
+            "A back bearing (the reverse direction) is found by adding or subtracting 180°.",
+            "060° + 180° = 240°.",
+            "240"
           ]
         }
       ]
