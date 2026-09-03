@@ -453,10 +453,10 @@ window.igcseCurriculum = [
         "skills": [
           "What is ‘proof’?",
           "Direct (‘algebraic’) proof",
-          "Some very simple examples can demonstrate this – e.g. prove that",
-          "The idea “start from what we know” and progress from there is a key idea.",
-          "They can do some ‘jottings’ first, but insist they develop the habit of starting from a known result and reaching the desired conclusion.",
-          "It’s helpful to discuss how we may represent even and odd numbers algebraically.",
+          "Worked examples of simple proofs",
+          "Structuring a logical proof",
+          "Writing a clear final proof",
+          "Representing even and odd numbers algebraically",
           "Squares are non-negative"
         ]
       },
