@@ -21,7 +21,9 @@ function normalizeMath(expr) {
   text = text.replace(/\bdy\/dx\b/g, "\\dfrac{dy}{dx}");
   text = text.replace(/√\(([^)]+)\)/g, "\\sqrt{$1}");
   text = text.replace(/√([A-Za-z0-9]+)/g, "\\sqrt{$1}");
-  text = text.replace(/π/g, "\\pi");
+  // Trailing space prevents LaTeX from gluing the command to a directly-following letter (e.g.
+  // "πr" -> "\pi r", not "\pir" which TeX would parse as the undefined control word "\pir").
+  text = text.replace(/π/g, "\\pi ");
   // ASCII word "pi" used as the constant (not just the unicode π glyph), e.g. "x pi x r^2".
   // Skip anything already escaped (preceded by a backslash) to avoid double-converting.
   text = text.replace(/(?<!\\)\bpi\b/g, "\\pi ");
