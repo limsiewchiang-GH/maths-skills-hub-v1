@@ -146,28 +146,28 @@
     "Basic binomial": {
       "items": [
         {
-          "q": "Find (x + 2)^2.",
-          "a": "x^2 + 4x + 4"
+          "q": "A fair coin is tossed 3 times. Find the probability of exactly 2 heads.",
+          "a": "3/8"
         },
         {
-          "q": "Find (x + 3)^2.",
-          "a": "x^2 + 6x + 9"
+          "q": "A biased coin has P(heads) = 0.6. It is tossed twice. Find the probability of exactly 1 head.",
+          "a": "0.48"
         },
         {
-          "q": "Find (2x + 1)^2.",
-          "a": "4x^2 + 4x + 1"
+          "q": "A fair coin is tossed 4 times. Find the probability of exactly 3 heads.",
+          "a": "1/4"
         },
         {
-          "q": "Find (x - 5)^2.",
-          "a": "x^2 - 10x + 25"
+          "q": "A biased coin has P(heads) = 0.3. Find the probability of no heads in 3 tosses.",
+          "a": "0.343"
         },
         {
-          "q": "Find (3x - 2)^2.",
-          "a": "9x^2 - 12x + 4"
+          "q": "A die is rolled 3 times. Find the probability of rolling exactly one 6.",
+          "a": "25/72"
         },
         {
-          "q": "Find (2x + 5)^2.",
-          "a": "4x^2 + 20x + 25"
+          "q": "For n independent trials with success probability p, how many ways can exactly k successes occur?",
+          "a": "C(n,k)"
         }
       ]
     }

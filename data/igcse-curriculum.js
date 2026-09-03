@@ -420,8 +420,7 @@ window.igcseCurriculum = [
         "number": 42,
         "title": "Transformations",
         "skills": [
-          "Transformations",
-          "Half term prep: get a compass"
+          "Transformations"
         ]
       },
       {
