@@ -94,14 +94,22 @@ function formatInlineMathText(raw) {
   // symbol as valid content mid-run, so formula-template hints like "(90/360) x pi x 4^2"
   // or "30 x tan(45°)" get captured as one contiguous math region instead of fragmenting
   // around the keyword (word-bounded so it can't match inside prose like "using"/"spin").
-  const mathKeyword = "\\b(?:sin|cos|tan|sqrt|cbrt|pi)\\b";
+  // sin/cos/tan/pi require a full word boundary on both sides (so they can't match inside
+  // "using"/"spin"/"opinion"). sqrt/cbrt use a looser rule instead — not preceded by a letter,
+  // followed by "(" — since digits count as word characters, a strict \b would fail on the
+  // common compact coefficient form "2sqrt(3)" (no space), leaving it unconverted.
+  const mathKeyword = "(?:\\b(?:sin|cos|tan|pi)\\b|(?<![A-Za-z])(?:sqrt|cbrt)(?=\\())";
   // The digit-start alternative excludes a digit immediately preceded by "<letter>/" — that
   // signals a word-placeholder pseudo-fraction like "(angle/360)" where a prior attempt to
   // start the match at the opening "(" already failed (the word breaks the run), and starting
   // fresh mid-way at the digit would wrongly split off an unbalanced ")" with no matching "(".
   // Leaving such placeholder text unmatched is correct: it isn't real, renderable numeric math.
+  // The letter-caret start alternative requires the letter NOT be preceded by another letter,
+  // so it only matches an isolated single-letter variable (e.g. "x^2"), not the tail of an
+  // ordinary word immediately followed by a caret (e.g. word-placeholder hints using "^" like
+  // "x-component^2" would otherwise mis-parse the "t" in "componen[t]" as a math base).
   const generalFallbackRe = new RegExp(
-    `(?:[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|\\()(?:[\\d+\\-*/^().,.\\sxX°]|${mathKeyword})*[\\d)°]`,
+    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|\\()(?:[\\d+\\-*/^().,.\\sxX°]|${mathKeyword})*[\\d)°]`,
     "g"
   );
   marked = marked.replace(generalFallbackRe, (candidate) => {
