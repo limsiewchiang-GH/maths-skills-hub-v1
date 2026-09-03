@@ -58,6 +58,15 @@
             "b = 9 x sin(45°) / sin(90°).",
             "sin(45°) = sqrt(2)/2, sin(90°) = 1, so b = 9sqrt(2)/2"
           ]
+        },
+        {
+          "q": "In triangle ABC, a = 10, b = 14, A = 35°. Find angle B (to the nearest degree).",
+          "a": "53",
+          "hints": [
+            "Use the sine rule sin(A)/a = sin(B)/b, rearranged to find sin(B).",
+            "sin(B) = b x sin(A) / a = 14 x sin(35°) / 10.",
+            "53"
+          ]
         }
       ]
     },
@@ -232,6 +241,15 @@
             "distance² = 6² + 8² = 36 + 64.",
             "distance = sqrt(100) = 10"
           ]
+        },
+        {
+          "q": "Two ships leave a port at the same time. Ship A travels 40 km on a bearing of 060°, and ship B travels 30 km on a bearing of 150°. Find the distance between them.",
+          "a": "50",
+          "hints": [
+            "Find the angle between the two paths first — bearings 060° and 150° differ by exactly 90°, so this is a right-angled triangle.",
+            "Use Pythagoras: sqrt(40^2 + 30^2).",
+            "50"
+          ]
         }
       ]
     },
@@ -347,6 +365,15 @@
             "Picture the cosine graph, or recall the value at this key angle.",
             "The cosine graph crosses zero a quarter of the way through its cycle.",
             "cos(90°) = 0"
+          ]
+        },
+        {
+          "q": "How many times does y = sin x cross the x-axis for 0° <= x <= 360°?",
+          "a": "3",
+          "hints": [
+            "Think about where sin x = 0 within one and a bit full cycles.",
+            "sin x = 0 at x = 0°, 180°, and 360°.",
+            "3"
           ]
         }
       ]
