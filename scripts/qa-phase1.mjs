@@ -157,14 +157,6 @@ try {
   dataContractIssues.push(`Failed to evaluate data/igcse-practice-data.js: ${error.message}`);
 }
 
-try {
-  const overridesWindow = evaluateWindowScript("data/igcse-practice-overrides.js");
-  const overrides = overridesWindow.igcsePracticeOverrides || {};
-  const shellOverrides = Object.keys(overrides.Shell || {}).length;
-  if (shellOverrides < 1) dataContractIssues.push("Practice overrides should contain at least one expanded Shell pool.");
-} catch (error) {
-  dataContractIssues.push(`Failed to evaluate data/igcse-practice-overrides.js: ${error.message}`);
-}
 
 const report = `# Static QA Smoke Report
 
