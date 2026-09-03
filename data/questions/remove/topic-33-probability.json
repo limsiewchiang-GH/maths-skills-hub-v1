@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "What is the probability of getting a head on a fair coin?",
-          "a": "1/2"
+          "a": "1/2",
+          "hints": [
+            "There are 2 equally likely outcomes on a coin, and 1 of them is a head.",
+            "1 favourable outcome out of 2 possible outcomes.",
+            "1/2"
+          ]
         },
         {
           "q": "What is the probability of rolling a 4 on a fair six-sided die?",
-          "a": "1/6"
+          "a": "1/6",
+          "hints": [
+            "There are 6 equally likely outcomes on a die, and only 1 of them is a 4.",
+            "1 favourable outcome out of 6 possible outcomes.",
+            "1/6"
+          ]
         },
         {
           "q": "If P(A) = 0.35, find P(not A).",
-          "a": "0.65"
+          "a": "0.65",
+          "hints": [
+            "Use P(not A) = 1 - P(A).",
+            "1 - 0.35.",
+            "0.65"
+          ]
         },
         {
           "q": "Can a probability be greater than 1?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Recall the valid range for any probability.",
+            "Probabilities always lie between 0 (impossible) and 1 (certain), inclusive.",
+            "No"
+          ]
         },
         {
           "q": "The probability of rain is 0.2. Write this as a percentage.",
-          "a": "20%"
+          "a": "20%",
+          "hints": [
+            "Multiply the decimal probability by 100 to convert to a percentage.",
+            "0.2 x 100.",
+            "20%"
+          ]
         },
         {
           "q": "A bag has 3 red and 2 blue counters. Find P(red).",
-          "a": "3/5"
+          "a": "3/5",
+          "hints": [
+            "P(red) = number of red counters / total counters.",
+            "3 / (3 + 2).",
+            "3/5"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "How many outcomes are there when two fair coins are tossed?",
-          "a": "4"
+          "a": "4",
+          "hints": [
+            "Multiply the number of outcomes for each coin together.",
+            "2 x 2.",
+            "4"
+          ]
         },
         {
           "q": "List the sample space size for rolling a die and flipping a coin.",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "Multiply the number of outcomes for the die and for the coin.",
+            "6 x 2.",
+            "12"
+          ]
         },
         {
           "q": "How many outcomes are there when two six-sided dice are rolled?",
-          "a": "36"
+          "a": "36",
+          "hints": [
+            "Multiply the number of outcomes for each die together.",
+            "6 x 6.",
+            "36"
+          ]
         },
         {
           "q": "A spinner has 5 equal sections. It is spun twice. How many outcomes are there?",
-          "a": "25"
+          "a": "25",
+          "hints": [
+            "Multiply the number of outcomes for each spin together.",
+            "5 x 5.",
+            "25"
+          ]
         },
         {
           "q": "How many outcomes are there when a die is rolled three times?",
-          "a": "216"
+          "a": "216",
+          "hints": [
+            "Multiply the number of outcomes for each roll together.",
+            "6 x 6 x 6.",
+            "216"
+          ]
         },
         {
           "q": "A card is chosen from 4 cards labelled A, B, C, D and a coin is tossed. How many outcomes?",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Multiply the number of outcomes for the card choice and for the coin toss.",
+            "4 x 2.",
+            "8"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Can two mutually exclusive events happen together?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Recall the definition of mutually exclusive events.",
+            "Mutually exclusive events have no outcomes in common, so they can't both happen.",
+            "No"
+          ]
         },
         {
           "q": "If two events are independent, does one affect the probability of the other?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Recall the definition of independent events.",
+            "Independent events don't influence each other's probability at all.",
+            "No"
+          ]
         },
         {
           "q": "Are getting a head and getting a tail on one coin toss mutually exclusive?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Check whether both outcomes could happen on the same single toss.",
+            "A single coin toss gives either a head or a tail, never both.",
+            "Yes"
+          ]
         },
         {
           "q": "Are rolling a 3 and rolling an odd number on one die mutually exclusive?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Check whether the two events share any common outcome.",
+            "Rolling a 3 is itself one of the odd numbers, so the events overlap.",
+            "No"
+          ]
         },
         {
           "q": "Are tossing a coin and rolling a die independent events?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Check whether the outcome of one affects the probabilities of the other.",
+            "The coin result has no bearing on the die result, or vice versa.",
+            "Yes"
+          ]
         },
         {
           "q": "If events A and B are mutually exclusive, what is P(A and B)?",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Think about what 'mutually exclusive' means for two events happening together.",
+            "Mutually exclusive events cannot happen at the same time, so their overlap is impossible.",
+            "0"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "A coin is tossed twice. Find the probability of two heads.",
-          "a": "1/4"
+          "a": "1/4",
+          "hints": [
+            "For independent events, multiply the individual probabilities.",
+            "(1/2) x (1/2).",
+            "1/4"
+          ]
         },
         {
           "q": "A die is rolled twice. Find the probability of getting a 6 both times.",
-          "a": "1/36"
+          "a": "1/36",
+          "hints": [
+            "For independent events, multiply the individual probabilities.",
+            "(1/6) x (1/6).",
+            "1/36"
+          ]
         },
         {
           "q": "Two independent events have probabilities 0.3 and 0.5. Find the probability both occur.",
-          "a": "0.15"
+          "a": "0.15",
+          "hints": [
+            "For independent events, multiply the individual probabilities.",
+            "0.3 x 0.5.",
+            "0.15"
+          ]
         },
         {
           "q": "A bag has 2 red and 3 blue counters. Two counters are chosen with replacement. Find P(red then red).",
-          "a": "4/25"
+          "a": "4/25",
+          "hints": [
+            "With replacement, the probability stays the same each time — multiply it by itself.",
+            "P(red) = 2/5 each time, so (2/5) x (2/5).",
+            "4/25"
+          ]
         },
         {
           "q": "Find the probability of choosing an ace from a pack and then rolling an even number.",
-          "a": "1/26"
+          "a": "1/26",
+          "hints": [
+            "For independent events, multiply the individual probabilities.",
+            "P(ace) = 4/52 = 1/13, and P(even on a die) = 3/6 = 1/2, so (1/13) x (1/2).",
+            "1/26"
+          ]
         },
         {
           "q": "A spinner lands on green with probability 0.4. It is spun twice. Find P(green both times).",
-          "a": "0.16"
+          "a": "0.16",
+          "hints": [
+            "For independent events, multiply the individual probabilities.",
+            "0.4 x 0.4.",
+            "0.16"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "A bag has 1 red and 3 blue counters. One counter is chosen, replaced, then another is chosen. Find P(red then blue).",
-          "a": "3/16"
+          "a": "3/16",
+          "hints": [
+            "Follow the tree diagram branch: multiply along the red-then-blue path.",
+            "P(red) = 1/4, P(blue) = 3/4, so (1/4) x (3/4).",
+            "3/16"
+          ]
         },
         {
           "q": "A fair coin is tossed twice. What is the probability of exactly one head?",
-          "a": "1/2"
+          "a": "1/2",
+          "hints": [
+            "List the two branches that give exactly one head (HT and TH) and add their probabilities.",
+            "P(HT) + P(TH) = (1/2)(1/2) + (1/2)(1/2) = 1/4 + 1/4.",
+            "1/2"
+          ]
         },
         {
           "q": "A bag has 2 red and 1 green counter. One is chosen with replacement twice. Find P(two greens).",
-          "a": "1/9"
+          "a": "1/9",
+          "hints": [
+            "Follow the tree diagram branch: multiply along the green-then-green path.",
+            "P(green) = 1/3 each time, so (1/3) x (1/3).",
+            "1/9"
+          ]
         },
         {
           "q": "A die is rolled twice. Find the probability of getting an odd number both times.",
-          "a": "1/4"
+          "a": "1/4",
+          "hints": [
+            "Follow the tree diagram branch: multiply along the odd-then-odd path.",
+            "P(odd) = 1/2 each time, so (1/2) x (1/2).",
+            "1/4"
+          ]
         },
         {
           "q": "A spinner has equal sections red, blue, blue. It is spun twice. Find P(red then red).",
-          "a": "1/9"
+          "a": "1/9",
+          "hints": [
+            "Follow the tree diagram branch: multiply along the red-then-red path.",
+            "P(red) = 1/3 each time, so (1/3) x (1/3).",
+            "1/9"
+          ]
         },
         {
           "q": "A bag has 4 black and 1 white counter. With replacement, find P(one black then one white).",
-          "a": "4/25"
+          "a": "4/25",
+          "hints": [
+            "Follow the tree diagram branch: multiply along the black-then-white path.",
+            "P(black) = 4/5, P(white) = 1/5, so (4/5) x (1/5).",
+            "4/25"
+          ]
         }
       ]
     },
@@ -147,27 +297,57 @@
       "items": [
         {
           "q": "A fair coin is tossed 3 times. Find the probability of exactly 2 heads.",
-          "a": "3/8"
+          "a": "3/8",
+          "hints": [
+            "Count the number of ways to choose which 2 tosses are heads, then multiply by the probability of one such arrangement.",
+            "C(3,2) x (1/2)^3 = 3 x 1/8.",
+            "3/8"
+          ]
         },
         {
           "q": "A biased coin has P(heads) = 0.6. It is tossed twice. Find the probability of exactly 1 head.",
-          "a": "0.48"
+          "a": "0.48",
+          "hints": [
+            "Count the number of ways to get exactly 1 head, then multiply by the probability of one such arrangement.",
+            "C(2,1) x 0.6 x 0.4 = 2 x 0.24.",
+            "0.48"
+          ]
         },
         {
           "q": "A fair coin is tossed 4 times. Find the probability of exactly 3 heads.",
-          "a": "1/4"
+          "a": "1/4",
+          "hints": [
+            "Count the number of ways to choose which 3 tosses are heads, then multiply by the probability of one such arrangement.",
+            "C(4,3) x (1/2)^4 = 4 x 1/16.",
+            "1/4"
+          ]
         },
         {
           "q": "A biased coin has P(heads) = 0.3. Find the probability of no heads in 3 tosses.",
-          "a": "0.343"
+          "a": "0.343",
+          "hints": [
+            "No heads means every toss is a tail — multiply the tail probability by itself 3 times.",
+            "0.7 x 0.7 x 0.7.",
+            "0.343"
+          ]
         },
         {
           "q": "A die is rolled 3 times. Find the probability of rolling exactly one 6.",
-          "a": "25/72"
+          "a": "25/72",
+          "hints": [
+            "Count the number of ways to choose which roll is the 6, then multiply by the probability of one such arrangement.",
+            "C(3,1) x (1/6) x (5/6)^2 = 3 x (1/6) x (25/36).",
+            "25/72"
+          ]
         },
         {
           "q": "For n independent trials with success probability p, how many ways can exactly k successes occur?",
-          "a": "C(n,k)"
+          "a": "C(n,k)",
+          "hints": [
+            "Recall the notation for 'choose k from n' used in the binomial probability formula.",
+            "The number of arrangements is given by the binomial coefficient.",
+            "C(n,k)"
+          ]
         }
       ]
     }
