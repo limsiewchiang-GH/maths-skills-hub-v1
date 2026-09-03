@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "In triangle ABC, a = 8, A = 30°, B = 45°. Find b.",
-          "a": "8sqrt(2)"
+          "a": "8sqrt(2)",
+          "hints": [
+            "Use the sine rule: a/sin A = b/sin B.",
+            "b = 8 x sin(45°) / sin(30°).",
+            "sin(45°) = sqrt(2)/2, sin(30°) = 1/2, so b = 8 x (sqrt(2)/2) / (1/2) = 8sqrt(2)"
+          ]
         },
         {
           "q": "In triangle ABC, a = 10, A = 90°, B = 30°. Find b.",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Use the sine rule: a/sin A = b/sin B.",
+            "b = 10 x sin(30°) / sin(90°).",
+            "sin(30°) = 1/2, sin(90°) = 1, so b = 10 x (1/2) / 1 = 5"
+          ]
         },
         {
           "q": "In triangle ABC, a = 12, A = 60°, B = 45°. Find b.",
-          "a": "4sqrt(6)"
+          "a": "4sqrt(6)",
+          "hints": [
+            "Use the sine rule: a/sin A = b/sin B.",
+            "b = 12 x sin(45°) / sin(60°).",
+            "sin(45°) = sqrt(2)/2, sin(60°) = sqrt(3)/2, so b = 12sqrt(2)/sqrt(3) = 12sqrt(6)/3 = 4sqrt(6)"
+          ]
         },
         {
           "q": "In triangle ABC, a = 14, A = 45°, B = 30°. Find b.",
-          "a": "7sqrt(2)"
+          "a": "7sqrt(2)",
+          "hints": [
+            "Use the sine rule: a/sin A = b/sin B.",
+            "b = 14 x sin(30°) / sin(45°).",
+            "sin(30°) = 1/2, sin(45°) = sqrt(2)/2, so b = 14 / sqrt(2) = 7sqrt(2)"
+          ]
         },
         {
           "q": "In triangle ABC, a = 6, A = 30°, B = 60°. Find b.",
-          "a": "6sqrt(3)"
+          "a": "6sqrt(3)",
+          "hints": [
+            "Use the sine rule: a/sin A = b/sin B.",
+            "b = 6 x sin(60°) / sin(30°).",
+            "sin(60°) = sqrt(3)/2, sin(30°) = 1/2, so b = 6 x (sqrt(3)/2) / (1/2) = 6sqrt(3)"
+          ]
         },
         {
           "q": "In triangle ABC, a = 9, A = 90°, B = 45°. Find b.",
-          "a": "9sqrt(2)/2"
+          "a": "9sqrt(2)/2",
+          "hints": [
+            "Use the sine rule: a/sin A = b/sin B.",
+            "b = 9 x sin(45°) / sin(90°).",
+            "sin(45°) = sqrt(2)/2, sin(90°) = 1, so b = 9sqrt(2)/2"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Two sides of a triangle are 5 cm and 7 cm with included angle 60°. Find the third side.",
-          "a": "sqrt(39)"
+          "a": "sqrt(39)",
+          "hints": [
+            "Use the cosine rule: c² = a² + b² - 2ab cos C.",
+            "c² = 5² + 7² - 2(5)(7)cos(60°) = 25 + 49 - 70(0.5).",
+            "c² = 74 - 35 = 39, so c = sqrt(39)"
+          ]
         },
         {
           "q": "Two sides are 8 cm and 10 cm with included angle 90°. Find the third side.",
-          "a": "2sqrt(41)"
+          "a": "2sqrt(41)",
+          "hints": [
+            "Use the cosine rule: c² = a² + b² - 2ab cos C.",
+            "c² = 8² + 10² - 2(8)(10)cos(90°) = 64 + 100 - 0, since cos(90°) = 0.",
+            "c² = 164, so c = sqrt(164) = sqrt(4 x 41) = 2sqrt(41)"
+          ]
         },
         {
           "q": "Two sides are 6 cm and 9 cm with included angle 120°. Find the third side.",
-          "a": "3sqrt(19)"
+          "a": "3sqrt(19)",
+          "hints": [
+            "Use the cosine rule: c² = a² + b² - 2ab cos C.",
+            "c² = 6² + 9² - 2(6)(9)cos(120°) = 36 + 81 - 108(-0.5).",
+            "c² = 117 + 54 = 171, so c = sqrt(171) = sqrt(9 x 19) = 3sqrt(19)"
+          ]
         },
         {
           "q": "Two sides are 7 cm and 7 cm with included angle 60°. Find the third side.",
-          "a": "7"
+          "a": "7",
+          "hints": [
+            "Use the cosine rule: c² = a² + b² - 2ab cos C.",
+            "c² = 7² + 7² - 2(7)(7)cos(60°) = 49 + 49 - 98(0.5).",
+            "c² = 98 - 49 = 49, so c = sqrt(49) = 7"
+          ]
         },
         {
           "q": "Two sides are 12 cm and 5 cm with included angle 180°. Find the third side.",
-          "a": "17"
+          "a": "17",
+          "hints": [
+            "Use the cosine rule: c² = a² + b² - 2ab cos C.",
+            "c² = 12² + 5² - 2(12)(5)cos(180°) = 144 + 25 - 120(-1).",
+            "c² = 169 + 120 = 289, so c = sqrt(289) = 17 (a 180° angle means the sides lie in a straight line, so the third side is just their sum: 12 + 5)"
+          ]
         },
         {
           "q": "Two sides are 9 cm and 9 cm with included angle 120°. Find the third side.",
-          "a": "9sqrt(3)"
+          "a": "9sqrt(3)",
+          "hints": [
+            "Use the cosine rule: c² = a² + b² - 2ab cos C.",
+            "c² = 9² + 9² - 2(9)(9)cos(120°) = 81 + 81 - 162(-0.5).",
+            "c² = 162 + 81 = 243, so c = sqrt(243) = sqrt(81 x 3) = 9sqrt(3)"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Find the area of a triangle with sides 8 cm and 10 cm including angle 30°.",
-          "a": "20"
+          "a": "20",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "Area = (1/2)(8)(10) sin(30°) = 40 x 0.5.",
+            "Area = 20"
+          ]
         },
         {
           "q": "Find the area of a triangle with sides 6 cm and 7 cm including angle 90°.",
-          "a": "21"
+          "a": "21",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "Area = (1/2)(6)(7) sin(90°) = 21 x 1.",
+            "Area = 21"
+          ]
         },
         {
           "q": "Find the area of a triangle with sides 12 cm and 5 cm including angle 60°.",
-          "a": "15sqrt(3)"
+          "a": "15sqrt(3)",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "Area = (1/2)(12)(5) sin(60°) = 30 x (sqrt(3)/2).",
+            "Area = 15sqrt(3)"
+          ]
         },
         {
           "q": "Find the area of a triangle with sides 9 cm and 9 cm including angle 45°.",
-          "a": "81sqrt(2)/4"
+          "a": "81sqrt(2)/4",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "Area = (1/2)(9)(9) sin(45°) = 40.5 x (sqrt(2)/2).",
+            "Area = 81sqrt(2)/4"
+          ]
         },
         {
           "q": "Find the area of a triangle with sides 14 cm and 4 cm including angle 30°.",
-          "a": "14"
+          "a": "14",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "Area = (1/2)(14)(4) sin(30°) = 28 x 0.5.",
+            "Area = 14"
+          ]
         },
         {
           "q": "Find the area of a triangle with sides 11 cm and 13 cm including angle 180°.",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "sin(180°) = 0, so the triangle has collapsed to a straight line.",
+            "Area = (1/2)(11)(13)(0) = 0"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "A ladder 10 m long makes an angle of 30° with the ground. Find the vertical height reached.",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "The height is opposite the angle, and the ladder is the hypotenuse — use sine.",
+            "height = 10 x sin(30°).",
+            "height = 10 x 0.5 = 5"
+          ]
         },
         {
           "q": "A ship travels 12 km east then 5 km north. Find the direct distance from the start.",
-          "a": "13"
+          "a": "13",
+          "hints": [
+            "East and north are perpendicular, so use Pythagoras.",
+            "distance² = 12² + 5² = 144 + 25.",
+            "distance = sqrt(169) = 13"
+          ]
         },
         {
           "q": "In a triangle, two sides are 7 cm and 9 cm with angle 60° between them. Find the area.",
-          "a": "63sqrt(3)/4"
+          "a": "63sqrt(3)/4",
+          "hints": [
+            "Use Area = (1/2)ab sin C.",
+            "Area = (1/2)(7)(9) sin(60°) = 31.5 x (sqrt(3)/2).",
+            "Area = 63sqrt(3)/4"
+          ]
         },
         {
           "q": "A kite string is 20 m long and makes a 45° angle with the ground. Find the height.",
-          "a": "10sqrt(2)"
+          "a": "10sqrt(2)",
+          "hints": [
+            "The height is opposite the angle, and the string is the hypotenuse — use sine.",
+            "height = 20 x sin(45°) = 20 x (sqrt(2)/2).",
+            "height = 10sqrt(2)"
+          ]
         },
         {
           "q": "Two sides of a triangle are 8 cm and 15 cm at right angles. Find the third side.",
-          "a": "17"
+          "a": "17",
+          "hints": [
+            "A right angle between the sides means you can use Pythagoras directly.",
+            "third side² = 8² + 15² = 64 + 225.",
+            "third side = sqrt(289) = 17"
+          ]
         },
         {
           "q": "A man walks 6 km south and 8 km east. Find how far he is from the start.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "South and east are perpendicular, so use Pythagoras.",
+            "distance² = 6² + 8² = 36 + 64.",
+            "distance = sqrt(100) = 10"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "A triangle has side a = 10, angle A = 30°, and side b = 12. How many possible triangles are there?",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Find h = b sin A, then compare it with a.",
+            "h = 12 x sin(30°) = 6; since h < a (6 < 10) and a < b (10 < 12), there are two possible triangles.",
+            "Two triangles: one with angle B acute, one with angle B obtuse."
+          ]
         },
         {
           "q": "A triangle has side a = 8, angle A = 45°, and side b = 5. How many possible triangles are there?",
-          "a": "1"
+          "a": "1",
+          "hints": [
+            "Compare side a with side b first.",
+            "Since a ≥ b (8 ≥ 5), there can only be one possible triangle.",
+            "When the side opposite the given angle is at least as long as the other given side, only the acute case works — one triangle only."
+          ]
         },
         {
           "q": "A triangle has side a = 6, angle A = 30°, and side b = 14. How many possible triangles are there?",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Find h = b sin A, then compare it with a.",
+            "h = 14 x sin(30°) = 7; since a < h (6 < 7), no triangle is possible.",
+            "Zero triangles — side a is too short to reach the base line."
+          ]
         },
         {
           "q": "A triangle has side a = 9, angle A = 35°, and side b = 11. How many possible triangles are there?",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Find h = b sin A, then compare it with a.",
+            "h = 11 x sin(35°) ≈ 6.31; since h < a (6.31 < 9) and a < b (9 < 11), there are two possible triangles.",
+            "Two triangles: one with angle B acute, one with angle B obtuse."
+          ]
         },
         {
           "q": "A triangle has side a = 7, angle A = 60°, and side b = 6. How many possible triangles are there?",
-          "a": "1"
+          "a": "1",
+          "hints": [
+            "Compare side a with side b first.",
+            "Since a ≥ b (7 ≥ 6), there can only be one possible triangle.",
+            "When the side opposite the given angle is at least as long as the other given side, only the acute case works — one triangle only."
+          ]
         },
         {
           "q": "A triangle has side a = 5, angle A = 20°, and side b = 9. How many possible triangles are there?",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Find h = b sin A, then compare it with a.",
+            "h = 9 x sin(20°) ≈ 3.08; since h < a (3.08 < 5) and a < b (5 < 9), there are two possible triangles.",
+            "Two triangles: one with angle B acute, one with angle B obtuse."
+          ]
         }
       ]
     },
@@ -147,27 +297,57 @@
       "items": [
         {
           "q": "For y = sin x, find the value at x = 90°.",
-          "a": "1"
+          "a": "1",
+          "hints": [
+            "Picture the sine graph, or recall the value at this key angle.",
+            "sin(90°) is the maximum value of the sine graph.",
+            "sin(90°) = 1"
+          ]
         },
         {
           "q": "For y = cos x, find the value at x = 180°.",
-          "a": "-1"
+          "a": "-1",
+          "hints": [
+            "Picture the cosine graph, or recall the value at this key angle.",
+            "cos(180°) is the minimum value of the cosine graph.",
+            "cos(180°) = -1"
+          ]
         },
         {
           "q": "For y = sin x, find the value at x = 0°.",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Picture the sine graph, or recall the value at this key angle.",
+            "The sine graph starts at zero.",
+            "sin(0°) = 0"
+          ]
         },
         {
           "q": "For y = cos x, find the value at x = 0°.",
-          "a": "1"
+          "a": "1",
+          "hints": [
+            "Picture the cosine graph, or recall the value at this key angle.",
+            "The cosine graph starts at its maximum value.",
+            "cos(0°) = 1"
+          ]
         },
         {
           "q": "For y = sin x, find the value at x = 270°.",
-          "a": "-1"
+          "a": "-1",
+          "hints": [
+            "Picture the sine graph, or recall the value at this key angle.",
+            "sin(270°) is the minimum value of the sine graph.",
+            "sin(270°) = -1"
+          ]
         },
         {
           "q": "For y = cos x, find the value at x = 90°.",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Picture the cosine graph, or recall the value at this key angle.",
+            "The cosine graph crosses zero a quarter of the way through its cycle.",
+            "cos(90°) = 0"
+          ]
         }
       ]
     }
