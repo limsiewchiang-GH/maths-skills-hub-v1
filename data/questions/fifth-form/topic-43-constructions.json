@@ -28,6 +28,30 @@
         {
           "q": "What tool is used to draw the arc in a construction?",
           "a": "Compass"
+        },
+        {
+          "q": "Name two tools needed for geometric constructions.",
+          "a": "Compass and ruler"
+        },
+        {
+          "q": "Why should the compass width stay fixed when drawing equal arcs?",
+          "a": "To keep the radius equal"
+        },
+        {
+          "q": "What should be drawn lightly first in a construction?",
+          "a": "Construction arcs"
+        },
+        {
+          "q": "What does a ruler without markings help preserve in constructions?",
+          "a": "Accuracy of straight lines"
+        },
+        {
+          "q": "Should construction lines usually be erased before checking?",
+          "a": "No"
+        },
+        {
+          "q": "What is the main purpose of a compass in constructions?",
+          "a": "Drawing equal distances or arcs"
         }
       ]
     },
