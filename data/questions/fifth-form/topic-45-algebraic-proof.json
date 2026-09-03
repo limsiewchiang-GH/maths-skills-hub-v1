@@ -59,7 +59,7 @@
         }
       ]
     },
-    "Some very simple examples can demonstrate this – e.g. prove that": {
+    "Worked examples of simple proofs": {
       "items": [
         {
           "q": "Is 2n + 1 even or odd?",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    "The idea “start from what we know” and progress from there is a key idea.": {
+    "Structuring a logical proof": {
       "items": [
         {
           "q": "In direct proof, where should you usually start?",
@@ -115,7 +115,7 @@
         }
       ]
     },
-    "They can do some ‘jottings’ first, but insist they develop the habit of starting from a known result and reaching the desired conclusion.": {
+    "Writing a clear final proof": {
       "items": [
         {
           "q": "What should a polished proof contain after rough jottings?",
@@ -143,7 +143,7 @@
         }
       ]
     },
-    "It’s helpful to discuss how we may represent even and odd numbers algebraically.": {
+    "Representing even and odd numbers algebraically": {
       "items": [
         {
           "q": "Write a general even integer.",
