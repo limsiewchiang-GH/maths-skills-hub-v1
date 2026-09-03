@@ -101,7 +101,7 @@ const pageContracts = [
   },
   {
     file: "lower-school-sow.html",
-    required: ['id="igcse-planner"', 'src="data/igcse-curriculum.js"', 'src="data/igcse-practice-data.js"', 'src="scripts/igcse-page.js"']
+    required: ['id="igcse-planner"', 'src="data/igcse-curriculum.js?v=__CACHE_BUST__"', 'src="data/igcse-practice-data.js?v=__CACHE_BUST__"', 'src="scripts/igcse-page.js?v=__CACHE_BUST__"']
   },
   {
     file: "alevel.html",
@@ -109,7 +109,7 @@ const pageContracts = [
   },
   {
     file: "practice.html",
-    required: ['data-practice-stream="Shell"', 'data-practice-stream="Remove"', 'data-practice-stream="Fifth Form"', 'data-practice-stream="Mixed"', 'src="scripts/practice-page.js"']
+    required: ['data-practice-stream="Shell"', 'data-practice-stream="Remove"', 'data-practice-stream="Fifth Form"', 'data-practice-stream="Mixed"', 'src="scripts/practice-page.js?v=__CACHE_BUST__"']
   }
 ];
 
