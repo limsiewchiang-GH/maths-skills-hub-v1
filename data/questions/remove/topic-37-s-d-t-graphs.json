@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "On a distance-time graph, what does a flat section mean?",
-          "a": "Stationary"
+          "a": "Stationary",
+          "hints": [
+            "Think about what a zero gradient (no change in distance over time) represents.",
+            "If distance isn't changing while time passes, the object isn't moving.",
+            "Stationary"
+          ]
         },
         {
           "q": "On a distance-time graph, what does a steeper line mean?",
-          "a": "Faster speed"
+          "a": "Faster speed",
+          "hints": [
+            "Recall what the gradient of a distance-time graph represents.",
+            "A steeper gradient means more distance is covered in the same time.",
+            "Faster speed"
+          ]
         },
         {
           "q": "A journey covers 120 km in 3 hours on a travel graph. Find the average speed.",
-          "a": "40"
+          "a": "40",
+          "hints": [
+            "Speed = distance / time.",
+            "120 / 3.",
+            "40"
+          ]
         },
         {
           "q": "A travel graph goes from 0 km to 90 km in 1.5 hours. Find the speed.",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "Speed = distance / time.",
+            "90 / 1.5.",
+            "60"
+          ]
         },
         {
           "q": "A section slopes downwards on a distance-time graph. What does this mean?",
-          "a": "Returning towards the start"
+          "a": "Returning towards the start",
+          "hints": [
+            "Think about what decreasing distance over time represents.",
+            "As time passes, the distance from the starting point is getting smaller.",
+            "Returning towards the start"
+          ]
         },
         {
           "q": "If a travel graph is horizontal for 20 minutes, what is happening?",
-          "a": "No movement"
+          "a": "No movement",
+          "hints": [
+            "Think about what a zero gradient (no change in distance over time) represents.",
+            "A horizontal section means the distance stays constant while time passes.",
+            "No movement"
+          ]
         }
       ]
     }
