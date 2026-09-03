@@ -28,8 +28,19 @@ function normalizeMath(expr) {
   text = text.replace(/≤/g, "\\le ");
   text = text.replace(/≥/g, "\\ge ");
   text = text.replace(/≠/g, "\\ne ");
+
+  // Literal ASCII "x" used as a multiplication sign (the established authoring convention
+  // throughout this site's question/answer text, e.g. "9 x 10^6", "2x9").
+  text = text.replace(/(\d)x(\d)/g, "$1\\times $2");
+  text = text.replace(/([\d)])\s+x\s+(?=-?[\d(]|[a-z]+\(|pi\b|\\pi)/g, "$1 \\times ");
+
+  // Parenthesised exponent, e.g. "10^(8-2)" -> "10^{(8-2)}" (keeps the visible parens authors
+  // wrote but fixes TeX grouping). Allows one level of nested parens, e.g. "10^(7-(-1))".
+  text = text.replace(/\^\(((?:[^()]|\([^()]*\))*)\)/g, "^{($1)}");
+  // Any base (letter OR digit) followed by ^ and a multi-char run, e.g. "10^-3" -> "10^{-3}".
+  text = text.replace(/([A-Za-z0-9])\^(-?\d+)/g, "$1^{$2}");
+
   text = text.replace(/(\d+)°/g, "$1^{\\circ}");
-  text = text.replace(/([A-Za-z])\^(\-?\d+)/g, "$1^{$2}");
   text = text.replace(/\b(\d+)\s*\/\s*(\d+)\b/g, "\\frac{$1}{$2}");
   return text;
 }

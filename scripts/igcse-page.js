@@ -261,8 +261,24 @@ function normalizeMath(expr) {
   text = text.replace(/∝/g, "\\propto ");
   text = text.replace(/∫/g, "\\int ");
 
+  // Literal ASCII "x" used as a multiplication sign (the established authoring convention
+  // throughout this site's question/answer/hint text, e.g. "9 x 10^6", "2x9").
+  // Compact form: digit immediately touching x on both sides, e.g. "2x9" -> "2\times 9".
+  text = text.replace(/(\d)x(\d)/g, "$1\\times $2");
+  // Spaced form: " x " flanked by a digit/close-paren before and a digit/open-paren/minus-digit/
+  // function-name(.../pi after (covers "5 x sin(30)", "9 x sqrt(2)", "5 x pi" etc). Deliberately
+  // excludes flanks like "= x", "x =", "x +", "for x" so the algebraic variable x is untouched.
+  text = text.replace(/([\d)])\s+x\s+(?=-?[\d(]|[a-z]+\(|pi\b|\\pi)/g, "$1 \\times ");
+
+  // Parenthesised exponent, e.g. "10^(8-2)" -> "10^{(8-2)}" (keeps the visible parens authors
+  // wrote but fixes TeX grouping, which only superscripts the next single character otherwise).
+  // Allows one level of nested parens, e.g. "10^(7-(-1))".
+  text = text.replace(/\^\(((?:[^()]|\([^()]*\))*)\)/g, "^{($1)}");
+  // Any base (letter OR digit) followed by ^ and a multi-char run (sign + digits), e.g.
+  // "10^-3" -> "10^{-3}" (the base is very often a digit here, e.g. standard form "10^N").
+  text = text.replace(/([A-Za-z0-9])\^(-?\d+)/g, "$1^{$2}");
+
   text = text.replace(/(\d+)°/g, "$1^{\\circ}");
-  text = text.replace(/([A-Za-z])\^(\-?\d+)/g, "$1^{$2}");
   text = text.replace(/\b(\d+)\s*\/\s*(\d+)\b/g, "\\frac{$1}{$2}");
 
   return text;
