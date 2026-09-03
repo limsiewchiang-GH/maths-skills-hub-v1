@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "For f(x) = x^2 with x in R, what is the range?",
-          "a": "y >= 0"
+          "a": "y >= 0",
+          "hints": [
+            "Think about the smallest value x^2 can take, and whether it has an upper limit.",
+            "x^2 is never negative, and can be made as large as you like, so y ranges from 0 upwards.",
+            "y >= 0"
+          ]
         },
         {
           "q": "For f(x) = 1/x, what is the domain?",
-          "a": "x != 0"
+          "a": "x != 0",
+          "hints": [
+            "Think about which input value would make the function undefined.",
+            "Dividing by x is impossible when x = 0.",
+            "x != 0"
+          ]
         },
         {
           "q": "For x in [0,3], f(x) = 2x + 1. What is the range?",
-          "a": "[1,7]"
+          "a": "[1,7]",
+          "hints": [
+            "Since f is increasing, evaluate f at each end of the domain.",
+            "f(0) = 1 and f(3) = 7, and f increases steadily between them.",
+            "[1,7]"
+          ]
         },
         {
           "q": "For f(x) = sqrt(x), what is the domain?",
-          "a": "x >= 0"
+          "a": "x >= 0",
+          "hints": [
+            "Think about which input values give a real square root.",
+            "The square root of a negative number is not real, so x cannot be negative.",
+            "x >= 0"
+          ]
         },
         {
           "q": "For f(x) = x + 4, what is the domain if no restriction is given?",
-          "a": "All real numbers"
+          "a": "All real numbers",
+          "hints": [
+            "Think about whether any input value would cause a problem for this function.",
+            "Adding 4 works for every real x, with no undefined cases.",
+            "All real numbers"
+          ]
         },
         {
           "q": "For f(x) = (x - 2)^2, what is the minimum value in the range?",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "A squared expression is smallest when the bracket is zero.",
+            "(x-2)^2 is smallest when x = 2, giving (0)^2.",
+            "0"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "If f(x) = 2x + 1 and g(x) = x^2, find f(g(3)).",
-          "a": "19"
+          "a": "19",
+          "hints": [
+            "Work from the inside out: find g(3) first, then apply f to that result.",
+            "g(3) = 9, so f(g(3)) = f(9) = 2(9) + 1.",
+            "19"
+          ]
         },
         {
           "q": "If f(x) = 2x + 1 and g(x) = x^2, find g(f(x)).",
-          "a": "(2x + 1)^2"
+          "a": "(2x + 1)^2",
+          "hints": [
+            "Substitute the whole expression f(x) into g in place of x.",
+            "g(f(x)) = (f(x))^2 = (2x+1)^2.",
+            "(2x + 1)^2"
+          ]
         },
         {
           "q": "If f(x) = 2x + 1 and g(x) = x^2, find f(g(x)).",
-          "a": "2x^2 + 1"
+          "a": "2x^2 + 1",
+          "hints": [
+            "Substitute the whole expression g(x) into f in place of x.",
+            "f(g(x)) = 2(g(x)) + 1 = 2(x^2) + 1.",
+            "2x^2 + 1"
+          ]
         },
         {
           "q": "If f(x) = x - 4 and g(x) = 3x, find f(g(2)).",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Work from the inside out: find g(2) first, then apply f to that result.",
+            "g(2) = 6, so f(g(2)) = f(6) = 6 - 4.",
+            "2"
+          ]
         },
         {
           "q": "If f(x) = x + 5 and g(x) = 2x, find g(f(1)).",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "Work from the inside out: find f(1) first, then apply g to that result.",
+            "f(1) = 6, so g(f(1)) = g(6) = 2(6).",
+            "12"
+          ]
         },
         {
           "q": "If f(x) = x^2 and g(x) = x + 1, find f(g(2)).",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Work from the inside out: find g(2) first, then apply f to that result.",
+            "g(2) = 3, so f(g(2)) = f(3) = 3^2.",
+            "9"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Find the inverse of f(x) = 3x - 4.",
-          "a": "f^-1(x) = (x + 4)/3"
+          "a": "f^-1(x) = (x + 4)/3",
+          "hints": [
+            "Write y = f(x), swap x and y, then rearrange to make y the subject.",
+            "x = 3y - 4, so 3y = x + 4.",
+            "f^-1(x) = (x + 4)/3"
+          ]
         },
         {
           "q": "For f(x) = 3x - 4, find f^-1(11).",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Use the inverse formula f^-1(x) = (x + 4)/3.",
+            "f^-1(11) = (11 + 4)/3.",
+            "5"
+          ]
         },
         {
           "q": "What condition must a function satisfy to have an inverse on its full domain?",
-          "a": "It must be one-to-one"
+          "a": "It must be one-to-one",
+          "hints": [
+            "Think about what would go wrong if two different inputs gave the same output.",
+            "If two inputs shared an output, the inverse wouldn't know which one to send it back to — so the function must be one-to-one.",
+            "It must be one-to-one"
+          ]
         },
         {
           "q": "Find the inverse of f(x) = x + 7.",
-          "a": "f^-1(x) = x - 7"
+          "a": "f^-1(x) = x - 7",
+          "hints": [
+            "Write y = f(x), swap x and y, then rearrange to make y the subject.",
+            "x = y + 7, so y = x - 7.",
+            "f^-1(x) = x - 7"
+          ]
         },
         {
           "q": "Find the inverse of f(x) = 2x + 3.",
-          "a": "f^-1(x) = (x - 3)/2"
+          "a": "f^-1(x) = (x - 3)/2",
+          "hints": [
+            "Write y = f(x), swap x and y, then rearrange to make y the subject.",
+            "x = 2y + 3, so 2y = x - 3.",
+            "f^-1(x) = (x - 3)/2"
+          ]
         },
         {
           "q": "True or false: a many-to-one function has an inverse on the full domain.",
-          "a": "False"
+          "a": "False",
+          "hints": [
+            "Think about whether the inverse would know which of several inputs to return.",
+            "A many-to-one function sends several inputs to the same output, so reversing it is ambiguous.",
+            "False"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Why does y = x^2 not have an inverse on all real x?",
-          "a": "It is not one-to-one"
+          "a": "It is not one-to-one",
+          "hints": [
+            "Think about whether two different x-values could give the same y-value.",
+            "Both x = 2 and x = -2 give y = 4, so the function isn't one-to-one over all reals.",
+            "It is not one-to-one"
+          ]
         },
         {
           "q": "If y = x^2 with x >= 0, find the inverse.",
-          "a": "y = sqrt(x)"
+          "a": "y = sqrt(x)",
+          "hints": [
+            "Swap x and y, then take the square root — remembering the restriction keeps only the positive root.",
+            "x = y^2 with y >= 0, so y = sqrt(x).",
+            "y = sqrt(x)"
+          ]
         },
         {
           "q": "If y = (x - 2)^2 with x >= 2, find the inverse.",
-          "a": "y = 2 + sqrt(x)"
+          "a": "y = 2 + sqrt(x)",
+          "hints": [
+            "Swap x and y, take the square root (positive, since x >= 2), then rearrange.",
+            "x = (y-2)^2 with y >= 2, so sqrt(x) = y - 2.",
+            "y = 2 + sqrt(x)"
+          ]
         },
         {
           "q": "If y = (x + 3)^2 with x >= -3, find the inverse.",
-          "a": "y = -3 + sqrt(x)"
+          "a": "y = -3 + sqrt(x)",
+          "hints": [
+            "Swap x and y, take the square root (positive, since x >= -3), then rearrange.",
+            "x = (y+3)^2 with y >= -3, so sqrt(x) = y + 3.",
+            "y = -3 + sqrt(x)"
+          ]
         },
         {
           "q": "What restriction on x makes y = x^2 invertible?",
-          "a": "x >= 0 or x <= 0"
+          "a": "x >= 0 or x <= 0",
+          "hints": [
+            "Think about splitting the graph of y = x^2 so each half is one-to-one.",
+            "Restricting to only the non-negative or only the non-positive x-values makes the function one-to-one.",
+            "x >= 0 or x <= 0"
+          ]
         },
         {
           "q": "True or false: restricting the domain can make a quadratic invertible.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Think about what happens to a many-to-one graph when you only keep half of it.",
+            "Keeping only x >= 0 (or only x <= 0) removes the repeated outputs, making it one-to-one.",
+            "True"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "Write the graph y = x^2 shifted up 3.",
-          "a": "y = x^2 + 3"
+          "a": "y = x^2 + 3",
+          "hints": [
+            "Shifting a graph up by a adds a to the whole function.",
+            "y = x^2 + 3.",
+            "y = x^2 + 3"
+          ]
         },
         {
           "q": "Write the graph y = x^2 shifted right 4.",
-          "a": "y = (x - 4)^2"
+          "a": "y = (x - 4)^2",
+          "hints": [
+            "Shifting a graph right by a replaces x with (x - a).",
+            "y = (x - 4)^2.",
+            "y = (x - 4)^2"
+          ]
         },
         {
           "q": "Write the graph y = x^2 reflected in the x-axis.",
-          "a": "y = -x^2"
+          "a": "y = -x^2",
+          "hints": [
+            "Reflecting in the x-axis negates the whole function.",
+            "y = -(x^2).",
+            "y = -x^2"
+          ]
         },
         {
           "q": "Write the graph y = sqrt(x) shifted left 2.",
-          "a": "y = sqrt(x + 2)"
+          "a": "y = sqrt(x + 2)",
+          "hints": [
+            "Shifting a graph left by a replaces x with (x + a).",
+            "y = sqrt(x + 2).",
+            "y = sqrt(x + 2)"
+          ]
         },
         {
           "q": "Write the graph y = x^2 shifted down 5.",
-          "a": "y = x^2 - 5"
+          "a": "y = x^2 - 5",
+          "hints": [
+            "Shifting a graph down by a subtracts a from the whole function.",
+            "y = x^2 - 5.",
+            "y = x^2 - 5"
+          ]
         },
         {
           "q": "Write the graph y = x^3 reflected in the y-axis.",
-          "a": "y = -x^3"
+          "a": "y = -x^3",
+          "hints": [
+            "Reflecting in the y-axis replaces x with -x.",
+            "y = (-x)^3 = -x^3.",
+            "y = -x^3"
+          ]
         }
       ]
     },
@@ -147,27 +297,57 @@
       "items": [
         {
           "q": "Solve: x^2 - 5x + 6 = 0.",
-          "a": "x = 2 or x = 3"
+          "a": "x = 2 or x = 3",
+          "hints": [
+            "Factorise into two brackets whose constants multiply to 6 and add to -5.",
+            "(x - 2)(x - 3) = 0.",
+            "x = 2 or x = 3"
+          ]
         },
         {
           "q": "Simplify: (x^2 - 9)/(x - 3).",
-          "a": "x + 3"
+          "a": "x + 3",
+          "hints": [
+            "Factorise the numerator as a difference of two squares.",
+            "(x^2 - 9) = (x - 3)(x + 3), so the (x - 3) factors cancel.",
+            "x + 3"
+          ]
         },
         {
           "q": "Solve: x^2 - 4 < 0.",
-          "a": "-2 < x < 2"
+          "a": "-2 < x < 2",
+          "hints": [
+            "Find where x^2 - 4 = 0 first, then decide which side of those roots makes it negative.",
+            "x^2 - 4 = 0 at x = -2 and x = 2; between them the expression is negative.",
+            "-2 < x < 2"
+          ]
         },
         {
           "q": "Factorise: x^2 + 7x + 10.",
-          "a": "(x + 5)(x + 2)"
+          "a": "(x + 5)(x + 2)",
+          "hints": [
+            "Find two numbers that multiply to 10 and add to 7.",
+            "5 and 2 multiply to 10 and add to 7.",
+            "(x + 5)(x + 2)"
+          ]
         },
         {
           "q": "Solve: x^2 + x - 12 = 0.",
-          "a": "x = 3 or x = -4"
+          "a": "x = 3 or x = -4",
+          "hints": [
+            "Find two numbers that multiply to -12 and add to 1.",
+            "(x - 3)(x + 4) = 0.",
+            "x = 3 or x = -4"
+          ]
         },
         {
           "q": "Solve: x^2 - x - 6 >= 0.",
-          "a": "x <= -2 or x >= 3"
+          "a": "x <= -2 or x >= 3",
+          "hints": [
+            "Find the roots of x^2 - x - 6 = 0 first, then decide which side of those roots makes it non-negative.",
+            "(x - 3)(x + 2) = 0 gives x = 3 or x = -2; outside these roots the expression is positive.",
+            "x <= -2 or x >= 3"
+          ]
         }
       ]
     },
@@ -175,27 +355,57 @@
       "items": [
         {
           "q": "How does the angle at the centre compare with the angle at the circumference on the same arc?",
-          "a": "It is double"
+          "a": "It is double",
+          "hints": [
+            "Recall the circle theorem linking the centre and circumference angles on the same arc.",
+            "The angle at the centre is always twice the angle at the circumference subtended by the same arc.",
+            "It is double"
+          ]
         },
         {
           "q": "What do opposite angles in a cyclic quadrilateral add up to?",
-          "a": "180"
+          "a": "180",
+          "hints": [
+            "Recall the circle theorem for a quadrilateral with all four vertices on the circle.",
+            "Opposite angles in a cyclic quadrilateral are supplementary.",
+            "180"
+          ]
         },
         {
           "q": "What angle is formed between a tangent and a radius at the point of contact?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem about tangents and radii.",
+            "A tangent always meets the radius at the point of contact at a right angle.",
+            "90"
+          ]
         },
         {
           "q": "Angles in the same segment are what?",
-          "a": "Equal"
+          "a": "Equal",
+          "hints": [
+            "Recall the circle theorem about angles subtended by the same arc from the same side.",
+            "All angles in the same segment, standing on the same arc, are equal to each other.",
+            "Equal"
+          ]
         },
         {
           "q": "The angle in a semicircle is always what?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem for an angle subtended by a diameter.",
+            "Any angle in a semicircle, standing on the diameter, is a right angle.",
+            "90"
+          ]
         },
         {
           "q": "True or false: the alternate segment angle equals the angle between the tangent and chord.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the alternate segment theorem.",
+            "The angle between a tangent and a chord equals the angle in the alternate segment.",
+            "True"
+          ]
         }
       ]
     },
@@ -203,27 +413,57 @@
       "items": [
         {
           "q": "If P(A) = 0.35, find P(not A).",
-          "a": "0.65"
+          "a": "0.65",
+          "hints": [
+            "Use P(not A) = 1 - P(A).",
+            "1 - 0.35.",
+            "0.65"
+          ]
         },
         {
           "q": "A fair die is rolled. Find the probability of a prime number.",
-          "a": "1/2"
+          "a": "1/2",
+          "hints": [
+            "List the prime numbers on a die, then count them out of 6.",
+            "Primes on a die: 2, 3, 5 — that's 3 out of 6 outcomes.",
+            "1/2"
+          ]
         },
         {
           "q": "Two coins are tossed. Find the probability of exactly one head.",
-          "a": "1/2"
+          "a": "1/2",
+          "hints": [
+            "List all four equally likely outcomes, then count how many have exactly one head.",
+            "Outcomes: HH, HT, TH, TT — exactly one head occurs in HT and TH, 2 out of 4.",
+            "1/2"
+          ]
         },
         {
           "q": "A bag has 4 red and 6 blue counters. Find P(red).",
-          "a": "2/5"
+          "a": "2/5",
+          "hints": [
+            "P(red) = number of red counters / total counters.",
+            "4 / (4 + 6).",
+            "2/5"
+          ]
         },
         {
           "q": "True or false: probabilities must be between 0 and 1 inclusive.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the valid range for any probability.",
+            "0 means impossible and 1 means certain — every probability lies between them.",
+            "True"
+          ]
         },
         {
           "q": "If events are mutually exclusive, what is P(A and B)?",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Think about what 'mutually exclusive' means for two events happening together.",
+            "Mutually exclusive events cannot happen at the same time, so their overlap is impossible.",
+            "0"
+          ]
         }
       ]
     }

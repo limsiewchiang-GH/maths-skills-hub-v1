@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "What is the aim of a mathematical proof?",
-          "a": "To show a statement is always true"
+          "a": "To show a statement is always true",
+          "hints": [
+            "Think about what separates a proof from just checking a few cases.",
+            "A proof must establish the statement holds in every possible case, not just some.",
+            "To show a statement is always true"
+          ]
         },
         {
           "q": "Can one example prove a statement for all integers?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Think about whether a single case can guarantee every other case behaves the same way.",
+            "One example only shows the statement is true in that one case, not in general.",
+            "No"
+          ]
         },
         {
           "q": "Name one proof method.",
-          "a": "Direct proof"
+          "a": "Direct proof",
+          "hints": [
+            "Recall a standard technique for proving a mathematical statement.",
+            "Starting from known facts and reasoning step by step to the result is called direct proof.",
+            "Direct proof"
+          ]
         },
         {
           "q": "True or false: proof is different from checking a few examples.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Compare 'checking examples' with 'proving for all cases'.",
+            "Checking examples only tests specific cases; a proof covers every case.",
+            "True"
+          ]
         },
         {
           "q": "What does a proof rely on: logic or guesswork?",
-          "a": "Logic"
+          "a": "Logic",
+          "hints": [
+            "Think about what makes an argument valid in mathematics.",
+            "Each step of a proof must follow logically from the last, not from a guess.",
+            "Logic"
+          ]
         },
         {
           "q": "Does a proof need to work for all valid cases?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Recall the definition of a mathematical proof.",
+            "A proof only counts as complete if it covers every valid case.",
+            "Yes"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Prove the sum of two even numbers is even. Write the conclusion form.",
-          "a": "2(a + b)"
+          "a": "2(a + b)",
+          "hints": [
+            "Write each even number in algebraic form, then add them.",
+            "Two even numbers are 2a and 2b, so their sum is 2a + 2b.",
+            "2(a + b)"
+          ]
         },
         {
           "q": "Write an odd number in algebraic form.",
-          "a": "2n + 1"
+          "a": "2n + 1",
+          "hints": [
+            "Start from the algebraic form of an even number, then adjust by 1.",
+            "An even number is 2n, so the next integer along is 2n + 1.",
+            "2n + 1"
+          ]
         },
         {
           "q": "Write an even number in algebraic form.",
-          "a": "2n"
+          "a": "2n",
+          "hints": [
+            "Recall that every even number is a multiple of 2.",
+            "Any even number can be written as 2 times an integer, n.",
+            "2n"
+          ]
         },
         {
           "q": "The product of two odd numbers is of the form what?",
-          "a": "2k + 1"
+          "a": "2k + 1",
+          "hints": [
+            "Write two odd numbers algebraically, multiply them out, and see what form the result takes.",
+            "(2a+1)(2b+1) = 4ab + 2a + 2b + 1 = 2(2ab+a+b) + 1.",
+            "2k + 1"
+          ]
         },
         {
           "q": "Is n(n + 1) always even or odd?",
-          "a": "Even"
+          "a": "Even",
+          "hints": [
+            "Think about whether n and n+1 can ever both be odd.",
+            "n and n + 1 are consecutive integers, so one of them is always even — making the product even.",
+            "Even"
+          ]
         },
         {
           "q": "True or false: a direct proof should start from known facts.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the structure a direct proof follows.",
+            "A direct proof builds forward from definitions and known facts to the conclusion.",
+            "True"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Is 2n + 1 even or odd?",
-          "a": "Odd"
+          "a": "Odd",
+          "hints": [
+            "Compare the expression to the standard algebraic form of an odd number.",
+            "2n + 1 is 'a multiple of 2, plus 1' — the standard form for an odd number.",
+            "Odd"
+          ]
         },
         {
           "q": "If n is even, is n^2 even or odd?",
-          "a": "Even"
+          "a": "Even",
+          "hints": [
+            "Write n in its algebraic even form, then square it.",
+            "n = 2k, so n^2 = (2k)^2 = 4k^2 = 2(2k^2), a multiple of 2.",
+            "Even"
+          ]
         },
         {
           "q": "Simplify 3(n + 1) - 3n.",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Expand the bracket first, then collect like terms.",
+            "3n + 3 - 3n.",
+            "3"
+          ]
         },
         {
           "q": "If n = 2k, write n^2 in terms of k.",
-          "a": "4k^2"
+          "a": "4k^2",
+          "hints": [
+            "Substitute n = 2k into n^2 and expand.",
+            "n^2 = (2k)^2.",
+            "4k^2"
+          ]
         },
         {
           "q": "Can 2n represent any odd integer?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Think about what 2n is always a multiple of.",
+            "2n is always a multiple of 2, so it is always even, never odd.",
+            "No"
+          ]
         },
         {
           "q": "Does 2n + 1 always represent an odd integer?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Think about what adding 1 to an even number always produces.",
+            "2n is always even, so 2n + 1 is always one more than an even number — always odd.",
+            "Yes"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "In direct proof, where should you usually start?",
-          "a": "From known facts or definitions"
+          "a": "From known facts or definitions",
+          "hints": [
+            "Think about what a proof needs as its foundation.",
+            "A proof builds forward, so it must begin from something already established.",
+            "From known facts or definitions"
+          ]
         },
         {
           "q": "Why should you avoid assuming the final statement is already true?",
-          "a": "It can become circular"
+          "a": "It can become circular",
+          "hints": [
+            "Think about what happens if the conclusion is used to prove itself.",
+            "Assuming the result you're trying to prove makes the argument go in a circle rather than building forward.",
+            "It can become circular"
+          ]
         },
         {
           "q": "What should each line in a proof follow from?",
-          "a": "The previous valid line"
+          "a": "The previous valid line",
+          "hints": [
+            "Think about how each step in a logical chain connects to the last.",
+            "Every new line must be a valid consequence of the line before it.",
+            "The previous valid line"
+          ]
         },
         {
           "q": "True or false: proof should proceed logically step by step.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall how a valid proof is structured.",
+            "Each step must follow logically from the one before, building towards the conclusion.",
+            "True"
+          ]
         },
         {
           "q": "Does direct proof work best with clear definitions?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Think about what a proof needs to be built on solid ground.",
+            "Clear, precise definitions give the proof a firm and unambiguous starting point.",
+            "Yes"
+          ]
         },
         {
           "q": "What is the danger of starting from the result instead of the assumptions?",
-          "a": "Circular reasoning"
+          "a": "Circular reasoning",
+          "hints": [
+            "Think about what happens if you assume the conclusion to prove the conclusion.",
+            "Starting from the result and working backwards to 'prove' it is a logical trap.",
+            "Circular reasoning"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "What should a polished proof contain after rough jottings?",
-          "a": "A clear logical argument"
+          "a": "A clear logical argument",
+          "hints": [
+            "Think about the difference between working notes and a final write-up.",
+            "Rough working should be tidied into a proof that reads as one clear chain of reasoning.",
+            "A clear logical argument"
+          ]
         },
         {
           "q": "Should large unexplained jumps be allowed in a proof?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Think about whether a reader should be able to follow every step.",
+            "Every step must be justified so the reader can check it — unexplained jumps break that chain.",
+            "No"
+          ]
         },
         {
           "q": "Why is logical ordering important in proof writing?",
-          "a": "So each step can be checked"
+          "a": "So each step can be checked",
+          "hints": [
+            "Think about what a reader needs to be able to do with each line.",
+            "If the steps are in the right order, each one can be verified against the one before it.",
+            "So each step can be checked"
+          ]
         },
         {
           "q": "True or false: rough work should be turned into a clear final argument.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the standard process for writing up a proof.",
+            "Rough jottings are a starting point — the final answer should be a tidy, logical write-up.",
+            "True"
+          ]
         },
         {
           "q": "Should you state definitions when useful in a proof?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Think about what helps a reader follow your reasoning.",
+            "Stating a relevant definition makes the logic clear and easy to check.",
+            "Yes"
+          ]
         },
         {
           "q": "What is better in a proof: neat logic or guesswork?",
-          "a": "Neat logic"
+          "a": "Neat logic",
+          "hints": [
+            "Recall what a valid mathematical proof must be built on.",
+            "A proof must follow logically step by step — guesswork cannot establish that a statement is always true.",
+            "Neat logic"
+          ]
         }
       ]
     },
@@ -147,27 +297,57 @@
       "items": [
         {
           "q": "Write a general even integer.",
-          "a": "2k"
+          "a": "2k",
+          "hints": [
+            "Recall that every even number is a multiple of 2.",
+            "Any even number can be written as 2 times an integer, k.",
+            "2k"
+          ]
         },
         {
           "q": "Write a general odd integer.",
-          "a": "2k + 1"
+          "a": "2k + 1",
+          "hints": [
+            "Start from the algebraic form of an even number, then adjust by 1.",
+            "An even number is 2k, so the next integer along is 2k + 1.",
+            "2k + 1"
+          ]
         },
         {
           "q": "Is 2k + 3 even or odd?",
-          "a": "Odd"
+          "a": "Odd",
+          "hints": [
+            "Rewrite the expression so it matches the standard odd-number form 2(something) + 1.",
+            "2k + 3 = 2k + 2 + 1 = 2(k+1) + 1.",
+            "Odd"
+          ]
         },
         {
           "q": "Is 2k + 4 even or odd?",
-          "a": "Even"
+          "a": "Even",
+          "hints": [
+            "Check whether every term in the expression is a multiple of 2.",
+            "2k + 4 = 2(k + 2), a multiple of 2.",
+            "Even"
+          ]
         },
         {
           "q": "Can every even integer be written as 2k?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Recall the definition of an even integer.",
+            "By definition, an even integer is exactly a multiple of 2, i.e. 2k for some integer k.",
+            "Yes"
+          ]
         },
         {
           "q": "Can every odd integer be written as 2k + 1?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Recall the definition of an odd integer.",
+            "By definition, an odd integer is exactly one more than a multiple of 2, i.e. 2k + 1.",
+            "Yes"
+          ]
         }
       ]
     },
@@ -175,27 +355,57 @@
       "items": [
         {
           "q": "Can x^2 ever be negative for real x?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Think about the sign of a real number multiplied by itself.",
+            "Whether x is positive, negative, or zero, x times x is always >= 0.",
+            "No"
+          ]
         },
         {
           "q": "What is the minimum value of (x - 3)^2?",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "A squared real expression is smallest when the bracket itself is zero.",
+            "(x-3)^2 is smallest when x - 3 = 0, giving (0)^2.",
+            "0"
+          ]
         },
         {
           "q": "Solve x^2 = -4 over the reals.",
-          "a": "No real solution"
+          "a": "No real solution",
+          "hints": [
+            "Think about whether a real square can ever equal a negative number.",
+            "x^2 is always >= 0 for real x, so it can never equal -4.",
+            "No real solution"
+          ]
         },
         {
           "q": "True or false: the square of a real number is always non-negative.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the sign rule for squaring a real number.",
+            "A positive times a positive, or a negative times a negative, is always positive (or zero).",
+            "True"
+          ]
         },
         {
           "q": "What is the minimum value of x^2 + 5?",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "x^2 is smallest when x = 0 — use that to find the smallest value of the whole expression.",
+            "The minimum of x^2 is 0, so the minimum of x^2 + 5 is 0 + 5.",
+            "5"
+          ]
         },
         {
           "q": "If a square is 0, what can the original real number be?",
-          "a": "0"
+          "a": "0",
+          "hints": [
+            "Think about which real number multiplied by itself gives zero.",
+            "x^2 = 0 means x times x = 0, which only happens when x = 0.",
+            "0"
+          ]
         }
       ]
     }
