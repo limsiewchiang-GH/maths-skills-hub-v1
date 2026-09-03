@@ -42,7 +42,9 @@ function normalizeMath(expr) {
   // variable-length converted token like "\pi" (e.g. "pi x 6" -> "\pi \times 6"), and a matching
   // lookahead alternative for already-converted LaTeX commands (e.g. "\sqrt{3}", "\tan(60^{\circ}"
   // — sqrt/cbrt and trig conversion both run earlier in this function).
-  text = text.replace(/(?<=[\d)]|\\pi)\s+x\s+(?=-?[\d(]|[a-z]+\(|\\[a-z]+[{(]|pi\b|\\pi)/g, " \\times ");
+  // Trailing lookahead also allows a single isolated letter (e.g. "pi x r" -> "\pi \times r"),
+  // now that the general-fallback matcher lets a lone algebra variable like "r" into a token.
+  text = text.replace(/(?<=[\d)]|\\pi)\s+x\s+(?=-?[\d(]|[a-z]+\(|\\[a-z]+[{(]|pi\b|\\pi|[a-z]\b(?!\())/gi, " \\times ");
 
   // Parenthesised exponent, e.g. "10^(8-2)" -> "10^{(8-2)}" (keeps the visible parens authors
   // wrote but fixes TeX grouping). Allows one level of nested parens, e.g. "10^(7-(-1))".
