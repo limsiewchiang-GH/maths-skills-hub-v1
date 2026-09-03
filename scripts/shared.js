@@ -66,8 +66,30 @@ function formatInlineMathText(raw) {
   marked = marked.replace(/\((-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?){1,2})\)/g, (_, coords) => pushMath(`(${coords})`));
   marked = marked.replace(/\b([A-Za-z])\s+in\s+(R|\[[^\]]+\])/g, (_, variable, setExpr) => pushMath(`${variable} \\in ${setExpr}`));
   marked = marked.replace(/\[[^\[\]]+\]/g, (value) => (/[\d,]/.test(value) ? pushMath(value) : value));
+
+  // Completed-square template patterns like "(x + a)^2 + b" or "a(x + b)^2 + c", where a lone
+  // letter stands in for a generic coefficient rather than a specific number.
   marked = marked.replace(
-    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*[^,.;!?]+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,.!?;]|$)/g,
+    /(?:\b[a-z]\(|\()x\s*[+\-]\s*[a-z]\)\^-?\d+(?:\s*[+\-]\s*[a-z]\b)?/gi,
+    (candidate) => pushMath(candidate)
+  );
+
+  // General fallback: any digit/operator/paren-heavy run not already caught above (e.g.
+  // "4x^2 + 6x - 2x - 3", "3x^(-1/2)"). Runs BEFORE the narrower fraction/single-letter-equation
+  // regexes below so it can claim a whole contiguous expression as one unit; wrapMath/
+  // normalizeMath then handles fractions, exponent-bracing and x-as-multiplication *inside* it.
+  marked = marked.replace(/(?:[A-Za-z]\^|[\d(])[\d+\-*/^().,.\sxX]*[\d)]/g, (candidate) => {
+    if (candidate.includes("@@M")) return candidate; // already-tokenised region
+    const trimmed = candidate.trim();
+    const hasOperator = /[+\-*/^]/.test(trimmed) || /x/i.test(trimmed);
+    if (hasOperator && trimmed.length >= 3) {
+      return pushMath(trimmed);
+    }
+    return candidate;
+  });
+
+  marked = marked.replace(
+    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*(?:[^,.;!?@]|\.(?=\d))+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,!?;]|\.(?!\d)|$)/g,
     (candidate) => (isLikelyMathSnippet(candidate) ? pushMath(candidate.trim()) : candidate)
   );
   marked = marked.replace(/(\d+)\.\u0305(\d+)/g, (_, whole, recurring) => pushMath(`${whole}.\\overline{${recurring}}`));
