@@ -77,15 +77,6 @@ const igcseTemplates = {
   ...(practiceData.templates || {})
 };
 
-function escapeHtml(str) {
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-}
-
 function countTopics(data) {
   return data.reduce((total, year) => total + year.topics.length, 0);
 }
@@ -229,30 +220,6 @@ function normalizeQuestionItems(set) {
   }));
 }
 
-function renderQuestionMedia(item) {
-  if (!item?.image) {
-    return "";
-  }
-
-  const alt = item.imageAlt || "Question diagram";
-  const caption = item.imageCaption ? `<div class="question-image-caption">${escapeHtml(item.imageCaption)}</div>` : "";
-  return `
-    <figure class="question-media">
-      <img class="question-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(alt)}" loading="lazy" />
-      ${caption}
-    </figure>
-  `;
-}
-
-function shuffleItems(items) {
-  const next = [...items];
-  for (let index = next.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    [next[index], next[swapIndex]] = [next[swapIndex], next[index]];
-  }
-  return next;
-}
-
 function selectQuestionItems(set, count = 3) {
   const items = normalizeQuestionItems(set);
   const targetCount = Math.min(count, items.length);
@@ -299,121 +266,6 @@ function normalizeMath(expr) {
   text = text.replace(/\b(\d+)\s*\/\s*(\d+)\b/g, "\\frac{$1}{$2}");
 
   return text;
-}
-
-function wrapMath(expr) {
-  const normalized = normalizeMath(expr)
-    .replace(/\s+or\s+/g, " \\text{ or } ");
-  return `\\(${normalized}\\)`;
-}
-
-function isLikelyMathSnippet(text) {
-  const allowedWords = new Set(["sqrt", "cbrt", "pi", "sin", "cos", "tan", "log", "ln", "exp"]);
-  const words = String(text || "").match(/[A-Za-z]+/g) || [];
-  return words.every((word) => allowedWords.has(word.toLowerCase()) || word.length <= 2);
-}
-
-function formatInlineMathText(raw) {
-  let marked = raw;
-  const tokens = [];
-  const pushMath = (expr) => {
-    const key = `@@M${tokens.length}@@`;
-    tokens.push(expr);
-    return key;
-  };
-
-  marked = marked.replace(/(\d+(?:\.\d+)?)pi\s*(cm|mm|m)\^([23])/gi, (_, value, unit, power) =>
-    pushMath(`${value}\\pi \\text{ ${unit} }^${power}`)
-  );
-  marked = marked.replace(/(\d+(?:\.\d+)?)\s*(cm|mm|m)\^([23])/gi, (_, value, unit, power) =>
-    pushMath(`${value}\\text{ ${unit} }^${power}`)
-  );
-  marked = marked.replace(/(\d+(?:\.\d+)?)pi\b/gi, (_, value) => pushMath(`${value}\\pi`));
-  marked = marked.replace(/\((-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?){1,2})\)/g, (_, coords) => pushMath(`(${coords})`));
-  marked = marked.replace(/\b([A-Za-z])\s+in\s+(R|\[[^\]]+\])/g, (_, variable, setExpr) => pushMath(`${variable} \\in ${setExpr}`));
-  marked = marked.replace(/\[[^\[\]]+\]/g, (value) => (/[\d,]/.test(value) ? pushMath(value) : value));
-  marked = marked.replace(
-    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*[^,.;!?]+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,.!?;]|$)/g,
-    (candidate) => (isLikelyMathSnippet(candidate) ? pushMath(candidate.trim()) : candidate)
-  );
-  marked = marked.replace(/(\d+)\.\u0305(\d+)/g, (_, whole, recurring) => pushMath(`${whole}.\\overline{${recurring}}`));
-  marked = marked.replace(/(\d+)\s+(\d+)\s*\/\s*(\d+)/g, (_, whole, numerator, denominator) => `${whole} ${pushMath(`${numerator}/${denominator}`)}`);
-  marked = marked.replace(/\b(\d+)\s*\/\s*(\d+)\b/g, (_, numerator, denominator) => pushMath(`${numerator}/${denominator}`));
-  marked = marked.replace(/\bdy\/dx\b/g, () => pushMath("dy/dx"));
-  marked = marked.replace(/\b\d+°\b/g, (value) => pushMath(value));
-
-  const tokenRe = /@@M(\d+)@@/g;
-  let output = "";
-  let lastIndex = 0;
-  let match;
-
-  while ((match = tokenRe.exec(marked)) !== null) {
-    output += escapeHtml(marked.slice(lastIndex, match.index));
-    output += wrapMath(tokens[Number(match[1])] || "");
-    lastIndex = tokenRe.lastIndex;
-  }
-  output += escapeHtml(marked.slice(lastIndex));
-
-  return output;
-}
-
-function formatJoinedMathClauses(text) {
-  const parts = String(text || "")
-    .split(/\s+and\s+/i)
-    .map((part) => part.trim())
-    .filter(Boolean);
-
-  if (parts.length < 2) {
-    return null;
-  }
-
-  const mathLike = parts.every((part) => /[=+\-*/^≤≥≠√()]|\bdy\/dx\b|[²³⁴⁵⁶⁷⁸⁹]/.test(part));
-  if (!mathLike) {
-    return null;
-  }
-
-  return parts.map((part) => wrapMath(part)).join(" and ");
-}
-
-function latexifyLine(line) {
-  const raw = String(line || "").trim();
-  if (!raw) {
-    return "";
-  }
-
-  const colonSplit = raw.match(/^([^:]{1,45}:)\s*(.+)$/);
-  if (colonSplit) {
-    const joinedMath = formatJoinedMathClauses(colonSplit[2]);
-    const colonBody = colonSplit[2];
-    const colonExpressionLike =
-      /^[0-9A-Za-z\s()+\-*/^=.,≤≥≠πθ√±∓⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉]+$/.test(colonBody) &&
-      /[=+\-*/^≤≥≠√±∓]|\bdy\/dx\b|[²³⁴⁵⁶⁷⁸⁹]/.test(colonBody) &&
-      colonBody.split(/\s+/).length <= 14 &&
-      !/[A-Za-z]{5,}/.test(colonBody);
-    return `${escapeHtml(colonSplit[1])} ${joinedMath || (colonExpressionLike ? wrapMath(colonBody) : formatInlineMathText(colonBody))}`;
-  }
-
-  const intersectionMatch = raw.match(/^Find(?:\s+the)?\s+intersection\s+of\s+(.+?)\s+and\s+(.+?)\.?$/i);
-  if (intersectionMatch) {
-    return `Find intersection of ${wrapMath(intersectionMatch[1])} and ${wrapMath(intersectionMatch[2])}`;
-  }
-
-  const intersectQuestionMatch = raw.match(/^Do\s+(.+?)\s+and\s+(.+?)\s+intersect\?$/i);
-  if (intersectQuestionMatch) {
-    return `Do ${wrapMath(intersectQuestionMatch[1])} and ${wrapMath(intersectQuestionMatch[2])} intersect?`;
-  }
-
-  const startsWithInstruction = /^(find|solve|write|state|plot|given|if|show|prove|convert|estimate|simplify)\b/i.test(raw);
-  const expressionLike = /^[0-9A-Za-z\s()+\-*/^=.,≤≥≠πθ√±∓⁰¹²³⁴⁵⁶⁷⁸⁹₀₁₂₃₄₅₆₇₈₉]+$/.test(raw) &&
-    /[=+\-*/^≤≥≠√±∓]|\bdy\/dx\b|[²³⁴⁵⁶⁷⁸⁹]/.test(raw) &&
-    raw.split(/\s+/).length <= 8 &&
-    !/[A-Za-z]{5,}/.test(raw) &&
-    !startsWithInstruction;
-
-  if (expressionLike) {
-    return wrapMath(raw);
-  }
-  return formatInlineMathText(raw);
 }
 
 function graphDiagram(skill) {

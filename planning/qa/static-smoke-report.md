@@ -1,6 +1,6 @@
 # Static QA Smoke Report
 
-- HTML files scanned: 11
+- HTML files scanned: 7
 - Local JS files checked: 6
 - Inline scripts checked: 7
 - Broken internal links: 0
