@@ -58,6 +58,15 @@
             "15 x 2.2.",
             "33"
           ]
+        },
+        {
+          "q": "Two similar shapes have corresponding sides 6 and 15. A third side on the small shape is 8. Find the corresponding side on the large shape.",
+          "a": "20",
+          "hints": [
+            "Find the scale factor from the known pair of corresponding sides, then apply it to the third length.",
+            "Scale factor = 15/6 = 2.5, so 8 x 2.5.",
+            "20"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Square each part of the linear ratio to get the area ratio.",
             "3^2 : 8^2.",
             "9:64"
+          ]
+        },
+        {
+          "q": "The area ratio of two similar shapes is 25:64. Find the linear ratio.",
+          "a": "5:8",
+          "hints": [
+            "Take the square root of each part of the area ratio to get the linear ratio.",
+            "sqrt(25) : sqrt(64).",
+            "5:8"
           ]
         }
       ]
@@ -174,6 +192,15 @@
             "3^3 : 7^3.",
             "27:343"
           ]
+        },
+        {
+          "q": "The volume ratio of two similar shapes is 27:125. Find the linear ratio.",
+          "a": "3:5",
+          "hints": [
+            "Take the cube root of each part of the volume ratio to get the linear ratio.",
+            "cube root of 27 : cube root of 125.",
+            "3:5"
+          ]
         }
       ]
     },
@@ -231,6 +258,15 @@
             "There are 1000 mm in a metre — divide.",
             "3600 / 1000.",
             "3.6 m"
+          ]
+        },
+        {
+          "q": "Convert 2.5 km to cm.",
+          "a": "250000 cm",
+          "hints": [
+            "Convert in two steps: km to m, then m to cm.",
+            "2.5 km = 2500 m, and 2500 m = 250000 cm.",
+            "250000 cm"
           ]
         }
       ]

@@ -58,6 +58,15 @@
             "4 and 5 multiply to 20 and add to 9.",
             "(x + 4)(x + 5)"
           ]
+        },
+        {
+          "q": "Factorise: x^2 - 14x + 48",
+          "a": "(x - 6)(x - 8)",
+          "hints": [
+            "Find two numbers that multiply to 48 and add to -14.",
+            "-6 and -8 multiply to 48 and add to -14.",
+            "(x - 6)(x - 8)"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "4 and -3 work: 6x^2 + 4x - 3x - 2 groups into (3x + 2)(2x - 1).",
             "(3x + 2)(2x - 1)"
           ]
+        },
+        {
+          "q": "Factorise: 4x^2 + 10x + 4",
+          "a": "2(2x + 1)(x + 2)",
+          "hints": [
+            "Check for a common factor across all terms before trying to factorise the trinomial.",
+            "4x^2 + 10x + 4 = 2(2x^2 + 5x + 2), then factorise the bracket: (2x + 1)(x + 2).",
+            "2(2x + 1)(x + 2)"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "Factorise first, then set each bracket equal to zero.",
             "(x - 3)(x - 4) = 0.",
             "x = 3 or x = 4"
+          ]
+        },
+        {
+          "q": "Solve: x^2 + 3x = 10",
+          "a": "x = 2 or x = -5",
+          "hints": [
+            "Rearrange into '...= 0' form first, then factorise.",
+            "x^2 + 3x - 10 = 0, which factorises to (x + 5)(x - 2) = 0.",
+            "x = 2 or x = -5"
           ]
         }
       ]

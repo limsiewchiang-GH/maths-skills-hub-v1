@@ -58,6 +58,15 @@
             "The height of each bar shows frequency density, not raw frequency.",
             "Frequency density"
           ]
+        },
+        {
+          "q": "Class A has width 5, frequency 20. Class B has width 8, frequency 24. Which class has the taller bar?",
+          "a": "Class A",
+          "hints": [
+            "Find the frequency density (height) of each class, then compare.",
+            "Class A: 20/5 = 4. Class B: 24/8 = 3.",
+            "Class A"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Frequency density = frequency / class width.",
             "12 / 3.",
             "4"
+          ]
+        },
+        {
+          "q": "A class has width 3.5 and frequency density 4. Find the frequency.",
+          "a": "14",
+          "hints": [
+            "Frequency = frequency density x class width.",
+            "4 x 3.5.",
+            "14"
           ]
         }
       ]
