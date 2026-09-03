@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "The scale factor is 3 and the original side is 5. Find the new side.",
-          "a": "15"
+          "a": "15",
+          "hints": [
+            "Multiply the original length by the scale factor.",
+            "5 x 3.",
+            "15"
+          ]
         },
         {
           "q": "Similar triangles have corresponding sides 4 and 10. Find the scale factor.",
-          "a": "2.5"
+          "a": "2.5",
+          "hints": [
+            "Scale factor = new length / original length.",
+            "10 / 4.",
+            "2.5"
+          ]
         },
         {
           "q": "If the scale factor from small to large is 1.5 and the small length is 12, find the large length.",
-          "a": "18"
+          "a": "18",
+          "hints": [
+            "Multiply the original length by the scale factor.",
+            "12 x 1.5.",
+            "18"
+          ]
         },
         {
           "q": "A model is built at scale factor 4 from a shape with side 7 cm. Find the model side.",
-          "a": "28"
+          "a": "28",
+          "hints": [
+            "Multiply the original length by the scale factor.",
+            "7 x 4.",
+            "28"
+          ]
         },
         {
           "q": "The scale factor from large to small is 1/3 and the large length is 27. Find the small length.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Multiply the original length by the scale factor.",
+            "27 x (1/3).",
+            "9"
+          ]
         },
         {
           "q": "A shape is enlarged by factor 2.2. A side is 15 cm. Find the new side.",
-          "a": "33"
+          "a": "33",
+          "hints": [
+            "Multiply the original length by the scale factor.",
+            "15 x 2.2.",
+            "33"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "The linear scale factor is 3. Find the area scale factor.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "The area scale factor is the linear scale factor squared.",
+            "3^2.",
+            "9"
+          ]
         },
         {
           "q": "The area of a small shape is 20 and the linear scale factor is 2.5. Find the large area.",
-          "a": "125"
+          "a": "125",
+          "hints": [
+            "Multiply the area by the linear scale factor squared.",
+            "20 x 2.5^2.",
+            "125"
+          ]
         },
         {
           "q": "Find the area ratio if the linear ratio is 4:7.",
-          "a": "16:49"
+          "a": "16:49",
+          "hints": [
+            "Square each part of the linear ratio to get the area ratio.",
+            "4^2 : 7^2.",
+            "16:49"
+          ]
         },
         {
           "q": "The linear scale factor is 5. Find the area scale factor.",
-          "a": "25"
+          "a": "25",
+          "hints": [
+            "The area scale factor is the linear scale factor squared.",
+            "5^2.",
+            "25"
+          ]
         },
         {
           "q": "The area of a shape is 12 and the linear scale factor is 4. Find the new area.",
-          "a": "192"
+          "a": "192",
+          "hints": [
+            "Multiply the area by the linear scale factor squared.",
+            "12 x 4^2.",
+            "192"
+          ]
         },
         {
           "q": "Find the area ratio if the linear ratio is 3:8.",
-          "a": "9:64"
+          "a": "9:64",
+          "hints": [
+            "Square each part of the linear ratio to get the area ratio.",
+            "3^2 : 8^2.",
+            "9:64"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "The linear scale factor is 2. Find the volume scale factor.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "The volume scale factor is the linear scale factor cubed.",
+            "2^3.",
+            "8"
+          ]
         },
         {
           "q": "A small volume is 30 cm^3 and the linear scale factor is 3. Find the large volume.",
-          "a": "810"
+          "a": "810",
+          "hints": [
+            "Multiply the volume by the linear scale factor cubed.",
+            "30 x 3^3.",
+            "810"
+          ]
         },
         {
           "q": "Find the volume ratio if the linear ratio is 2:5.",
-          "a": "8:125"
+          "a": "8:125",
+          "hints": [
+            "Cube each part of the linear ratio to get the volume ratio.",
+            "2^3 : 5^3.",
+            "8:125"
+          ]
         },
         {
           "q": "The linear scale factor is 4. Find the volume scale factor.",
-          "a": "64"
+          "a": "64",
+          "hints": [
+            "The volume scale factor is the linear scale factor cubed.",
+            "4^3.",
+            "64"
+          ]
         },
         {
           "q": "A cone has volume 15 cm^3 and is enlarged by factor 2. Find the new volume.",
-          "a": "120"
+          "a": "120",
+          "hints": [
+            "Multiply the volume by the linear scale factor cubed.",
+            "15 x 2^3.",
+            "120"
+          ]
         },
         {
           "q": "Find the volume ratio if the linear ratio is 3:7.",
-          "a": "27:343"
+          "a": "27:343",
+          "hints": [
+            "Cube each part of the linear ratio to get the volume ratio.",
+            "3^3 : 7^3.",
+            "27:343"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Convert 2.4 m to cm.",
-          "a": "240 cm"
+          "a": "240 cm",
+          "hints": [
+            "There are 100 cm in a metre — multiply.",
+            "2.4 x 100.",
+            "240 cm"
+          ]
         },
         {
           "q": "Convert 3500 g to kg.",
-          "a": "3.5 kg"
+          "a": "3.5 kg",
+          "hints": [
+            "There are 1000 g in a kilogram — divide.",
+            "3500 / 1000.",
+            "3.5 kg"
+          ]
         },
         {
           "q": "Convert 1.2 km to m.",
-          "a": "1200 m"
+          "a": "1200 m",
+          "hints": [
+            "There are 1000 m in a kilometre — multiply.",
+            "1.2 x 1000.",
+            "1200 m"
+          ]
         },
         {
           "q": "Convert 450 cm to m.",
-          "a": "4.5 m"
+          "a": "4.5 m",
+          "hints": [
+            "There are 100 cm in a metre — divide.",
+            "450 / 100.",
+            "4.5 m"
+          ]
         },
         {
           "q": "Convert 0.8 kg to g.",
-          "a": "800 g"
+          "a": "800 g",
+          "hints": [
+            "There are 1000 g in a kilogram — multiply.",
+            "0.8 x 1000.",
+            "800 g"
+          ]
         },
         {
           "q": "Convert 3600 mm to m.",
-          "a": "3.6 m"
+          "a": "3.6 m",
+          "hints": [
+            "There are 1000 mm in a metre — divide.",
+            "3600 / 1000.",
+            "3.6 m"
+          ]
         }
       ]
     }
