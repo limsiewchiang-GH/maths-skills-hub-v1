@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Frequencies are 3, 5, 7, 4. Find the cumulative frequencies.",
-          "a": "3, 8, 15, 19"
+          "a": "3, 8, 15, 19",
+          "hints": [
+            "Add each frequency to the running total of all frequencies before it.",
+            "3, 3+5=8, 8+7=15, 15+4=19.",
+            "3, 8, 15, 19"
+          ]
         },
         {
           "q": "What is plotted on the horizontal axis of a cumulative frequency graph?",
-          "a": "Upper class boundaries"
+          "a": "Upper class boundaries",
+          "hints": [
+            "Recall which value from each class is used as the x-coordinate.",
+            "Each point is plotted at the top edge of its class interval.",
+            "Upper class boundaries"
+          ]
         },
         {
           "q": "What is plotted on the vertical axis of a cumulative frequency graph?",
-          "a": "Cumulative frequency"
+          "a": "Cumulative frequency",
+          "hints": [
+            "Recall what the running total represents.",
+            "The y-axis shows the running total of frequencies up to each class.",
+            "Cumulative frequency"
+          ]
         },
         {
           "q": "Frequencies are 6, 4, 3. Find the cumulative frequencies.",
-          "a": "6, 10, 13"
+          "a": "6, 10, 13",
+          "hints": [
+            "Add each frequency to the running total of all frequencies before it.",
+            "6, 6+4=10, 10+3=13.",
+            "6, 10, 13"
+          ]
         },
         {
           "q": "What does the final point on a cumulative frequency graph show?",
-          "a": "The total frequency"
+          "a": "The total frequency",
+          "hints": [
+            "Think about what the running total has reached by the last class.",
+            "By the last class, every data value has been counted.",
+            "The total frequency"
+          ]
         },
         {
           "q": "Should the cumulative frequency graph join the points smoothly?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Think about how the running total changes gradually across the range of the data.",
+            "A smooth curve (or ruled line segments) is used to model the trend between plotted points.",
+            "Yes"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "If the cumulative frequencies are 3, 8, 15, 19, find the class frequencies.",
-          "a": "3, 5, 7, 4"
+          "a": "3, 5, 7, 4",
+          "hints": [
+            "Subtract each cumulative frequency from the one after it to get the class frequency.",
+            "3, 8-3=5, 15-8=7, 19-15=4.",
+            "3, 5, 7, 4"
+          ]
         },
         {
           "q": "If the final cumulative frequency is 19, what is the total frequency?",
-          "a": "19"
+          "a": "19",
+          "hints": [
+            "The final cumulative frequency already counts every data value.",
+            "The last cumulative total IS the overall total.",
+            "19"
+          ]
         },
         {
           "q": "If cumulative frequencies are 4, 9, 14, find the class frequencies.",
-          "a": "4, 5, 5"
+          "a": "4, 5, 5",
+          "hints": [
+            "Subtract each cumulative frequency from the one after it to get the class frequency.",
+            "4, 9-4=5, 14-9=5.",
+            "4, 5, 5"
+          ]
         },
         {
           "q": "If the cumulative frequencies are 2, 6, 11, 18, find the class frequencies.",
-          "a": "2, 4, 5, 7"
+          "a": "2, 4, 5, 7",
+          "hints": [
+            "Subtract each cumulative frequency from the one after it to get the class frequency.",
+            "2, 6-2=4, 11-6=5, 18-11=7.",
+            "2, 4, 5, 7"
+          ]
         },
         {
           "q": "If the graph reads 12 at an upper boundary, what does this mean?",
-          "a": "12 data values are at or below that boundary"
+          "a": "12 data values are at or below that boundary",
+          "hints": [
+            "Recall what a cumulative frequency value counts.",
+            "It's a running total of every data value up to and including that boundary.",
+            "12 data values are at or below that boundary"
+          ]
         },
         {
           "q": "If the total cumulative frequency is 40, what is the total number of data values?",
-          "a": "40"
+          "a": "40",
+          "hints": [
+            "The final cumulative frequency already counts every data value.",
+            "The last cumulative total IS the overall total.",
+            "40"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "A data set has size 80. Which cumulative frequency gives the median?",
-          "a": "40"
+          "a": "40",
+          "hints": [
+            "The median is at the halfway point of the data — divide n by 2.",
+            "80 / 2.",
+            "40"
+          ]
         },
         {
           "q": "A data set has size 80. Which cumulative frequency gives Q1?",
-          "a": "20"
+          "a": "20",
+          "hints": [
+            "The lower quartile is a quarter of the way through the data — divide n by 4.",
+            "80 / 4.",
+            "20"
+          ]
         },
         {
           "q": "A data set has size 80. Which cumulative frequency gives Q3?",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "The upper quartile is three-quarters of the way through the data — use 3n/4.",
+            "3 x 80 / 4.",
+            "60"
+          ]
         },
         {
           "q": "A data set has size 120. Which cumulative frequency gives the median?",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "The median is at the halfway point of the data — divide n by 2.",
+            "120 / 2.",
+            "60"
+          ]
         },
         {
           "q": "A data set has size 120. Which cumulative frequency gives Q1?",
-          "a": "30"
+          "a": "30",
+          "hints": [
+            "The lower quartile is a quarter of the way through the data — divide n by 4.",
+            "120 / 4.",
+            "30"
+          ]
         },
         {
           "q": "A data set has size 120. Which cumulative frequency gives Q3?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "The upper quartile is three-quarters of the way through the data — use 3n/4.",
+            "3 x 120 / 4.",
+            "90"
+          ]
         }
       ]
     }

@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "A class has width 5 and frequency 15. Find the frequency density.",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Frequency density = frequency / class width.",
+            "15 / 5.",
+            "3"
+          ]
         },
         {
           "q": "A class has width 10 and frequency 25. Find the frequency density.",
-          "a": "2.5"
+          "a": "2.5",
+          "hints": [
+            "Frequency density = frequency / class width.",
+            "25 / 10.",
+            "2.5"
+          ]
         },
         {
           "q": "Why does the area of a histogram bar represent frequency?",
-          "a": "Because frequency density x class width = frequency"
+          "a": "Because frequency density x class width = frequency",
+          "hints": [
+            "Think about how bar area is calculated, and compare it to how frequency density is defined.",
+            "Area = height x width = frequency density x class width, which reverses the frequency density formula back to frequency.",
+            "Because frequency density x class width = frequency"
+          ]
         },
         {
           "q": "A class has width 4 and frequency 12. Find the frequency density.",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Frequency density = frequency / class width.",
+            "12 / 4.",
+            "3"
+          ]
         },
         {
           "q": "A class has width 8 and frequency 20. Find the frequency density.",
-          "a": "2.5"
+          "a": "2.5",
+          "hints": [
+            "Frequency density = frequency / class width.",
+            "20 / 8.",
+            "2.5"
+          ]
         },
         {
           "q": "What goes on the vertical axis of a histogram?",
-          "a": "Frequency density"
+          "a": "Frequency density",
+          "hints": [
+            "Recall what makes a histogram different from a bar chart — the bars can have unequal widths.",
+            "The height of each bar shows frequency density, not raw frequency.",
+            "Frequency density"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "A class has width 4 and density 2.5. Find the frequency.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Frequency = frequency density x class width.",
+            "2.5 x 4.",
+            "10"
+          ]
         },
         {
           "q": "A class has width 6 and density 1.5. Find the frequency.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Frequency = frequency density x class width.",
+            "1.5 x 6.",
+            "9"
+          ]
         },
         {
           "q": "If the bar area is 18 and the class width is 3, find the density.",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "The bar's area equals its frequency, so density = area / class width.",
+            "18 / 3.",
+            "6"
+          ]
         },
         {
           "q": "A class has width 5 and density 4. Find the frequency.",
-          "a": "20"
+          "a": "20",
+          "hints": [
+            "Frequency = frequency density x class width.",
+            "4 x 5.",
+            "20"
+          ]
         },
         {
           "q": "A class has width 8 and density 1.25. Find the frequency.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Frequency = frequency density x class width.",
+            "1.25 x 8.",
+            "10"
+          ]
         },
         {
           "q": "If a class has frequency 12 and width 3, find the density.",
-          "a": "4"
+          "a": "4",
+          "hints": [
+            "Frequency density = frequency / class width.",
+            "12 / 3.",
+            "4"
+          ]
         }
       ]
     }
