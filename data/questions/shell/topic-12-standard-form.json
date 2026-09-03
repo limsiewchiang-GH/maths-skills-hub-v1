@@ -58,6 +58,15 @@
             "98000000 = 9.8 x 10^7 (decimal point moved 7 places left).",
             "9.8 x 10^7"
           ]
+        },
+        {
+          "q": "Write 0.000000056 in standard form.",
+          "a": "5.6 x 10^-8",
+          "hints": [
+            "Write as a number between 1 and 10, then count carefully how many places the decimal point moved.",
+            "0.000000056 = 5.6 x 10^-8 (decimal point moved 8 places right).",
+            "5.6 x 10^-8"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Multiply the front numbers together and add the powers of 10.",
             "(7x2) x 10^(-3+4) = 14 x 10^1.",
             "1.4 x 10^2"
+          ]
+        },
+        {
+          "q": "Simplify: (3 x 10^4) / (6 x 10^-2)",
+          "a": "5 x 10^5",
+          "hints": [
+            "Divide the front numbers and subtract the powers of 10, then rewrite in standard form if needed.",
+            "(3/6) x 10^(4-(-2)) = 0.5 x 10^6.",
+            "5 x 10^5"
           ]
         }
       ]
@@ -174,6 +192,15 @@
             "(1.7 + 4.6) x 10^3.",
             "6.3 x 10^3"
           ]
+        },
+        {
+          "q": "Add: 3 x 10^4 + 5 x 10^3",
+          "a": "3.5 x 10^4",
+          "hints": [
+            "The powers of 10 don't match — convert one so they do before adding.",
+            "3 x 10^4 = 30 x 10^3, so 30 x 10^3 + 5 x 10^3.",
+            "3.5 x 10^4"
+          ]
         }
       ]
     },
@@ -231,6 +258,15 @@
             "Square the front number and multiply the power of 10 by 2.",
             "3^2 x 10^(-2x2).",
             "9 x 10^-4"
+          ]
+        },
+        {
+          "q": "Simplify: (2 x 10^2)^3",
+          "a": "8 x 10^6",
+          "hints": [
+            "Cube the front number and multiply the power of 10 by 3.",
+            "2^3 x 10^(2x3).",
+            "8 x 10^6"
           ]
         }
       ]

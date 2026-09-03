@@ -116,6 +116,15 @@
             "x + (3x - 2) = 14, so 4x - 2 = 14.",
             "4x = 16, x = 4, and y = 3(4) - 2 = 10"
           ]
+        },
+        {
+          "q": "Solve: 2x + y = 7 and 3x - 2y = 0",
+          "a": "x = 2, y = 3",
+          "hints": [
+            "Rearrange one equation to isolate a variable, then substitute into the other.",
+            "y = 7 - 2x, so 3x - 2(7 - 2x) = 0, giving 3x - 14 + 4x = 0.",
+            "x = 2, y = 3"
+          ]
         }
       ]
     },

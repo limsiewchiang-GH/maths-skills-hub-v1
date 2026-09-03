@@ -58,6 +58,15 @@
             "10² + 10² = 100 + 100 = 200.",
             "diagonal = sqrt(200) = sqrt(100 x 2) = 10sqrt(2)"
           ]
+        },
+        {
+          "q": "A ladder 15 m long leans against a wall, its foot 9 m from the wall. Find how high up the wall it reaches.",
+          "a": "12",
+          "hints": [
+            "The ladder, wall, and ground form a right triangle — use Pythagoras with the ladder as the hypotenuse.",
+            "height = sqrt(15^2 - 9^2) = sqrt(225 - 81).",
+            "12"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "For a cuboid, body diagonal² = length² + width² + height².",
             "8² + 9² + 12² = 64 + 81 + 144 = 289.",
             "diagonal = sqrt(289) = 17"
+          ]
+        },
+        {
+          "q": "A cuboid has body diagonal 13, and two sides 3 and 4. Find the third side.",
+          "a": "12",
+          "hints": [
+            "Rearrange the 3D distance formula to solve for the missing side instead of the diagonal.",
+            "third side = sqrt(13^2 - 3^2 - 4^2) = sqrt(169 - 9 - 16).",
+            "12"
           ]
         }
       ]
@@ -174,6 +192,15 @@
             "147 = 49 x 3, and 49 is a perfect square.",
             "sqrt(147) = sqrt(49 x 3) = 7sqrt(3)"
           ]
+        },
+        {
+          "q": "Simplify sqrt(288)",
+          "a": "12sqrt(2)",
+          "hints": [
+            "Find the largest square number that divides 288.",
+            "288 = 144 x 2, and 144 is a square number.",
+            "12sqrt(2)"
+          ]
         }
       ]
     },
@@ -231,6 +258,15 @@
             "Multiply the whole numbers together, then multiply the numbers under the roots together.",
             "4 x 1 = 4, and sqrt(5) x sqrt(15) = sqrt(75).",
             "4sqrt(75) = 4sqrt(25 x 3) = 4 x 5sqrt(3) = 20sqrt(3)"
+          ]
+        },
+        {
+          "q": "Simplify: (2sqrt(6))(3sqrt(10))",
+          "a": "12sqrt(15)",
+          "hints": [
+            "Multiply the numbers together and the surds together, then simplify the resulting surd if possible.",
+            "(2x3) x sqrt(6x10) = 6 x sqrt(60), and sqrt(60) = 2sqrt(15).",
+            "12sqrt(15)"
           ]
         }
       ]
@@ -347,6 +383,15 @@
             "Divide the numbers under the roots, then simplify.",
             "sqrt(98) / sqrt(2) = sqrt(49).",
             "sqrt(49) = 7"
+          ]
+        },
+        {
+          "q": "Simplify: 6/sqrt(3)",
+          "a": "2sqrt(3)",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator to rationalise it.",
+            "6/sqrt(3) x sqrt(3)/sqrt(3) = 6sqrt(3)/3.",
+            "2sqrt(3)"
           ]
         }
       ]

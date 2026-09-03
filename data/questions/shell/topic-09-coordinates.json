@@ -61,6 +61,15 @@
             "((0+12)/2, (-6+2)/2).",
             "(6,-2)"
           ]
+        },
+        {
+          "q": "The midpoint of A(2,3) and B is (5,7). Find B.",
+          "a": "(8,11)",
+          "hints": [
+            "The midpoint formula works both ways — double the midpoint and subtract the known point.",
+            "B = (2x5 - 2, 2x7 - 3).",
+            "(8,11)"
+          ]
         }
       ]
     },
@@ -176,6 +185,15 @@
             "Find the difference in each coordinate, then use the 3D distance formula (Pythagoras extended).",
             "Differences are 0, 4, and 12, so distance = sqrt(0^2 + 4^2 + 12^2) = sqrt(160).",
             "4sqrt(10)"
+          ]
+        },
+        {
+          "q": "The midpoint of P(1,2,3) and Q is (4,5,7). Find Q.",
+          "a": "(7,8,11)",
+          "hints": [
+            "The midpoint formula works both ways — double the midpoint and subtract the known point, coordinate by coordinate.",
+            "Q = (2x4 - 1, 2x5 - 2, 2x7 - 3).",
+            "(7,8,11)"
           ]
         }
       ]
