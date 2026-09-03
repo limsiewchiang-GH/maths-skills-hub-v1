@@ -58,6 +58,15 @@
             "A smooth curve (or ruled line segments) is used to model the trend between plotted points.",
             "Yes"
           ]
+        },
+        {
+          "q": "Frequencies are 3, 5, 7, 4 across four classes. Which class number has the highest frequency?",
+          "a": "3rd",
+          "hints": [
+            "Compare the four frequencies directly — no cumulative total needed.",
+            "3, 5, 7, 4 — the largest is 7, in the 3rd class.",
+            "3rd"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "The last cumulative total IS the overall total.",
             "40"
           ]
+        },
+        {
+          "q": "If the cumulative frequencies are 5, 12, 22, 30, 35, find the class frequencies.",
+          "a": "5, 7, 10, 8, 5",
+          "hints": [
+            "Subtract each cumulative frequency from the one after it to get each class frequency.",
+            "5, 12-5=7, 22-12=10, 30-22=8, 35-30=5.",
+            "5, 7, 10, 8, 5"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "The upper quartile is three-quarters of the way through the data — use 3n/4.",
             "3 x 120 / 4.",
             "90"
+          ]
+        },
+        {
+          "q": "A data set has size 200. Which cumulative frequency gives the 90th percentile?",
+          "a": "180",
+          "hints": [
+            "A percentile position is found the same way as a quartile — multiply the total by the percentile as a decimal.",
+            "200 x 0.90.",
+            "180"
           ]
         }
       ]

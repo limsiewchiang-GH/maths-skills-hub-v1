@@ -58,6 +58,15 @@
             "Biased data skews the conclusions away from the true picture.",
             "It can distort the results"
           ]
+        },
+        {
+          "q": "A survey asks 20 people at a gym about their exercise habits, to study the general population's habits. Why might this sample be biased?",
+          "a": "Gym-goers are more likely to exercise than the general population",
+          "hints": [
+            "Think about whether people at a gym are a fair cross-section of the whole population's exercise habits.",
+            "People who choose to go to a gym are likely to exercise more than average, so the sample isn't representative.",
+            "Gym-goers are more likely to exercise than the general population"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "The mode is the value that appears most often.",
             "7 appears three times, more than any other value.",
             "7"
+          ]
+        },
+        {
+          "q": "The mean of 5, 8, x, 11 is 9. Find x.",
+          "a": "12",
+          "hints": [
+            "Multiply the mean by the number of values to get the total, then subtract the known values.",
+            "Total = 9 x 4 = 36, so x = 36 - 5 - 8 - 11.",
+            "12"
           ]
         }
       ]

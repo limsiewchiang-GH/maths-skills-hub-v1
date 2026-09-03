@@ -58,6 +58,15 @@
             "4 x 3x.",
             "12x"
           ]
+        },
+        {
+          "q": "Find the perimeter of a rectangle with length (x+5) and width 3, when x = 7.",
+          "a": "30",
+          "hints": [
+            "Substitute x into the length first, then use perimeter = 2(length + width).",
+            "length = 7 + 5 = 12, so perimeter = 2(12 + 3).",
+            "30"
+          ]
         }
       ]
     },
