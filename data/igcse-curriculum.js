@@ -435,7 +435,7 @@ window.igcseCurriculum = [
       },
       {
         "number": 44,
-        "title": "Functions",
+        "title": "Functions & Revision",
         "skills": [
           "Domain and Range",
           "Composite functions",
