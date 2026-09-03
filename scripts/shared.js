@@ -120,15 +120,18 @@ function formatInlineMathText(raw) {
   // multi-letter English word never qualifies either way, since every one of its letters has a
   // letter neighbour.
   const isolatedLetter = "(?<![A-Za-z])(?!x\\b|X\\b)[A-Za-z](?![A-Za-z(])(?!-[A-Za-z])";
+  // The unicode π glyph (as opposed to the ascii "pi" keyword above) is added directly to the
+  // character class, not as a word-bounded keyword — there's no word-boundary ambiguity for a
+  // single unique symbol, unlike "pi" which could theoretically appear inside another word.
   const generalFallbackRe = new RegExp(
-    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|\\()(?:[\\d+\\-*/^().,.\\sxX°]|${mathKeyword}|${isolatedLetter})*(?:[\\d)°]|${isolatedLetter})`,
+    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|[(π])(?:[\\d+\\-*/^().,.\\sxX°π]|${mathKeyword}|${isolatedLetter})*(?:[\\d)°π]|${isolatedLetter})`,
     "g"
   );
   marked = marked.replace(generalFallbackRe, (candidate) => {
     if (candidate.includes("@@M")) return candidate; // already-tokenised region
     const trimmed = candidate.trim();
     const hasOperator =
-      /[+\-*/^]/.test(trimmed) || /x/i.test(trimmed) || new RegExp(mathKeyword, "i").test(trimmed);
+      /[+\-*/^π]/.test(trimmed) || /x/i.test(trimmed) || new RegExp(mathKeyword, "i").test(trimmed);
     if (hasOperator && trimmed.length >= 3) {
       return pushMath(trimmed);
     }
