@@ -58,6 +58,15 @@
             "A proof only counts as complete if it covers every valid case.",
             "Yes"
           ]
+        },
+        {
+          "q": "Find a counterexample to disprove: 'n^2 + n + 1 is always prime for positive integers n'.",
+          "a": "n = 4 (giving 21 = 3 x 7)",
+          "hints": [
+            "Test small positive integers one by one until the expression isn't prime.",
+            "n=1 gives 3 (prime), n=2 gives 7 (prime), n=3 gives 13 (prime), n=4 gives 21.",
+            "n = 4 (giving 21 = 3 x 7)"
+          ]
         }
       ]
     },
@@ -232,6 +241,15 @@
             "Starting from the result and working backwards to 'prove' it is a logical trap.",
             "Circular reasoning"
           ]
+        },
+        {
+          "q": "In a proof, a step claims 'therefore x = 5' without showing any working. What is missing?",
+          "a": "Justification linking it to the previous line",
+          "hints": [
+            "Think about what every line in a valid proof needs to connect it to the one before.",
+            "A conclusion needs to follow logically and visibly from the previous step, not appear from nowhere.",
+            "Justification linking it to the previous line"
+          ]
         }
       ]
     },
@@ -289,6 +307,15 @@
             "Recall what a valid mathematical proof must be built on.",
             "A proof must follow logically step by step — guesswork cannot establish that a statement is always true.",
             "Neat logic"
+          ]
+        },
+        {
+          "q": "A proof concludes 'hence the statement is true' but never showed the general case, only n = 1, 2, 3. What is the flaw?",
+          "a": "It only checked specific examples, not the general case",
+          "hints": [
+            "Recall the difference between checking examples and proving something for every case.",
+            "Testing n = 1, 2, 3 only shows the statement works for those values, not for all n.",
+            "It only checked specific examples, not the general case"
           ]
         }
       ]
@@ -405,6 +432,15 @@
             "Think about which real number multiplied by itself gives zero.",
             "x^2 = 0 means x times x = 0, which only happens when x = 0.",
             "0"
+          ]
+        },
+        {
+          "q": "What is the minimum value of 3(x - 2)^2 + 7?",
+          "a": "7",
+          "hints": [
+            "A squared term is smallest when it equals zero — find what that means for the whole expression.",
+            "(x-2)^2 is smallest (=0) when x = 2, giving 3(0) + 7.",
+            "7"
           ]
         }
       ]

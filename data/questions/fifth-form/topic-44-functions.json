@@ -116,6 +116,15 @@
             "g(2) = 3, so f(g(2)) = f(3) = 3^2.",
             "9"
           ]
+        },
+        {
+          "q": "If f(x) = 2x + 1 and g(x) = x^2, solve f(g(x)) = 9 for x (positive value only).",
+          "a": "2",
+          "hints": [
+            "Write f(g(x)) as an expression in x, set it equal to 9, then solve.",
+            "f(g(x)) = 2x^2 + 1 = 9, so 2x^2 = 8, x^2 = 4.",
+            "2"
+          ]
         }
       ]
     },
@@ -290,6 +299,15 @@
             "y = (-x)^3 = -x^3.",
             "y = -x^3"
           ]
+        },
+        {
+          "q": "Write the graph y = x^2 shifted right 3 and up 2.",
+          "a": "y = (x - 3)^2 + 2",
+          "hints": [
+            "Apply both shifts together: replace x with (x - 3) for the rightward shift, and add 2 for the upward shift.",
+            "y = (x - 3)^2 + 2.",
+            "y = (x - 3)^2 + 2"
+          ]
         }
       ]
     },
@@ -406,6 +424,15 @@
             "The angle between a tangent and a chord equals the angle in the alternate segment.",
             "True"
           ]
+        },
+        {
+          "q": "A cyclic quadrilateral has opposite angles x and 100°. The angle at the centre stands on the same arc as x. Find the centre angle.",
+          "a": "160",
+          "hints": [
+            "Find x first using the cyclic quadrilateral rule, then double it for the centre angle.",
+            "x = 180 - 100 = 80, so the centre angle = 2 x 80.",
+            "160"
+          ]
         }
       ]
     },
@@ -463,6 +490,15 @@
             "Think about what 'mutually exclusive' means for two events happening together.",
             "Mutually exclusive events cannot happen at the same time, so their overlap is impossible.",
             "0"
+          ]
+        },
+        {
+          "q": "A bag has 12 balls: red, blue, and green. P(red) = 1/3 and P(blue) = 1/4. Find P(green).",
+          "a": "5/12",
+          "hints": [
+            "All the probabilities must add up to 1.",
+            "P(green) = 1 - 1/3 - 1/4.",
+            "5/12"
           ]
         }
       ]
