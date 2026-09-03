@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "If y is directly proportional to x and y = 12 when x = 3, find y when x = 5.",
-          "a": "20"
+          "a": "20",
+          "hints": [
+            "Find the constant of proportionality k using y = kx, then use it for the new x.",
+            "k = 12/3 = 4, so y = 4 x 5.",
+            "20"
+          ]
         },
         {
           "q": "If y is directly proportional to x and y = 18 when x = 6, find y when x = 10.",
-          "a": "30"
+          "a": "30",
+          "hints": [
+            "Find the constant of proportionality k using y = kx, then use it for the new x.",
+            "k = 18/6 = 3, so y = 3 x 10.",
+            "30"
+          ]
         },
         {
           "q": "If y is directly proportional to x and y = 7 when x = 1, find y when x = 4.",
-          "a": "28"
+          "a": "28",
+          "hints": [
+            "Find the constant of proportionality k using y = kx, then use it for the new x.",
+            "k = 7/1 = 7, so y = 7 x 4.",
+            "28"
+          ]
         },
         {
           "q": "If y is directly proportional to x and y = 15 when x = 5, find x when y = 24.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Find the constant of proportionality k using y = kx, then rearrange to find x.",
+            "k = 15/5 = 3, so x = 24/3.",
+            "8"
+          ]
         },
         {
           "q": "If y is directly proportional to x and y = 9 when x = 2, find y when x = 6.",
-          "a": "27"
+          "a": "27",
+          "hints": [
+            "Find the constant of proportionality k using y = kx, then use it for the new x.",
+            "k = 9/2, so y = (9/2) x 6.",
+            "27"
+          ]
         },
         {
           "q": "If y is directly proportional to x and y = 40 when x = 8, find y when x = 3.",
-          "a": "15"
+          "a": "15",
+          "hints": [
+            "Find the constant of proportionality k using y = kx, then use it for the new x.",
+            "k = 40/8 = 5, so y = 5 x 3.",
+            "15"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "If y is directly proportional to x^2 and y = 18 when x = 3, find y when x = 5.",
-          "a": "50"
+          "a": "50",
+          "hints": [
+            "Find k using y = kx^2, then substitute the new x.",
+            "k = 18/3^2 = 2, so y = 2 x 5^2.",
+            "50"
+          ]
         },
         {
           "q": "If y is directly proportional to x^2 and y = 8 when x = 2, find y when x = 6.",
-          "a": "72"
+          "a": "72",
+          "hints": [
+            "Find k using y = kx^2, then substitute the new x.",
+            "k = 8/2^2 = 2, so y = 2 x 6^2.",
+            "72"
+          ]
         },
         {
           "q": "If y is directly proportional to sqrt(x) and y = 6 when x = 9, find y when x = 25.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Find k using y = k sqrt(x), then substitute the new x.",
+            "k = 6/sqrt(9) = 2, so y = 2 x sqrt(25).",
+            "10"
+          ]
         },
         {
           "q": "If y is directly proportional to x^3 and y = 16 when x = 2, find y when x = 3.",
-          "a": "54"
+          "a": "54",
+          "hints": [
+            "Find k using y = kx^3, then substitute the new x.",
+            "k = 16/2^3 = 2, so y = 2 x 3^3.",
+            "54"
+          ]
         },
         {
           "q": "If y is directly proportional to x^2 and y = 27 when x = 3, find x when y = 75.",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Find k using y = kx^2, then rearrange and take the square root to find x.",
+            "k = 27/3^2 = 3, so x^2 = 75/3 = 25.",
+            "5"
+          ]
         },
         {
           "q": "If y is directly proportional to sqrt(x) and y = 4 when x = 16, find y when x = 81.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Find k using y = k sqrt(x), then substitute the new x.",
+            "k = 4/sqrt(16) = 1, so y = 1 x sqrt(81).",
+            "9"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "If y is inversely proportional to x and y = 12 when x = 2, find y when x = 8.",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Find k using y = k/x (so k = xy), then use it for the new x.",
+            "k = 12 x 2 = 24, so y = 24/8.",
+            "3"
+          ]
         },
         {
           "q": "If y is inversely proportional to x and y = 15 when x = 3, find y when x = 5.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Find k using y = k/x (so k = xy), then use it for the new x.",
+            "k = 15 x 3 = 45, so y = 45/5.",
+            "9"
+          ]
         },
         {
           "q": "If y is inversely proportional to x and y = 20 when x = 4, find y when x = 10.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Find k using y = k/x (so k = xy), then use it for the new x.",
+            "k = 20 x 4 = 80, so y = 80/10.",
+            "8"
+          ]
         },
         {
           "q": "If y is inversely proportional to x and y = 18 when x = 6, find x when y = 9.",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "Find k using y = k/x (so k = xy), then rearrange to find x.",
+            "k = 18 x 6 = 108, so x = 108/9.",
+            "12"
+          ]
         },
         {
           "q": "If y is inversely proportional to x and y = 7 when x = 1, find y when x = 14.",
-          "a": "1/2"
+          "a": "1/2",
+          "hints": [
+            "Find k using y = k/x (so k = xy), then use it for the new x.",
+            "k = 7 x 1 = 7, so y = 7/14.",
+            "1/2"
+          ]
         },
         {
           "q": "If y is inversely proportional to x and y = 30 when x = 5, find y when x = 3.",
-          "a": "50"
+          "a": "50",
+          "hints": [
+            "Find k using y = k/x (so k = xy), then use it for the new x.",
+            "k = 30 x 5 = 150, so y = 150/3.",
+            "50"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "If y is inversely proportional to x^2 and y = 8 when x = 2, find y when x = 4.",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Find k using y = k/x^2 (so k = x^2 y), then use it for the new x.",
+            "k = 8 x 2^2 = 32, so y = 32/4^2.",
+            "2"
+          ]
         },
         {
           "q": "If y is inversely proportional to sqrt(x) and y = 12 when x = 9, find y when x = 25.",
-          "a": "36/5"
+          "a": "36/5",
+          "hints": [
+            "Find k using y = k/sqrt(x) (so k = y sqrt(x)), then use it for the new x.",
+            "k = 12 x sqrt(9) = 36, so y = 36/sqrt(25).",
+            "36/5"
+          ]
         },
         {
           "q": "If y is inversely proportional to x^2 and y = 18 when x = 3, find y when x = 6.",
-          "a": "9/2"
+          "a": "9/2",
+          "hints": [
+            "Find k using y = k/x^2 (so k = x^2 y), then use it for the new x.",
+            "k = 18 x 3^2 = 162, so y = 162/6^2.",
+            "9/2"
+          ]
         },
         {
           "q": "If y is inversely proportional to x^3 and y = 16 when x = 2, find y when x = 4.",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Find k using y = k/x^3 (so k = x^3 y), then use it for the new x.",
+            "k = 16 x 2^3 = 128, so y = 128/4^3.",
+            "2"
+          ]
         },
         {
           "q": "If y is inversely proportional to sqrt(x) and y = 20 when x = 4, find y when x = 25.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Find k using y = k/sqrt(x) (so k = y sqrt(x)), then use it for the new x.",
+            "k = 20 x sqrt(4) = 40, so y = 40/sqrt(25).",
+            "8"
+          ]
         },
         {
           "q": "If y is inversely proportional to x^2 and y = 50 when x = 1, find y when x = 5.",
-          "a": "2"
+          "a": "2",
+          "hints": [
+            "Find k using y = k/x^2 (so k = x^2 y), then use it for the new x.",
+            "k = 50 x 1^2 = 50, so y = 50/5^2.",
+            "2"
+          ]
         }
       ]
     }

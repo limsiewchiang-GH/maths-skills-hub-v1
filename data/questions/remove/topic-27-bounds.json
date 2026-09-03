@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "A value 7.4 is given to 1 d.p. What are the lower and upper bounds?",
-          "a": "7.35 and 7.45"
+          "a": "7.35 and 7.45",
+          "hints": [
+            "The bounds are half a unit of accuracy below and above the rounded value.",
+            "1 d.p. means the unit of accuracy is 0.1, so half of that is 0.05: 7.4 - 0.05 and 7.4 + 0.05.",
+            "7.35 and 7.45"
+          ]
         },
         {
           "q": "A value 580 is given to 2 s.f. What are the lower and upper bounds?",
-          "a": "575 and 585"
+          "a": "575 and 585",
+          "hints": [
+            "The bounds are half a unit of accuracy below and above the rounded value.",
+            "2 s.f. on 580 means the unit of accuracy is 10, so half of that is 5: 580 - 5 and 580 + 5.",
+            "575 and 585"
+          ]
         },
         {
           "q": "A length 3.4 cm is correct to 1 d.p. State the error interval.",
-          "a": "3.35 <= x < 3.45"
+          "a": "3.35 <= x < 3.45",
+          "hints": [
+            "Write the lower and upper bounds as an inequality — the lower bound is included, the upper bound is not.",
+            "1 d.p. means half a unit either side: 3.4 - 0.05 and 3.4 + 0.05.",
+            "3.35 <= x < 3.45"
+          ]
         },
         {
           "q": "A mass 2.75 kg is given to 2 d.p. What is the upper bound?",
-          "a": "2.755"
+          "a": "2.755",
+          "hints": [
+            "The upper bound is half a unit of accuracy above the rounded value.",
+            "2 d.p. means the unit of accuracy is 0.01, so half of that is 0.005: 2.75 + 0.005.",
+            "2.755"
+          ]
         },
         {
           "q": "A population 4300 is given to 2 s.f. What is the lower bound?",
-          "a": "4250"
+          "a": "4250",
+          "hints": [
+            "The lower bound is half a unit of accuracy below the rounded value.",
+            "2 s.f. on 4300 means the unit of accuracy is 100, so half of that is 50: 4300 - 50.",
+            "4250"
+          ]
         },
         {
           "q": "A number 9.81 is correct to 2 d.p. State the lower bound.",
-          "a": "9.805"
+          "a": "9.805",
+          "hints": [
+            "The lower bound is half a unit of accuracy below the rounded value.",
+            "2 d.p. means the unit of accuracy is 0.01, so half of that is 0.005: 9.81 - 0.005.",
+            "9.805"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "A length is 8.2 cm correct to 1 d.p. Find the lower bound.",
-          "a": "8.15"
+          "a": "8.15",
+          "hints": [
+            "The lower bound is half a unit of accuracy below the rounded value.",
+            "1 d.p. means half a unit is 0.05: 8.2 - 0.05.",
+            "8.15"
+          ]
         },
         {
           "q": "A width is 15 cm correct to the nearest cm. Find the upper bound.",
-          "a": "15.5"
+          "a": "15.5",
+          "hints": [
+            "The upper bound is half a unit of accuracy above the rounded value.",
+            "Nearest cm means half a unit is 0.5: 15 + 0.5.",
+            "15.5"
+          ]
         },
         {
           "q": "A time is 2.4 s correct to 1 d.p. Find the upper bound.",
-          "a": "2.45"
+          "a": "2.45",
+          "hints": [
+            "The upper bound is half a unit of accuracy above the rounded value.",
+            "1 d.p. means half a unit is 0.05: 2.4 + 0.05.",
+            "2.45"
+          ]
         },
         {
           "q": "A mass is 350 g correct to 2 s.f. Find the lower bound.",
-          "a": "345"
+          "a": "345",
+          "hints": [
+            "The lower bound is half a unit of accuracy below the rounded value.",
+            "2 s.f. on 350 means the unit of accuracy is 10, so half of that is 5: 350 - 5.",
+            "345"
+          ]
         },
         {
           "q": "A distance is 1.25 km correct to 2 d.p. Find the lower bound.",
-          "a": "1.245"
+          "a": "1.245",
+          "hints": [
+            "The lower bound is half a unit of accuracy below the rounded value.",
+            "2 d.p. means half a unit is 0.005: 1.25 - 0.005.",
+            "1.245"
+          ]
         },
         {
           "q": "A value is 74 correct to the nearest integer. Find the error interval.",
-          "a": "73.5 <= x < 74.5"
+          "a": "73.5 <= x < 74.5",
+          "hints": [
+            "Write the lower and upper bounds as an inequality — the lower bound is included, the upper bound is not.",
+            "Nearest integer means half a unit either side: 74 - 0.5 and 74 + 0.5.",
+            "73.5 <= x < 74.5"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "A length is 5.2 cm and width is 3.1 cm, both correct to 1 d.p. Find the upper bound for the area.",
-          "a": "16.5375"
+          "a": "16.5375",
+          "hints": [
+            "For a product, use the upper bound of each measurement to get the maximum possible area.",
+            "Upper bounds are 5.25 and 3.15, so area = 5.25 x 3.15.",
+            "16.5375"
+          ]
         },
         {
           "q": "A distance is 120 m and time is 15 s, both correct to the nearest integer. Find the upper bound for the speed.",
-          "a": "8.3103"
+          "a": "8.3103",
+          "hints": [
+            "For a division, use the upper bound of the numerator and the lower bound of the denominator to maximise the result.",
+            "Upper bound of distance is 120.5, lower bound of time is 14.5, so speed = 120.5 / 14.5.",
+            "8.3103"
+          ]
         },
         {
           "q": "A rectangle is 8.4 m by 2.6 m, both to 1 d.p. Find the lower bound for the area.",
-          "a": "21.2925"
+          "a": "21.2925",
+          "hints": [
+            "For a product, use the lower bound of each measurement to get the minimum possible area.",
+            "Lower bounds are 8.35 and 2.55, so area = 8.35 x 2.55.",
+            "21.2925"
+          ]
         },
         {
           "q": "A mass is 7.5 kg and 3 equal bags are made. Both values exact except the mass is correct to 1 d.p. Find the upper bound for one bag.",
-          "a": "2.5167"
+          "a": "2.5167",
+          "hints": [
+            "For a division, use the upper bound of the numerator (the bag count is exact, so it doesn't change).",
+            "Upper bound of mass is 7.55, so one bag = 7.55 / 3.",
+            "2.5167"
+          ]
         },
         {
           "q": "A distance is 40 km correct to the nearest km and fuel used is 5 L correct to the nearest litre. Find the lower bound for km/L.",
-          "a": "7.1818"
+          "a": "7.1818",
+          "hints": [
+            "For a division, use the lower bound of the numerator and the upper bound of the denominator to minimise the result.",
+            "Lower bound of distance is 39.5, upper bound of fuel is 5.5, so km/L = 39.5 / 5.5.",
+            "7.1818"
+          ]
         },
         {
           "q": "A square has side 6.0 cm correct to 1 d.p. Find the upper bound for its perimeter.",
-          "a": "24.2"
+          "a": "24.2",
+          "hints": [
+            "For a sum of equal sides, use the upper bound of the side length, then multiply by 4.",
+            "Upper bound of the side is 6.05, so perimeter = 4 x 6.05.",
+            "24.2"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "A calculation gives 18.67391 for a length in cm. State an appropriate degree of accuracy.",
-          "a": "18.7 cm"
+          "a": "18.7 cm",
+          "hints": [
+            "A raw calculator answer should usually be rounded to 3 significant figures for a real-world measurement.",
+            "18.67391 rounded to 3 s.f. is 18.7.",
+            "18.7 cm"
+          ]
         },
         {
           "q": "A population estimate is 2486.7 people. Give an appropriate degree of accuracy.",
-          "a": "2487"
+          "a": "2487",
+          "hints": [
+            "People must be counted as whole numbers — round to the nearest integer.",
+            "2486.7 rounds to 2487.",
+            "2487"
+          ]
         },
         {
           "q": "A cost is 12.384 pounds. State an appropriate degree of accuracy.",
-          "a": "12.38"
+          "a": "12.38",
+          "hints": [
+            "Money is usually given to the nearest penny — 2 decimal places.",
+            "12.384 rounded to 2 d.p. is 12.38.",
+            "12.38"
+          ]
         },
         {
           "q": "A speed is 17.246 m/s. Give an appropriate degree of accuracy.",
-          "a": "17.2 m/s"
+          "a": "17.2 m/s",
+          "hints": [
+            "A raw calculator answer should usually be rounded to 3 significant figures for a real-world measurement.",
+            "17.246 rounded to 3 s.f. is 17.2.",
+            "17.2 m/s"
+          ]
         },
         {
           "q": "An area is 53.998 cm^2. State an appropriate degree of accuracy.",
-          "a": "54.0 cm^2"
+          "a": "54.0 cm^2",
+          "hints": [
+            "A raw calculator answer should usually be rounded to 3 significant figures for a real-world measurement.",
+            "53.998 rounded to 3 s.f. is 54.0.",
+            "54.0 cm^2"
+          ]
         },
         {
           "q": "A journey time is 2.483 hours. State an appropriate degree of accuracy.",
-          "a": "2.48 h"
+          "a": "2.48 h",
+          "hints": [
+            "A raw calculator answer should usually be rounded to 3 significant figures for a real-world measurement.",
+            "2.483 rounded to 3 s.f. is 2.48.",
+            "2.48 h"
+          ]
         }
       ]
     }

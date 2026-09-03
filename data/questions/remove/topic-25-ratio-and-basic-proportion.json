@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Simplify the ratio 18:24.",
-          "a": "3:4"
+          "a": "3:4",
+          "hints": [
+            "Divide both sides by their highest common factor.",
+            "18 and 24 share a factor of 6: 18/6, 24/6.",
+            "3:4"
+          ]
         },
         {
           "q": "Simplify the ratio 14:35.",
-          "a": "2:5"
+          "a": "2:5",
+          "hints": [
+            "Divide both sides by their highest common factor.",
+            "14 and 35 share a factor of 7: 14/7, 35/7.",
+            "2:5"
+          ]
         },
         {
           "q": "Simplify the ratio 45:60.",
-          "a": "3:4"
+          "a": "3:4",
+          "hints": [
+            "Divide both sides by their highest common factor.",
+            "45 and 60 share a factor of 15: 45/15, 60/15.",
+            "3:4"
+          ]
         },
         {
           "q": "Simplify the ratio 27:9.",
-          "a": "3:1"
+          "a": "3:1",
+          "hints": [
+            "Divide both sides by their highest common factor.",
+            "27 and 9 share a factor of 9: 27/9, 9/9.",
+            "3:1"
+          ]
         },
         {
           "q": "Simplify the ratio 32:48.",
-          "a": "2:3"
+          "a": "2:3",
+          "hints": [
+            "Divide both sides by their highest common factor.",
+            "32 and 48 share a factor of 16: 32/16, 48/16.",
+            "2:3"
+          ]
         },
         {
           "q": "Simplify the ratio 21:49.",
-          "a": "3:7"
+          "a": "3:7",
+          "hints": [
+            "Divide both sides by their highest common factor.",
+            "21 and 49 share a factor of 7: 21/7, 49/7.",
+            "3:7"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Which is greater: 2:3 or 3:4?",
-          "a": "3:4"
+          "a": "3:4",
+          "hints": [
+            "Convert each ratio to a decimal or fraction, then compare.",
+            "2/3 ≈ 0.67, 3/4 = 0.75.",
+            "3:4"
+          ]
         },
         {
           "q": "Are the ratios 4:6 and 10:15 equivalent?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Simplify both ratios and see if they match.",
+            "4:6 simplifies to 2:3; 10:15 also simplifies to 2:3.",
+            "Yes"
+          ]
         },
         {
           "q": "Which is greater: 5:8 or 7:12?",
-          "a": "5:8"
+          "a": "5:8",
+          "hints": [
+            "Convert each ratio to a decimal or fraction, then compare.",
+            "5/8 = 0.625, 7/12 ≈ 0.58.",
+            "5:8"
+          ]
         },
         {
           "q": "Are 9:12 and 3:4 equivalent?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Simplify both ratios and see if they match.",
+            "9:12 simplifies to 3:4, which matches directly.",
+            "Yes"
+          ]
         },
         {
           "q": "Which is greater: 4:5 or 7:9?",
-          "a": "4:5"
+          "a": "4:5",
+          "hints": [
+            "Convert each ratio to a decimal or fraction, then compare.",
+            "4/5 = 0.8, 7/9 ≈ 0.78.",
+            "4:5"
+          ]
         },
         {
           "q": "Are 8:14 and 12:21 equivalent?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Simplify both ratios and see if they match.",
+            "8:14 simplifies to 4:7; 12:21 also simplifies to 4:7.",
+            "Yes"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "If twice as many workers do a job, what happens to the time?",
-          "a": "It halves"
+          "a": "It halves",
+          "hints": [
+            "In inverse proportion, one quantity doubling makes the other quantity half as much.",
+            "Twice the workers means the job is shared out more, so it takes half the time.",
+            "It halves"
+          ]
         },
         {
           "q": "If the number of people triples, what happens to the time in inverse proportion?",
-          "a": "It becomes a third"
+          "a": "It becomes a third",
+          "hints": [
+            "In inverse proportion, multiplying one quantity by a number divides the other by the same number.",
+            "Tripling the people means the time is divided by 3.",
+            "It becomes a third"
+          ]
         },
         {
           "q": "4 workers take 6 hours. In inverse proportion, how long do 8 workers take?",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "In inverse proportion, workers x time stays constant.",
+            "4 x 6 = 24, so 8 x time = 24.",
+            "3"
+          ]
         },
         {
           "q": "5 taps fill a tank in 12 minutes. How long would 10 taps take in inverse proportion?",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "In inverse proportion, taps x time stays constant.",
+            "5 x 12 = 60, so 10 x time = 60.",
+            "6"
+          ]
         },
         {
           "q": "True or false: in inverse proportion, one quantity increases while the other decreases.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the defining behaviour of inverse proportion.",
+            "As one variable grows, the other shrinks so that their product stays constant.",
+            "True"
+          ]
         },
         {
           "q": "3 people take 20 minutes. How long would 1 person take in inverse proportion?",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "In inverse proportion, people x time stays constant.",
+            "3 x 20 = 60, so 1 x time = 60.",
+            "60"
+          ]
         }
       ]
     }
