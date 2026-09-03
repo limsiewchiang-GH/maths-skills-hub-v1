@@ -1853,7 +1853,11 @@ function genericSkillHints(skill, answer) {
     ];
   }
 
-  if (normalizedSkill.includes("gradient") || normalizedSkill.includes("line")) {
+  if (
+    !normalizedSkill.includes("differentiat") &&
+    !normalizedSkill.includes("angles") &&
+    (normalizedSkill.includes("gradient") || /\bline(s)?\b/.test(normalizedSkill))
+  ) {
     return [
       "Hint 1: For a gradient, use change in y over change in x.",
       "Hint 2: For an equation, keep the form y = mx + c in mind and identify m and c clearly.",
