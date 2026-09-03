@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Solve: 3x + 7 = 25",
-          "a": "x = 6"
+          "a": "x = 6",
+          "hints": [
+            "Isolate the x-term first, then divide by the coefficient of x.",
+            "3x = 25 - 7.",
+            "3x = 18, so x = 6"
+          ]
         },
         {
           "q": "Solve: 5x - 4 = 2x + 11",
-          "a": "x = 5"
+          "a": "x = 5",
+          "hints": [
+            "Collect the x-terms on one side and the numbers on the other.",
+            "5x - 2x = 11 + 4.",
+            "3x = 15, so x = 5"
+          ]
         },
         {
           "q": "Solve: 9 - 2x = 1",
-          "a": "x = 4"
+          "a": "x = 4",
+          "hints": [
+            "Isolate the x-term first, then divide by the coefficient of x.",
+            "-2x = 1 - 9.",
+            "-2x = -8, so x = 4"
+          ]
         },
         {
           "q": "Solve: 4x + 3 = 31",
-          "a": "x = 7"
+          "a": "x = 7",
+          "hints": [
+            "Isolate the x-term first, then divide by the coefficient of x.",
+            "4x = 31 - 3.",
+            "4x = 28, so x = 7"
+          ]
         },
         {
           "q": "Solve: 6x - 5 = 19",
-          "a": "x = 4"
+          "a": "x = 4",
+          "hints": [
+            "Isolate the x-term first, then divide by the coefficient of x.",
+            "6x = 19 + 5.",
+            "6x = 24, so x = 4"
+          ]
         },
         {
           "q": "Solve: 2x + 15 = 33",
-          "a": "x = 9"
+          "a": "x = 9",
+          "hints": [
+            "Isolate the x-term first, then divide by the coefficient of x.",
+            "2x = 33 - 15.",
+            "2x = 18, so x = 9"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Solve: 2(x + 3) = 18",
-          "a": "x = 6"
+          "a": "x = 6",
+          "hints": [
+            "Expand the bracket first, or divide both sides by the number outside it.",
+            "x + 3 = 18 / 2.",
+            "x + 3 = 9, so x = 6"
+          ]
         },
         {
           "q": "Solve: 3(x - 2) + 4 = 19",
-          "a": "x = 7"
+          "a": "x = 7",
+          "hints": [
+            "Expand the bracket first, then collect the constant terms.",
+            "3x - 6 + 4 = 19, so 3x - 2 = 19.",
+            "3x = 21, so x = 7"
+          ]
         },
         {
           "q": "Solve: 5 - (2x - 1) = 10",
-          "a": "x = -2"
+          "a": "x = -2",
+          "hints": [
+            "Expand the bracket carefully — subtracting a bracket flips the sign of everything inside.",
+            "5 - 2x + 1 = 10, so 6 - 2x = 10.",
+            "-2x = 4, so x = -2"
+          ]
         },
         {
           "q": "Solve: 4(x + 1) = 28",
-          "a": "x = 6"
+          "a": "x = 6",
+          "hints": [
+            "Expand the bracket first, or divide both sides by the number outside it.",
+            "x + 1 = 28 / 4.",
+            "x + 1 = 7, so x = 6"
+          ]
         },
         {
           "q": "Solve: 2(3x - 5) = 14",
-          "a": "x = 4"
+          "a": "x = 4",
+          "hints": [
+            "Expand the bracket first, or divide both sides by the number outside it.",
+            "3x - 5 = 14 / 2.",
+            "3x - 5 = 7, so 3x = 12, x = 4"
+          ]
         },
         {
           "q": "Solve: 7 - (x + 2) = 1",
-          "a": "x = 4"
+          "a": "x = 4",
+          "hints": [
+            "Expand the bracket carefully — subtracting a bracket flips the sign of everything inside.",
+            "7 - x - 2 = 1, so 5 - x = 1.",
+            "-x = -4, so x = 4"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Solve: x/3 + 5 = 9",
-          "a": "x = 12"
+          "a": "x = 12",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "x/3 = 9 - 5.",
+            "x/3 = 4, so x = 12"
+          ]
         },
         {
           "q": "Solve: x/4 - 2 = 3",
-          "a": "x = 20"
+          "a": "x = 20",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "x/4 = 3 + 2.",
+            "x/4 = 5, so x = 20"
+          ]
         },
         {
           "q": "Solve: (2x/5) + 1 = 7",
-          "a": "x = 15"
+          "a": "x = 15",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "2x/5 = 7 - 1.",
+            "2x/5 = 6, so 2x = 30, x = 15"
+          ]
         },
         {
           "q": "Solve: x/6 + 4 = 9",
-          "a": "x = 30"
+          "a": "x = 30",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "x/6 = 9 - 4.",
+            "x/6 = 5, so x = 30"
+          ]
         },
         {
           "q": "Solve: 3x/4 = 12",
-          "a": "x = 16"
+          "a": "x = 16",
+          "hints": [
+            "Multiply both sides to clear the denominator.",
+            "3x = 12 x 4.",
+            "3x = 48, so x = 16"
+          ]
         },
         {
           "q": "Solve: x/8 - 1 = 5",
-          "a": "x = 48"
+          "a": "x = 48",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "x/8 = 5 + 1.",
+            "x/8 = 6, so x = 48"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Solve: 4x + 7 = 2x + 19",
-          "a": "x = 6"
+          "a": "x = 6",
+          "hints": [
+            "Collect the x-terms on one side and the numbers on the other.",
+            "4x - 2x = 19 - 7.",
+            "2x = 12, so x = 6"
+          ]
         },
         {
           "q": "Solve: 3(x + 1) = 2x + 11",
-          "a": "x = 8"
+          "a": "x = 8",
+          "hints": [
+            "Expand the bracket first, then collect the x-terms on one side.",
+            "3x + 3 = 2x + 11, so 3x - 2x = 11 - 3.",
+            "x = 8"
+          ]
         },
         {
           "q": "Solve: 7 - x = 2x - 5",
-          "a": "x = 4"
+          "a": "x = 4",
+          "hints": [
+            "Collect the x-terms on one side and the numbers on the other.",
+            "7 + 5 = 2x + x.",
+            "12 = 3x, so x = 4"
+          ]
         },
         {
           "q": "Solve: 5x - 3 = 2x + 12",
-          "a": "x = 5"
+          "a": "x = 5",
+          "hints": [
+            "Collect the x-terms on one side and the numbers on the other.",
+            "5x - 2x = 12 + 3.",
+            "3x = 15, so x = 5"
+          ]
         },
         {
           "q": "Solve: 4(x - 1) = 2x + 10",
-          "a": "x = 7"
+          "a": "x = 7",
+          "hints": [
+            "Expand the bracket first, then collect the x-terms on one side.",
+            "4x - 4 = 2x + 10, so 4x - 2x = 10 + 4.",
+            "2x = 14, so x = 7"
+          ]
         },
         {
           "q": "Solve: 9 + 2x = x + 14",
-          "a": "x = 5"
+          "a": "x = 5",
+          "hints": [
+            "Collect the x-terms on one side and the numbers on the other.",
+            "2x - x = 14 - 9.",
+            "x = 5"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "A number plus 9 is 25. Find the number.",
-          "a": "16"
+          "a": "16",
+          "hints": [
+            "Write the sentence as an equation: let the number be x.",
+            "x + 9 = 25.",
+            "x = 25 - 9 = 16"
+          ]
         },
         {
           "q": "Twice a number minus 3 is 17. Find the number.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Write the sentence as an equation: let the number be x.",
+            "2x - 3 = 17.",
+            "2x = 20, so x = 10"
+          ]
         },
         {
           "q": "A rectangle has perimeter 34 cm and width 7 cm. Find the length.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Use perimeter = 2 x (length + width).",
+            "2(length + 7) = 34, so length + 7 = 17.",
+            "length = 17 - 7 = 10"
+          ]
         },
         {
           "q": "Three times a number plus 4 is 22. Find the number.",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "Write the sentence as an equation: let the number be x.",
+            "3x + 4 = 22.",
+            "3x = 18, so x = 6"
+          ]
         },
         {
           "q": "Five more than half a number is 17. Find the number.",
-          "a": "24"
+          "a": "24",
+          "hints": [
+            "Write the sentence as an equation: let the number be x.",
+            "x/2 + 5 = 17.",
+            "x/2 = 12, so x = 24"
+          ]
         },
         {
           "q": "One ribbon piece is 6 cm longer than the other and the total is 30 cm. Find the shorter piece.",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "Let the shorter piece be x, so the longer piece is x + 6.",
+            "x + (x + 6) = 30.",
+            "2x + 6 = 30, so 2x = 24, x = 12"
+          ]
         }
       ]
     }
