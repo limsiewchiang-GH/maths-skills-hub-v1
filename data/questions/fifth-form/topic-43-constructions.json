@@ -112,6 +112,15 @@
             "A compass lets you draw arcs that are all the same fixed distance from a point.",
             "Drawing equal distances or arcs"
           ]
+        },
+        {
+          "q": "Can a triangle be constructed with sides 3 cm, 4 cm, and 9 cm?",
+          "a": "No",
+          "hints": [
+            "The two shorter sides must add up to more than the longest side for a triangle to be possible.",
+            "3 + 4 = 7, which is less than 9.",
+            "No"
+          ]
         }
       ]
     },
@@ -228,6 +237,15 @@
             "Arcs of the same radius drawn from each endpoint intersect at two points equidistant from both.",
             "Equal-radius arcs from each endpoint"
           ]
+        },
+        {
+          "q": "A and B are (0,0) and (6,0). Find the midpoint through which the perpendicular bisector of AB passes.",
+          "a": "(3,0)",
+          "hints": [
+            "The perpendicular bisector always passes through the midpoint of the segment.",
+            "Midpoint = ((0+6)/2, (0+0)/2).",
+            "(3,0)"
+          ]
         }
       ]
     },
@@ -285,6 +303,15 @@
             "Recall the name for a triangle whose three sides all match.",
             "A triangle with all three sides equal in length is called equilateral.",
             "Equilateral triangle"
+          ]
+        },
+        {
+          "q": "An equilateral triangle has side 10 cm. Find its height.",
+          "a": "5sqrt(3)",
+          "hints": [
+            "Split the equilateral triangle into two right triangles and use Pythagoras, or the height formula (side x sqrt(3))/2.",
+            "height = 10 x sqrt(3) / 2.",
+            "5sqrt(3)"
           ]
         }
       ]

@@ -58,6 +58,15 @@
             "Displacement has a distance (magnitude) and a direction, so it is a vector.",
             "True"
           ]
+        },
+        {
+          "q": "Find the magnitude of the vector (3,4).",
+          "a": "5",
+          "hints": [
+            "Use Pythagoras: magnitude = sqrt(x-component^2 + y-component^2).",
+            "sqrt(3^2 + 4^2) = sqrt(9 + 16).",
+            "5"
+          ]
         }
       ]
     },
@@ -173,6 +182,15 @@
             "In parallelogram ABCD, opposite sides are parallel and equal in length and direction.",
             "AD and BC point the same way round the parallelogram.",
             "BC"
+          ]
+        },
+        {
+          "q": "In triangle OAB, M is the midpoint of AB. Given OA = a and OB = b, express OM in terms of a and b.",
+          "a": "(1/2)(a + b)",
+          "hints": [
+            "Write OM as OA plus half of AB, then express AB in terms of a and b.",
+            "AB = OB - OA = b - a, so OM = a + (1/2)(b - a).",
+            "(1/2)(a + b)"
           ]
         }
       ]
