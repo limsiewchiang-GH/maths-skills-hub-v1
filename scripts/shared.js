@@ -183,7 +183,10 @@ function latexifyLine(line) {
     return "";
   }
 
-  const colonSplit = raw.match(/^([^:]{1,45}:)\s*(.+)$/);
+  // Requires at least one space after the colon (not \s*), so a no-space colon like a ratio
+  // "3:4" or "AP:PB" isn't mistaken for a "Label: content" prefix — the label/body split
+  // always re-inserts exactly one space, which would otherwise corrupt "3:4" into "3: 4".
+  const colonSplit = raw.match(/^([^:]{1,45}:)\s+(.+)$/);
   if (colonSplit) {
     const joinedMath = formatJoinedMathClauses(colonSplit[2]);
     const colonBody = colonSplit[2];
