@@ -975,7 +975,7 @@ function hintsForFormulae(question) {
 }
 
 function hintsForQuadratics(question) {
-  if (/factorise:/i.test(question)) {
+  if (/^\s*factorise:\s*-?\d*x\^2\b/i.test(question)) {
     return [
       "Hint 1: Think about which two bracket numbers multiply to the constant term and add to the x-coefficient.",
       "Hint 2: For a non-monic quadratic, use factor pairs of the first and last coefficients.",
@@ -1035,7 +1035,7 @@ function hintsForGeometrySimilarityAndUnits(question) {
     ];
   }
 
-  if (/convert .* to /i.test(question)) {
+  if (/convert\s+[\d.]+\s*(mm|cm|km|kg|m|g)\b\s*to\s*(mm|cm|km|kg|m|g)\b/i.test(question)) {
     return [
       "Hint 1: Write down the metric conversion you need first.",
       "Hint 2: Decide whether to multiply or divide by 10, 100, or 1000.",
@@ -1595,7 +1595,7 @@ function hintsForFifthFormTopics(question) {
     ];
   }
 
-  if (/set|complement|intersection|union|venn/i.test(question)) {
+  if (/(?<!data )\bset\b|complement|intersection|union|subset|venn/i.test(question)) {
     return [
       "Hint 1: Decide whether the question is asking about membership, complement, overlap, or everything combined.",
       "Hint 2: Intersection means common elements, union means all elements, and complement means everything outside the set inside U.",
@@ -1647,7 +1647,7 @@ function hintsForFinalFifthFormTopics(question) {
     ];
   }
 
-  if (/domain|range|composite functions?|inverses?|inverse of a quadratic|transformation of graphs/i.test(question)) {
+  if (/\bthe (domain|range)\b|composite functions?|inverses?|inverse of a quadratic|transformation of graphs/i.test(question)) {
     if (/composite/i.test(question)) {
       return [
         "Hint 1: Work inside-out for a composite function.",
@@ -1664,7 +1664,7 @@ function hintsForFinalFifthFormTopics(question) {
       ];
     }
 
-    if (/domain|range/i.test(question)) {
+    if (/\bthe (domain|range)\b/i.test(question)) {
       return [
         "Hint 1: Domain is about allowed x-values; range is about resulting y-values.",
         "Hint 2: Look for square roots, denominators, or graph shape restrictions.",
