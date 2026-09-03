@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Right triangle legs 6 and 8. Find the hypotenuse.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Use a² + b² = c², where c is the hypotenuse.",
+            "6² + 8² = 36 + 64 = 100.",
+            "c = sqrt(100) = 10"
+          ]
         },
         {
           "q": "Hypotenuse 13, one leg 5. Find the other leg.",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "Rearrange to find a leg: a² = c² - b².",
+            "13² - 5² = 169 - 25 = 144.",
+            "a = sqrt(144) = 12"
+          ]
         },
         {
           "q": "Rectangle 9 by 12. Find the diagonal.",
-          "a": "15"
+          "a": "15",
+          "hints": [
+            "A rectangle's diagonal is the hypotenuse of a right triangle formed by its sides.",
+            "9² + 12² = 81 + 144 = 225.",
+            "diagonal = sqrt(225) = 15"
+          ]
         },
         {
           "q": "Right triangle legs 5 and 12. Find the hypotenuse.",
-          "a": "13"
+          "a": "13",
+          "hints": [
+            "Use a² + b² = c², where c is the hypotenuse.",
+            "5² + 12² = 25 + 144 = 169.",
+            "c = sqrt(169) = 13"
+          ]
         },
         {
           "q": "Hypotenuse 25, one leg 7. Find the other leg.",
-          "a": "24"
+          "a": "24",
+          "hints": [
+            "Rearrange to find a leg: a² = c² - b².",
+            "25² - 7² = 625 - 49 = 576.",
+            "a = sqrt(576) = 24"
+          ]
         },
         {
           "q": "A square has side 10. Find its diagonal.",
-          "a": "10sqrt(2)"
+          "a": "10sqrt(2)",
+          "hints": [
+            "A square's diagonal is the hypotenuse of a right triangle formed by two sides.",
+            "10² + 10² = 100 + 100 = 200.",
+            "diagonal = sqrt(200) = sqrt(100 x 2) = 10sqrt(2)"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "A cuboid is 3 by 4 by 12. Find the body diagonal.",
-          "a": "13"
+          "a": "13",
+          "hints": [
+            "For a cuboid, body diagonal² = length² + width² + height².",
+            "3² + 4² + 12² = 9 + 16 + 144 = 169.",
+            "diagonal = sqrt(169) = 13"
+          ]
         },
         {
           "q": "A cuboid is 2 by 3 by 6. Find the body diagonal.",
-          "a": "7"
+          "a": "7",
+          "hints": [
+            "For a cuboid, body diagonal² = length² + width² + height².",
+            "2² + 3² + 6² = 4 + 9 + 36 = 49.",
+            "diagonal = sqrt(49) = 7"
+          ]
         },
         {
           "q": "Find the distance from (0,0,0) to (1,2,2).",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "In 3D, distance² = (difference in x)² + (difference in y)² + (difference in z)².",
+            "1² + 2² + 2² = 1 + 4 + 4 = 9.",
+            "distance = sqrt(9) = 3"
+          ]
         },
         {
           "q": "A cuboid is 6 by 8 by 24. Find the body diagonal.",
-          "a": "26"
+          "a": "26",
+          "hints": [
+            "For a cuboid, body diagonal² = length² + width² + height².",
+            "6² + 8² + 24² = 36 + 64 + 576 = 676.",
+            "diagonal = sqrt(676) = 26"
+          ]
         },
         {
           "q": "Find the distance from (1,1,1) to (4,5,13).",
-          "a": "13"
+          "a": "13",
+          "hints": [
+            "In 3D, distance² = (difference in x)² + (difference in y)² + (difference in z)².",
+            "(4-1)² + (5-1)² + (13-1)² = 3² + 4² + 12² = 9 + 16 + 144 = 169.",
+            "distance = sqrt(169) = 13"
+          ]
         },
         {
-          "q": "A cuboid is 5 by 12 by 12. Find the body diagonal.",
-          "a": "17"
+          "q": "A cuboid is 8 by 9 by 12. Find the body diagonal.",
+          "a": "17",
+          "hints": [
+            "For a cuboid, body diagonal² = length² + width² + height².",
+            "8² + 9² + 12² = 64 + 81 + 144 = 289.",
+            "diagonal = sqrt(289) = 17"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Simplify sqrt(50)",
-          "a": "5sqrt(2)"
+          "a": "5sqrt(2)",
+          "hints": [
+            "Find the largest perfect-square factor of the number under the root.",
+            "50 = 25 x 2, and 25 is a perfect square.",
+            "sqrt(50) = sqrt(25 x 2) = sqrt(25) x sqrt(2) = 5sqrt(2)"
+          ]
         },
         {
           "q": "Simplify sqrt(72)",
-          "a": "6sqrt(2)"
+          "a": "6sqrt(2)",
+          "hints": [
+            "Find the largest perfect-square factor of the number under the root.",
+            "72 = 36 x 2, and 36 is a perfect square.",
+            "sqrt(72) = sqrt(36 x 2) = 6sqrt(2)"
+          ]
         },
         {
           "q": "Simplify sqrt(200)",
-          "a": "10sqrt(2)"
+          "a": "10sqrt(2)",
+          "hints": [
+            "Find the largest perfect-square factor of the number under the root.",
+            "200 = 100 x 2, and 100 is a perfect square.",
+            "sqrt(200) = sqrt(100 x 2) = 10sqrt(2)"
+          ]
         },
         {
           "q": "Simplify sqrt(98)",
-          "a": "7sqrt(2)"
+          "a": "7sqrt(2)",
+          "hints": [
+            "Find the largest perfect-square factor of the number under the root.",
+            "98 = 49 x 2, and 49 is a perfect square.",
+            "sqrt(98) = sqrt(49 x 2) = 7sqrt(2)"
+          ]
         },
         {
           "q": "Simplify sqrt(45)",
-          "a": "3sqrt(5)"
+          "a": "3sqrt(5)",
+          "hints": [
+            "Find the largest perfect-square factor of the number under the root.",
+            "45 = 9 x 5, and 9 is a perfect square.",
+            "sqrt(45) = sqrt(9 x 5) = 3sqrt(5)"
+          ]
         },
         {
           "q": "Simplify sqrt(147)",
-          "a": "7sqrt(3)"
+          "a": "7sqrt(3)",
+          "hints": [
+            "Find the largest perfect-square factor of the number under the root.",
+            "147 = 49 x 3, and 49 is a perfect square.",
+            "sqrt(147) = sqrt(49 x 3) = 7sqrt(3)"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Simplify: (2sqrt(3))(5sqrt(6))",
-          "a": "30sqrt(2)"
+          "a": "30sqrt(2)",
+          "hints": [
+            "Multiply the whole numbers together, then multiply the numbers under the roots together.",
+            "2 x 5 = 10, and sqrt(3) x sqrt(6) = sqrt(18).",
+            "10sqrt(18) = 10sqrt(9 x 2) = 10 x 3sqrt(2) = 30sqrt(2)"
+          ]
         },
         {
           "q": "Simplify: (3sqrt(2))(4sqrt(8))",
-          "a": "48"
+          "a": "48",
+          "hints": [
+            "Multiply the whole numbers together, then multiply the numbers under the roots together.",
+            "3 x 4 = 12, and sqrt(2) x sqrt(8) = sqrt(16) = 4.",
+            "12 x 4 = 48"
+          ]
         },
         {
           "q": "Simplify: sqrt(5) x sqrt(20)",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Multiply the numbers under the roots together, then simplify.",
+            "sqrt(5) x sqrt(20) = sqrt(100).",
+            "sqrt(100) = 10"
+          ]
         },
         {
           "q": "Simplify: (2sqrt(7))(3sqrt(14))",
-          "a": "42sqrt(2)"
+          "a": "42sqrt(2)",
+          "hints": [
+            "Multiply the whole numbers together, then multiply the numbers under the roots together.",
+            "2 x 3 = 6, and sqrt(7) x sqrt(14) = sqrt(98).",
+            "6sqrt(98) = 6sqrt(49 x 2) = 6 x 7sqrt(2) = 42sqrt(2)"
+          ]
         },
         {
           "q": "Simplify: sqrt(12) x sqrt(3)",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "Multiply the numbers under the roots together, then simplify.",
+            "sqrt(12) x sqrt(3) = sqrt(36).",
+            "sqrt(36) = 6"
+          ]
         },
         {
           "q": "Simplify: (4sqrt(5))(sqrt(15))",
-          "a": "20sqrt(3)"
+          "a": "20sqrt(3)",
+          "hints": [
+            "Multiply the whole numbers together, then multiply the numbers under the roots together.",
+            "4 x 1 = 4, and sqrt(5) x sqrt(15) = sqrt(75).",
+            "4sqrt(75) = 4sqrt(25 x 3) = 4 x 5sqrt(3) = 20sqrt(3)"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "Simplify: 3sqrt(2) + 5sqrt(2)",
-          "a": "8sqrt(2)"
+          "a": "8sqrt(2)",
+          "hints": [
+            "Only like surds (same number under the root) can be added directly — just add the coefficients.",
+            "3 + 5 = 8, keeping sqrt(2).",
+            "3sqrt(2) + 5sqrt(2) = 8sqrt(2)"
+          ]
         },
         {
           "q": "Simplify: 7sqrt(3) - 2sqrt(3)",
-          "a": "5sqrt(3)"
+          "a": "5sqrt(3)",
+          "hints": [
+            "Only like surds (same number under the root) can be combined directly — just subtract the coefficients.",
+            "7 - 2 = 5, keeping sqrt(3).",
+            "7sqrt(3) - 2sqrt(3) = 5sqrt(3)"
+          ]
         },
         {
           "q": "Simplify: sqrt(50) + sqrt(8)",
-          "a": "7sqrt(2)"
+          "a": "7sqrt(2)",
+          "hints": [
+            "Simplify each surd first, then combine any that match.",
+            "sqrt(50) = 5sqrt(2) and sqrt(8) = 2sqrt(2).",
+            "5sqrt(2) + 2sqrt(2) = 7sqrt(2)"
+          ]
         },
         {
           "q": "Simplify: 4sqrt(5) + 3sqrt(5)",
-          "a": "7sqrt(5)"
+          "a": "7sqrt(5)",
+          "hints": [
+            "Only like surds (same number under the root) can be added directly — just add the coefficients.",
+            "4 + 3 = 7, keeping sqrt(5).",
+            "4sqrt(5) + 3sqrt(5) = 7sqrt(5)"
+          ]
         },
         {
           "q": "Simplify: sqrt(27) + sqrt(12)",
-          "a": "5sqrt(3)"
+          "a": "5sqrt(3)",
+          "hints": [
+            "Simplify each surd first, then combine any that match.",
+            "sqrt(27) = 3sqrt(3) and sqrt(12) = 2sqrt(3).",
+            "3sqrt(3) + 2sqrt(3) = 5sqrt(3)"
+          ]
         },
         {
           "q": "Simplify: 6sqrt(7) - sqrt(7)",
-          "a": "5sqrt(7)"
+          "a": "5sqrt(7)",
+          "hints": [
+            "Only like surds (same number under the root) can be combined directly — just subtract the coefficients.",
+            "6 - 1 = 5, keeping sqrt(7).",
+            "6sqrt(7) - sqrt(7) = 5sqrt(7)"
+          ]
         }
       ]
     },
@@ -147,27 +297,57 @@
       "items": [
         {
           "q": "Simplify: sqrt(18) / sqrt(2)",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Divide the numbers under the roots, then simplify.",
+            "sqrt(18) / sqrt(2) = sqrt(9).",
+            "sqrt(9) = 3"
+          ]
         },
         {
           "q": "Simplify: (6sqrt(15))/(3sqrt(5))",
-          "a": "2sqrt(3)"
+          "a": "2sqrt(3)",
+          "hints": [
+            "Divide the whole numbers, then divide the numbers under the roots.",
+            "6 / 3 = 2, and sqrt(15) / sqrt(5) = sqrt(3).",
+            "2sqrt(3)"
+          ]
         },
         {
           "q": "Simplify: sqrt(48)/sqrt(3)",
-          "a": "4"
+          "a": "4",
+          "hints": [
+            "Divide the numbers under the roots, then simplify.",
+            "sqrt(48) / sqrt(3) = sqrt(16).",
+            "sqrt(16) = 4"
+          ]
         },
         {
           "q": "Simplify: sqrt(75)/sqrt(3)",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Divide the numbers under the roots, then simplify.",
+            "sqrt(75) / sqrt(3) = sqrt(25).",
+            "sqrt(25) = 5"
+          ]
         },
         {
           "q": "Simplify: (8sqrt(6))/(2sqrt(3))",
-          "a": "4sqrt(2)"
+          "a": "4sqrt(2)",
+          "hints": [
+            "Divide the whole numbers, then divide the numbers under the roots.",
+            "8 / 2 = 4, and sqrt(6) / sqrt(3) = sqrt(2).",
+            "4sqrt(2)"
+          ]
         },
         {
           "q": "Simplify: sqrt(98)/sqrt(2)",
-          "a": "7"
+          "a": "7",
+          "hints": [
+            "Divide the numbers under the roots, then simplify.",
+            "sqrt(98) / sqrt(2) = sqrt(49).",
+            "sqrt(49) = 7"
+          ]
         }
       ]
     }

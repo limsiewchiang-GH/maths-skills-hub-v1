@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Round 0.004786 to 2 s.f.",
-          "a": "0.0048"
+          "a": "0.0048",
+          "hints": [
+            "Find the first significant figure, then count two figures from there.",
+            "The first 2 s.f. are 4 and 7; look at the next digit (8) to decide whether to round up.",
+            "0.004786 -> keep 4 and 7, next digit is 8 (round up) -> 0.0048"
+          ]
         },
         {
           "q": "Round 73.486 to 1 d.p.",
-          "a": "73.5"
+          "a": "73.5",
+          "hints": [
+            "Look at the digit right after the 1st decimal place to decide rounding.",
+            "The 1st decimal digit is 4; the next digit is 8, which rounds it up.",
+            "73.486 -> 73.4|86 -> next digit 8 rounds 4 up to 5 -> 73.5"
+          ]
         },
         {
           "q": "Round 12995 to 3 s.f.",
-          "a": "13000"
+          "a": "13000",
+          "hints": [
+            "Count the first 3 significant figures, then look at the next digit.",
+            "The first 3 s.f. are 1, 2, 9; the next digit is 9, which rounds up.",
+            "12995 -> 129|95 -> rounds up to 130 -> written as 13000"
+          ]
         },
         {
           "q": "Round 5.0873 to 2 d.p.",
-          "a": "5.09"
+          "a": "5.09",
+          "hints": [
+            "Look at the digit right after the 2nd decimal place.",
+            "The first 2 decimals are 0 and 8; the next digit is 7, which rounds up.",
+            "5.0873 -> 5.08|73 -> next digit 7 rounds 8 up to 9 -> 5.09"
+          ]
         },
         {
           "q": "Round 90451 to 2 s.f.",
-          "a": "90000"
+          "a": "90000",
+          "hints": [
+            "Count the first 2 significant figures, then look at the next digit.",
+            "The first 2 s.f. are 9 and 0; the next digit is 4, which rounds down.",
+            "90451 -> 90|451 -> next digit 4 keeps it as 90 -> 90000"
+          ]
         },
         {
           "q": "Round 0.08951 to 3 s.f.",
-          "a": "0.0895"
+          "a": "0.0895",
+          "hints": [
+            "Find the first significant figure, then count three figures from there.",
+            "The first 3 s.f. are 8, 9, 5; the next digit is 1, which rounds down.",
+            "0.08951 -> keep 8, 9, 5, next digit is 1 (rounds down) -> 0.0895"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Estimate 19.8 × 4.1",
-          "a": "80"
+          "a": "80",
+          "hints": [
+            "Round each number to 1 significant figure before multiplying.",
+            "19.8 ≈ 20 and 4.1 ≈ 4.",
+            "20 × 4 = 80"
+          ]
         },
         {
           "q": "Estimate 298/6.2",
-          "a": "50"
+          "a": "50",
+          "hints": [
+            "Round each number to 1 significant figure before dividing.",
+            "298 ≈ 300 and 6.2 ≈ 6.",
+            "300 ÷ 6 = 50"
+          ]
         },
         {
           "q": "Estimate sqrt(399)",
-          "a": "20"
+          "a": "20",
+          "hints": [
+            "Round the number under the root to the nearest value with an easy square root.",
+            "399 ≈ 400, and 400 is a perfect square.",
+            "sqrt(400) = 20"
+          ]
         },
         {
           "q": "Estimate 0.198 × 49",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Round each number to 1 significant figure before multiplying.",
+            "0.198 ≈ 0.2 and 49 ≈ 50.",
+            "0.2 × 50 = 10"
+          ]
         },
         {
           "q": "Estimate 602 ÷ 19.7",
-          "a": "30"
+          "a": "30",
+          "hints": [
+            "Round each number to 1 significant figure before dividing.",
+            "602 ≈ 600 and 19.7 ≈ 20.",
+            "600 ÷ 20 = 30"
+          ]
         },
         {
           "q": "Estimate 31.4 + 8.7 - 1.9",
-          "a": "37"
+          "a": "37",
+          "hints": [
+            "Round each number to 1 significant figure before combining.",
+            "31.4 ≈ 30, 8.7 ≈ 9, and 1.9 ≈ 2.",
+            "30 + 9 - 2 = 37"
+          ]
         }
       ]
     }
