@@ -943,7 +943,7 @@ function hintsForStraightLineWork(question) {
     ];
   }
 
-  if (/parallel/i.test(question)) {
+  if (/parallel/i.test(question) && /\by\s*=|\bgradient\b/i.test(question)) {
     return [
       "Hint 1: Parallel lines have the same gradient.",
       "Hint 2: Keep the gradient the same, then use the given point to find the new intercept.",
@@ -951,7 +951,7 @@ function hintsForStraightLineWork(question) {
     ];
   }
 
-  if (/perpendicular/i.test(question)) {
+  if (/perpendicular/i.test(question) && /\by\s*=|\bgradient\b/i.test(question)) {
     return [
       "Hint 1: Perpendicular gradients multiply to -1.",
       "Hint 2: Use the negative reciprocal of the original gradient.",
@@ -1185,7 +1185,7 @@ function hintsForInequalities(question) {
     ];
   }
 
-  if (/boundary line|solid or dashed|above or below|satisfy/i.test(question)) {
+  if (/boundary line|solid or dashed|above or below|satisfy.*[<>]/i.test(question)) {
     return [
       "Hint 1: Use a dashed line for strict inequalities and a solid line when equality is included.",
       "Hint 2: Test an easy point such as (0,0) if it is not on the boundary.",
@@ -1213,7 +1213,7 @@ function hintsForAnglesPolygonsAndCircleTheorems(question) {
     ];
   }
 
-  if (/semicircle|centre|cyclic quadrilateral|same segment|alternate segment|tangent|chord/i.test(question)) {
+  if (/semicircle|centre|cyclic quadrilateral|same segment|alternate segment|tangent|chord/i.test(question) && !/use tangent/i.test(question)) {
     return [
       "Hint 1: Name the exact circle theorem first rather than trying to guess from the diagram.",
       "Hint 2: Most of these questions use either equality of angles, sum to 180°, or a fixed right angle.",
@@ -1603,7 +1603,7 @@ function hintsForFifthFormTopics(question) {
     ];
   }
 
-  if (/\/\(x|\b[a-z]\/[a-z]|\balgebraic fractions?\b|simplify: .*\/.*\+|simplify: .*\/.*-/i.test(question)) {
+  if (/\/\(x|\balgebraic fractions?\b|simplify: .*\/.*\+|simplify: .*\/.*-/i.test(question)) {
     return [
       "Hint 1: If the denominators match, combine the numerators only.",
       "Hint 2: If the denominators differ, find a common denominator before adding or subtracting.",
@@ -1805,7 +1805,7 @@ function genericSkillHints(skill, answer) {
     ];
   }
 
-  if (normalizedSkill.includes("distance")) {
+  if (normalizedSkill.includes("distance between")) {
     return [
       "Hint 1: Turn the coordinate question into a right triangle using dx and dy.",
       "Hint 2: Square both differences before adding them.",

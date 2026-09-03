@@ -6,15 +6,15 @@
     "1 linear, 1 quadratic": {
       "items": [
         {
-          "q": "Solve simultaneously: y = x + 1 and y = x^2 - 3.",
+          "q": "Solve simultaneously: y = x + 1 and y = x^2 - 1.",
           "a": "(2,3) and (-1,0)"
         },
         {
-          "q": "Solve simultaneously: y = 2x and y = x^2 - 2.",
+          "q": "Solve simultaneously: y = 2x and y = x^2 + 3x - 2.",
           "a": "(1,2) and (-2,-4)"
         },
         {
-          "q": "Solve simultaneously: y = x + 3 and y = x^2 - x + 1.",
+          "q": "Solve simultaneously: y = x + 3 and y = x^2 + 1.",
           "a": "(2,5) and (-1,2)"
         },
         {
@@ -22,7 +22,7 @@
           "a": "(0,-2) and (2,4)"
         },
         {
-          "q": "Solve simultaneously: y = x - 1 and y = x^2 - 5.",
+          "q": "Solve simultaneously: y = x - 1 and y = x^2 - 3.",
           "a": "(2,1) and (-1,-2)"
         },
         {
