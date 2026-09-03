@@ -78,19 +78,42 @@ function formatInlineMathText(raw) {
   // "4x^2 + 6x - 2x - 3", "3x^(-1/2)"). Runs BEFORE the narrower fraction/single-letter-equation
   // regexes below so it can claim a whole contiguous expression as one unit; wrapMath/
   // normalizeMath then handles fractions, exponent-bracing and x-as-multiplication *inside* it.
-  marked = marked.replace(/(?:[A-Za-z]\^|[\d(])[\d+\-*/^().,.\sxX]*[\d)]/g, (candidate) => {
+  // Also recognises the bare keywords "pi"/"sin"/"cos"/"tan"/"sqrt"/"cbrt" and the degree
+  // symbol as valid content mid-run, so formula-template hints like "(90/360) x pi x 4^2"
+  // or "30 x tan(45°)" get captured as one contiguous math region instead of fragmenting
+  // around the keyword (word-bounded so it can't match inside prose like "using"/"spin").
+  const mathKeyword = "\\b(?:sin|cos|tan|sqrt|cbrt|pi)\\b";
+  // The digit-start alternative excludes a digit immediately preceded by "<letter>/" — that
+  // signals a word-placeholder pseudo-fraction like "(angle/360)" where a prior attempt to
+  // start the match at the opening "(" already failed (the word breaks the run), and starting
+  // fresh mid-way at the digit would wrongly split off an unbalanced ")" with no matching "(".
+  // Leaving such placeholder text unmatched is correct: it isn't real, renderable numeric math.
+  const generalFallbackRe = new RegExp(
+    `(?:[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|\\()(?:[\\d+\\-*/^().,.\\sxX°]|${mathKeyword})*[\\d)°]`,
+    "g"
+  );
+  marked = marked.replace(generalFallbackRe, (candidate) => {
     if (candidate.includes("@@M")) return candidate; // already-tokenised region
     const trimmed = candidate.trim();
-    const hasOperator = /[+\-*/^]/.test(trimmed) || /x/i.test(trimmed);
+    const hasOperator =
+      /[+\-*/^]/.test(trimmed) || /x/i.test(trimmed) || new RegExp(mathKeyword, "i").test(trimmed);
     if (hasOperator && trimmed.length >= 3) {
       return pushMath(trimmed);
     }
     return candidate;
   });
 
+  // Content class allows an already-tokenised "@@M#@@" placeholder as one atom (from the general
+  // fallback above), so e.g. "b = 8 x sin(45°) / sin(30°)" unifies into one region instead of
+  // splitting at the placeholder boundary. The placeholder is resolved back to its source text
+  // before re-tokenising the combined candidate, since the final loop only replaces tokens once
+  // (not recursively) — leaving it unresolved would leak "@@M#@@" into the rendered HTML.
   marked = marked.replace(
-    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*(?:[^,.;!?@]|\.(?=\d))+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,!?;]|\.(?!\d)|$)/g,
-    (candidate) => (isLikelyMathSnippet(candidate) ? pushMath(candidate.trim()) : candidate)
+    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*(?:[^,.;!?@]|\.(?=\d)|@@M\d+@@)+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,!?;]|\.(?!\d)|$)/g,
+    (candidate) => {
+      const resolved = candidate.replace(/@@M(\d+)@@/g, (_, i) => tokens[Number(i)] || "");
+      return isLikelyMathSnippet(resolved) ? pushMath(resolved.trim()) : candidate;
+    }
   );
   marked = marked.replace(/(\d+)\.\u0305(\d+)/g, (_, whole, recurring) => pushMath(`${whole}.\\overline{${recurring}}`));
   marked = marked.replace(/(\d+)\s+(\d+)\s*\/\s*(\d+)/g, (_, whole, numerator, denominator) => `${whole} ${pushMath(`${numerator}/${denominator}`)}`);
