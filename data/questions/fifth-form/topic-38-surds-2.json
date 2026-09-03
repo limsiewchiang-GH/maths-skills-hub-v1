@@ -58,6 +58,15 @@
             "sqrt(12) = 2sqrt(3), sqrt(75) = 5sqrt(3).",
             "2sqrt(3) + 5sqrt(3) = 7sqrt(3)"
           ]
+        },
+        {
+          "q": "Simplify sqrt(48) - sqrt(12) + sqrt(27).",
+          "a": "5sqrt(3)",
+          "hints": [
+            "Simplify each surd to the same form first, then collect like terms.",
+            "sqrt(48) = 4sqrt(3), sqrt(12) = 2sqrt(3), sqrt(27) = 3sqrt(3), so 4sqrt(3) - 2sqrt(3) + 3sqrt(3).",
+            "5sqrt(3)"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Multiply top and bottom by the surd in the denominator.",
             "7/(2sqrt(2)) x sqrt(2)/sqrt(2) = 7sqrt(2)/(2x2).",
             "7sqrt(2)/4"
+          ]
+        },
+        {
+          "q": "Rationalise the denominator: 1/(sqrt(5) - 2).",
+          "a": "sqrt(5) + 2",
+          "hints": [
+            "Multiply top and bottom by the conjugate of the denominator (same terms, opposite sign).",
+            "1/(sqrt(5)-2) x (sqrt(5)+2)/(sqrt(5)+2) = (sqrt(5)+2)/(5-4).",
+            "sqrt(5) + 2"
           ]
         }
       ]

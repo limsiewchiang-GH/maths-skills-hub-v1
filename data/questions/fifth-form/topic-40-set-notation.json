@@ -58,6 +58,15 @@
             "A set only records whether an element is present, not how many times.",
             "No"
           ]
+        },
+        {
+          "q": "List the set of factors of 12.",
+          "a": "{1,2,3,4,6,12}",
+          "hints": [
+            "List every whole number that divides 12 exactly.",
+            "1, 2, 3, 4, 6, and 12 all divide into 12 with no remainder.",
+            "{1,2,3,4,6,12}"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "U = {1,2,3,4}, remove 2, 4.",
             "{1,3}"
           ]
+        },
+        {
+          "q": "If U = {1,2,3,4,5,6,7,8} and A = {2,4,6,8}, find (A')'.",
+          "a": "{2,4,6,8}",
+          "hints": [
+            "Find A' first, then take the complement of that result.",
+            "A' = {1,3,5,7}, and the complement of A' brings you back to A.",
+            "{2,4,6,8}"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "Recall the term for sets that share no elements.",
             "When A n B = {}, the sets have no overlap.",
             "Disjoint"
+          ]
+        },
+        {
+          "q": "If A = {1,2,3,4}, B = {3,4,5}, and C = {4,5,6}, find A n B n C.",
+          "a": "{4}",
+          "hints": [
+            "Find the elements that appear in all three sets at once.",
+            "Only 4 is in A, B, and C.",
+            "{4}"
           ]
         }
       ]
