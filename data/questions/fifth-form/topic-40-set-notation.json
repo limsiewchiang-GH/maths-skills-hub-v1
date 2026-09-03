@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Write the set of even numbers less than 10.",
-          "a": "{2,4,6,8}"
+          "a": "{2,4,6,8}",
+          "hints": [
+            "List every even number that is less than 10, in curly brackets.",
+            "Even numbers less than 10: 2, 4, 6, 8.",
+            "{2,4,6,8}"
+          ]
         },
         {
           "q": "Is 3 in the set {1,2,4}?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Check whether the number appears as an element of the set.",
+            "The set {1,2,4} contains 1, 2, and 4 — not 3.",
+            "No"
+          ]
         },
         {
           "q": "List the set of prime numbers less than 8.",
-          "a": "{2,3,5,7}"
+          "a": "{2,3,5,7}",
+          "hints": [
+            "List every prime number (only two factors: 1 and itself) less than 8.",
+            "Primes less than 8: 2, 3, 5, 7.",
+            "{2,3,5,7}"
+          ]
         },
         {
           "q": "What brackets are used for a set?",
-          "a": "Curly brackets"
+          "a": "Curly brackets",
+          "hints": [
+            "Recall the standard notation used to write down a set.",
+            "Sets are written inside { }.",
+            "Curly brackets"
+          ]
         },
         {
           "q": "Is {a,e,i,o,u} a set?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "A set is any well-defined collection of distinct elements.",
+            "{a,e,i,o,u} is a well-defined collection of distinct letters (the vowels).",
+            "Yes"
+          ]
         },
         {
           "q": "Can a set contain repeated elements?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Recall the key property that distinguishes a set from a list.",
+            "A set only records whether an element is present, not how many times.",
+            "No"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "If U = {1,2,3,4,5,6}, find the complement of {1,3,5}.",
-          "a": "{2,4,6}"
+          "a": "{2,4,6}",
+          "hints": [
+            "The complement is every element of U that is NOT in the given set.",
+            "U = {1,2,3,4,5,6}, remove 1, 3, 5.",
+            "{2,4,6}"
+          ]
         },
         {
           "q": "Is 11 in U = {1,2,3,4,5,6,7,8,9,10}?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Check whether the number appears as an element of U.",
+            "U only goes up to 10, so 11 is not listed.",
+            "No"
+          ]
         },
         {
           "q": "True or false: every set A discussed in a question is a subset of U.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall what the universal set U represents.",
+            "U contains every element under consideration, so any set A in the question is drawn from within it.",
+            "True"
+          ]
         },
         {
           "q": "If U = {a,b,c,d} and A = {a,c}, find A'.",
-          "a": "{b,d}"
+          "a": "{b,d}",
+          "hints": [
+            "The complement A' is every element of U that is NOT in A.",
+            "U = {a,b,c,d}, remove a, c.",
+            "{b,d}"
+          ]
         },
         {
           "q": "What does the universal set represent?",
-          "a": "All elements being considered"
+          "a": "All elements being considered",
+          "hints": [
+            "Recall the definition of U in set theory.",
+            "U is the set containing everything relevant to the current problem.",
+            "All elements being considered"
+          ]
         },
         {
           "q": "If U = {1,2,3,4} and B = {2,4}, find B'.",
-          "a": "{1,3}"
+          "a": "{1,3}",
+          "hints": [
+            "The complement B' is every element of U that is NOT in B.",
+            "U = {1,2,3,4}, remove 2, 4.",
+            "{1,3}"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "If A = {1,2,3} and B = {3,4,5}, find A n B.",
-          "a": "{3}"
+          "a": "{3}",
+          "hints": [
+            "The intersection A n B contains only the elements in BOTH sets.",
+            "A = {1,2,3}, B = {3,4,5} — the only shared element is 3.",
+            "{3}"
+          ]
         },
         {
           "q": "If A = {1,2,3} and B = {3,4,5}, find A u B.",
-          "a": "{1,2,3,4,5}"
+          "a": "{1,2,3,4,5}",
+          "hints": [
+            "The union A u B contains every element that is in A OR B (no repeats).",
+            "Combine {1,2,3} and {3,4,5}, listing 3 only once.",
+            "{1,2,3,4,5}"
+          ]
         },
         {
           "q": "If A and B have no common elements, what is A n B?",
-          "a": "{}"
+          "a": "{}",
+          "hints": [
+            "The intersection contains only elements shared by both sets.",
+            "With no elements in common, nothing belongs to the intersection.",
+            "{}"
+          ]
         },
         {
           "q": "If A = {2,4,6} and B = {4,6,8}, find A n B.",
-          "a": "{4,6}"
+          "a": "{4,6}",
+          "hints": [
+            "The intersection A n B contains only the elements in BOTH sets.",
+            "A = {2,4,6}, B = {4,6,8} — the shared elements are 4 and 6.",
+            "{4,6}"
+          ]
         },
         {
           "q": "If A = {a,b} and B = {b,c,d}, find A u B.",
-          "a": "{a,b,c,d}"
+          "a": "{a,b,c,d}",
+          "hints": [
+            "The union A u B contains every element that is in A OR B (no repeats).",
+            "Combine {a,b} and {b,c,d}, listing b only once.",
+            "{a,b,c,d}"
+          ]
         },
         {
           "q": "What word describes two sets with empty intersection?",
-          "a": "Disjoint"
+          "a": "Disjoint",
+          "hints": [
+            "Recall the term for sets that share no elements.",
+            "When A n B = {}, the sets have no overlap.",
+            "Disjoint"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "In a class of 30, 18 like maths, 12 like physics, and 7 like both. How many like maths only?",
-          "a": "11"
+          "a": "11",
+          "hints": [
+            "Maths only = total who like maths, minus those who like both.",
+            "18 - 7.",
+            "11"
+          ]
         },
         {
           "q": "In the same class, how many like neither subject?",
-          "a": "7"
+          "a": "7",
+          "hints": [
+            "First find how many like at least one subject, then subtract from the class total.",
+            "Maths only (11) + physics only (12-7=5) + both (7) = 23 like at least one, so 30 - 23.",
+            "7"
+          ]
         },
         {
           "q": "How many like at least one subject?",
-          "a": "23"
+          "a": "23",
+          "hints": [
+            "Add maths only, physics only, and both together.",
+            "11 (maths only) + 5 (physics only) + 7 (both).",
+            "23"
+          ]
         },
         {
           "q": "A Venn diagram has 5 in A only, 3 in both, and 4 in B only. How many are in A?",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "The whole of set A is 'A only' plus the overlap with B.",
+            "5 + 3.",
+            "8"
+          ]
         },
         {
           "q": "If 20 are in U, 6 in A only, 5 in both, and 3 in B only, how many are outside both?",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "First add up everyone inside A or B, then subtract from the total in U.",
+            "6 + 5 + 3 = 14 inside A or B, so 20 - 14.",
+            "6"
+          ]
         },
         {
           "q": "What does the overlap in a Venn diagram represent?",
-          "a": "Intersection"
+          "a": "Intersection",
+          "hints": [
+            "Recall which set operation corresponds to the shared region of two circles.",
+            "The region common to both circles contains elements in both A and B.",
+            "Intersection"
+          ]
         }
       ]
     }

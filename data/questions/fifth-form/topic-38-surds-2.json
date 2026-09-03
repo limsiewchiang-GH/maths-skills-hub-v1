@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Simplify sqrt(18) + sqrt(8).",
-          "a": "5sqrt(2)"
+          "a": "5sqrt(2)",
+          "hints": [
+            "Simplify each surd first: find the largest square factor of each number under the root.",
+            "sqrt(18) = 3sqrt(2), sqrt(8) = 2sqrt(2).",
+            "3sqrt(2) + 2sqrt(2) = 5sqrt(2)"
+          ]
         },
         {
           "q": "Simplify 3sqrt(5) - sqrt(5).",
-          "a": "2sqrt(5)"
+          "a": "2sqrt(5)",
+          "hints": [
+            "These are already like surds — just collect the coefficients.",
+            "3sqrt(5) - 1sqrt(5).",
+            "2sqrt(5)"
+          ]
         },
         {
           "q": "Simplify sqrt(27) + 2sqrt(3).",
-          "a": "5sqrt(3)"
+          "a": "5sqrt(3)",
+          "hints": [
+            "Simplify each surd first: find the largest square factor of each number under the root.",
+            "sqrt(27) = 3sqrt(3), so the expression becomes 3sqrt(3) + 2sqrt(3).",
+            "5sqrt(3)"
+          ]
         },
         {
           "q": "Simplify sqrt(50) - sqrt(8).",
-          "a": "3sqrt(2)"
+          "a": "3sqrt(2)",
+          "hints": [
+            "Simplify each surd first: find the largest square factor of each number under the root.",
+            "sqrt(50) = 5sqrt(2), sqrt(8) = 2sqrt(2).",
+            "5sqrt(2) - 2sqrt(2) = 3sqrt(2)"
+          ]
         },
         {
           "q": "Simplify 4sqrt(7) + 3sqrt(7).",
-          "a": "7sqrt(7)"
+          "a": "7sqrt(7)",
+          "hints": [
+            "These are already like surds — just collect the coefficients.",
+            "4sqrt(7) + 3sqrt(7).",
+            "7sqrt(7)"
+          ]
         },
         {
           "q": "Simplify sqrt(12) + sqrt(75).",
-          "a": "7sqrt(3)"
+          "a": "7sqrt(3)",
+          "hints": [
+            "Simplify each surd first: find the largest square factor of each number under the root.",
+            "sqrt(12) = 2sqrt(3), sqrt(75) = 5sqrt(3).",
+            "2sqrt(3) + 5sqrt(3) = 7sqrt(3)"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Rationalise the denominator: 1/sqrt(2).",
-          "a": "sqrt(2)/2"
+          "a": "sqrt(2)/2",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator.",
+            "1/sqrt(2) x sqrt(2)/sqrt(2) = sqrt(2)/2.",
+            "sqrt(2)/2"
+          ]
         },
         {
           "q": "Rationalise the denominator: 3/sqrt(5).",
-          "a": "3sqrt(5)/5"
+          "a": "3sqrt(5)/5",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator.",
+            "3/sqrt(5) x sqrt(5)/sqrt(5) = 3sqrt(5)/5.",
+            "3sqrt(5)/5"
+          ]
         },
         {
           "q": "Rationalise the denominator: 2/(3sqrt(7)).",
-          "a": "2sqrt(7)/21"
+          "a": "2sqrt(7)/21",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator.",
+            "2/(3sqrt(7)) x sqrt(7)/sqrt(7) = 2sqrt(7)/(3x7).",
+            "2sqrt(7)/21"
+          ]
         },
         {
           "q": "Rationalise the denominator: 5/sqrt(3).",
-          "a": "5sqrt(3)/3"
+          "a": "5sqrt(3)/3",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator.",
+            "5/sqrt(3) x sqrt(3)/sqrt(3) = 5sqrt(3)/3.",
+            "5sqrt(3)/3"
+          ]
         },
         {
           "q": "Rationalise the denominator: 4/(sqrt(11)).",
-          "a": "4sqrt(11)/11"
+          "a": "4sqrt(11)/11",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator.",
+            "4/sqrt(11) x sqrt(11)/sqrt(11) = 4sqrt(11)/11.",
+            "4sqrt(11)/11"
+          ]
         },
         {
           "q": "Rationalise the denominator: 7/(2sqrt(2)).",
-          "a": "7sqrt(2)/4"
+          "a": "7sqrt(2)/4",
+          "hints": [
+            "Multiply top and bottom by the surd in the denominator.",
+            "7/(2sqrt(2)) x sqrt(2)/sqrt(2) = 7sqrt(2)/(2x2).",
+            "7sqrt(2)/4"
+          ]
         }
       ]
     }
