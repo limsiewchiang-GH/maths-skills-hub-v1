@@ -58,6 +58,15 @@
             "21 and 49 share a factor of 7: 21/7, 49/7.",
             "3:7"
           ]
+        },
+        {
+          "q": "Simplify the ratio 12:18:30.",
+          "a": "2:3:5",
+          "hints": [
+            "Divide all three parts by their highest common factor.",
+            "12, 18, and 30 share a factor of 6: 12/6, 18/6, 30/6.",
+            "2:3:5"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "8:14 simplifies to 4:7; 12:21 also simplifies to 4:7.",
             "Yes"
           ]
+        },
+        {
+          "q": "Put these ratios in order from smallest to largest: 1:2, 2:3, 3:5.",
+          "a": "1:2, 3:5, 2:3",
+          "hints": [
+            "Convert each ratio to a decimal (first part divided by second) to compare them.",
+            "1:2 = 0.5, 2:3 ≈ 0.67, 3:5 = 0.6.",
+            "1:2, 3:5, 2:3"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "In inverse proportion, people x time stays constant.",
             "3 x 20 = 60, so 1 x time = 60.",
             "60"
+          ]
+        },
+        {
+          "q": "6 machines complete a job in 10 hours. How long would 4 machines take, in inverse proportion?",
+          "a": "15",
+          "hints": [
+            "In inverse proportion, machines x time stays constant.",
+            "6 x 10 = 60, so 4 x time = 60.",
+            "15"
           ]
         }
       ]

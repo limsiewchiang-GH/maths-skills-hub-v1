@@ -116,6 +116,15 @@
             "33 x 2.",
             "66"
           ]
+        },
+        {
+          "q": "The reflex angle at the centre is 260°. Find the angle at the circumference on the corresponding minor arc.",
+          "a": "50",
+          "hints": [
+            "Find the non-reflex angle at the centre first, then halve it.",
+            "360 - 260 = 100, and the circumference angle is half of that.",
+            "50"
+          ]
         }
       ]
     },
@@ -348,6 +357,15 @@
             "This is the 'radius perpendicular to tangent' theorem.",
             "Radius perpendicular to tangent"
           ]
+        },
+        {
+          "q": "OA is a radius and AT is a tangent at A. If angle AOT = 55°, find angle OTA.",
+          "a": "35",
+          "hints": [
+            "The radius meets the tangent at 90° — use the angle sum of the triangle OAT.",
+            "Angle OAT = 90°, so angle OTA = 180 - 90 - 55.",
+            "35"
+          ]
         }
       ]
     },
@@ -521,6 +539,15 @@
             "For intersecting chords, the product of one chord's segments equals the product of the other's.",
             "6 x 10 = 5 x x, so 60 = 5x.",
             "12"
+          ]
+        },
+        {
+          "q": "Two chords intersect. One has segments x and x+2, the other has segments 4 and 6. Find x.",
+          "a": "4",
+          "hints": [
+            "For intersecting chords, the product of one chord's segments equals the product of the other's — this time it gives a quadratic in x.",
+            "x(x + 2) = 4 x 6, so x^2 + 2x - 24 = 0, which factorises to (x + 6)(x - 4) = 0.",
+            "4"
           ]
         }
       ]
