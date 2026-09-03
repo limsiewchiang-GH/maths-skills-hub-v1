@@ -2101,8 +2101,11 @@ function renderPractice(panel, options = {}) {
       questionEl.dataset.hintLevel = String(level);
       const text = questionEl.dataset[`h${level}`] || "";
       hints.hidden = false;
-      hints.textContent = `- ${text}`;
+      hints.innerHTML = `- ${latexifyLine(text)}`;
       hintButton.textContent = level >= 3 ? "Hint 3 (max)" : `Hint ${level + 1}`;
+      if (window.MathJax?.typesetPromise) {
+        window.MathJax.typesetPromise([hints]).catch(() => {});
+      }
     });
   });
 
