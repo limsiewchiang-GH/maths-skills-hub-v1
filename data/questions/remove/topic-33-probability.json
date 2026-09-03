@@ -58,6 +58,15 @@
             "3 / (3 + 2).",
             "3/5"
           ]
+        },
+        {
+          "q": "If P(A) = 3/8, find P(not A).",
+          "a": "5/8",
+          "hints": [
+            "Use P(not A) = 1 - P(A).",
+            "1 - 3/8.",
+            "5/8"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Multiply the number of outcomes for the card choice and for the coin toss.",
             "4 x 2.",
             "8"
+          ]
+        },
+        {
+          "q": "A meal deal has 4 sandwich choices, 3 drink choices, and 2 snack choices. How many different meal combinations are possible?",
+          "a": "24",
+          "hints": [
+            "Multiply the number of choices for each part of the meal together.",
+            "4 x 3 x 2.",
+            "24"
           ]
         }
       ]
@@ -174,6 +192,15 @@
             "Mutually exclusive events cannot happen at the same time, so their overlap is impossible.",
             "0"
           ]
+        },
+        {
+          "q": "Events A and B are mutually exclusive with P(A) = 0.3 and P(B) = 0.4. Find P(A or B).",
+          "a": "0.7",
+          "hints": [
+            "For mutually exclusive events, P(A or B) = P(A) + P(B).",
+            "0.3 + 0.4.",
+            "0.7"
+          ]
         }
       ]
     },
@@ -232,6 +259,15 @@
             "0.4 x 0.4.",
             "0.16"
           ]
+        },
+        {
+          "q": "A bag has 3 red and 2 blue counters. Two are chosen without replacement. Find P(red then red).",
+          "a": "3/10",
+          "hints": [
+            "Without replacement, the second probability changes because one counter is already gone.",
+            "P(first red) = 3/5, P(second red) = 2/4, so (3/5) x (2/4).",
+            "3/10"
+          ]
         }
       ]
     },
@@ -289,6 +325,15 @@
             "Follow the tree diagram branch: multiply along the black-then-white path.",
             "P(black) = 4/5, P(white) = 1/5, so (4/5) x (1/5).",
             "4/25"
+          ]
+        },
+        {
+          "q": "A coin is tossed 3 times. Find the probability of at least one head.",
+          "a": "7/8",
+          "hints": [
+            "It's easier to find P(no heads at all) first, then subtract from 1.",
+            "P(no heads) = (1/2)^3 = 1/8, so P(at least one head) = 1 - 1/8.",
+            "7/8"
           ]
         }
       ]

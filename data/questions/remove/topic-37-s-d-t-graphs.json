@@ -58,6 +58,15 @@
             "A horizontal section means the distance stays constant while time passes.",
             "No movement"
           ]
+        },
+        {
+          "q": "A journey covers 60 km in 2 hours, then the traveller rests for 1 hour, then covers 40 km in 1 hour. Find the average speed for the whole 4-hour journey (including the rest).",
+          "a": "25",
+          "hints": [
+            "Average speed = total distance / total time — the rest still counts in the total time.",
+            "(60 + 40) / (2 + 1 + 1).",
+            "25"
+          ]
         }
       ]
     }

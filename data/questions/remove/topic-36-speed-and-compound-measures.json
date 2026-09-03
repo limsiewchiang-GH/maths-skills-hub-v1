@@ -58,6 +58,15 @@
             "time = 72 / 24.",
             "3"
           ]
+        },
+        {
+          "q": "A car travels at 72 km/h. Find its speed in m/s.",
+          "a": "20",
+          "hints": [
+            "Convert km to m and hours to seconds, or use the shortcut of dividing km/h by 3.6.",
+            "72 x 1000 / 3600.",
+            "20"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Use volume = mass / density.",
             "volume = 20 / 2.5.",
             "8"
+          ]
+        },
+        {
+          "q": "A country has population 8,000,000 and area 40,000 km^2. Find the population density in people per km^2.",
+          "a": "200",
+          "hints": [
+            "Population density = population / area, following the same pattern as other compound measures.",
+            "8000000 / 40000.",
+            "200"
           ]
         }
       ]
