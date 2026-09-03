@@ -7,51 +7,111 @@
       "items": [
         {
           "q": "Construct a line segment 6 cm long and find its midpoint. Where is the midpoint?",
-          "a": "3 cm from each end"
+          "a": "3 cm from each end",
+          "hints": [
+            "The midpoint splits the segment into two equal parts — divide the total length by 2.",
+            "6 cm ÷ 2.",
+            "3 cm from each end"
+          ]
         },
         {
           "q": "What angle should a constructed perpendicular make with the line?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the definition of 'perpendicular'.",
+            "Perpendicular lines always meet at a right angle.",
+            "90"
+          ]
         },
         {
           "q": "A construction uses arcs from both endpoints of a segment. What line do the arc intersections help construct?",
-          "a": "Perpendicular bisector"
+          "a": "Perpendicular bisector",
+          "hints": [
+            "Think about what is equidistant from both endpoints where the arcs cross.",
+            "The two arc intersection points are equidistant from both ends, so the line through them is the perpendicular bisector.",
+            "Perpendicular bisector"
+          ]
         },
         {
           "q": "What does SSS mean when constructing a triangle?",
-          "a": "Side-side-side"
+          "a": "Side-side-side",
+          "hints": [
+            "SSS names the three pieces of information you're given to construct the triangle.",
+            "You are given all three side lengths of the triangle.",
+            "Side-side-side"
+          ]
         },
         {
           "q": "In a valid construction, should measurements be guessed freehand?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Think about what makes a construction accurate and valid.",
+            "A construction must use compass and straightedge measurements precisely, not estimates.",
+            "No"
+          ]
         },
         {
           "q": "What tool is used to draw the arc in a construction?",
-          "a": "Compass"
+          "a": "Compass",
+          "hints": [
+            "Recall which tool draws curved, equal-radius marks.",
+            "A compass is set to a fixed radius and used to draw arcs.",
+            "Compass"
+          ]
         },
         {
           "q": "Name two tools needed for geometric constructions.",
-          "a": "Compass and ruler"
+          "a": "Compass and ruler",
+          "hints": [
+            "Recall the two standard tools used for constructions (no protractor allowed).",
+            "Constructions use a compass for arcs and a straight ruler for lines.",
+            "Compass and ruler"
+          ]
         },
         {
           "q": "Why should the compass width stay fixed when drawing equal arcs?",
-          "a": "To keep the radius equal"
+          "a": "To keep the radius equal",
+          "hints": [
+            "Think about what changing the compass width would do to the arcs.",
+            "If the compass width changed, the arcs would no longer be the same distance from the centre.",
+            "To keep the radius equal"
+          ]
         },
         {
           "q": "What should be drawn lightly first in a construction?",
-          "a": "Construction arcs"
+          "a": "Construction arcs",
+          "hints": [
+            "Think about which marks are working lines rather than the final answer.",
+            "The arcs are guide marks, so they should be light until the final lines are confirmed.",
+            "Construction arcs"
+          ]
         },
         {
           "q": "What does a ruler without markings help preserve in constructions?",
-          "a": "Accuracy of straight lines"
+          "a": "Accuracy of straight lines",
+          "hints": [
+            "Think about what a ruler is used for in a construction, aside from measuring.",
+            "A plain edge is used purely to draw a straight line accurately between two points.",
+            "Accuracy of straight lines"
+          ]
         },
         {
           "q": "Should construction lines usually be erased before checking?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Think about what a teacher or examiner needs to see to check your method.",
+            "The construction arcs and lines should be left visible as evidence of the method used.",
+            "No"
+          ]
         },
         {
           "q": "What is the main purpose of a compass in constructions?",
-          "a": "Drawing equal distances or arcs"
+          "a": "Drawing equal distances or arcs",
+          "hints": [
+            "Recall what a fixed compass radius lets you mark out repeatedly.",
+            "A compass lets you draw arcs that are all the same fixed distance from a point.",
+            "Drawing equal distances or arcs"
+          ]
         }
       ]
     },
@@ -59,27 +119,57 @@
       "items": [
         {
           "q": "If an angle is 70°, what is each half after bisecting?",
-          "a": "35"
+          "a": "35",
+          "hints": [
+            "Bisecting an angle splits it exactly in half.",
+            "70 ÷ 2.",
+            "35"
+          ]
         },
         {
           "q": "If an angle is 118°, what is each half after bisecting?",
-          "a": "59"
+          "a": "59",
+          "hints": [
+            "Bisecting an angle splits it exactly in half.",
+            "118 ÷ 2.",
+            "59"
+          ]
         },
         {
           "q": "What do points on an angle bisector have equal distance from?",
-          "a": "Both arms of the angle"
+          "a": "Both arms of the angle",
+          "hints": [
+            "Recall the defining property of every point on an angle bisector.",
+            "Every point on the bisector is the same perpendicular distance from each of the two arms.",
+            "Both arms of the angle"
+          ]
         },
         {
           "q": "If an angle is 96°, what is each half after bisecting?",
-          "a": "48"
+          "a": "48",
+          "hints": [
+            "Bisecting an angle splits it exactly in half.",
+            "96 ÷ 2.",
+            "48"
+          ]
         },
         {
           "q": "A bisected angle gives two equal angles of 27°. What was the original angle?",
-          "a": "54"
+          "a": "54",
+          "hints": [
+            "Reverse the bisection by doubling one half.",
+            "27 x 2.",
+            "54"
+          ]
         },
         {
           "q": "What tool is essential for constructing an angle bisector?",
-          "a": "Compass"
+          "a": "Compass",
+          "hints": [
+            "Recall which tool draws the equal-radius arcs needed for this construction.",
+            "A compass is used to mark equal-radius arcs from the vertex and from those points.",
+            "Compass"
+          ]
         }
       ]
     },
@@ -87,27 +177,57 @@
       "items": [
         {
           "q": "What angle does a perpendicular bisector make with the segment?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the definition of 'perpendicular'.",
+            "Perpendicular lines always meet at a right angle.",
+            "90"
+          ]
         },
         {
           "q": "What does a perpendicular bisector do to a line segment?",
-          "a": "Cuts it into two equal parts"
+          "a": "Cuts it into two equal parts",
+          "hints": [
+            "Recall what 'bisector' means for a line segment.",
+            "A bisector divides the segment into two equal halves.",
+            "Cuts it into two equal parts"
+          ]
         },
         {
           "q": "What is the locus of points equidistant from A and B?",
-          "a": "Perpendicular bisector"
+          "a": "Perpendicular bisector",
+          "hints": [
+            "Think about which line contains every point that is the same distance from both A and B.",
+            "That set of equidistant points forms the perpendicular bisector of AB.",
+            "Perpendicular bisector"
+          ]
         },
         {
           "q": "A segment is 14 cm long. Where is the midpoint on its perpendicular bisector?",
-          "a": "7 cm from each end"
+          "a": "7 cm from each end",
+          "hints": [
+            "The perpendicular bisector crosses the segment at its midpoint — divide the total length by 2.",
+            "14 cm ÷ 2.",
+            "7 cm from each end"
+          ]
         },
         {
           "q": "True or false: a perpendicular bisector passes through the midpoint.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall what 'bisector' means for the segment it crosses.",
+            "By definition, a bisector cuts a segment exactly at its midpoint.",
+            "True"
+          ]
         },
         {
           "q": "What pair of arcs are used to construct a perpendicular bisector?",
-          "a": "Equal-radius arcs from each endpoint"
+          "a": "Equal-radius arcs from each endpoint",
+          "hints": [
+            "Think about which two arcs, when drawn from the endpoints, cross at points equidistant from both ends.",
+            "Arcs of the same radius drawn from each endpoint intersect at two points equidistant from both.",
+            "Equal-radius arcs from each endpoint"
+          ]
         }
       ]
     },
@@ -115,27 +235,57 @@
       "items": [
         {
           "q": "If one side of an equilateral triangle is 8 cm, what are the other sides?",
-          "a": "8 cm each"
+          "a": "8 cm each",
+          "hints": [
+            "Recall what 'equilateral' means for the sides of a triangle.",
+            "All three sides of an equilateral triangle are equal in length.",
+            "8 cm each"
+          ]
         },
         {
           "q": "What is each interior angle of an equilateral triangle?",
-          "a": "60"
+          "a": "60",
+          "hints": [
+            "The three equal angles must add up to 180°, like any triangle.",
+            "180 ÷ 3.",
+            "60"
+          ]
         },
         {
           "q": "When constructing an equilateral triangle, what compass radius is used from each endpoint?",
-          "a": "The side length"
+          "a": "The side length",
+          "hints": [
+            "Think about what distance the compass needs to mark out for all three sides to end up equal.",
+            "Setting the compass to the side length and drawing arcs from both endpoints locates the third vertex at that same distance from each.",
+            "The side length"
+          ]
         },
         {
           "q": "If an equilateral triangle has side 5 cm, what is its perimeter?",
-          "a": "15"
+          "a": "15",
+          "hints": [
+            "Add up all three equal sides.",
+            "5 + 5 + 5, or 5 x 3.",
+            "15"
+          ]
         },
         {
           "q": "True or false: all angles in an equilateral triangle are equal.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the defining property of an equilateral triangle's angles.",
+            "Equal sides in a triangle always produce equal opposite angles — so all three angles are equal.",
+            "True"
+          ]
         },
         {
           "q": "What shape is formed when three sides are all equal?",
-          "a": "Equilateral triangle"
+          "a": "Equilateral triangle",
+          "hints": [
+            "Recall the name for a triangle whose three sides all match.",
+            "A triangle with all three sides equal in length is called equilateral.",
+            "Equilateral triangle"
+          ]
         }
       ]
     }
