@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "An angle subtended by a diameter at the circumference is x. Find x.",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem for an angle subtended by a diameter.",
+            "The angle in a semicircle is always a right angle.",
+            "90"
+          ]
         },
         {
           "q": "A triangle in a semicircle has one angle 35° and the angle in the semicircle. Find the third angle.",
-          "a": "55"
+          "a": "55",
+          "hints": [
+            "The angle in the semicircle is 90°; angles in a triangle sum to 180°.",
+            "180 - 90 - 35.",
+            "55"
+          ]
         },
         {
           "q": "If one non-right angle in a semicircle triangle is 28°, find the other.",
-          "a": "62"
+          "a": "62",
+          "hints": [
+            "The angle in the semicircle is 90°; angles in a triangle sum to 180°.",
+            "180 - 90 - 28.",
+            "62"
+          ]
         },
         {
           "q": "True or false: the angle in a semicircle is always a right angle.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the circle theorem for an angle subtended by a diameter.",
+            "Any angle at the circumference standing on a diameter is 90°.",
+            "True"
+          ]
         },
         {
           "q": "A semicircle triangle has angles 90°, 41°, and x. Find x.",
-          "a": "49"
+          "a": "49",
+          "hints": [
+            "Angles in a triangle sum to 180°.",
+            "180 - 90 - 41.",
+            "49"
+          ]
         },
         {
           "q": "An angle in a semicircle triangle is 90°. What theorem is this?",
-          "a": "Angle in a semicircle"
+          "a": "Angle in a semicircle",
+          "hints": [
+            "Recall the name of the circle theorem for a right angle standing on a diameter.",
+            "This is the 'angle in a semicircle' theorem.",
+            "Angle in a semicircle"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "An angle at the centre is 80°. Find the angle at the circumference on the same arc.",
-          "a": "40"
+          "a": "40",
+          "hints": [
+            "The angle at the centre is double the angle at the circumference on the same arc.",
+            "80 / 2.",
+            "40"
+          ]
         },
         {
           "q": "An angle at the circumference is 35°. Find the angle at the centre on the same arc.",
-          "a": "70"
+          "a": "70",
+          "hints": [
+            "The angle at the centre is double the angle at the circumference on the same arc.",
+            "35 x 2.",
+            "70"
+          ]
         },
         {
           "q": "The centre angle is double which other angle?",
-          "a": "Angle at the circumference"
+          "a": "Angle at the circumference",
+          "hints": [
+            "Recall the two angles this circle theorem compares.",
+            "It relates the angle at the centre to the angle at the circumference on the same arc.",
+            "Angle at the circumference"
+          ]
         },
         {
           "q": "An angle at the centre is 124°. Find the matching circumference angle.",
-          "a": "62"
+          "a": "62",
+          "hints": [
+            "The angle at the centre is double the angle at the circumference on the same arc.",
+            "124 / 2.",
+            "62"
+          ]
         },
         {
           "q": "A circumference angle is 48°. Find the matching centre angle.",
-          "a": "96"
+          "a": "96",
+          "hints": [
+            "The angle at the centre is double the angle at the circumference on the same arc.",
+            "48 x 2.",
+            "96"
+          ]
         },
         {
           "q": "If the centre angle is x and the circumference angle is 33°, find x.",
-          "a": "66"
+          "a": "66",
+          "hints": [
+            "The angle at the centre is double the angle at the circumference on the same arc.",
+            "33 x 2.",
+            "66"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Opposite angles in a cyclic quadrilateral are x and 112°. Find x.",
-          "a": "68"
+          "a": "68",
+          "hints": [
+            "Opposite angles in a cyclic quadrilateral sum to 180°.",
+            "x + 112 = 180.",
+            "68"
+          ]
         },
         {
           "q": "A cyclic quadrilateral has opposite angles 3x and 96°. Find x.",
-          "a": "28"
+          "a": "28",
+          "hints": [
+            "Opposite angles in a cyclic quadrilateral sum to 180°.",
+            "3x + 96 = 180, so 3x = 84.",
+            "28"
+          ]
         },
         {
           "q": "One angle in a cyclic quadrilateral is 71°. Find the opposite angle.",
-          "a": "109"
+          "a": "109",
+          "hints": [
+            "Opposite angles in a cyclic quadrilateral sum to 180°.",
+            "180 - 71.",
+            "109"
+          ]
         },
         {
           "q": "True or false: opposite angles in a cyclic quadrilateral sum to 180°.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the circle theorem for a quadrilateral inscribed in a circle.",
+            "Opposite angles are supplementary in a cyclic quadrilateral.",
+            "True"
+          ]
         },
         {
           "q": "Opposite angles are x and x + 24 in a cyclic quadrilateral. Find x.",
-          "a": "78"
+          "a": "78",
+          "hints": [
+            "Opposite angles in a cyclic quadrilateral sum to 180°.",
+            "x + (x + 24) = 180, so 2x = 156.",
+            "78"
+          ]
         },
         {
           "q": "A cyclic quadrilateral has opposite angles 84° and y. Find y.",
-          "a": "96"
+          "a": "96",
+          "hints": [
+            "Opposite angles in a cyclic quadrilateral sum to 180°.",
+            "84 + y = 180.",
+            "96"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Angles in the same segment are 42° and x. Find x.",
-          "a": "42"
+          "a": "42",
+          "hints": [
+            "Angles in the same segment, standing on the same arc, are equal.",
+            "x = 42.",
+            "42"
+          ]
         },
         {
           "q": "True or false: angles in the same segment are equal.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the circle theorem for angles subtended by the same arc, from the same side.",
+            "All such angles in the same segment are equal to each other.",
+            "True"
+          ]
         },
         {
           "q": "An angle in one segment is 57°. Find the matching angle in the same segment.",
-          "a": "57"
+          "a": "57",
+          "hints": [
+            "Angles in the same segment, standing on the same arc, are equal.",
+            "The matching angle is also 57°.",
+            "57"
+          ]
         },
         {
           "q": "Angles in the same segment are 3x and 84°. Find x.",
-          "a": "28"
+          "a": "28",
+          "hints": [
+            "Angles in the same segment, standing on the same arc, are equal.",
+            "3x = 84.",
+            "28"
+          ]
         },
         {
           "q": "If one same-segment angle is 31°, what is the other?",
-          "a": "31"
+          "a": "31",
+          "hints": [
+            "Angles in the same segment, standing on the same arc, are equal.",
+            "The other angle is also 31°.",
+            "31"
+          ]
         },
         {
           "q": "Angles in the same segment are x and x + 7. Is this possible?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Angles in the same segment must be equal — check whether the two expressions can ever match.",
+            "x = x + 7 has no solution, since that would require 0 = 7.",
+            "No"
+          ]
         }
       ]
     },
@@ -119,27 +239,57 @@
       "items": [
         {
           "q": "The angle between a tangent and chord is 48°. Find the angle in the alternate segment.",
-          "a": "48"
+          "a": "48",
+          "hints": [
+            "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
+            "The alternate segment angle is also 48°.",
+            "48"
+          ]
         },
         {
           "q": "A tangent-chord angle is x and the alternate segment angle is 63°. Find x.",
-          "a": "63"
+          "a": "63",
+          "hints": [
+            "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
+            "x = 63.",
+            "63"
+          ]
         },
         {
           "q": "True or false: the angle between a tangent and chord equals the angle in the alternate segment.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the alternate segment theorem.",
+            "The tangent-chord angle always equals the angle in the alternate segment.",
+            "True"
+          ]
         },
         {
           "q": "The alternate segment angle is 35°. Find the tangent-chord angle.",
-          "a": "35"
+          "a": "35",
+          "hints": [
+            "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
+            "The tangent-chord angle is also 35°.",
+            "35"
+          ]
         },
         {
           "q": "A tangent-chord angle is 2x and the alternate segment angle is 74°. Find x.",
-          "a": "37"
+          "a": "37",
+          "hints": [
+            "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
+            "2x = 74.",
+            "37"
+          ]
         },
         {
           "q": "The tangent-chord angle is 90°. What is the alternate segment angle?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
+            "The alternate segment angle is also 90°.",
+            "90"
+          ]
         }
       ]
     },
@@ -147,27 +297,57 @@
       "items": [
         {
           "q": "What angle does a radius make with a tangent at the point of contact?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem about tangents and radii.",
+            "A radius always meets a tangent at a right angle at the point of contact.",
+            "90"
+          ]
         },
         {
           "q": "A tangent and radius meet at angle x. Find x.",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem about tangents and radii.",
+            "A radius always meets a tangent at a right angle at the point of contact.",
+            "90"
+          ]
         },
         {
           "q": "True or false: a radius is perpendicular to a tangent at the point of contact.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the circle theorem about tangents and radii.",
+            "This is always true at the point where the tangent touches the circle.",
+            "True"
+          ]
         },
         {
           "q": "A tangent touches a circle at P. What is angle OPT if OP is a radius?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem about tangents and radii — O is the centre, P is the point of contact.",
+            "The radius OP always meets the tangent at a right angle.",
+            "90"
+          ]
         },
         {
           "q": "If a line is tangent to a circle, what is its angle to the radius there?",
-          "a": "90"
+          "a": "90",
+          "hints": [
+            "Recall the circle theorem about tangents and radii.",
+            "A tangent always meets the radius at the point of contact at a right angle.",
+            "90"
+          ]
         },
         {
           "q": "A radius and tangent form a right angle. Which theorem is this?",
-          "a": "Radius perpendicular to tangent"
+          "a": "Radius perpendicular to tangent",
+          "hints": [
+            "Recall the name of this circle theorem.",
+            "This is the 'radius perpendicular to tangent' theorem.",
+            "Radius perpendicular to tangent"
+          ]
         }
       ]
     },
@@ -175,27 +355,57 @@
       "items": [
         {
           "q": "Tangents from the same external point are lengths x and 9. Find x.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Two tangents drawn from the same external point are always equal in length.",
+            "x = 9.",
+            "9"
+          ]
         },
         {
           "q": "Two tangents from the same point have lengths 3x and 21. Find x.",
-          "a": "7"
+          "a": "7",
+          "hints": [
+            "Two tangents drawn from the same external point are always equal in length.",
+            "3x = 21.",
+            "7"
+          ]
         },
         {
           "q": "True or false: tangents from the same point are equal in length.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the circle theorem about two tangents from one external point.",
+            "The two tangent lengths are always equal.",
+            "True"
+          ]
         },
         {
           "q": "Tangents from one external point are x + 2 and 11. Find x.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Two tangents drawn from the same external point are always equal in length.",
+            "x + 2 = 11.",
+            "9"
+          ]
         },
         {
           "q": "If one tangent from an external point is 14, what is the other?",
-          "a": "14"
+          "a": "14",
+          "hints": [
+            "Two tangents drawn from the same external point are always equal in length.",
+            "The other tangent is also 14.",
+            "14"
+          ]
         },
         {
           "q": "Tangents from the same point are 5x - 1 and 19. Find x.",
-          "a": "4"
+          "a": "4",
+          "hints": [
+            "Two tangents drawn from the same external point are always equal in length.",
+            "5x - 1 = 19, so 5x = 20.",
+            "4"
+          ]
         }
       ]
     },
@@ -203,27 +413,57 @@
       "items": [
         {
           "q": "A radius meets a chord at 90°. What else does it do to the chord?",
-          "a": "Bisects it"
+          "a": "Bisects it",
+          "hints": [
+            "Recall the second half of this circle theorem, beyond the right angle.",
+            "A perpendicular radius doesn't just meet the chord at 90° — it also cuts it exactly in half.",
+            "Bisects it"
+          ]
         },
         {
           "q": "A chord is 16 cm long. A perpendicular radius meets it. Find half the chord.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "A perpendicular radius bisects the chord — divide the chord length by 2.",
+            "16 / 2.",
+            "8"
+          ]
         },
         {
           "q": "True or false: a perpendicular from the centre to a chord bisects the chord.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the circle theorem about a radius perpendicular to a chord.",
+            "The perpendicular from the centre always cuts the chord into two equal halves.",
+            "True"
+          ]
         },
         {
           "q": "Half a bisected chord is 6 cm. Find the full chord.",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "Reverse the bisection by doubling the half.",
+            "6 x 2.",
+            "12"
+          ]
         },
         {
           "q": "A radius is perpendicular to a 20 cm chord. Find each half.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "A perpendicular radius bisects the chord — divide the chord length by 2.",
+            "20 / 2.",
+            "10"
+          ]
         },
         {
           "q": "Which theorem states that a perpendicular radius bisects a chord?",
-          "a": "Radius perpendicular to chord bisects chord"
+          "a": "Radius perpendicular to chord bisects chord",
+          "hints": [
+            "Recall the name of this circle theorem.",
+            "This is the 'radius perpendicular to chord bisects chord' theorem.",
+            "Radius perpendicular to chord bisects chord"
+          ]
         }
       ]
     },
@@ -231,27 +471,57 @@
       "items": [
         {
           "q": "Two chords intersect. One has segments 3 and 8, the other has segments 4 and x. Find x.",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "For intersecting chords, the product of one chord's segments equals the product of the other's.",
+            "3 x 8 = 4 x x, so 24 = 4x.",
+            "6"
+          ]
         },
         {
           "q": "Two intersecting chords have segments 5 and 6 on one chord, and 3 and x on the other. Find x.",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "For intersecting chords, the product of one chord's segments equals the product of the other's.",
+            "5 x 6 = 3 x x, so 30 = 3x.",
+            "10"
+          ]
         },
         {
           "q": "If one chord has segments 2 and 9 and the other 3 and x, find x.",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "For intersecting chords, the product of one chord's segments equals the product of the other's.",
+            "2 x 9 = 3 x x, so 18 = 3x.",
+            "6"
+          ]
         },
         {
           "q": "True or false: for intersecting chords, segment product equals segment product.",
-          "a": "True"
+          "a": "True",
+          "hints": [
+            "Recall the intersecting chord theorem.",
+            "The product of the two segments of one chord equals the product of the two segments of the other.",
+            "True"
+          ]
         },
         {
           "q": "Chords intersect with segments 4 and 7, and 2 and x. Find x.",
-          "a": "14"
+          "a": "14",
+          "hints": [
+            "For intersecting chords, the product of one chord's segments equals the product of the other's.",
+            "4 x 7 = 2 x x, so 28 = 2x.",
+            "14"
+          ]
         },
         {
           "q": "Chords intersect with segments 6 and 10, and 5 and x. Find x.",
-          "a": "12"
+          "a": "12",
+          "hints": [
+            "For intersecting chords, the product of one chord's segments equals the product of the other's.",
+            "6 x 10 = 5 x x, so 60 = 5x.",
+            "12"
+          ]
         }
       ]
     }

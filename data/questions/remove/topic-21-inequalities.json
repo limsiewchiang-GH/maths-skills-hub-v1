@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Solve: 3x + 5 > 17",
-          "a": "x > 4"
+          "a": "x > 4",
+          "hints": [
+            "Treat it like an equation — isolate the x-term, then divide by the coefficient.",
+            "3x > 17 - 5, so 3x > 12.",
+            "x > 4"
+          ]
         },
         {
           "q": "Solve: 2x - 7 <= 9",
-          "a": "x <= 8"
+          "a": "x <= 8",
+          "hints": [
+            "Treat it like an equation — isolate the x-term, then divide by the coefficient.",
+            "2x <= 9 + 7, so 2x <= 16.",
+            "x <= 8"
+          ]
         },
         {
           "q": "Solve: 5 - x < 11",
-          "a": "x > -6"
+          "a": "x > -6",
+          "hints": [
+            "Isolate the x-term, then divide by a negative coefficient — remember to flip the inequality sign.",
+            "-x < 11 - 5, so -x < 6.",
+            "x > -6"
+          ]
         },
         {
           "q": "Solve: 4x + 1 >= 13",
-          "a": "x >= 3"
+          "a": "x >= 3",
+          "hints": [
+            "Treat it like an equation — isolate the x-term, then divide by the coefficient.",
+            "4x >= 13 - 1, so 4x >= 12.",
+            "x >= 3"
+          ]
         },
         {
           "q": "Solve: 7 - 2x > 1",
-          "a": "x < 3"
+          "a": "x < 3",
+          "hints": [
+            "Isolate the x-term, then divide by a negative coefficient — remember to flip the inequality sign.",
+            "-2x > 1 - 7, so -2x > -6.",
+            "x < 3"
+          ]
         },
         {
           "q": "Solve: x/3 + 2 <= 5",
-          "a": "x <= 9"
+          "a": "x <= 9",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "x/3 <= 5 - 2, so x/3 <= 3.",
+            "x <= 9"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Solve: x^2 - 5x + 6 > 0",
-          "a": "x < 2 or x > 3"
+          "a": "x < 2 or x > 3",
+          "hints": [
+            "Factorise and find the roots first, then decide which side of the roots satisfies '> 0'.",
+            "(x - 2)(x - 3) > 0 — the roots are x = 2 and x = 3; outside them the expression is positive.",
+            "x < 2 or x > 3"
+          ]
         },
         {
           "q": "Solve: x^2 - 4 < 0",
-          "a": "-2 < x < 2"
+          "a": "-2 < x < 2",
+          "hints": [
+            "Factorise as a difference of two squares, find the roots, then decide which side satisfies '< 0'.",
+            "(x - 2)(x + 2) < 0 — the roots are x = -2 and x = 2; between them the expression is negative.",
+            "-2 < x < 2"
+          ]
         },
         {
           "q": "Solve: x^2 + x - 6 >= 0",
-          "a": "x <= -3 or x >= 2"
+          "a": "x <= -3 or x >= 2",
+          "hints": [
+            "Factorise and find the roots first, then decide which side of the roots satisfies '>= 0'.",
+            "(x + 3)(x - 2) >= 0 — the roots are x = -3 and x = 2; outside them the expression is non-negative.",
+            "x <= -3 or x >= 2"
+          ]
         },
         {
           "q": "Solve: x^2 - x - 12 < 0",
-          "a": "-3 < x < 4"
+          "a": "-3 < x < 4",
+          "hints": [
+            "Factorise and find the roots first, then decide which side of the roots satisfies '< 0'.",
+            "(x - 4)(x + 3) < 0 — the roots are x = -3 and x = 4; between them the expression is negative.",
+            "-3 < x < 4"
+          ]
         },
         {
           "q": "Solve: x^2 - 9 >= 0",
-          "a": "x <= -3 or x >= 3"
+          "a": "x <= -3 or x >= 3",
+          "hints": [
+            "Factorise as a difference of two squares, find the roots, then decide which side satisfies '>= 0'.",
+            "(x - 3)(x + 3) >= 0 — the roots are x = -3 and x = 3; outside them the expression is non-negative.",
+            "x <= -3 or x >= 3"
+          ]
         },
         {
           "q": "Solve: x^2 + 2x - 8 <= 0",
-          "a": "-4 <= x <= 2"
+          "a": "-4 <= x <= 2",
+          "hints": [
+            "Factorise and find the roots first, then decide which side of the roots satisfies '<= 0'.",
+            "(x + 4)(x - 2) <= 0 — the roots are x = -4 and x = 2; between them the expression is non-positive.",
+            "-4 <= x <= 2"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "For the region y > 2x + 1, should the boundary line be solid or dashed?",
-          "a": "Dashed"
+          "a": "Dashed",
+          "hints": [
+            "A strict inequality (> or <) excludes the line itself from the region.",
+            "Since the points on the line don't satisfy y > 2x + 1 (only y strictly greater does), the line is drawn dashed.",
+            "Dashed"
+          ]
         },
         {
           "q": "For the region y <= x - 3, should the boundary line be solid or dashed?",
-          "a": "Solid"
+          "a": "Solid",
+          "hints": [
+            "A non-strict inequality (<= or >=) includes the line itself in the region.",
+            "Since points on the line do satisfy y <= x - 3 (equality is allowed), the line is drawn solid.",
+            "Solid"
+          ]
         },
         {
           "q": "Does the point (0,0) satisfy y > x + 2?",
-          "a": "No"
+          "a": "No",
+          "hints": [
+            "Substitute the point's coordinates into the inequality and check if it holds.",
+            "0 > 0 + 2 means 0 > 2, which is false.",
+            "No"
+          ]
         },
         {
           "q": "Does the point (2,5) satisfy y >= 2x + 1?",
-          "a": "Yes"
+          "a": "Yes",
+          "hints": [
+            "Substitute the point's coordinates into the inequality and check if it holds.",
+            "5 >= 2(2) + 1 means 5 >= 5, which is true (equality counts).",
+            "Yes"
+          ]
         },
         {
           "q": "For the inequality y < -x + 4, should the region be above or below the line?",
-          "a": "Below"
+          "a": "Below",
+          "hints": [
+            "'y less than' the line means the shaded region sits underneath it.",
+            "y < ... describes points with a smaller y-value than the line at each x.",
+            "Below"
+          ]
         },
         {
           "q": "For the inequality y >= 3, should the region be above or below the horizontal line?",
-          "a": "Above"
+          "a": "Above",
+          "hints": [
+            "'y greater than or equal to' means the shaded region sits on or above the line.",
+            "y >= 3 describes points with a y-value of 3 or more.",
+            "Above"
+          ]
         }
       ]
     }
