@@ -58,6 +58,15 @@
             "2 d.p. means the unit of accuracy is 0.01, so half of that is 0.005: 9.81 - 0.005.",
             "9.805"
           ]
+        },
+        {
+          "q": "A value 350 is given to the nearest 50. What are the lower and upper bounds?",
+          "a": "325 and 375",
+          "hints": [
+            "The bounds are half a unit of accuracy below and above the rounded value.",
+            "Nearest 50 means half a unit is 25: 350 - 25 and 350 + 25.",
+            "325 and 375"
+          ]
         }
       ]
     },
@@ -115,6 +124,15 @@
             "Write the lower and upper bounds as an inequality — the lower bound is included, the upper bound is not.",
             "Nearest integer means half a unit either side: 74 - 0.5 and 74 + 0.5.",
             "73.5 <= x < 74.5"
+          ]
+        },
+        {
+          "q": "The error interval for a value is 6.5 <= x < 7.5. What is the rounded value?",
+          "a": "7",
+          "hints": [
+            "The rounded value sits exactly halfway between the two bounds.",
+            "(6.5 + 7.5) / 2.",
+            "7"
           ]
         }
       ]
@@ -174,6 +192,15 @@
             "Upper bound of the side is 6.05, so perimeter = 4 x 6.05.",
             "24.2"
           ]
+        },
+        {
+          "q": "A length is 20 cm and another is 12 cm, both correct to the nearest cm. Find the lower bound of the difference between them.",
+          "a": "7",
+          "hints": [
+            "For a subtraction, use the lower bound of the first value and the upper bound of the value being subtracted, to get the smallest possible difference.",
+            "Lower bound of 20 is 19.5; upper bound of 12 is 12.5, so 19.5 - 12.5.",
+            "7"
+          ]
         }
       ]
     },
@@ -231,6 +258,15 @@
             "A raw calculator answer should usually be rounded to 3 significant figures for a real-world measurement.",
             "2.483 rounded to 3 s.f. is 2.48.",
             "2.48 h"
+          ]
+        },
+        {
+          "q": "A stadium's crowd is estimated as 24875.6. State an appropriate degree of accuracy.",
+          "a": "24900",
+          "hints": [
+            "A raw estimate should usually be rounded to 3 significant figures for a real-world count.",
+            "24875.6 rounded to 3 s.f. is 24900.",
+            "24900"
           ]
         }
       ]

@@ -116,6 +116,15 @@
             "144pi + 80pi.",
             "224pi"
           ]
+        },
+        {
+          "q": "A cylinder of radius 4 cm and height 9 cm has a cone of the same radius and height removed from one end. Find the remaining volume.",
+          "a": "96pi",
+          "hints": [
+            "Find the cylinder's volume and the cone's volume separately, then subtract.",
+            "Cylinder = pi(4)^2(9) = 144pi; cone = (1/3)pi(4)^2(9) = 48pi.",
+            "96pi"
+          ]
         }
       ]
     }

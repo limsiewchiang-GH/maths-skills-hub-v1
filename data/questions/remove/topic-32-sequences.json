@@ -58,6 +58,15 @@
             "The sequence begins at 12.",
             "First term = 12"
           ]
+        },
+        {
+          "q": "Is the sequence 3, 6, 12, 24, ... arithmetic or geometric?",
+          "a": "Geometric",
+          "hints": [
+            "Check whether the terms have a constant difference or a constant ratio.",
+            "6-3=3 but 12-6=6 (not constant difference); 6/3=2 and 12/6=2 (constant ratio).",
+            "Geometric"
+          ]
         }
       ]
     },
@@ -348,6 +357,15 @@
             "Terms are 10, 13, 16.",
             "10 + 13 + 16 = 39"
           ]
+        },
+        {
+          "q": "The sum of the first n terms of 3, 7, 11, ... is 136. Find n.",
+          "a": "8",
+          "hints": [
+            "Use the arithmetic series formula S_n = n/2(2a + (n-1)d), then solve for n.",
+            "136 = n/2(6 + 4(n-1)) = n(2n+1), so 2n^2 + n - 136 = 0.",
+            "8"
+          ]
         }
       ]
     },
@@ -405,6 +423,15 @@
             "This is a geometric sequence with ratio 2.",
             "Hour 1: 100, Hour 2: 200, Hour 3: 400.",
             "After 3 hours: 400"
+          ]
+        },
+        {
+          "q": "A stack of crates has 30 crates on the bottom row, decreasing by 2 crates per row, until the top row has 2 crates. Find the total number of crates.",
+          "a": "240",
+          "hints": [
+            "First find how many rows there are, then use the arithmetic series sum formula.",
+            "Rows go 30, 28, ..., 2 — that's 15 rows, so total = 15/2 x (30 + 2).",
+            "240"
           ]
         }
       ]
