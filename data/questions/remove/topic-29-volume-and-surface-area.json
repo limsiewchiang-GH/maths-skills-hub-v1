@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Find the volume of a cylinder of radius 3 cm and height 10 cm.",
-          "a": "90pi"
+          "a": "90pi",
+          "hints": [
+            "Use V = πr^2h.",
+            "V = π(3)^2(10).",
+            "π(9)(10) = 90pi"
+          ]
         },
         {
           "q": "Find the surface area of a cylinder of radius 4 cm and height 5 cm.",
-          "a": "72pi"
+          "a": "72pi",
+          "hints": [
+            "Use total SA = 2πr^2 + 2πrh (two circular ends plus the curved side).",
+            "SA = 2π(4)^2 + 2π(4)(5) = 32π + 40π.",
+            "72pi"
+          ]
         },
         {
           "q": "Find the volume of a sphere of radius 6 cm.",
-          "a": "288pi"
+          "a": "288pi",
+          "hints": [
+            "Use V = (4/3)πr^3.",
+            "V = (4/3)π(6)^3 = (4/3)π(216).",
+            "288pi"
+          ]
         },
         {
           "q": "Find the volume of a prism with cross-sectional area 12 cm^2 and length 8 cm.",
-          "a": "96"
+          "a": "96",
+          "hints": [
+            "Use V = cross-sectional area x length.",
+            "V = 12 x 8.",
+            "96"
+          ]
         },
         {
           "q": "Find the curved surface area of a cylinder of radius 7 cm and height 9 cm.",
-          "a": "126pi"
+          "a": "126pi",
+          "hints": [
+            "Use curved SA = 2πrh (just the side, no end caps).",
+            "SA = 2π(7)(9).",
+            "126pi"
+          ]
         },
         {
           "q": "Find the surface area of a sphere of radius 5 cm.",
-          "a": "100pi"
+          "a": "100pi",
+          "hints": [
+            "Use SA = 4πr^2.",
+            "SA = 4π(5)^2 = 4π(25).",
+            "100pi"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "A solid is made from a cylinder of volume 50pi and a hemisphere of volume 18pi. Find the total volume.",
-          "a": "68pi"
+          "a": "68pi",
+          "hints": [
+            "Add the two volumes together.",
+            "50pi + 18pi.",
+            "68pi"
+          ]
         },
         {
           "q": "A cuboid has volume 120 cm^3 and a cylinder hole of volume 15pi cm^3 is removed. Find the remaining volume.",
-          "a": "120 - 15pi"
+          "a": "120 - 15pi",
+          "hints": [
+            "Subtract the removed volume from the total.",
+            "120 - 15pi.",
+            "120 - 15pi"
+          ]
         },
         {
           "q": "A prism of volume 72 cm^3 is joined to a cube of volume 27 cm^3. Find the total volume.",
-          "a": "99"
+          "a": "99",
+          "hints": [
+            "Add the two volumes together.",
+            "72 + 27.",
+            "99"
+          ]
         },
         {
           "q": "A cylinder of volume 81pi cm^3 has a cone of volume 21pi cm^3 removed. Find the remaining volume.",
-          "a": "60pi"
+          "a": "60pi",
+          "hints": [
+            "Subtract the removed volume from the total.",
+            "81pi - 21pi.",
+            "60pi"
+          ]
         },
         {
           "q": "Two spheres each have volume 36pi cm^3. Find the combined volume.",
-          "a": "72pi"
+          "a": "72pi",
+          "hints": [
+            "Add the two equal volumes together.",
+            "36pi + 36pi.",
+            "72pi"
+          ]
         },
         {
           "q": "A hemisphere of volume 144pi cm^3 is joined to a cylinder of volume 80pi cm^3. Find the total volume.",
-          "a": "224pi"
+          "a": "224pi",
+          "hints": [
+            "Add the two volumes together.",
+            "144pi + 80pi.",
+            "224pi"
+          ]
         }
       ]
     }

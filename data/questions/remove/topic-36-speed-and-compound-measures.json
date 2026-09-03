@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "A car travels 150 km in 3 hours. Find the speed.",
-          "a": "50"
+          "a": "50",
+          "hints": [
+            "Use speed = distance / time.",
+            "speed = 150 / 3.",
+            "50"
+          ]
         },
         {
           "q": "A runner moves at 8 m/s for 25 s. Find the distance.",
-          "a": "200"
+          "a": "200",
+          "hints": [
+            "Use distance = speed x time.",
+            "distance = 8 x 25.",
+            "200"
+          ]
         },
         {
           "q": "A plane travels 600 km at 200 km/h. Find the time.",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Use time = distance / speed.",
+            "time = 600 / 200.",
+            "3"
+          ]
         },
         {
           "q": "A cyclist travels 45 km in 1.5 hours. Find the speed.",
-          "a": "30"
+          "a": "30",
+          "hints": [
+            "Use speed = distance / time.",
+            "speed = 45 / 1.5.",
+            "30"
+          ]
         },
         {
           "q": "A train moves at 90 km/h for 2 hours. Find the distance.",
-          "a": "180"
+          "a": "180",
+          "hints": [
+            "Use distance = speed x time.",
+            "distance = 90 x 2.",
+            "180"
+          ]
         },
         {
           "q": "A boat covers 72 km at 24 km/h. Find the time.",
-          "a": "3"
+          "a": "3",
+          "hints": [
+            "Use time = distance / speed.",
+            "time = 72 / 24.",
+            "3"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "A force of 60 N acts on an area of 12 m^2. Find the pressure.",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Use pressure = force / area.",
+            "pressure = 60 / 12.",
+            "5"
+          ]
         },
         {
           "q": "A density is 8 g/cm^3 and the volume is 15 cm^3. Find the mass.",
-          "a": "120"
+          "a": "120",
+          "hints": [
+            "Use mass = density x volume.",
+            "mass = 8 x 15.",
+            "120"
+          ]
         },
         {
           "q": "A mass is 54 g and the volume is 6 cm^3. Find the density.",
-          "a": "9"
+          "a": "9",
+          "hints": [
+            "Use density = mass / volume.",
+            "density = 54 / 6.",
+            "9"
+          ]
         },
         {
           "q": "A force of 45 N acts on 9 m^2. Find the pressure.",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Use pressure = force / area.",
+            "pressure = 45 / 9.",
+            "5"
+          ]
         },
         {
           "q": "A pressure is 7 N/m^2 over an area of 4 m^2. Find the force.",
-          "a": "28"
+          "a": "28",
+          "hints": [
+            "Use force = pressure x area.",
+            "force = 7 x 4.",
+            "28"
+          ]
         },
         {
           "q": "A density is 2.5 g/cm^3 and the mass is 20 g. Find the volume.",
-          "a": "8"
+          "a": "8",
+          "hints": [
+            "Use volume = mass / density.",
+            "volume = 20 / 2.5.",
+            "8"
+          ]
         }
       ]
     }
