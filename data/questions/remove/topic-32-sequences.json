@@ -171,31 +171,31 @@
         }
       ]
     },
-    "Problem solving": {
+    "Problem solving (sequences)": {
       "items": [
         {
-          "q": "A ladder 10 m long makes an angle of 30° with the ground. Find the vertical height reached.",
-          "a": "5"
+          "q": "A theatre's first row has 20 seats, and each row after has 3 more seats than the row before. How many seats are in the 8th row?",
+          "a": "41"
         },
         {
-          "q": "A ship travels 12 km east then 5 km north. Find the direct distance from the start.",
-          "a": "13"
+          "q": "A stack of logs has 15 logs on the bottom row, with each row above having 2 fewer logs than the row below it. If there are 6 rows, how many logs are there in total?",
+          "a": "60"
         },
         {
-          "q": "In a triangle, two sides are 7 cm and 9 cm with angle 60° between them. Find the area.",
-          "a": "63sqrt(3)/4"
+          "q": "A ball is dropped from a height of 160 cm and bounces to half its previous height each time. Find the height reached after the 3rd bounce.",
+          "a": "20"
         },
         {
-          "q": "A kite string is 20 m long and makes a 45° angle with the ground. Find the height.",
-          "a": "10sqrt(2)"
+          "q": "A charity fundraiser doubles the previous day's donation each day, starting with £10 on day 1. Find the total raised over the first 5 days.",
+          "a": "310"
         },
         {
-          "q": "Two sides of a triangle are 8 cm and 15 cm at right angles. Find the third side.",
-          "a": "17"
+          "q": "A pattern of dots has 1 dot in the 1st arrangement, 4 dots in the 2nd, 9 dots in the 3rd, and 16 dots in the 4th. How many dots are in the 6th arrangement?",
+          "a": "36"
         },
         {
-          "q": "A man walks 6 km south and 8 km east. Find how far he is from the start.",
-          "a": "10"
+          "q": "A population of bacteria doubles every hour. If there are 50 bacteria at the start (hour 0), how many are there after 3 hours?",
+          "a": "400"
         }
       ]
     }

@@ -322,7 +322,7 @@ window.igcseCurriculum = [
           "Geometric sequences and series",
           "Arithmetic sequences",
           "Arithmetic series",
-          "Problem solving"
+          "Problem solving (sequences)"
         ]
       },
       {
