@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Write 5.2 x 10^3 as an ordinary number.",
-          "a": "5200"
+          "a": "5200",
+          "hints": [
+            "Move the decimal point right by the power of 10 (positive power).",
+            "5.2 x 1000.",
+            "5200"
+          ]
         },
         {
           "q": "Write 0.00078 in standard form.",
-          "a": "7.8 x 10^-4"
+          "a": "7.8 x 10^-4",
+          "hints": [
+            "Write as a number between 1 and 10, then count how many places the decimal point moved.",
+            "0.00078 = 7.8 x 10^-4 (decimal point moved 4 places right).",
+            "7.8 x 10^-4"
+          ]
         },
         {
           "q": "Write 3450000 in standard form.",
-          "a": "3.45 x 10^6"
+          "a": "3.45 x 10^6",
+          "hints": [
+            "Write as a number between 1 and 10, then count how many places the decimal point moved.",
+            "3450000 = 3.45 x 10^6 (decimal point moved 6 places left).",
+            "3.45 x 10^6"
+          ]
         },
         {
           "q": "Write 6.03 x 10^5 as an ordinary number.",
-          "a": "603000"
+          "a": "603000",
+          "hints": [
+            "Move the decimal point right by the power of 10 (positive power).",
+            "6.03 x 100000.",
+            "603000"
+          ]
         },
         {
           "q": "Write 0.0045 in standard form.",
-          "a": "4.5 x 10^-3"
+          "a": "4.5 x 10^-3",
+          "hints": [
+            "Write as a number between 1 and 10, then count how many places the decimal point moved.",
+            "0.0045 = 4.5 x 10^-3 (decimal point moved 3 places right).",
+            "4.5 x 10^-3"
+          ]
         },
         {
           "q": "Write 98000000 in standard form.",
-          "a": "9.8 x 10^7"
+          "a": "9.8 x 10^7",
+          "hints": [
+            "Write as a number between 1 and 10, then count how many places the decimal point moved.",
+            "98000000 = 9.8 x 10^7 (decimal point moved 7 places left).",
+            "9.8 x 10^7"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Simplify: (2 x 10^4)(3 x 10^2)",
-          "a": "6 x 10^6"
+          "a": "6 x 10^6",
+          "hints": [
+            "Multiply the front numbers together and add the powers of 10.",
+            "(2x3) x 10^(4+2).",
+            "6 x 10^6"
+          ]
         },
         {
           "q": "Simplify: (8 x 10^7) / (2 x 10^3)",
-          "a": "4 x 10^4"
+          "a": "4 x 10^4",
+          "hints": [
+            "Divide the front numbers and subtract the powers of 10.",
+            "(8/2) x 10^(7-3).",
+            "4 x 10^4"
+          ]
         },
         {
           "q": "Simplify: (5 x 10^-2)(4 x 10^6)",
-          "a": "2 x 10^5"
+          "a": "2 x 10^5",
+          "hints": [
+            "Multiply the front numbers together and add the powers of 10, then rewrite in standard form if needed.",
+            "(5x4) x 10^(-2+6) = 20 x 10^4.",
+            "2 x 10^5"
+          ]
         },
         {
           "q": "Simplify: (3 x 10^5)(2 x 10^-2)",
-          "a": "6 x 10^3"
+          "a": "6 x 10^3",
+          "hints": [
+            "Multiply the front numbers together and add the powers of 10.",
+            "(3x2) x 10^(5+(-2)).",
+            "6 x 10^3"
+          ]
         },
         {
           "q": "Simplify: (9 x 10^6) / (3 x 10^2)",
-          "a": "3 x 10^4"
+          "a": "3 x 10^4",
+          "hints": [
+            "Divide the front numbers and subtract the powers of 10.",
+            "(9/3) x 10^(6-2).",
+            "3 x 10^4"
+          ]
         },
         {
           "q": "Simplify: (7 x 10^-3)(2 x 10^4)",
-          "a": "1.4 x 10^2"
+          "a": "1.4 x 10^2",
+          "hints": [
+            "Multiply the front numbers together and add the powers of 10.",
+            "(7x2) x 10^(-3+4) = 14 x 10^1.",
+            "1.4 x 10^2"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Add: 3.2 x 10^5 + 1.1 x 10^5",
-          "a": "4.3 x 10^5"
+          "a": "4.3 x 10^5",
+          "hints": [
+            "When the powers of 10 match, just add the front numbers.",
+            "(3.2 + 1.1) x 10^5.",
+            "4.3 x 10^5"
+          ]
         },
         {
           "q": "Subtract: 7.5 x 10^4 - 2.0 x 10^4",
-          "a": "5.5 x 10^4"
+          "a": "5.5 x 10^4",
+          "hints": [
+            "When the powers of 10 match, just subtract the front numbers.",
+            "(7.5 - 2.0) x 10^4.",
+            "5.5 x 10^4"
+          ]
         },
         {
           "q": "Add: 4.8 x 10^-3 + 1.2 x 10^-3",
-          "a": "6.0 x 10^-3"
+          "a": "6.0 x 10^-3",
+          "hints": [
+            "When the powers of 10 match, just add the front numbers.",
+            "(4.8 + 1.2) x 10^-3.",
+            "6.0 x 10^-3"
+          ]
         },
         {
           "q": "Add: 6.4 x 10^6 + 2.1 x 10^6",
-          "a": "8.5 x 10^6"
+          "a": "8.5 x 10^6",
+          "hints": [
+            "When the powers of 10 match, just add the front numbers.",
+            "(6.4 + 2.1) x 10^6.",
+            "8.5 x 10^6"
+          ]
         },
         {
           "q": "Subtract: 9.0 x 10^-2 - 3.5 x 10^-2",
-          "a": "5.5 x 10^-2"
+          "a": "5.5 x 10^-2",
+          "hints": [
+            "When the powers of 10 match, just subtract the front numbers.",
+            "(9.0 - 3.5) x 10^-2.",
+            "5.5 x 10^-2"
+          ]
         },
         {
           "q": "Add: 1.7 x 10^3 + 4.6 x 10^3",
-          "a": "6.3 x 10^3"
+          "a": "6.3 x 10^3",
+          "hints": [
+            "When the powers of 10 match, just add the front numbers.",
+            "(1.7 + 4.6) x 10^3.",
+            "6.3 x 10^3"
+          ]
         }
       ]
     },
@@ -91,27 +181,57 @@
       "items": [
         {
           "q": "Simplify: (2 x 10^3)^2",
-          "a": "4 x 10^6"
+          "a": "4 x 10^6",
+          "hints": [
+            "Square the front number and multiply the power of 10 by 2.",
+            "2^2 x 10^(3x2).",
+            "4 x 10^6"
+          ]
         },
         {
           "q": "Simplify: (6 x 10^5)(2 x 10^-3)",
-          "a": "1.2 x 10^3"
+          "a": "1.2 x 10^3",
+          "hints": [
+            "Multiply the front numbers together and add the powers of 10, then rewrite in standard form if needed.",
+            "(6x2) x 10^(5+(-3)) = 12 x 10^2.",
+            "1.2 x 10^3"
+          ]
         },
         {
           "q": "Simplify: (9 x 10^8)/(3 x 10^2)",
-          "a": "3 x 10^6"
+          "a": "3 x 10^6",
+          "hints": [
+            "Divide the front numbers and subtract the powers of 10.",
+            "(9/3) x 10^(8-2).",
+            "3 x 10^6"
+          ]
         },
         {
           "q": "Simplify: (5 x 10^4)^2",
-          "a": "2.5 x 10^9"
+          "a": "2.5 x 10^9",
+          "hints": [
+            "Square the front number and multiply the power of 10 by 2, then rewrite in standard form if needed.",
+            "5^2 x 10^(4x2) = 25 x 10^8.",
+            "2.5 x 10^9"
+          ]
         },
         {
           "q": "Simplify: (4 x 10^7)/(2 x 10^-1)",
-          "a": "2 x 10^8"
+          "a": "2 x 10^8",
+          "hints": [
+            "Divide the front numbers and subtract the powers of 10.",
+            "(4/2) x 10^(7-(-1)).",
+            "2 x 10^8"
+          ]
         },
         {
           "q": "Simplify: (3 x 10^-2)^2",
-          "a": "9 x 10^-4"
+          "a": "9 x 10^-4",
+          "hints": [
+            "Square the front number and multiply the power of 10 by 2.",
+            "3^2 x 10^(-2x2).",
+            "9 x 10^-4"
+          ]
         }
       ]
     }

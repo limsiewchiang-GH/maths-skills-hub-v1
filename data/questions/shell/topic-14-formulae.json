@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "If the perimeter P of a rectangle is 2l + 2w, make l the subject.",
-          "a": "l = (P - 2w)/2"
+          "a": "l = (P - 2w)/2",
+          "hints": [
+            "Isolate the l-term first, then divide by its coefficient.",
+            "2l = P - 2w.",
+            "l = (P - 2w)/2"
+          ]
         },
         {
           "q": "If C = 5n + 7, make n the subject.",
-          "a": "n = (C - 7)/5"
+          "a": "n = (C - 7)/5",
+          "hints": [
+            "Isolate the n-term first, then divide by its coefficient.",
+            "5n = C - 7.",
+            "n = (C - 7)/5"
+          ]
         },
         {
           "q": "If A = bh/2, make h the subject.",
-          "a": "h = 2A/b"
+          "a": "h = 2A/b",
+          "hints": [
+            "Multiply both sides by 2 first, then divide by b.",
+            "2A = bh.",
+            "h = 2A/b"
+          ]
         },
         {
           "q": "If V = lwh, make w the subject.",
-          "a": "w = V/(lh)"
+          "a": "w = V/(lh)",
+          "hints": [
+            "Divide both sides by everything multiplying w.",
+            "V/(lh) = w.",
+            "w = V/(lh)"
+          ]
         },
         {
           "q": "If F = 9c/5 + 32, make c the subject.",
-          "a": "c = 5(F - 32)/9"
+          "a": "c = 5(F - 32)/9",
+          "hints": [
+            "Isolate the fraction term first, then multiply and divide to clear it.",
+            "9c/5 = F - 32, so 9c = 5(F - 32).",
+            "c = 5(F - 32)/9"
+          ]
         },
         {
           "q": "If d = st, make s the subject.",
-          "a": "s = d/t"
+          "a": "s = d/t",
+          "hints": [
+            "Divide both sides by t.",
+            "d/t = s.",
+            "s = d/t"
+          ]
         }
       ]
     },
@@ -35,27 +65,57 @@
       "items": [
         {
           "q": "Make x the subject: y = 3x + 4.",
-          "a": "x = (y - 4)/3"
+          "a": "x = (y - 4)/3",
+          "hints": [
+            "Isolate the x-term first, then divide by its coefficient.",
+            "3x = y - 4.",
+            "x = (y - 4)/3"
+          ]
         },
         {
           "q": "Make r the subject: A = pi r^2.",
-          "a": "r = sqrt(A/pi)"
+          "a": "r = sqrt(A/pi)",
+          "hints": [
+            "Divide by pi first, then take the square root of both sides.",
+            "r^2 = A/pi.",
+            "r = sqrt(A/pi)"
+          ]
         },
         {
           "q": "Make t the subject: v = u + at.",
-          "a": "t = (v - u)/a"
+          "a": "t = (v - u)/a",
+          "hints": [
+            "Isolate the at-term first, then divide by a.",
+            "at = v - u.",
+            "t = (v - u)/a"
+          ]
         },
         {
           "q": "Make b the subject: P = 2a + 2b.",
-          "a": "b = (P - 2a)/2"
+          "a": "b = (P - 2a)/2",
+          "hints": [
+            "Isolate the 2b-term first, then divide by 2.",
+            "2b = P - 2a.",
+            "b = (P - 2a)/2"
+          ]
         },
         {
           "q": "Make m the subject: C = mn + p.",
-          "a": "m = (C - p)/n"
+          "a": "m = (C - p)/n",
+          "hints": [
+            "Isolate the mn-term first, then divide by n.",
+            "mn = C - p.",
+            "m = (C - p)/n"
+          ]
         },
         {
           "q": "Make x the subject: k = x/7 - 2.",
-          "a": "x = 7(k + 2)"
+          "a": "x = 7(k + 2)",
+          "hints": [
+            "Isolate the fraction term first, then multiply to clear the denominator.",
+            "x/7 = k + 2.",
+            "x = 7(k + 2)"
+          ]
         }
       ]
     },
@@ -63,27 +123,57 @@
       "items": [
         {
           "q": "Make x the subject: P = 3x + 2x.",
-          "a": "x = P/5"
+          "a": "x = P/5",
+          "hints": [
+            "Collect the like x-terms on the right first, then divide.",
+            "P = 5x.",
+            "x = P/5"
+          ]
         },
         {
           "q": "Make y the subject: A = 2y + 5y - 7.",
-          "a": "y = (A + 7)/7"
+          "a": "y = (A + 7)/7",
+          "hints": [
+            "Collect the like y-terms first, then isolate the y-term.",
+            "A = 7y - 7, so 7y = A + 7.",
+            "y = (A + 7)/7"
+          ]
         },
         {
           "q": "Make a the subject: K = 4a - a + 9.",
-          "a": "a = (K - 9)/3"
+          "a": "a = (K - 9)/3",
+          "hints": [
+            "Collect the like a-terms first, then isolate the a-term.",
+            "K = 3a + 9, so 3a = K - 9.",
+            "a = (K - 9)/3"
+          ]
         },
         {
           "q": "Make t the subject: d = 3t + 2t.",
-          "a": "t = d/5"
+          "a": "t = d/5",
+          "hints": [
+            "Collect the like t-terms on the right first, then divide.",
+            "d = 5t.",
+            "t = d/5"
+          ]
         },
         {
           "q": "Make p the subject: M = 6p - p + 10.",
-          "a": "p = (M - 10)/5"
+          "a": "p = (M - 10)/5",
+          "hints": [
+            "Collect the like p-terms first, then isolate the p-term.",
+            "M = 5p + 10, so 5p = M - 10.",
+            "p = (M - 10)/5"
+          ]
         },
         {
           "q": "Make n the subject: Q = 8n + n - 18.",
-          "a": "n = (Q + 18)/9"
+          "a": "n = (Q + 18)/9",
+          "hints": [
+            "Collect the like n-terms first, then isolate the n-term.",
+            "Q = 9n - 18, so 9n = Q + 18.",
+            "n = (Q + 18)/9"
+          ]
         }
       ]
     }
