@@ -58,6 +58,15 @@
             "270 = 2 x 135 = 2 x 3 x 45 = 2 x 3 x 3 x 15 = 2 x 3 x 3 x 3 x 5.",
             "2 x 3^3 x 5"
           ]
+        },
+        {
+          "q": "Prime factorise 504.",
+          "a": "2^3 x 3^2 x 7",
+          "hints": [
+            "Repeatedly divide by the smallest prime that fits, until only primes remain.",
+            "504 = 2 x 252 = 2 x 2 x 126 = 2 x 2 x 2 x 63 = 2^3 x 3^2 x 7.",
+            "2^3 x 3^2 x 7"
+          ]
         }
       ]
     },
@@ -116,6 +125,15 @@
             "HCF(16,40) = 8, so LCM = (16 x 40)/8.",
             "HCF 8, LCM 80"
           ]
+        },
+        {
+          "q": "Find the HCF and LCM of 48 and 60.",
+          "a": "HCF 12, LCM 240",
+          "hints": [
+            "List the factors to find the highest common factor, then use LCM = (a x b) / HCF.",
+            "HCF(48,60) = 12, so LCM = (48 x 60)/12.",
+            "HCF 12, LCM 240"
+          ]
         }
       ]
     },
@@ -173,6 +191,15 @@
             "When raising a power to a power, multiply the indices.",
             "2 x 5.",
             "q^10"
+          ]
+        },
+        {
+          "q": "Simplify: (x^4 x x^3) / x^2",
+          "a": "x^5",
+          "hints": [
+            "Deal with the multiplication first (add indices), then the division (subtract indices).",
+            "x^4 x x^3 = x^7, then x^7 / x^2.",
+            "x^5"
           ]
         }
       ]
