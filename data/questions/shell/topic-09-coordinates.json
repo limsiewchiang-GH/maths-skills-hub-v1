@@ -10,27 +10,57 @@
           "a": "(4,3)",
           "image": "assets/questions/shell/topic-09-coordinates/q-midpoint-grid.svg",
           "imageAlt": "Coordinate grid with point A at (1,2) and point B at (7,4).",
-          "imageCaption": "Sample image-backed question. Replace this SVG or swap the path to use your own diagram."
+          "imageCaption": "Sample image-backed question. Replace this SVG or swap the path to use your own diagram.",
+          "hints": [
+            "Read the coordinates of A and B from the diagram, then average each coordinate.",
+            "A = (1,2), B = (7,4), so midpoint = ((1+7)/2, (2+4)/2).",
+            "(4,3)"
+          ]
         },
         {
           "q": "Midpoint of (-4,6) and (10,2)",
-          "a": "(3,4)"
+          "a": "(3,4)",
+          "hints": [
+            "Average the x-coordinates and average the y-coordinates.",
+            "((-4+10)/2, (6+2)/2).",
+            "(3,4)"
+          ]
         },
         {
           "q": "Midpoint of (3,-1) and (7,9)",
-          "a": "(5,4)"
+          "a": "(5,4)",
+          "hints": [
+            "Average the x-coordinates and average the y-coordinates.",
+            "((3+7)/2, (-1+9)/2).",
+            "(5,4)"
+          ]
         },
         {
           "q": "Midpoint of (6,4) and (10,8)",
-          "a": "(8,6)"
+          "a": "(8,6)",
+          "hints": [
+            "Average the x-coordinates and average the y-coordinates.",
+            "((6+10)/2, (4+8)/2).",
+            "(8,6)"
+          ]
         },
         {
           "q": "Midpoint of (-5,2) and (1,14)",
-          "a": "(-2,8)"
+          "a": "(-2,8)",
+          "hints": [
+            "Average the x-coordinates and average the y-coordinates.",
+            "((-5+1)/2, (2+14)/2).",
+            "(-2,8)"
+          ]
         },
         {
           "q": "Midpoint of (0,-6) and (12,2)",
-          "a": "(6,-2)"
+          "a": "(6,-2)",
+          "hints": [
+            "Average the x-coordinates and average the y-coordinates.",
+            "((0+12)/2, (-6+2)/2).",
+            "(6,-2)"
+          ]
         }
       ]
     },
@@ -38,27 +68,57 @@
       "items": [
         {
           "q": "Distance between (1,2) and (7,10)",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Find the horizontal and vertical differences, then use Pythagoras.",
+            "Differences are 6 and 8, so distance = sqrt(6^2 + 8^2) = sqrt(100).",
+            "10"
+          ]
         },
         {
           "q": "Distance between (-2,3) and (4,3)",
-          "a": "6"
+          "a": "6",
+          "hints": [
+            "The y-coordinates are equal, so the distance is just the horizontal difference.",
+            "4 - (-2).",
+            "6"
+          ]
         },
         {
           "q": "Distance between (0,0) and (5,12)",
-          "a": "13"
+          "a": "13",
+          "hints": [
+            "Find the horizontal and vertical differences, then use Pythagoras.",
+            "Differences are 5 and 12, so distance = sqrt(5^2 + 12^2) = sqrt(169).",
+            "13"
+          ]
         },
         {
           "q": "Distance between (2,1) and (10,7)",
-          "a": "10"
+          "a": "10",
+          "hints": [
+            "Find the horizontal and vertical differences, then use Pythagoras.",
+            "Differences are 8 and 6, so distance = sqrt(8^2 + 6^2) = sqrt(100).",
+            "10"
+          ]
         },
         {
           "q": "Distance between (-3,-4) and (0,0)",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Find the horizontal and vertical differences, then use Pythagoras.",
+            "Differences are 3 and 4, so distance = sqrt(3^2 + 4^2) = sqrt(25).",
+            "5"
+          ]
         },
         {
           "q": "Distance between (6,8) and (6,-7)",
-          "a": "15"
+          "a": "15",
+          "hints": [
+            "The x-coordinates are equal, so the distance is just the vertical difference.",
+            "8 - (-7).",
+            "15"
+          ]
         }
       ]
     },
@@ -66,27 +126,57 @@
       "items": [
         {
           "q": "Distance from (1,2,3) to (4,6,3).",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Find the difference in each coordinate, then use the 3D distance formula (Pythagoras extended).",
+            "Differences are 3, 4, and 0, so distance = sqrt(3^2 + 4^2 + 0^2) = sqrt(25).",
+            "5"
+          ]
         },
         {
           "q": "Distance from (0,0,0) to (2,3,6).",
-          "a": "7"
+          "a": "7",
+          "hints": [
+            "Find the difference in each coordinate, then use the 3D distance formula (Pythagoras extended).",
+            "Differences are 2, 3, and 6, so distance = sqrt(2^2 + 3^2 + 6^2) = sqrt(49).",
+            "7"
+          ]
         },
         {
           "q": "Midpoint of (2,4,6) and (6,8,10).",
-          "a": "(4,6,8)"
+          "a": "(4,6,8)",
+          "hints": [
+            "Average each coordinate separately.",
+            "((2+6)/2, (4+8)/2, (6+10)/2).",
+            "(4,6,8)"
+          ]
         },
         {
           "q": "Distance from (1,1,1) to (5,4,1).",
-          "a": "5"
+          "a": "5",
+          "hints": [
+            "Find the difference in each coordinate, then use the 3D distance formula (Pythagoras extended).",
+            "Differences are 4, 3, and 0, so distance = sqrt(4^2 + 3^2 + 0^2) = sqrt(25).",
+            "5"
+          ]
         },
         {
           "q": "Midpoint of (-2,3,7) and (4,9,1).",
-          "a": "(1,6,4)"
+          "a": "(1,6,4)",
+          "hints": [
+            "Average each coordinate separately.",
+            "((-2+4)/2, (3+9)/2, (7+1)/2).",
+            "(1,6,4)"
+          ]
         },
         {
           "q": "Distance from (2,-1,0) to (2,3,12).",
-          "a": "4sqrt(10)"
+          "a": "4sqrt(10)",
+          "hints": [
+            "Find the difference in each coordinate, then use the 3D distance formula (Pythagoras extended).",
+            "Differences are 0, 4, and 12, so distance = sqrt(0^2 + 4^2 + 12^2) = sqrt(160).",
+            "4sqrt(10)"
+          ]
         }
       ]
     }
