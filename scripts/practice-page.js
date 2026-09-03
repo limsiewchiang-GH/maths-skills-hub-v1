@@ -15,10 +15,16 @@ function normalizeMath(expr) {
   text = text.replace(/[₀₁₂₃₄₅₆₇₈₉]/g, (char) => subscripts[char] || char);
   text = text.replace(/sqrt\(([^)]+)\)/gi, "\\sqrt{$1}");
   text = text.replace(/cbrt\(([^)]+)\)/gi, "\\sqrt[3]{$1}");
+  // Trig function names as literal text (not already a \-command) render as italic multiplied
+  // letters in TeX (e.g. "sin(45°)" -> s*i*n); convert to the proper roman-type LaTeX operators.
+  text = text.replace(/(?<!\\)\b(sin|cos|tan)\(/gi, (_, fn) => `\\${fn.toLowerCase()}(`);
   text = text.replace(/\bdy\/dx\b/g, "\\dfrac{dy}{dx}");
   text = text.replace(/√\(([^)]+)\)/g, "\\sqrt{$1}");
   text = text.replace(/√([A-Za-z0-9]+)/g, "\\sqrt{$1}");
   text = text.replace(/π/g, "\\pi");
+  // ASCII word "pi" used as the constant (not just the unicode π glyph), e.g. "x pi x r^2".
+  // Skip anything already escaped (preceded by a backslash) to avoid double-converting.
+  text = text.replace(/(?<!\\)\bpi\b/g, "\\pi ");
   text = text.replace(/θ/g, "\\theta");
   text = text.replace(/×/g, "\\times ");
   text = text.replace(/÷/g, "\\div ");
@@ -32,7 +38,11 @@ function normalizeMath(expr) {
   // Literal ASCII "x" used as a multiplication sign (the established authoring convention
   // throughout this site's question/answer text, e.g. "9 x 10^6", "2x9").
   text = text.replace(/(\d)x(\d)/g, "$1\\times $2");
-  text = text.replace(/([\d)])\s+x\s+(?=-?[\d(]|[a-z]+\(|pi\b|\\pi)/g, "$1 \\times ");
+  // Uses a lookbehind (not a consuming capture group) so the preceding flank can itself be a
+  // variable-length converted token like "\pi" (e.g. "pi x 6" -> "\pi \times 6"), and a matching
+  // lookahead alternative for already-converted LaTeX commands (e.g. "\sqrt{3}", "\tan(60^{\circ}"
+  // — sqrt/cbrt and trig conversion both run earlier in this function).
+  text = text.replace(/(?<=[\d)]|\\pi)\s+x\s+(?=-?[\d(]|[a-z]+\(|\\[a-z]+[{(]|pi\b|\\pi)/g, " \\times ");
 
   // Parenthesised exponent, e.g. "10^(8-2)" -> "10^{(8-2)}" (keeps the visible parens authors
   // wrote but fixes TeX grouping). Allows one level of nested parens, e.g. "10^(7-(-1))".
