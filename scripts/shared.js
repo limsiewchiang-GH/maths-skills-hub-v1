@@ -67,6 +67,18 @@ function formatInlineMathText(raw) {
   marked = marked.replace(/\b([A-Za-z])\s+in\s+(R|\[[^\]]+\])/g, (_, variable, setExpr) => pushMath(`${variable} \\in ${setExpr}`));
   marked = marked.replace(/\[[^\[\]]+\]/g, (value) => (/[\d,]/.test(value) ? pushMath(value) : value));
 
+  // Curly-brace set literals, e.g. "{1,2,3}" or "{a,b,c,d}". Braces are TeX GROUPING
+  // characters, not literal glyphs, so a bare "{...}" passed into \(...\) unescaped would
+  // render invisibly (MathJax treats it as an empty group around its content) rather than
+  // showing the braces — escape them to "\{...\}" before tokenising. Restricted to content
+  // with a digit or comma (mirrors the "[...]" bracket rule above) plus the empty/whitespace
+  // set "{}"/"{ }" case, so incidental prose isn't needlessly math-wrapped.
+  marked = marked.replace(/\{[^{}]*\}/g, (value) =>
+    /[\d,]/.test(value) || /^\{\s*\}$/.test(value)
+      ? pushMath(value.replace(/\{/g, "\\{").replace(/\}/g, "\\}"))
+      : value
+  );
+
   // Completed-square template patterns like "(x + a)^2 + b" or "a(x + b)^2 + c", where a lone
   // letter stands in for a generic coefficient rather than a specific number.
   marked = marked.replace(
@@ -108,8 +120,11 @@ function formatInlineMathText(raw) {
   // splitting at the placeholder boundary. The placeholder is resolved back to its source text
   // before re-tokenising the combined candidate, since the final loop only replaces tokens once
   // (not recursively) — leaving it unresolved would leak "@@M#@@" into the rendered HTML.
+  // Excludes raw "{"/"}" too: those are TeX grouping characters, not literal glyphs, so if any
+  // slipped past the dedicated set-notation regex above unescaped, swallowing them here would
+  // render them invisibly instead of leaving them as plain (if unstyled) visible text.
   marked = marked.replace(
-    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*(?:[^,.;!?@]|\.(?=\d)|@@M\d+@@)+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,!?;]|\.(?!\d)|$)/g,
+    /\b((?:[A-Za-z]\(x\)|[A-Za-z])\s*(?:=|>=|<=|>|<)\s*(?:[^,.;!?@{}]|\.(?=\d)|@@M\d+@@)+?)(?=\s+(?:at|when|with|if|for|where|and|or|on|in|not|makes|invertible|shifted|reflected)\b|[,!?;]|\.(?!\d)|$)/g,
     (candidate) => {
       const resolved = candidate.replace(/@@M(\d+)@@/g, (_, i) => tokens[Number(i)] || "");
       return isLikelyMathSnippet(resolved) ? pushMath(resolved.trim()) : candidate;
