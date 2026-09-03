@@ -7,27 +7,57 @@
       "items": [
         {
           "q": "Evaluate: (3.5 + 2.7) × 4",
-          "a": "24.8"
+          "a": "24.8",
+          "hints": [
+            "Do the bracket first, then multiply.",
+            "3.5 + 2.7 = 6.2, so calculate 6.2 × 4.",
+            "(3.5 + 2.7) × 4 = 6.2 × 4 = 24.8"
+          ]
         },
         {
           "q": "Evaluate: 7.2^2",
-          "a": "51.84"
+          "a": "51.84",
+          "hints": [
+            "Use the x² (square) key, or multiply the number by itself.",
+            "7.2 × 7.2.",
+            "7.2^2 = 7.2 × 7.2 = 51.84"
+          ]
         },
         {
           "q": "Evaluate: sqrt(196) + 1/4",
-          "a": "14.25"
+          "a": "14.25",
+          "hints": [
+            "Work out the square root and the fraction separately, then add.",
+            "sqrt(196) = 14, and 1/4 = 0.25.",
+            "sqrt(196) + 1/4 = 14 + 0.25 = 14.25"
+          ]
         },
         {
           "q": "Evaluate: 18% of 250",
-          "a": "45"
+          "a": "45",
+          "hints": [
+            "Turn the percentage into a decimal, then multiply.",
+            "18% = 0.18, so calculate 250 × 0.18.",
+            "18% of 250 = 0.18 × 250 = 45"
+          ]
         },
         {
           "q": "Evaluate: (5.6 - 1.8) ÷ 0.2",
-          "a": "19"
+          "a": "19",
+          "hints": [
+            "Do the bracket first, then divide.",
+            "5.6 - 1.8 = 3.8, so calculate 3.8 ÷ 0.2.",
+            "(5.6 - 1.8) ÷ 0.2 = 3.8 ÷ 0.2 = 19"
+          ]
         },
         {
           "q": "Evaluate: 3^4 - 2^5",
-          "a": "49"
+          "a": "49",
+          "hints": [
+            "Work out each power separately before subtracting.",
+            "3^4 = 81, and 2^5 = 32.",
+            "3^4 - 2^5 = 81 - 32 = 49"
+          ]
         }
       ]
     }
