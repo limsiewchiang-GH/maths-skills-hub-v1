@@ -108,8 +108,20 @@ function formatInlineMathText(raw) {
   // so it only matches an isolated single-letter variable (e.g. "x^2"), not the tail of an
   // ordinary word immediately followed by a caret (e.g. word-placeholder hints using "^" like
   // "x-component^2" would otherwise mis-parse the "t" in "componen[t]" as a math base).
+  // An isolated single letter (not preceded or followed by another letter) as valid mid-run
+  // content — lets genuine single-letter algebra variables like "r"/"h"/"l"/"b" through (e.g.
+  // "2 x pi x r"). Excludes x/X specifically: that letter already has dedicated handling as
+  // the multiplication sign, and letting it ALSO qualify here would wrongly truncate a match
+  // right at a "2 x (...)" multiplication instead of continuing into what follows. Excludes a
+  // letter followed by "(" (e.g. the "P" in "P(second red)") — that's a function-call-style
+  // prefix, not a bare variable. Excludes a letter followed by "-<letter>" with no space (e.g.
+  // the "y" in "y-component") — that hyphen marks a compound word-placeholder label, not
+  // subtraction (real subtraction in this corpus is always spaced, "n - 1"). A genuine
+  // multi-letter English word never qualifies either way, since every one of its letters has a
+  // letter neighbour.
+  const isolatedLetter = "(?<![A-Za-z])(?!x\\b|X\\b)[A-Za-z](?![A-Za-z(])(?!-[A-Za-z])";
   const generalFallbackRe = new RegExp(
-    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|\\()(?:[\\d+\\-*/^().,.\\sxX°]|${mathKeyword})*[\\d)°]`,
+    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|\\()(?:[\\d+\\-*/^().,.\\sxX°]|${mathKeyword}|${isolatedLetter})*(?:[\\d)°]|${isolatedLetter})`,
     "g"
   );
   marked = marked.replace(generalFallbackRe, (candidate) => {
