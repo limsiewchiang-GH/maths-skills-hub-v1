@@ -29,11 +29,11 @@
   <path d="M230 64 L218.5 70.0 L224.5 81.5 L236.0 75.5 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
 
   <!-- angle arc + label at A (35 degrees, given) -->
-  <path d="M87 150 A22 22 0 0 0 84.7 139.9" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <path d="M85.00,150.00 L84.94,148.40 L84.74,146.81 L84.43,145.24 L83.98,143.70 L83.42,142.20 L82.74,140.76" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
   <text x="90" y="134" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">35°</text>
 
   <!-- angle arc + label at B (unknown) -->
-  <path d="M255 150 A20 20 0 0 0 265.8 132.4" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <path d="M257.00,150.00 L257.30,146.75 L258.17,143.61 L259.60,140.68 L261.54,138.05 L263.91,135.82 L266.65,134.05" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
   <text x="232" y="130" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB is a diameter of the circle. Diagram not to scale.</text>

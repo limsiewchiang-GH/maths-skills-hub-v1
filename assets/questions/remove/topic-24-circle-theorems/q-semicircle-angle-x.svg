@@ -25,7 +25,7 @@
     <text x="176" y="168" font-size="14" font-weight="400" font-style="italic">O</text>
   </g>
 
-  <path d="M206.9 76.0 A26 26 0 0 1 242.1 87.0" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <path d="M206.94,76.02 L210.84,81.58 L216.05,85.94 L222.21,88.81 L228.91,89.98 L235.67,89.37 L242.05,87.04" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
   <text x="212" y="102" fill="#d9480f" font-family="Arial, sans-serif" font-size="17" font-weight="700">x°</text>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB is a diameter of the circle. Diagram not to scale.</text>
