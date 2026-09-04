@@ -420,6 +420,18 @@
             "Angle OAT = 90°, so angle OTA = 180 - 90 - 55.",
             "35"
           ]
+        },
+        {
+          "q": "A circle has centre O and radius 5 cm. T is an external point with OT = 13 cm. AT is a tangent to the circle at A. Find the length of AT.",
+          "a": "12",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-multitheorem-tangent-pythagoras.svg",
+          "imageAlt": "A circle with centre O. Radius OA is marked 5 cm. AT is a tangent at A, meeting the radius at a right angle. T is an external point, and OT is marked 13 cm. AT is unknown, to be found.",
+          "imageCaption": "AT is a tangent at A.",
+          "hints": [
+            "The radius meets the tangent at a right angle, so triangle OAT is right-angled at A — use Pythagoras' theorem.",
+            "AT² = OT² - OA² = 13² - 5² = 169 - 25 = 144.",
+            "12"
+          ]
         }
       ]
     },
@@ -547,6 +559,18 @@
             "Recall the name of this circle theorem.",
             "This is the 'radius perpendicular to chord bisects chord' theorem.",
             "Radius perpendicular to chord bisects chord"
+          ]
+        },
+        {
+          "q": "A chord AB is drawn in a circle, centre O, with radius 10 cm. The perpendicular distance from O to the chord is 6 cm. Find the length of AB.",
+          "a": "16",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-multitheorem-chord-pythagoras.svg",
+          "imageAlt": "A circle with centre O, radius 10 cm, and a chord AB. A perpendicular line from O meets the chord at its midpoint M, marked 6 cm. The radius OA is drawn, forming a right-angled triangle. AB is unknown, to be found.",
+          "imageCaption": "O is the centre of the circle.",
+          "hints": [
+            "The perpendicular from the centre bisects the chord, forming a right-angled triangle OMA with the radius as the hypotenuse — use Pythagoras' theorem to find half the chord.",
+            "AM² = OA² - OM² = 10² - 6² = 100 - 36 = 64, so AM = 8. The full chord AB is double this.",
+            "16"
           ]
         }
       ]

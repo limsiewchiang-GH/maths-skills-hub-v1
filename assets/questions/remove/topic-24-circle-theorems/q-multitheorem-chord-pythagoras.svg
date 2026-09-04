@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Radius, perpendicular chord, and Pythagoras diagram</title>
+  <desc id="desc">A circle with centre O, radius 10 cm, and a chord AB. A perpendicular line from O meets the chord at its midpoint M, marked with a right angle symbol. OM is marked 6 cm. The radius OA is drawn, forming a right-angled triangle OMA. AB is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="90" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <line x1="85.43" y1="180.78" x2="254.57" y2="180.78" stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round">
+    <line x1="170" y1="150" x2="170" y2="180.78"/>
+    <line x1="170" y1="150" x2="85.43" y2="180.78"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3"/>
+    <circle cx="85.43" cy="180.78" r="3.5"/>
+    <circle cx="254.57" cy="180.78" r="3.5"/>
+    <circle cx="170" cy="180.78" r="3"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="150" y="142" font-size="14" font-weight="400" font-style="italic">O</text>
+    <text x="63" y="200">A</text>
+    <text x="260" y="200">B</text>
+    <text x="176" y="198" font-size="14" font-weight="400" font-style="italic">M</text>
+  </g>
+
+  <path d="M170.0 180.8 L157.0 180.8 L157.0 167.8 L170.0 167.8 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
+
+  <text x="176" y="167" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">6 cm</text>
+  <text x="112" y="158" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">10 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">O is the centre. Diagram not to scale.</text>
+</svg>
