@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Angle in a semicircle and Pythagoras diagram</title>
+  <desc id="desc">A circle with diameter AB marked 13 cm. Point C is on the circumference, forming a triangle with A and B. The angle at C is marked with a right angle symbol, since it stands on the diameter. AC is marked 5 cm. BC is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="65" y1="150" x2="210.38" y2="53.08"/>
+    <line x1="275" y1="150" x2="210.38" y2="53.08"/>
+  </g>
+  <line x1="65" y1="150" x2="275" y2="150" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g fill="#3a2f22">
+    <circle cx="65" cy="150" r="3.5"/>
+    <circle cx="275" cy="150" r="3.5"/>
+    <circle cx="210.38" cy="53.08" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="45" y="172">A</text>
+    <text x="280" y="172">B</text>
+    <text x="215" y="45">C</text>
+  </g>
+
+  <path d="M210.4 53.1 L199.6 60.3 L206.8 71.1 L217.6 63.9 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
+
+  <text x="126" y="93" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">5 cm</text>
+  <text x="155" y="145" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">13 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB is a diameter. Diagram not to scale.</text>
+</svg>
