@@ -216,7 +216,7 @@
           "q": "Angles in the same segment are 42° and x. Find x.",
           "a": "42",
           "image": "assets/questions/remove/topic-24-circle-theorems/q-same-segment-42.svg",
-          "imageAlt": "A circle with chord AB. Points C and D are on the major arc, in the same segment. The angle at C is marked 42 degrees. The angle at D is marked x degrees.",
+          "imageAlt": "A circle with points A and B on the circumference. Points C and D are on the major arc, in the same segment. The angle at C is marked 42 degrees. The angle at D is marked x degrees.",
           "imageCaption": "C and D are in the same segment.",
           "hints": [
             "Angles in the same segment, standing on the same arc, are equal.",
@@ -237,7 +237,7 @@
           "q": "An angle in one segment is 57°. Find the matching angle in the same segment.",
           "a": "57",
           "image": "assets/questions/remove/topic-24-circle-theorems/q-same-segment-57.svg",
-          "imageAlt": "A circle with chord AB across the top, positioned differently than the other same-segment diagram. Points C and D are on the major arc below, in the same segment. The angle at C is marked 57 degrees. The angle at D is marked x degrees.",
+          "imageAlt": "A circle with points A and B on the circumference, positioned differently than the other same-segment diagram. Points C and D are on the major arc below, in the same segment. The angle at C is marked 57 degrees. The angle at D is marked x degrees.",
           "imageCaption": "C and D are in the same segment.",
           "hints": [
             "Angles in the same segment, standing on the same arc, are equal.",

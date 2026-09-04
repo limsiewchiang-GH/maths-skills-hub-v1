@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
   <title id="title">Angles in the same segment diagram</title>
-  <desc id="desc">A circle with chord AB across the bottom. Points C and D are on the major arc above, both in the same segment. Lines CA and CB form the angle at C, marked 42 degrees. Lines DA and DB form the angle at D, marked x degrees.</desc>
+  <desc id="desc">A circle with points A and B on the circumference. Points C and D are on the major arc above, both in the same segment. Lines CA and CB form the angle at C, marked 42 degrees. Lines DA and DB form the angle at D, marked x degrees.</desc>
   <rect width="340" height="280" fill="#fffdf8"/>
 
   <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
 
-  <line x1="71.33" y1="185.91" x2="268.67" y2="185.91" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
   <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
     <line x1="205.91" y1="51.33" x2="71.33" y2="185.91"/>
     <line x1="205.91" y1="51.33" x2="268.67" y2="185.91"/>

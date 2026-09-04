@@ -18,7 +18,7 @@
     <text x="260" y="112">A</text>
   </g>
 
-  <path d="M254.6 119.2 L266.8 114.8 L271.2 127.0 L259.0 131.4 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
+  <path d="M254.6 119.2 L242.4 123.7 L246.8 135.9 L259.0 131.4 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">OA is a radius. Diagram not to scale.</text>
 </svg>
