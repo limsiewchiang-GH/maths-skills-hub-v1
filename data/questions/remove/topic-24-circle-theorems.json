@@ -78,6 +78,9 @@
         {
           "q": "An angle at the centre is 80°. Find the angle at the circumference on the same arc.",
           "a": "40",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-centre-angle-80.svg",
+          "imageAlt": "A circle with centre O. Points A and B are on the circumference. The angle at O is marked 80 degrees. Point C is on the circumference on the far arc, and the angle at C is marked x degrees.",
+          "imageCaption": "O is the centre of the circle.",
           "hints": [
             "The angle at the centre is double the angle at the circumference on the same arc.",
             "80 / 2.",
@@ -105,6 +108,9 @@
         {
           "q": "An angle at the centre is 124°. Find the matching circumference angle.",
           "a": "62",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-centre-angle-124.svg",
+          "imageAlt": "A circle with centre O. Points A and B are on the circumference on the left. The angle at O is marked 124 degrees. Point C is on the circumference at the bottom right, and the angle at C is marked x degrees.",
+          "imageCaption": "O is the centre of the circle.",
           "hints": [
             "The angle at the centre is double the angle at the circumference on the same arc.",
             "124 / 2.",
@@ -145,6 +151,9 @@
         {
           "q": "Opposite angles in a cyclic quadrilateral are x and 112°. Find x.",
           "a": "68",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-cyclic-quad-112.svg",
+          "imageAlt": "A circle with cyclic quadrilateral ABCD inscribed. The angle at A is marked x degrees. The opposite angle at C is marked 112 degrees.",
+          "imageCaption": "ABCD is a cyclic quadrilateral.",
           "hints": [
             "Opposite angles in a cyclic quadrilateral sum to 180°.",
             "x + 112 = 180.",
@@ -163,6 +172,9 @@
         {
           "q": "One angle in a cyclic quadrilateral is 71°. Find the opposite angle.",
           "a": "109",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-cyclic-quad-71.svg",
+          "imageAlt": "A circle with cyclic quadrilateral ABCD inscribed, positioned differently than the other cyclic quadrilateral diagram. The angle at A is marked 71 degrees. The opposite angle at C is marked x degrees.",
+          "imageCaption": "ABCD is a cyclic quadrilateral.",
           "hints": [
             "Opposite angles in a cyclic quadrilateral sum to 180°.",
             "180 - 71.",
@@ -203,6 +215,9 @@
         {
           "q": "Angles in the same segment are 42° and x. Find x.",
           "a": "42",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-same-segment-42.svg",
+          "imageAlt": "A circle with points A and B on the circumference. Points C and D are on the major arc, in the same segment. The angle at C is marked 42 degrees. The angle at D is marked x degrees.",
+          "imageCaption": "C and D are in the same segment.",
           "hints": [
             "Angles in the same segment, standing on the same arc, are equal.",
             "x = 42.",
@@ -221,6 +236,9 @@
         {
           "q": "An angle in one segment is 57°. Find the matching angle in the same segment.",
           "a": "57",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-same-segment-57.svg",
+          "imageAlt": "A circle with points A and B on the circumference, positioned differently than the other same-segment diagram. Points C and D are on the major arc below, in the same segment. The angle at C is marked 57 degrees. The angle at D is marked x degrees.",
+          "imageCaption": "C and D are in the same segment.",
           "hints": [
             "Angles in the same segment, standing on the same arc, are equal.",
             "The matching angle is also 57°.",
@@ -261,6 +279,9 @@
         {
           "q": "The angle between a tangent and chord is 48°. Find the angle in the alternate segment.",
           "a": "48",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-alt-segment-48.svg",
+          "imageAlt": "A circle with a tangent line touching at point A. Chord AB is drawn from A. The angle between the tangent and the chord is marked 48 degrees. Point C is on the far arc, and the angle ACB in the alternate segment is marked x degrees.",
+          "imageCaption": "The line at A is a tangent.",
           "hints": [
             "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
             "The alternate segment angle is also 48°.",
@@ -297,6 +318,9 @@
         {
           "q": "A tangent-chord angle is 2x and the alternate segment angle is 74°. Find x.",
           "a": "37",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-alt-segment-74.svg",
+          "imageAlt": "A circle with a tangent line touching at point A, positioned differently than the other alternate segment diagram. Chord AB is drawn from A. The angle between the tangent and the chord is marked 2x. Point C is on the far arc, and the angle ACB in the alternate segment is marked 74 degrees.",
+          "imageCaption": "The line at A is a tangent.",
           "hints": [
             "The alternate segment theorem: the tangent-chord angle equals the angle in the alternate segment.",
             "2x = 74.",
@@ -319,6 +343,9 @@
         {
           "q": "What angle does a radius make with a tangent at the point of contact?",
           "a": "90",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-radius-tangent-90.svg",
+          "imageAlt": "A circle with centre O. A radius OA is drawn to point A on the circumference. A tangent line touches the circle at A, meeting the radius at a right angle.",
+          "imageCaption": "OA is a radius.",
           "hints": [
             "Recall the circle theorem about tangents and radii.",
             "A radius always meets a tangent at a right angle at the point of contact.",
@@ -373,6 +400,9 @@
         {
           "q": "OA is a radius and AT is a tangent at A. If angle AOT = 55°, find angle OTA.",
           "a": "35",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-radius-tangent-55.svg",
+          "imageAlt": "A circle with centre O. OA is a radius to point A. AT is a tangent at A, meeting the radius at a right angle. T is a point along the tangent line. Angle AOT is marked 55 degrees, and angle OTA is marked x degrees.",
+          "imageCaption": "AT is a tangent at A.",
           "hints": [
             "The radius meets the tangent at 90° — use the angle sum of the triangle OAT.",
             "Angle OAT = 90°, so angle OTA = 180 - 90 - 55.",
@@ -386,6 +416,9 @@
         {
           "q": "Tangents from the same external point are lengths x and 9. Find x.",
           "a": "9",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-tangents-same-point-9.svg",
+          "imageAlt": "A circle with centre O. From an external point T, two tangent lines touch the circle at points A and B. Segment TA is marked x. Segment TB is marked 9.",
+          "imageCaption": "TA and TB are tangents from T.",
           "hints": [
             "Two tangents drawn from the same external point are always equal in length.",
             "x = 9.",
@@ -413,6 +446,9 @@
         {
           "q": "Tangents from one external point are x + 2 and 11. Find x.",
           "a": "9",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-tangents-same-point-11.svg",
+          "imageAlt": "A circle with centre O, positioned differently than the other tangents-from-a-point diagram. From an external point T, two tangent lines touch the circle at points A and B. Segment TA is marked x plus 2. Segment TB is marked 11.",
+          "imageCaption": "TA and TB are tangents from T.",
           "hints": [
             "Two tangents drawn from the same external point are always equal in length.",
             "x + 2 = 11.",
@@ -453,6 +489,9 @@
         {
           "q": "A chord is 16 cm long. A perpendicular radius meets it. Find half the chord.",
           "a": "8",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-radius-chord-16.svg",
+          "imageAlt": "A circle with centre O and a chord AB. A perpendicular line from O meets the chord at its midpoint M. The chord AB is 16 cm long, and each half AM and MB is unknown.",
+          "imageCaption": "AB = 16 cm.",
           "hints": [
             "A perpendicular radius bisects the chord — divide the chord length by 2.",
             "16 / 2.",
@@ -480,6 +519,9 @@
         {
           "q": "A radius is perpendicular to a 20 cm chord. Find each half.",
           "a": "10",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-radius-chord-20.svg",
+          "imageAlt": "A circle with centre O and a vertical chord AB, positioned differently than the other radius-chord diagram. A perpendicular line from O meets the chord at its midpoint M. The chord AB is 20 cm long, and each half AM and MB is unknown.",
+          "imageCaption": "AB = 20 cm.",
           "hints": [
             "A perpendicular radius bisects the chord — divide the chord length by 2.",
             "20 / 2.",
@@ -502,6 +544,9 @@
         {
           "q": "Two chords intersect. One has segments 3 and 8, the other has segments 4 and x. Find x.",
           "a": "6",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-intersecting-chords-3-8-4-x.svg",
+          "imageAlt": "A circle with two chords AB and CD crossing inside the circle at point P. Segment PA is marked 3, segment PB is marked 8, segment PC is marked 4, and segment PD is marked x.",
+          "imageCaption": "AB and CD cross at P.",
           "hints": [
             "For intersecting chords, the product of one chord's segments equals the product of the other's.",
             "3 x 8 = 4 x x, so 24 = 4x.",
@@ -547,6 +592,9 @@
         {
           "q": "Chords intersect with segments 6 and 10, and 5 and x. Find x.",
           "a": "12",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-intersecting-chords-6-10-5-x.svg",
+          "imageAlt": "A circle with two chords AB and CD crossing inside the circle at point P, positioned differently than the other intersecting chords diagram. Segment PA is marked 6, segment PB is marked 10, segment PC is marked 5, and segment PD is marked x.",
+          "imageCaption": "AB and CD cross at P.",
           "hints": [
             "For intersecting chords, the product of one chord's segments equals the product of the other's.",
             "6 x 10 = 5 x x, so 60 = 5x.",

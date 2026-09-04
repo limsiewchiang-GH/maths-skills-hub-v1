@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Cyclic quadrilateral diagram</title>
+  <desc id="desc">A circle with quadrilateral ABCD inscribed, vertices in order around the circumference. The angle at A is marked x degrees. The opposite angle at C is marked 112 degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <polygon points="151.77,46.60 268.67,114.09 205.91,248.67 66.60,168.23" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <g fill="#3a2f22">
+    <circle cx="151.77" cy="46.60" r="3.5"/>
+    <circle cx="268.67" cy="114.09" r="3.5"/>
+    <circle cx="205.91" cy="248.67" r="3.5"/>
+    <circle cx="66.60" cy="168.23" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="150" y="36">A</text>
+    <text x="276" y="112">B</text>
+    <text x="211" y="253">C</text>
+    <text x="40" y="172">D</text>
+  </g>
+
+  <path d="M139.15,64.62 L144.54,67.38 L150.49,68.56 L156.53,68.07 L162.21,65.96 L167.10,62.38 L170.82,57.60" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="152" y="90" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <path d="M215.21,228.73 L210.05,227.06 L204.63,226.70 L199.30,227.69 L194.36,229.94 L190.13,233.34 L186.86,237.67" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="180" y="208" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">112°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">ABCD is a cyclic quadrilateral. Not to scale.</text>
+</svg>

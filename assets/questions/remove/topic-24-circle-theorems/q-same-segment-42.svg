@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Angles in the same segment diagram</title>
+  <desc id="desc">A circle with points A and B on the circumference. Points C and D are on the major arc above, both in the same segment. Lines CA and CB form the angle at C, marked 42 degrees. Lines DA and DB form the angle at D, marked x degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="205.91" y1="51.33" x2="71.33" y2="185.91"/>
+    <line x1="205.91" y1="51.33" x2="268.67" y2="185.91"/>
+    <line x1="102.51" y1="69.57" x2="71.33" y2="185.91"/>
+    <line x1="102.51" y1="69.57" x2="268.67" y2="185.91"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="71.33" cy="185.91" r="3.5"/>
+    <circle cx="268.67" cy="185.91" r="3.5"/>
+    <circle cx="205.91" cy="51.33" r="3.5"/>
+    <circle cx="102.51" cy="69.57" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="50" y="200">A</text>
+    <text x="274" y="200">B</text>
+    <text x="211" y="45">C</text>
+    <text x="80" y="63">D</text>
+  </g>
+
+  <path d="M190.36,66.89 L193.82,69.71 L197.79,71.78 L202.09,73.00 L206.55,73.32 L210.99,72.74 L215.21,71.27" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="200" y="92" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">42°</text>
+
+  <path d="M96.81,90.82 L101.23,91.53 L105.70,91.33 L110.03,90.24 L114.06,88.29 L117.60,85.57 L120.53,82.18" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="102" y="112" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">C and D are in the same segment. Not to scale.</text>
+</svg>

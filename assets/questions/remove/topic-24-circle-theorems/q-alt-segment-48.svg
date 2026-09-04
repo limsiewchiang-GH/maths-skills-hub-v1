@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Alternate segment theorem diagram</title>
+  <desc id="desc">A circle with a tangent line touching at point A. Chord AB is drawn from the tangent point. The angle between the tangent and the chord is marked 48 degrees. Point C is on the far arc; lines CA and CB form the angle in the alternate segment, marked x degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <line x1="44.57" y1="163.87" x2="134.56" y2="271.12" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="89.57" y1="217.49" x2="268.67" y2="185.91"/>
+    <line x1="205.91" y1="51.33" x2="89.57" y2="217.49"/>
+    <line x1="205.91" y1="51.33" x2="268.67" y2="185.91"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="89.57" cy="217.49" r="3.5"/>
+    <circle cx="268.67" cy="185.91" r="3.5"/>
+    <circle cx="205.91" cy="51.33" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="66" y="228">A</text>
+    <text x="274" y="196">B</text>
+    <text x="211" y="45">C</text>
+  </g>
+
+  <path d="M106.28,237.41 L109.48,234.21 L112.08,230.49 L114.00,226.39 L115.17,222.01 L115.57,217.49 L115.17,212.98" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="126" y="250" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">48°</text>
+
+  <path d="M193.29,69.35 L196.61,71.27 L200.22,72.58 L203.99,73.25 L207.83,73.25 L211.61,72.58 L215.21,71.27" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="198" y="90" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">The line at A is a tangent. Not to scale.</text>
+</svg>
