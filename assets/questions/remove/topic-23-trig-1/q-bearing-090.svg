@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Bearing diagram: 090 degrees</title>
+  <desc id="desc">A point with a dashed north line pointing up, and a ship's path drawn as a ray at a bearing of 090 degrees, measured clockwise from north. The direction of travel is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="140" y1="150" x2="140" y2="60" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="140" y1="150" x2="260" y2="150" stroke="#2a5db0" stroke-width="2.5"/>
+  <polygon points="260,150 246,144 246,156" fill="#2a5db0"/>
+
+  <circle cx="140" cy="150" r="3.5" fill="#3a2f22"/>
+  <text x="122" y="66" fill="#6b6157" font-family="Arial, sans-serif" font-size="14">N</text>
+  <text x="238" y="172" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16">ship</text>
+
+  <path d="M140.00,120.00 L145.85,120.58 L151.48,122.28 L156.67,125.06 L161.21,128.79 L164.94,133.33 L167.72,138.52 L169.42,144.15 L170.00,150.00" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="163" y="113" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">090°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

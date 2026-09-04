@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Ramp angle diagram</title>
+  <desc id="desc">A shallow right-angled triangle representing a ramp. The horizontal ground, from the base of the ramp to directly below its top, is marked 10 m. The vertical rise is marked 2 m. The angle between the ground and the ramp is marked x degrees, the unknown to find.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="60,220 260,220 260,180" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M242 220 L242 202 L260 202" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g fill="#3a2f22">
+    <circle cx="60" cy="220" r="3.5"/>
+    <circle cx="260" cy="220" r="3.5"/>
+    <circle cx="260" cy="180" r="3.5"/>
+  </g>
+
+  <path d="M100 220 A40 40 0 0 0 99.22 212.16" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="122" y="219" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="270" y="204" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">2 m</text>
+  <text x="145" y="240" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">10 m</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

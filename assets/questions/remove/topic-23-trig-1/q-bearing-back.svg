@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Back bearing diagram: points A and B</title>
+  <desc id="desc">Points A and B are joined by a line. At B, a dashed north line points up, and the bearing of A from B is marked 60 degrees, measured clockwise from north. At A, a dashed north line also points up, and the bearing of B from A is unknown, marked x, to be found, sweeping the long way clockwise from north.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="80" y1="220" x2="244.5" y2="125" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="80" y1="220" x2="80" y2="165" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="244.5" y1="125" x2="244.5" y2="70" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <g fill="#3a2f22">
+    <circle cx="80" cy="220" r="3.5"/>
+    <circle cx="244.5" cy="125" r="3.5"/>
+  </g>
+  <text x="60" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">B</text>
+  <text x="252" y="120" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">A</text>
+  <text x="68" y="160" fill="#6b6157" font-family="Arial, sans-serif" font-size="13">N</text>
+  <text x="232" y="65" fill="#6b6157" font-family="Arial, sans-serif" font-size="13">N</text>
+
+  <path d="M80.00,192.00 L83.65,192.24 L87.25,192.95 L90.72,194.13 L94.00,195.75 L97.05,197.79 L99.80,200.20 L102.21,202.95 L104.25,206.00" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="94" y="184" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">60°</text>
+
+  <path d="M244.54,99.00 L251.27,99.89 L257.54,102.48 L262.93,106.62 L267.06,112.00 L269.66,118.27 L270.54,125.00 L269.66,131.73 L267.06,138.00 L262.93,143.38 L257.54,147.52 L251.27,150.11 L244.54,151.00 L237.82,150.11 L231.54,147.52 L226.16,143.38 L222.03,138.00" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="278" y="150" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

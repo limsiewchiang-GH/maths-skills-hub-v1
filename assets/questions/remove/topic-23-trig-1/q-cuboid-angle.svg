@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Cuboid with angle between base diagonal and body diagonal</title>
+  <desc id="desc">A cuboid with a vertical edge of height 12 and a base diagonal of length 5, meeting at a right angle. The body diagonal joins the top of the vertical edge to the far end of the base diagonal. The angle between the base diagonal and the body diagonal is unknown, marked x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="60,220 220,220 265,190 105,190" fill="none" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <line x1="60" y1="220" x2="60" y2="90" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="60" y1="220" x2="265" y2="190" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="60" y1="90" x2="265" y2="190" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M60.00,207.00 L72.86,205.12 L72.86,218.12" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g fill="#3a2f22">
+    <circle cx="60" cy="90" r="3.5"/>
+    <circle cx="60" cy="220" r="3.5"/>
+    <circle cx="265" cy="190" r="3.5"/>
+  </g>
+
+  <path d="M233.34,194.63 L233.08,192.25 L233.00,189.86 L233.10,187.46 L233.38,185.08 L233.84,182.73 L234.47,180.42 L235.27,178.16 L236.24,175.97" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="222" y="170" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="38" y="158" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">12</text>
+  <text x="140" y="212" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">5</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>
