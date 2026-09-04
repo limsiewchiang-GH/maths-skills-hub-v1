@@ -20,6 +20,9 @@
         {
           "q": "In a right triangle with angle 45°, adjacent side 1, and hypotenuse sqrt(2), find cos 45°.",
           "a": "sqrt(2)/2",
+          "image": "assets/questions/remove/topic-23-trig-1/q-ratio-cos45.svg",
+          "imageAlt": "A right-angled triangle with the right angle at the bottom right. The angle at the bottom left is marked 45 degrees. The adjacent side is marked 1. The hypotenuse is marked root 2.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "cos = adjacent / hypotenuse.",
             "1 / sqrt(2), rationalised by multiplying top and bottom by sqrt(2).",
@@ -59,6 +62,9 @@
         {
           "q": "In a right triangle, opposite side 7 and adjacent side 24. Find tan theta.",
           "a": "7/24",
+          "image": "assets/questions/remove/topic-23-trig-1/q-ratio-tantheta.svg",
+          "imageAlt": "A right-angled triangle with the right angle at the bottom right. The angle at the bottom left is marked theta. The opposite side is marked 7. The adjacent side is marked 24.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "tan = opposite / adjacent.",
             "7 / 24.",
@@ -81,6 +87,9 @@
         {
           "q": "Find the missing side: opposite = 6, angle = 30°. Use sine to find the hypotenuse.",
           "a": "12",
+          "image": "assets/questions/remove/topic-23-trig-1/q-sohcahtoa-findhyp.svg",
+          "imageAlt": "A right-angled triangle with the right angle at the bottom right. The angle at the bottom left is marked 30 degrees. The opposite side is marked 6. The hypotenuse is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "sin(angle) = opposite / hypotenuse — rearrange to find the hypotenuse.",
             "hypotenuse = 6 / sin(30°) = 6 / 0.5.",
@@ -108,6 +117,9 @@
         {
           "q": "Find the angle: opposite = 5, hypotenuse = 10.",
           "a": "30",
+          "image": "assets/questions/remove/topic-23-trig-1/q-sohcahtoa-findangle.svg",
+          "imageAlt": "A right-angled triangle with the right angle at the bottom right. The opposite side is marked 5. The hypotenuse is marked 10. The angle at the bottom left is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use sin(angle) = opposite / hypotenuse, then take the inverse sine.",
             "sin(angle) = 5/10 = 0.5.",
@@ -135,6 +147,9 @@
         {
           "q": "A ramp rises 2 m over a horizontal distance of 10 m. Find the angle of the ramp to the nearest degree.",
           "a": "11",
+          "image": "assets/questions/remove/topic-23-trig-1/q-sohcahtoa-ramp.svg",
+          "imageAlt": "A shallow right-angled triangle representing a ramp. The horizontal ground is marked 10 m and the vertical rise is marked 2 m. The angle between the ground and the ramp is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use tan(angle) = opposite / adjacent = rise / horizontal distance.",
             "tan(angle) = 2/10, so angle = tan^-1(0.2).",
@@ -148,6 +163,9 @@
         {
           "q": "A ladder reaches 5 m up a wall and is 12 m from the wall. Find the angle of elevation.",
           "a": "23",
+          "image": "assets/questions/remove/topic-23-trig-1/q-elevation-ladder.svg",
+          "imageAlt": "A ladder leaning against a wall. The wall height reached is marked 5 m and the ladder's base is marked 12 m from the wall. The angle of elevation, between the ground and the ladder, is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use tan(angle) = opposite / adjacent = height / distance.",
             "tan(angle) = 5/12, so angle = tan^-1(5/12).",
@@ -175,6 +193,9 @@
         {
           "q": "A ship is seen at an angle of depression of 30° from a lighthouse 40sqrt(3) m high. Find the horizontal distance.",
           "a": "120",
+          "image": "assets/questions/remove/topic-23-trig-1/q-depression-lighthouse.svg",
+          "imageAlt": "A lighthouse of height 40 root 3 m. From the top, a horizontal dashed line and the line of sight down to a ship form an angle of depression marked 30 degrees. The horizontal distance to the ship is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "The angle of depression equals the angle of elevation from the ship — use tan(angle) = height / distance and rearrange for distance.",
             "distance = height / tan(30°) = 40sqrt(3) / (1/sqrt(3)).",
@@ -215,6 +236,9 @@
         {
           "q": "A ship travels on a bearing of 090°. What direction is this?",
           "a": "East",
+          "image": "assets/questions/remove/topic-23-trig-1/q-bearing-090.svg",
+          "imageAlt": "A dashed north line and a ship's path drawn as a ray, with the angle measured clockwise from north marked 090 degrees.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Bearings are measured clockwise from north (000°).",
             "090° is a quarter turn clockwise from north.",
@@ -269,6 +293,9 @@
         {
           "q": "A is on a bearing of 060° from B. Find the bearing of B from A.",
           "a": "240",
+          "image": "assets/questions/remove/topic-23-trig-1/q-bearing-back.svg",
+          "imageAlt": "Points A and B joined by a line, each with a dashed north line. At B, the bearing of A from B is marked 60 degrees. At A, the bearing of B from A is unknown, marked x, shown as the reflex angle measured clockwise from north.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "A back bearing (the reverse direction) is found by adding or subtracting 180°.",
             "060° + 180° = 240°.",
@@ -282,6 +309,9 @@
         {
           "q": "A cuboid is 3 by 4 by 12. Find the body diagonal.",
           "a": "13",
+          "image": "assets/questions/remove/topic-23-trig-1/q-cuboid-diagonal.svg",
+          "imageAlt": "A cuboid measuring 3 by 4 by 12. The body diagonal, from one bottom corner to the opposite top corner, is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the 3D distance formula: diagonal = sqrt(length^2 + width^2 + height^2).",
             "sqrt(3^2 + 4^2 + 12^2) = sqrt(9 + 16 + 144).",
@@ -300,6 +330,9 @@
         {
           "q": "Find the angle between the base and the diagonal of a cuboid with height 12 and base diagonal 5.",
           "a": "67",
+          "image": "assets/questions/remove/topic-23-trig-1/q-cuboid-angle.svg",
+          "imageAlt": "A cuboid with a vertical edge of height 12 and a base diagonal of length 5 meeting at a right angle. The body diagonal joins the top of the vertical edge to the far end of the base diagonal. The angle between the base diagonal and the body diagonal is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use tan(angle) = height / base diagonal, then take the inverse tangent.",
             "tan(angle) = 12/5, so angle = tan^-1(12/5).",
