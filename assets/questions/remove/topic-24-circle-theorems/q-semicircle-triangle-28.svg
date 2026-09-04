@@ -1,40 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
   <title id="title">Triangle in a semicircle with a 28 degree angle</title>
-  <desc id="desc">A circle with diameter AB through centre O. Point C is on the circumference above the diameter. Chords AC and BC are drawn, forming a triangle. The angle at C is marked as a right angle since it is the angle in a semicircle. The angle at A is marked 28 degrees. The angle at B is unknown.</desc>
+  <desc id="desc">A circle with diameter AB through centre O. Point C is on the circumference above the diameter, closer to the A side this time. Chords AC and BC are drawn, forming a triangle. The angle at C is marked as a right angle since it is the angle in a semicircle. The angle at A is marked 28 degrees. The angle at B is unknown.</desc>
   <rect width="340" height="280" fill="#fffdf8"/>
 
   <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
 
   <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
-    <line x1="65" y1="150" x2="230" y2="64"/>
-    <line x1="275" y1="150" x2="230" y2="64"/>
+    <line x1="65" y1="150" x2="109.8" y2="64.0"/>
+    <line x1="275" y1="150" x2="109.8" y2="64.0"/>
   </g>
   <line x1="65" y1="150" x2="275" y2="150" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
 
   <g fill="#3a2f22">
     <circle cx="65" cy="150" r="3.5"/>
     <circle cx="275" cy="150" r="3.5"/>
-    <circle cx="230" cy="64" r="3.5"/>
+    <circle cx="109.8" cy="64.0" r="3.5"/>
     <circle cx="170" cy="150" r="3"/>
   </g>
 
   <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
     <text x="45" y="172">A</text>
     <text x="280" y="172">B</text>
-    <text x="234" y="52">C</text>
+    <text x="88" y="50">C</text>
     <text x="176" y="168" font-size="14" font-weight="400" font-style="italic">O</text>
   </g>
 
-  <!-- right-angle marker at C, drawn along the CA/CB directions -->
-  <path d="M230 64 L218.5 70.0 L224.5 81.5 L236.0 75.5 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
+  <!-- right-angle marker at C -->
+  <path d="M109.8 64.0 L103.8 75.5 L115.3 81.5 L121.3 70.0 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
 
   <!-- angle arc + label at A (28 degrees, given) -->
-  <path d="M85.00,150.00 L84.94,148.40 L84.74,146.81 L84.43,145.24 L83.98,143.70 L83.42,142.20 L82.74,140.76" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
-  <text x="90" y="134" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">28°</text>
+  <path d="M85.00,150.00 L84.67,146.38 L83.69,142.89 L82.10,139.62 L79.94,136.70 L77.29,134.22 L74.23,132.26" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="78" y="140" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">28°</text>
 
   <!-- angle arc + label at B (unknown) -->
-  <path d="M257.00,150.00 L257.30,146.75 L258.17,143.61 L259.60,140.68 L261.54,138.05 L263.91,135.82 L266.65,134.05" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
-  <text x="232" y="130" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
+  <path d="M257.00,150.00 L257.06,148.56 L257.23,147.13 L257.52,145.72 L257.91,144.34 L258.42,142.99 L259.03,141.69" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="243" y="147" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB is a diameter of the circle. Diagram not to scale.</text>
 </svg>
