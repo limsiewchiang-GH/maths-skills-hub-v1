@@ -36,7 +36,7 @@
   <text x="100" y="200" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">35°</text>
 
   <path d="M169.24,59.97 L170.34,62.02 L171.68,63.92 L173.22,65.66 L174.96,67.21 L176.87,68.54 L178.91,69.65" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
-  <text x="178" y="82" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+  <text x="171" y="76" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">O is the centre. Diagram not to scale.</text>
 </svg>
