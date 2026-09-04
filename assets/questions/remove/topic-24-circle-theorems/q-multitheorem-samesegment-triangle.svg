@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Angles in the same segment and triangle angle sum diagram</title>
+  <desc id="desc">A circle with chord BC. Points A and D are both on the same major arc, in the same segment. The angle BAC at A is marked 42 degrees. The angle DBC at B is marked 55 degrees. The angle BCD at C is marked x degrees, the unknown to find.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="100" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <line x1="152.64" y1="248.48" x2="266.13" y2="177.56" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="256.60" y1="100.00" x2="152.64" y2="248.48"/>
+    <line x1="256.60" y1="100.00" x2="266.13" y2="177.56"/>
+    <line x1="163.02" y1="50.24" x2="152.64" y2="248.48"/>
+    <line x1="163.02" y1="50.24" x2="266.13" y2="177.56"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="256.60" cy="100.00" r="3.5"/>
+    <circle cx="152.64" cy="248.48" r="3.5"/>
+    <circle cx="266.13" cy="177.56" r="3.5"/>
+    <circle cx="163.02" cy="50.24" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="262" y="92">A</text>
+    <text x="130" y="256">B</text>
+    <text x="272" y="182">C</text>
+    <text x="140" y="44">D</text>
+  </g>
+
+  <path d="M243.98,118.02 L246.27,119.42 L248.72,120.54 L251.28,121.35 L253.92,121.84 L256.60,122.00 L259.28,121.84" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="228" y="132" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">42°</text>
+
+  <path d="M153.79,226.51 L157.27,226.97 L160.64,227.99 L163.80,229.52 L166.68,231.55 L169.20,234.00 L171.29,236.82" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="150" y="216" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">55°</text>
+
+  <path d="M247.47,189.22 L245.22,184.42 L244.19,179.23 L244.43,173.93 L245.93,168.85 L248.59,164.27 L252.28,160.47" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="216" y="172" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">A and D are in the same segment. Not to scale.</text>
+</svg>
