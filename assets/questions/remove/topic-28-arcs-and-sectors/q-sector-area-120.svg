@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Sector area diagram: radius 6 cm, angle 120 degrees</title>
+  <desc id="desc">A circle, centre O, radius 6 cm. A sector with angle 120 degrees, shaded, is the region whose area is to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="80" fill="none" stroke="#6b6157" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <path d="M170.00,150.00 L183.89,228.78 L176.97,229.70 L170.00,230.00 L163.03,229.70 L156.11,228.78 L149.29,227.27 L142.64,225.18 L136.19,222.50 L130.00,219.28 L124.11,215.53 L118.58,211.28 L113.43,206.57 L108.72,201.42 L104.47,195.89 L100.72,190.00 L97.50,183.81 L94.82,177.36 L92.73,170.71 L91.22,163.89 L90.30,156.97 L90.00,150.00 L90.30,143.03 L91.22,136.11 L92.73,129.29 L94.82,122.64 Z" fill="#d9480f" fill-opacity="0.18" stroke="none"/>
+
+  <line x1="170" y1="150" x2="183.89" y2="228.78" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="150" x2="94.82" y2="122.64" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M183.89,228.78 L176.97,229.70 L170.00,230.00 L163.03,229.70 L156.11,228.78 L149.29,227.27 L142.64,225.18 L136.19,222.50 L130.00,219.28 L124.11,215.53 L118.58,211.28 L113.43,206.57 L108.72,201.42 L104.47,195.89 L100.72,190.00 L97.50,183.81 L94.82,177.36 L92.73,170.71 L91.22,163.89 L90.30,156.97 L90.00,150.00 L90.30,143.03 L91.22,136.11 L92.73,129.29 L94.82,122.64" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
+
+  <path d="M174.51,175.61 L167.73,175.90 L161.11,174.43 L155.09,171.30 L150.08,166.71 L146.44,160.99 L144.39,154.51 L144.10,147.73 L145.57,141.11" fill="none" stroke="#d9480f" stroke-width="2" opacity="0.85"/>
+  <text x="122" y="185" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">120°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3.5"/>
+    <circle cx="183.89" cy="228.78" r="3.5"/>
+    <circle cx="94.82" cy="122.64" r="3.5"/>
+  </g>
+  <text x="140" y="145" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+  <text x="188" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="72" y="118" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+
+  <text x="180" y="192" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">6 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

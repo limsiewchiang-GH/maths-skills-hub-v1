@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Segment area diagram: radius 12 cm, angle 60 degrees</title>
+  <desc id="desc">A circle, centre O, radius 12 cm. A 60 degree sector OAB is shown with the chord AB drawn. The shaded segment, between the chord and the arc, is the region whose area is to be found, once the triangle OAB is removed from the sector.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="90" fill="none" stroke="#6b6157" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <path d="M154.37,61.37 L158.25,60.77 L162.16,60.34 L166.07,60.09 L170.00,60.00 L173.93,60.09 L177.84,60.34 L181.75,60.77 L185.63,61.37 L189.48,62.13 L193.29,63.07 L197.06,64.17 L200.78,65.43 L204.44,66.85 L208.04,68.43 L211.56,70.17 L215.00,72.06 L218.36,74.09 L221.62,76.28 L224.79,78.60 L227.85,81.06 L230.80,83.65 L233.64,86.36 L236.35,89.20 L238.94,92.15 Z" fill="#d9480f" fill-opacity="0.22" stroke="none"/>
+
+  <line x1="170" y1="150" x2="154.37" y2="61.37" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="150" x2="238.94" y2="92.15" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="154.37" y1="61.37" x2="238.94" y2="92.15" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M154.37,61.37 L158.25,60.77 L162.16,60.34 L166.07,60.09 L170.00,60.00 L173.93,60.09 L177.84,60.34 L181.75,60.77 L185.63,61.37 L189.48,62.13 L193.29,63.07 L197.06,64.17 L200.78,65.43 L204.44,66.85 L208.04,68.43 L211.56,70.17 L215.00,72.06 L218.36,74.09 L221.62,76.28 L224.79,78.60 L227.85,81.06 L230.80,83.65 L233.64,86.36 L236.35,89.20 L238.94,92.15" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
+
+  <path d="M165.49,124.39 L168.87,124.02 L172.27,124.10 L175.63,124.62 L178.89,125.57 L182.01,126.94 L184.91,128.70 L187.57,130.83 L189.92,133.29" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="193" y="120" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">60°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3.5"/>
+    <circle cx="154.37" cy="61.37" r="3.5"/>
+    <circle cx="238.94" cy="92.15" r="3.5"/>
+  </g>
+  <text x="145" y="56" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="244" y="90" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="176" y="148" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+
+  <text x="152" y="107" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">12 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Shaded region is the segment.</text>
+</svg>

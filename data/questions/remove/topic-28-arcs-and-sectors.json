@@ -8,6 +8,9 @@
         {
           "q": "Find the arc length of a sector with radius 6 cm and angle 120°.",
           "a": "4pi",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-arc-length-120.svg",
+          "imageAlt": "A circle, centre O, radius 6 cm. Two radii OA and OB meet at a 120 degree angle. The arc AB, highlighted, is the arc whose length is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Arc length = (angle/360) x 2πr.",
             "(120/360) x 2 x pi x 6.",
@@ -35,6 +38,9 @@
         {
           "q": "Find the arc length of a sector with radius 12 cm and angle 150°.",
           "a": "10pi",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-arc-length-150.svg",
+          "imageAlt": "A circle, centre O, radius 12 cm. Two radii OA and OB meet at a 150 degree angle. The arc AB, highlighted, is the arc whose length is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Arc length = (angle/360) x 2πr.",
             "(150/360) x 2 x pi x 12.",
@@ -62,6 +68,9 @@
         {
           "q": "A sector has radius 6 cm and arc length 4pi cm. Find the angle.",
           "a": "120",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-arc-length-find-angle.svg",
+          "imageAlt": "A circle, centre O, radius 6 cm. The highlighted arc AB has length 4 pi cm. The angle at the centre is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Rearrange arc length = (angle/360) x 2πr to solve for the angle.",
             "4pi = (angle/360) x 2 x pi x 6 = (angle/360) x 12pi, so angle/360 = 4/12.",
@@ -75,6 +84,9 @@
         {
           "q": "Find the area of a sector with radius 6 cm and angle 120°.",
           "a": "12pi",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-sector-area-120.svg",
+          "imageAlt": "A circle, centre O, radius 6 cm. A shaded sector with angle 120 degrees is the region whose area is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Sector area = (angle/360) x πr^2.",
             "(120/360) x pi x 6^2.",
@@ -111,6 +123,9 @@
         {
           "q": "Find the area of a semicircle with radius 14 cm.",
           "a": "98pi",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-sector-area-semicircle.svg",
+          "imageAlt": "A semicircle with a straight diameter through the centre O and radius 14 cm, shaded, is the region whose area is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "A semicircle is a 180° sector — use sector area = (angle/360) x πr^2.",
             "(180/360) x pi x 14^2.",
@@ -129,6 +144,9 @@
         {
           "q": "A sector has angle 90° and area 25pi cm^2. Find the radius.",
           "a": "10",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-sector-area-find-radius.svg",
+          "imageAlt": "A circle, centre O. A shaded sector with angle 90 degrees has area 25 pi square cm. The radius is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Rearrange sector area = (angle/360) x πr^2 to solve for r.",
             "25pi = (90/360) x pi x r^2 = (1/4)pi r^2, so r^2 = 100.",
@@ -142,6 +160,9 @@
         {
           "q": "A 90° sector of radius 6 cm has the triangle removed. Find the area of the segment.",
           "a": "9pi - 18",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-segment-area-90.svg",
+          "imageAlt": "A circle, centre O, radius 6 cm. A 90 degree sector OAB is shown with the chord AB drawn. The shaded segment, between the chord and the arc, is the region whose area is to be found.",
+          "imageCaption": "Shaded region is the segment.",
           "hints": [
             "Segment area = sector area - triangle area.",
             "Sector area = (90/360) x pi x 6^2 = 9pi; triangle area = (1/2)(6)(6)sin(90°) = 18.",
@@ -151,6 +172,9 @@
         {
           "q": "A 60° sector of radius 12 cm has the triangle removed. Find the area of the segment.",
           "a": "24pi - 36sqrt(3)",
+          "image": "assets/questions/remove/topic-28-arcs-and-sectors/q-segment-area-60.svg",
+          "imageAlt": "A circle, centre O, radius 12 cm. A 60 degree sector OAB is shown with the chord AB drawn. The shaded segment, between the chord and the arc, is the region whose area is to be found.",
+          "imageCaption": "Shaded region is the segment.",
           "hints": [
             "Segment area = sector area - triangle area.",
             "Sector area = (60/360) x pi x 12^2 = 24pi; triangle area = (1/2)(12)(12)sin(60°) = 36sqrt(3).",
