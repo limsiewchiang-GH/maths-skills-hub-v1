@@ -30,11 +30,11 @@
 
   <!-- angle arc + label at A (unknown) -->
   <path d="M85.00,150.00 L84.94,148.40 L84.74,146.81 L84.43,145.25 L83.98,143.71 L83.42,142.21 L82.74,140.77" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
-  <text x="90" y="134" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
+  <text x="92" y="146" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
 
   <!-- angle arc + label at B (35 degrees, given) -->
   <path d="M257.00,150.00 L257.30,146.75 L258.18,143.60 L259.61,140.66 L261.55,138.03 L263.94,135.80 L266.69,134.03" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
-  <text x="226" y="130" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">35°</text>
+  <text x="235" y="138" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">35°</text>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB is a diameter of the circle. Diagram not to scale.</text>
 </svg>
