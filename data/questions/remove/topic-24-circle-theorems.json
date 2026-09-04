@@ -8,6 +8,9 @@
         {
           "q": "An angle subtended by a diameter at the circumference is x. Find x.",
           "a": "90",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-semicircle-angle-x.svg",
+          "imageAlt": "A circle with diameter AB. A point C on the circumference is joined to A and B, and the angle at C is marked x degrees.",
+          "imageCaption": "AB is a diameter of the circle.",
           "hints": [
             "Recall the circle theorem for an angle subtended by a diameter.",
             "The angle in a semicircle is always a right angle.",
@@ -17,6 +20,9 @@
         {
           "q": "A triangle in a semicircle has one angle 35° and the angle in the semicircle. Find the third angle.",
           "a": "55",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-semicircle-triangle-35.svg",
+          "imageAlt": "A circle with diameter AB and a point C on the circumference. The angle at C is marked as a right angle, the angle at A is marked 35 degrees, and the angle at B is unknown.",
+          "imageCaption": "AB is a diameter of the circle.",
           "hints": [
             "The angle in the semicircle is 90°; angles in a triangle sum to 180°.",
             "180 - 90 - 35.",

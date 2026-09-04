@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Angle in a semicircle diagram</title>
+  <desc id="desc">A circle with diameter AB through centre O. Point C is on the circumference above the diameter. Chords AC and BC are drawn, forming a triangle. The angle at C, marked x degrees, is the angle subtended by the diameter.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="65" y1="150" x2="230" y2="64"/>
+    <line x1="275" y1="150" x2="230" y2="64"/>
+  </g>
+  <line x1="65" y1="150" x2="275" y2="150" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g fill="#3a2f22">
+    <circle cx="65" cy="150" r="3.5"/>
+    <circle cx="275" cy="150" r="3.5"/>
+    <circle cx="230" cy="64" r="3.5"/>
+    <circle cx="170" cy="150" r="3"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="45" y="172">A</text>
+    <text x="280" y="172">B</text>
+    <text x="234" y="52">C</text>
+    <text x="176" y="168" font-size="14" font-weight="400" font-style="italic">O</text>
+  </g>
+
+  <path d="M206.9 76.0 A26 26 0 0 1 242.1 87.0" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="212" y="102" fill="#d9480f" font-family="Arial, sans-serif" font-size="17" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB is a diameter of the circle. Diagram not to scale.</text>
+</svg>
