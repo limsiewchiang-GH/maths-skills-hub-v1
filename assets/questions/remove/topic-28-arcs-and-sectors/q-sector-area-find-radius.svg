@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Sector area diagram: angle 90 degrees, area 25 pi, radius unknown</title>
+  <desc id="desc">A circle, centre O. A shaded sector with angle 90 degrees has area 25 pi square cm. The radius is unknown, marked x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="80" fill="none" stroke="#6b6157" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <path d="M170.00,150.00 L94.82,177.36 L93.20,172.39 L91.90,167.32 L90.93,162.17 L90.30,156.97 L90.02,151.75 L90.08,146.51 L90.48,141.29 L91.22,136.11 L92.29,130.99 L93.70,125.94 L95.44,121.00 L97.50,116.19 L99.86,111.52 L102.53,107.02 L105.48,102.70 L108.72,98.58 L112.21,94.68 L115.95,91.02 L119.93,87.61 L124.11,84.47 L128.50,81.61 L133.06,79.04 L137.78,76.78 L142.64,74.82 Z" fill="#d9480f" fill-opacity="0.18" stroke="none"/>
+
+  <line x1="170" y1="150" x2="94.82" y2="177.36" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="150" x2="142.64" y2="74.82" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M94.82,177.36 L93.20,172.39 L91.90,167.32 L90.93,162.17 L90.30,156.97 L90.02,151.75 L90.08,146.51 L90.48,141.29 L91.22,136.11 L92.29,130.99 L93.70,125.94 L95.44,121.00 L97.50,116.19 L99.86,111.52 L102.53,107.02 L105.48,102.70 L108.72,98.58 L112.21,94.68 L115.95,91.02 L119.93,87.61 L124.11,84.47 L128.50,81.61 L133.06,79.04 L137.78,76.78 L142.64,74.82" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
+
+  <path d="M145.57,158.89 L144.30,153.96 L144.02,148.87 L144.75,143.82 L146.44,139.01 L149.03,134.63 L152.43,130.83 L156.51,127.77 L161.11,125.57" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="131" y="137" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">90°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3.5"/>
+    <circle cx="94.82" cy="177.36" r="3.5"/>
+    <circle cx="142.64" cy="74.82" r="3.5"/>
+  </g>
+  <text x="178" y="146" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+  <text x="72" y="188" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="146" y="68" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+
+  <text x="134" y="185" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x cm</text>
+  <text x="30" y="240" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">area = 25π cm²</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

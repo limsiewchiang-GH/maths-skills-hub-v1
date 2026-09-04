@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Sector diagram: radius 12 cm, angle 150 degrees</title>
+  <desc id="desc">A circle, centre O, radius 12 cm. Two radii OA and OB meet at a 150 degree angle at the centre. The arc AB, highlighted, is the arc whose length is to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="90" fill="none" stroke="#6b6157" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <line x1="170" y1="150" x2="85.43" y2="180.78" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="150" x2="227.85" y2="81.06" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M85.43,180.78 L82.58,171.39 L80.77,161.75 L80.02,151.96 L80.34,142.16 L81.73,132.44 L84.17,122.94 L87.62,113.75 L92.06,105.00 L97.42,96.78 L103.65,89.20 L110.66,82.33 L118.38,76.28 L126.71,71.09 L135.56,66.85 L144.82,63.60 L154.37,61.37 L164.11,60.19 L173.93,60.09 L183.69,61.05 L193.29,63.07 L202.62,66.12 L211.56,70.17 L220.00,75.17 L227.85,81.06" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
+
+  <path d="M145.57,158.89 L144.01,150.57 L145.20,142.18 L149.03,134.63 L155.09,128.70 L162.72,125.04 L171.13,124.02 L179.42,125.77 L186.71,130.08" fill="none" stroke="#d9480f" stroke-width="2" opacity="0.85"/>
+  <text x="145" y="120" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">150°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3.5"/>
+    <circle cx="85.43" cy="180.78" r="3.5"/>
+    <circle cx="227.85" cy="81.06" r="3.5"/>
+  </g>
+  <text x="60" y="192" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="232" y="76" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="178" y="168" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+
+  <text x="129" y="187" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">12 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

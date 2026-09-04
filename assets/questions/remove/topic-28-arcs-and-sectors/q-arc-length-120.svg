@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Sector diagram: radius 6 cm, angle 120 degrees</title>
+  <desc id="desc">A circle, centre O, radius 6 cm. Two radii OA and OB meet at a 120 degree angle at the centre. The arc AB, highlighted, is the arc whose length is to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="80" fill="none" stroke="#6b6157" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <line x1="170" y1="150" x2="100.72" y2="110.00" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="150" x2="239.28" y2="110.00" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M100.72,110.00 L104.47,104.11 L108.72,98.58 L113.43,93.43 L118.58,88.72 L124.11,84.47 L130.00,80.72 L136.19,77.50 L142.64,74.82 L149.29,72.73 L156.11,71.22 L163.03,70.30 L170.00,70.00 L176.97,70.30 L183.89,71.22 L190.71,72.73 L197.36,74.82 L203.81,77.50 L210.00,80.72 L215.89,84.47 L221.42,88.72 L226.57,93.43 L231.28,98.58 L235.53,104.11 L239.28,110.00" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
+
+  <path d="M147.48,137.00 L151.62,131.62 L157.00,127.48 L163.27,124.89 L170.00,124.00 L176.73,124.89 L183.00,127.48 L188.38,131.62 L192.52,137.00" fill="none" stroke="#d9480f" stroke-width="2" opacity="0.85"/>
+  <text x="170" y="112" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">120°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3.5"/>
+    <circle cx="100.72" cy="110.00" r="3.5"/>
+    <circle cx="239.28" cy="110.00" r="3.5"/>
+  </g>
+  <text x="176" y="146" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+  <text x="82" y="104" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="244" y="104" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+
+  <text x="216" y="147" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">6 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

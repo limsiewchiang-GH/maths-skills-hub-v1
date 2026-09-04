@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Semicircle area diagram: radius 14 cm</title>
+  <desc id="desc">A semicircle, with a straight diameter through the centre O and radius 14 cm, shaded, is the region whose area is to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="155" r="75" fill="none" stroke="#6b6157" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <path d="M95,155 A75 75 0 0 1 245,155 Z" fill="#d9480f" fill-opacity="0.18" stroke="none"/>
+  <path d="M95,155 A75 75 0 0 1 245,155" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
+
+  <line x1="95" y1="155" x2="245" y2="155" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="155" r="3.5"/>
+    <circle cx="95" cy="155" r="3.5"/>
+    <circle cx="245" cy="155" r="3.5"/>
+  </g>
+  <text x="164" y="173" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+
+  <text x="116" y="149" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">14 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>
