@@ -14,7 +14,7 @@
   </g>
 
   <path d="M100 220 A40 40 0 0 0 91.55 197.9" fill="none" stroke="#d9480f" stroke-width="2.2"/>
-  <text x="86" y="200" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">30°</text>
+  <text x="98" y="206" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">30°</text>
 
   <text x="270" y="148" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">5</text>
   <text x="140" y="127" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">10</text>
