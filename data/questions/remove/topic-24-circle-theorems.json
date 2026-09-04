@@ -32,6 +32,9 @@
         {
           "q": "If one non-right angle in a semicircle triangle is 28°, find the other.",
           "a": "62",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-semicircle-triangle-28.svg",
+          "imageAlt": "A circle with diameter AB and a point C on the circumference. The angle at C is marked as a right angle, the angle at A is marked 28 degrees, and the angle at B is unknown.",
+          "imageCaption": "AB is a diameter of the circle.",
           "hints": [
             "The angle in the semicircle is 90°; angles in a triangle sum to 180°.",
             "180 - 90 - 28.",
@@ -50,6 +53,9 @@
         {
           "q": "A semicircle triangle has angles 90°, 41°, and x. Find x.",
           "a": "49",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-semicircle-triangle-41.svg",
+          "imageAlt": "A circle with diameter AB and a point C on the circumference. The angle at C is marked as a right angle, the angle at A is marked 41 degrees, and the angle at B is marked x degrees.",
+          "imageCaption": "AB is a diameter of the circle.",
           "hints": [
             "Angles in a triangle sum to 180°.",
             "180 - 90 - 41.",
