@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Alternate segment theorem and triangle angle sum diagram</title>
+  <desc id="desc">A circle with a tangent line touching at point T. Chord TQ is drawn from T, with the tangent-chord angle marked 65 degrees. R is a point on the far arc, with lines TR and QR drawn. The angle at Q inside triangle TQR is marked 45 degrees. The angle at T inside triangle TQR is marked x degrees, the unknown to find.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="100" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <line x1="51.61" y1="164.49" x2="135.18" y2="264.07" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="93.40" y1="214.28" x2="263.97" y2="184.20"/>
+    <line x1="93.40" y1="214.28" x2="204.20" y2="56.03"/>
+    <line x1="263.97" y1="184.20" x2="204.20" y2="56.03"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="93.40" cy="214.28" r="3.5"/>
+    <circle cx="263.97" cy="184.20" r="3.5"/>
+    <circle cx="204.20" cy="56.03" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="68" y="228">T</text>
+    <text x="270" y="192">Q</text>
+    <text x="210" y="50">R</text>
+  </g>
+
+  <path d="M110.11,234.20 L113.31,230.99 L115.91,227.28 L117.83,223.17 L119.00,218.79 L119.40,214.28 L119.00,209.76" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="122" y="250" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">65°</text>
+
+  <path d="M242.30,188.02 L241.99,183.24 L242.72,178.51 L244.46,174.04 L247.12,170.06 L250.58,166.75 L254.67,164.26" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="228" y="163" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">45°</text>
+
+  <path d="M115.06,210.46 L114.38,207.66 L113.33,204.98 L111.95,202.46 L110.25,200.14 L108.26,198.06 L106.01,196.26" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="118" y="196" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">The line at T is a tangent. Not to scale.</text>
+</svg>

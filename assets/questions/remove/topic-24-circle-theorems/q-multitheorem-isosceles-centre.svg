@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Isosceles radii triangle and angle at centre diagram</title>
+  <desc id="desc">A circle with centre O. Points A and B are on the circumference, joined to O by radii OA and OB. The angle at A between OA and AB is marked 35 degrees. Point C is on the major arc AB, and the angle ACB is marked x degrees, the unknown to find.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="100" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#3a2f22" stroke-width="2" stroke-linecap="round">
+    <line x1="170" y1="150" x2="88.08" y2="92.64"/>
+    <line x1="170" y1="150" x2="251.92" y2="92.64"/>
+  </g>
+  <line x1="88.08" y1="92.64" x2="251.92" y2="92.64" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="135.80" y1="243.97" x2="88.08" y2="92.64"/>
+    <line x1="135.80" y1="243.97" x2="251.92" y2="92.64"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3"/>
+    <circle cx="88.08" cy="92.64" r="3.5"/>
+    <circle cx="251.92" cy="92.64" r="3.5"/>
+    <circle cx="135.80" cy="243.97" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="176" y="146" font-size="14" font-weight="400" font-style="italic">O</text>
+    <text x="60" y="90">A</text>
+    <text x="258" y="90">B</text>
+    <text x="112" y="256">C</text>
+  </g>
+
+  <path d="M106.11,105.26 L107.30,103.36 L108.29,101.36 L109.07,99.26 L109.63,97.09 L109.97,94.88 L110.08,92.64" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="106" y="118" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">35°</text>
+
+  <path d="M129.18,222.99 L132.61,222.20 L136.12,221.97 L139.62,222.30 L143.02,223.19 L146.24,224.60 L149.19,226.52" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="132" y="215" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">OA and OB are radii. Not to scale.</text>
+</svg>
