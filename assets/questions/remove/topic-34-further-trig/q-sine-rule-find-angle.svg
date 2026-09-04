@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle ABC: sine rule, a = 10, b = 14, angle A = 35 degrees</title>
+  <desc id="desc">Triangle ABC. Side a (opposite A) is 10, side b (opposite B) is 14, and angle A is 35 degrees. Angle B is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="80,220 260,190 190,80" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M107.62,215.40 L107.08,212.87 L106.30,210.40 L105.30,208.01 L104.09,205.72 L102.67,203.56 L101.05,201.54 L99.26,199.67 L97.30,197.98" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="118" y="198" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">35°</text>
+
+  <path d="M232.38,194.60 L232.01,190.53 L232.23,186.45 L233.04,182.44 L234.43,178.60 L236.36,174.99 L238.80,171.71 L241.69,168.82 L244.97,166.38" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="222" y="176" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">B°</text>
+
+  <text x="238" y="130" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">a = 10</text>
+  <text x="122" y="144" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">b = 14</text>
+
+  <g fill="#3a2f22">
+    <circle cx="80" cy="220" r="3.5"/>
+    <circle cx="260" cy="190" r="3.5"/>
+    <circle cx="190" cy="80" r="3.5"/>
+  </g>
+  <text x="62" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="268" y="200" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="184" y="68" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">C</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

@@ -8,6 +8,9 @@
         {
           "q": "In triangle ABC, a = 8, A = 30°, B = 45°. Find b.",
           "a": "8sqrt(2)",
+          "image": "assets/questions/remove/topic-34-further-trig/q-sine-rule-find-side.svg",
+          "imageAlt": "Triangle ABC. Angle A is 30 degrees, angle B is 45 degrees, and side a (opposite A) is 8. Side b (opposite B) is unknown, marked b.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the sine rule: a/sin A = b/sin B.",
             "b = 8 x sin(45°) / sin(30°).",
@@ -62,6 +65,9 @@
         {
           "q": "In triangle ABC, a = 10, b = 14, A = 35°. Find angle B (to the nearest degree).",
           "a": "53",
+          "image": "assets/questions/remove/topic-34-further-trig/q-sine-rule-find-angle.svg",
+          "imageAlt": "Triangle ABC. Side a (opposite A) is 10, side b (opposite B) is 14, and angle A is 35 degrees. Angle B is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the sine rule sin(A)/a = sin(B)/b, rearranged to find sin(B).",
             "sin(B) = b x sin(A) / a = 14 x sin(35°) / 10.",
@@ -75,6 +81,9 @@
         {
           "q": "Two sides of a triangle are 5 cm and 7 cm with included angle 60°. Find the third side.",
           "a": "sqrt(39)",
+          "image": "assets/questions/remove/topic-34-further-trig/q-cosine-rule-find-side-60.svg",
+          "imageAlt": "Triangle ABC. Side AC is 5 cm, side AB is 7 cm, and the included angle A between them is 60 degrees. The third side, BC, is unknown, marked a.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the cosine rule: c² = a² + b² - 2ab cos C.",
             "c² = 5² + 7² - 2(5)(7)cos(60°) = 25 + 49 - 70(0.5).",
@@ -93,6 +102,9 @@
         {
           "q": "Two sides are 6 cm and 9 cm with included angle 120°. Find the third side.",
           "a": "3sqrt(19)",
+          "image": "assets/questions/remove/topic-34-further-trig/q-cosine-rule-find-side-120.svg",
+          "imageAlt": "Triangle ABC. Side AB is 6 cm, side AC is 9 cm, and the included obtuse angle A between them is 120 degrees. The third side, BC, is unknown, marked a.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the cosine rule: c² = a² + b² - 2ab cos C.",
             "c² = 6² + 9² - 2(6)(9)cos(120°) = 36 + 81 - 108(-0.5).",
@@ -133,6 +145,9 @@
         {
           "q": "Find the area of a triangle with sides 8 cm and 10 cm including angle 30°.",
           "a": "20",
+          "image": "assets/questions/remove/topic-34-further-trig/q-area-triangle-30.svg",
+          "imageAlt": "Triangle ABC. Side AB is 8 cm, side AC is 10 cm, and the included angle A between them is 30 degrees. The area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use Area = (1/2)ab sin C.",
             "Area = (1/2)(8)(10) sin(30°) = 40 x 0.5.",
@@ -151,6 +166,9 @@
         {
           "q": "Find the area of a triangle with sides 12 cm and 5 cm including angle 60°.",
           "a": "15sqrt(3)",
+          "image": "assets/questions/remove/topic-34-further-trig/q-area-triangle-60.svg",
+          "imageAlt": "Triangle ABC. Side AB is 12 cm, side AC is 5 cm, and the included angle A between them is 60 degrees. The area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use Area = (1/2)ab sin C.",
             "Area = (1/2)(12)(5) sin(60°) = 30 x (sqrt(3)/2).",
@@ -258,6 +276,9 @@
         {
           "q": "A triangle has side a = 10, angle A = 30°, and side b = 12. How many possible triangles are there?",
           "a": "2",
+          "image": "assets/questions/remove/topic-34-further-trig/q-ambiguous-two-triangles.svg",
+          "imageAlt": "From vertex A, angle A is 30 degrees and side b is 12. A circle of radius a (10) centred at the far end of b crosses the base ray from A at two points, giving two possible triangles.",
+          "imageCaption": "Two triangles fit: AB₁C and AB₂C.",
           "hints": [
             "Find h = b sin A, then compare it with a.",
             "h = 12 x sin(30°) = 6; since h < a (6 < 10) and a < b (10 < 12), there are two possible triangles.",
@@ -276,6 +297,9 @@
         {
           "q": "A triangle has side a = 6, angle A = 30°, and side b = 14. How many possible triangles are there?",
           "a": "0",
+          "image": "assets/questions/remove/topic-34-further-trig/q-ambiguous-zero-triangles.svg",
+          "imageAlt": "From vertex A, angle A is 30 degrees and side b is 14. Side a is 6, too short for the swing to reach the base ray, so no triangle is possible.",
+          "imageCaption": "No triangle: the swing never reaches the base.",
           "hints": [
             "Find h = b sin A, then compare it with a.",
             "h = 14 x sin(30°) = 7; since a < h (6 < 7), no triangle is possible.",
@@ -294,6 +318,9 @@
         {
           "q": "A triangle has side a = 7, angle A = 60°, and side b = 6. How many possible triangles are there?",
           "a": "1",
+          "image": "assets/questions/remove/topic-34-further-trig/q-ambiguous-one-triangle.svg",
+          "imageAlt": "From vertex A, angle A is 60 degrees and side b is 6. Side a is 7. Since a is at least as long as b, only one usable triangle results.",
+          "imageCaption": "Only one triangle fits: a ≥ b.",
           "hints": [
             "Compare side a with side b first.",
             "Since a ≥ b (7 ≥ 6), there can only be one possible triangle.",
@@ -316,6 +343,9 @@
         {
           "q": "For y = sin x, find the value at x = 90°.",
           "a": "1",
+          "image": "assets/questions/remove/topic-34-further-trig/q-graph-sine-90.svg",
+          "imageAlt": "The graph of y = sin x from 0 to 360 degrees, with a dashed line marking x = 90 degrees where the value of y is unknown.",
+          "imageCaption": "y = sin x, for 0° ≤ x ≤ 360°.",
           "hints": [
             "Picture the sine graph, or recall the value at this key angle.",
             "sin(90°) is the maximum value of the sine graph.",
@@ -325,6 +355,9 @@
         {
           "q": "For y = cos x, find the value at x = 180°.",
           "a": "-1",
+          "image": "assets/questions/remove/topic-34-further-trig/q-graph-cosine-180.svg",
+          "imageAlt": "The graph of y = cos x from 0 to 360 degrees, with a dashed line marking x = 180 degrees where the value of y is unknown.",
+          "imageCaption": "y = cos x, for 0° ≤ x ≤ 360°.",
           "hints": [
             "Picture the cosine graph, or recall the value at this key angle.",
             "cos(180°) is the minimum value of the cosine graph.",
