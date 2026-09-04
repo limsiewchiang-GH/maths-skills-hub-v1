@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Compound solid: cuboid with cylindrical hole removed</title>
+  <desc id="desc">A cuboid of volume 120 cubic cm with a cylindrical hole of volume 15 pi cubic cm bored through it, shown entering the front face and receding into the solid. The remaining volume is to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="60,220 170,220 170,90 60,90" fill="#2a5db0" fill-opacity="0.14" stroke="none"/>
+  <polygon points="60,90 110,60 220,60 170,90" fill="#2a5db0" fill-opacity="0.28" stroke="none"/>
+  <polygon points="170,220 220,190 220,60 170,90" fill="#2a5db0" fill-opacity="0.36" stroke="none"/>
+
+  <polygon points="102.14,133.56 127.86,176.44 177.86,146.44 152.14,103.56" fill="#fffdf8" stroke="none"/>
+  <circle cx="115" cy="155" r="25" fill="#fffdf8" stroke="none"/>
+  <circle cx="165" cy="125" r="25" fill="#fffdf8" stroke="none"/>
+
+  <line x1="110" y1="190" x2="220" y2="190" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="110" y1="190" x2="60" y2="220" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="110" y1="190" x2="110" y2="60" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <polygon points="60,220 170,220 170,90 60,90" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="60" y1="90" x2="110" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="90" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="110" y1="60" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="220" x2="220" y2="190" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="220" y1="190" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="102.14" y1="133.56" x2="152.14" y2="103.56" stroke="#d9480f" stroke-width="2"/>
+  <line x1="127.86" y1="176.44" x2="177.86" y2="146.44" stroke="#d9480f" stroke-width="2"/>
+  <circle cx="165" cy="125" r="25" fill="none" stroke="#d9480f" stroke-width="2"/>
+  <circle cx="115" cy="155" r="25" fill="none" stroke="#d9480f" stroke-width="2.4"/>
+
+  <text x="255" y="150" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">hole removed</text>
+  <text x="255" y="168" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">V = 15π cm³</text>
+  <text x="255" y="204" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">cuboid</text>
+  <text x="255" y="222" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">V = 120 cm³</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

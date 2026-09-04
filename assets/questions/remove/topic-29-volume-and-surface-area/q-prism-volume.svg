@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Prism diagram: cross-sectional area 12 cm squared, length 8 cm</title>
+  <desc id="desc">A triangular prism. The triangular cross-section has area 12 square cm, and the prism has length 8 cm. Its volume is to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="70" y1="220" x2="125" y2="185" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="125" y1="75" x2="125" y2="185" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="125" y1="185" x2="215" y2="185" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <polygon points="70,220 70,110 160,220" fill="#d9480f" fill-opacity="0.12" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="70" y1="110" x2="125" y2="75" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="160" y1="220" x2="215" y2="185" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="125" y1="75" x2="215" y2="185" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="85" y="150" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">Area</text>
+  <text x="85" y="167" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">= 12 cm²</text>
+
+  <text x="196" y="219" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">8 cm</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

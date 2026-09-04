@@ -8,6 +8,9 @@
         {
           "q": "Find the volume of a cylinder of radius 3 cm and height 10 cm.",
           "a": "90pi",
+          "image": "assets/questions/remove/topic-29-volume-and-surface-area/q-cylinder-volume.svg",
+          "imageAlt": "A cylinder with radius 3 cm and height 10 cm. Its volume is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use V = πr^2h.",
             "V = π(3)^2(10).",
@@ -26,6 +29,9 @@
         {
           "q": "Find the volume of a sphere of radius 6 cm.",
           "a": "288pi",
+          "image": "assets/questions/remove/topic-29-volume-and-surface-area/q-sphere-volume.svg",
+          "imageAlt": "A sphere with radius 6 cm. Its volume is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use V = (4/3)πr^3.",
             "V = (4/3)π(6)^3 = (4/3)π(216).",
@@ -35,6 +41,9 @@
         {
           "q": "Find the volume of a prism with cross-sectional area 12 cm^2 and length 8 cm.",
           "a": "96",
+          "image": "assets/questions/remove/topic-29-volume-and-surface-area/q-prism-volume.svg",
+          "imageAlt": "A triangular prism. The triangular cross-section has area 12 square cm, and the prism has length 8 cm. Its volume is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use V = cross-sectional area x length.",
             "V = 12 x 8.",
@@ -66,6 +75,9 @@
         {
           "q": "A solid is made from a cylinder of volume 50pi and a hemisphere of volume 18pi. Find the total volume.",
           "a": "68pi",
+          "image": "assets/questions/remove/topic-29-volume-and-surface-area/q-compound-cylinder-hemisphere.svg",
+          "imageAlt": "A solid made from a cylinder of volume 50 pi and a hemisphere of volume 18 pi joined on top, both shaded. The total volume is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Add the two volumes together.",
             "50pi + 18pi.",
@@ -75,6 +87,9 @@
         {
           "q": "A cuboid has volume 120 cm^3 and a cylinder hole of volume 15pi cm^3 is removed. Find the remaining volume.",
           "a": "120 - 15pi",
+          "image": "assets/questions/remove/topic-29-volume-and-surface-area/q-compound-cuboid-hole.svg",
+          "imageAlt": "A shaded cuboid of volume 120 cubic cm with a cylindrical hole of volume 15 pi cubic cm bored through it, shown unshaded entering the front face and receding into the solid. The remaining volume is to be found.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Subtract the removed volume from the total.",
             "120 - 15pi.",
@@ -120,6 +135,9 @@
         {
           "q": "A cylinder of radius 4 cm and height 9 cm has a cone of the same radius and height removed from one end. Find the remaining volume.",
           "a": "96pi",
+          "image": "assets/questions/remove/topic-29-volume-and-surface-area/q-compound-cylinder-cone-removed.svg",
+          "imageAlt": "A shaded cylinder of radius 4 cm and height 9 cm, with an unshaded cone-shaped hollow of the same radius and height removed from the top end. The remaining volume is to be found.",
+          "imageCaption": "Cone-shaped hollow removed from the top.",
           "hints": [
             "Find the cylinder's volume and the cone's volume separately, then subtract.",
             "Cylinder = pi(4)^2(9) = 144pi; cone = (1/3)pi(4)^2(9) = 48pi.",
