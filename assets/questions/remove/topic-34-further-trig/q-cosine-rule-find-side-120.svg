@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle: two sides 6 cm and 9 cm, included angle 120 degrees</title>
+  <desc id="desc">Triangle ABC. Side AB is 6 cm, side AC is 9 cm, and the included obtuse angle A between them is 120 degrees. The third side, BC, is unknown, marked a, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="150,190 60,90 270,110" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M128.59,166.21 L134.15,162.20 L140.42,159.47 L147.14,158.13 L153.99,158.25 L160.65,159.83 L166.83,162.78 L172.24,166.99 L176.63,172.25" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="156" y="150" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">120°</text>
+
+  <text x="93" y="158" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">6 cm</text>
+  <text x="219" y="171" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">9 cm</text>
+  <text x="167" y="80" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">a</text>
+
+  <g fill="#3a2f22">
+    <circle cx="150" cy="190" r="3.5"/>
+    <circle cx="60" cy="90" r="3.5"/>
+    <circle cx="270" cy="110" r="3.5"/>
+  </g>
+  <text x="152" y="208" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="42" y="82" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="278" y="102" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">C</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

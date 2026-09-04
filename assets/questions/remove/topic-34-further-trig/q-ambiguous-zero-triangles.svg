@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Ambiguous case: no triangle is possible</title>
+  <desc id="desc">From vertex A, angle A is 30 degrees and side b (to point C) is 14. Side a is 6. The circle of radius a centred at C is too short to reach the ray from A, so no triangle satisfies the given information.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="60" y1="220" x2="300" y2="220" stroke="#3a2f22" stroke-width="2"/>
+
+  <circle cx="207.2" cy="135" r="72.86" fill="none" stroke="#6b6157" stroke-width="1.3" stroke-dasharray="4 3"/>
+
+  <line x1="60" y1="220" x2="207.2" y2="135" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="207.2" y1="135" x2="207.2" y2="207.86" stroke="#d9480f" stroke-width="2.2" stroke-dasharray="6 3"/>
+
+  <path d="M100,220 A40 40 0 0 0 94.64,197.32" fill="none" stroke="#3a2f22" stroke-width="2"/>
+  <text x="102" y="203" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">30°</text>
+
+  <text x="120" y="163" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">b = 14</text>
+  <text x="238" y="172" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">a = 6</text>
+
+  <g fill="#3a2f22">
+    <circle cx="60" cy="220" r="3.5"/>
+    <circle cx="207.2" cy="135" r="3.5"/>
+  </g>
+  <text x="42" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="212" y="127" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">C</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">No triangle: the swing never reaches the base.</text>
+</svg>

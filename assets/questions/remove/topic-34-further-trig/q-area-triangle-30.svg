@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle: two sides 8 cm and 10 cm, included angle 30 degrees</title>
+  <desc id="desc">Triangle ABC. Side AB is 8 cm, side AC is 10 cm, and the included angle A between them is 30 degrees. The area is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="90,150 280,200 180,60" fill="#d9480f" fill-opacity="0.08" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M119.01,157.63 L119.76,153.80 L120.00,149.90 L119.73,146.00 L118.96,142.17 L117.70,138.47 L115.96,134.97 L113.79,131.72 L111.21,128.79" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="140" y="140" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">30°</text>
+
+  <text x="181" y="195" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">8 cm</text>
+  <text x="124" y="98" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">10 cm</text>
+  <text x="200" y="150" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">Area = ?</text>
+
+  <g fill="#3a2f22">
+    <circle cx="90" cy="150" r="3.5"/>
+    <circle cx="280" cy="200" r="3.5"/>
+    <circle cx="180" cy="60" r="3.5"/>
+  </g>
+  <text x="72" y="165" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="288" y="216" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="174" y="48" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">C</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

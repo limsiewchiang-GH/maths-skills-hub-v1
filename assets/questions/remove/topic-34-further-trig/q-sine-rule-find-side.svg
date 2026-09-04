@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle ABC: sine rule, angles 30 and 45 degrees, side a = 8</title>
+  <desc id="desc">Triangle ABC. Angle A is 30 degrees, angle B is 45 degrees, and side a (opposite A) is 8. Side b (opposite B) is unknown, marked b, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="70,220 270,220 170,90" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M98.00,220.00 L97.82,216.80 L97.27,213.65 L96.37,210.58 L95.12,207.63 L93.54,204.84 L91.66,202.26 L89.49,199.90 L87.07,197.81" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="109" y="205" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">30°</text>
+
+  <path d="M242.00,220.00 L242.18,216.80 L242.73,213.65 L243.63,210.58 L244.88,207.63 L246.46,204.84 L248.34,202.26 L250.51,199.90 L252.93,197.81" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
+  <text x="231" y="205" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">45°</text>
+
+  <text x="233" y="150" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">a = 8</text>
+  <text x="107" y="150" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">b</text>
+
+  <g fill="#3a2f22">
+    <circle cx="70" cy="220" r="3.5"/>
+    <circle cx="270" cy="220" r="3.5"/>
+    <circle cx="170" cy="90" r="3.5"/>
+  </g>
+  <text x="52" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="278" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="164" y="78" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">C</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>
