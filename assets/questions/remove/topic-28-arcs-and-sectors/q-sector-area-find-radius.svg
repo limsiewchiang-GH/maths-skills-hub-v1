@@ -13,7 +13,7 @@
   <path d="M94.82,177.36 L93.20,172.39 L91.90,167.32 L90.93,162.17 L90.30,156.97 L90.02,151.75 L90.08,146.51 L90.48,141.29 L91.22,136.11 L92.29,130.99 L93.70,125.94 L95.44,121.00 L97.50,116.19 L99.86,111.52 L102.53,107.02 L105.48,102.70 L108.72,98.58 L112.21,94.68 L115.95,91.02 L119.93,87.61 L124.11,84.47 L128.50,81.61 L133.06,79.04 L137.78,76.78 L142.64,74.82" fill="none" stroke="#d9480f" stroke-width="3.2" stroke-linecap="round"/>
 
   <path d="M145.57,158.89 L144.30,153.96 L144.02,148.87 L144.75,143.82 L146.44,139.01 L149.03,134.63 L152.43,130.83 L156.51,127.77 L161.11,125.57" fill="none" stroke="#3a2f22" stroke-width="2" opacity="0.85"/>
-  <text x="150" y="120" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">90°</text>
+  <text x="131" y="137" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">90°</text>
 
   <g fill="#3a2f22">
     <circle cx="170" cy="150" r="3.5"/>
@@ -24,7 +24,7 @@
   <text x="72" y="188" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
   <text x="146" y="68" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
 
-  <text x="107" y="158" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x cm</text>
+  <text x="134" y="185" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x cm</text>
   <text x="30" y="240" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">area = 25π cm²</text>
 
   <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
