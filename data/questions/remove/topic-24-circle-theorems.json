@@ -207,6 +207,18 @@
             "84 + y = 180.",
             "96"
           ]
+        },
+        {
+          "q": "A, B, C, D are points on a circle, centre O. Angle BOD = 150° and angle ADB = 35°. Work out the size of angle ABD, giving a reason for each stage of your working.",
+          "a": "40",
+          "image": "assets/questions/remove/topic-24-circle-theorems/q-multitheorem-abd.svg",
+          "imageAlt": "A circle with centre O and cyclic quadrilateral ABCD inscribed. The angle at O between radii OB and OD is marked 150 degrees. Diagonal BD is drawn. Inside triangle ABD, the angle at D is marked 35 degrees, and the angle at B is marked x degrees, the unknown to find.",
+          "imageCaption": "O is the centre of the circle.",
+          "hints": [
+            "This combines three theorems. First, find angle BCD using the angle at the centre theorem (the angle at the centre is twice the angle at the circumference on the same arc).",
+            "Angle BCD = 150 / 2 = 75°. Then use the cyclic quadrilateral theorem (opposite angles sum to 180°) to find angle BAD = 180 - 75 = 105°. Finally, in triangle ABD, use the angle sum of a triangle (180°) with the given angle ADB = 35° to find angle ABD.",
+            "40"
+          ]
         }
       ]
     },
