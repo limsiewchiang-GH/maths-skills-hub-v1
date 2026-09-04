@@ -8,6 +8,9 @@
         {
           "q": "In a right triangle with angle 30°, opposite side 5, and hypotenuse 10, find sin 30°.",
           "a": "1/2",
+          "image": "assets/questions/remove/topic-23-trig-1/q-ratio-sin30.svg",
+          "imageAlt": "A right-angled triangle. The angle at the bottom left is marked 30 degrees. The opposite side is marked 5. The hypotenuse is marked 10.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "sin = opposite / hypotenuse.",
             "5 / 10.",
@@ -35,6 +38,9 @@
         {
           "q": "In a right triangle, opposite side 8 and hypotenuse 17. Find sin theta.",
           "a": "8/17",
+          "image": "assets/questions/remove/topic-23-trig-1/q-ratio-sintheta.svg",
+          "imageAlt": "A right-angled triangle. The angle at the bottom left is marked theta. The opposite side is marked 8. The hypotenuse is marked 17.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "sin = opposite / hypotenuse.",
             "8 / 17.",
