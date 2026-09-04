@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Radius, tangent, and external point triangle diagram</title>
+  <desc id="desc">A circle with centre O. OA is a radius to point A on the circumference. AT is a tangent at A, so angle OAT is a right angle. Angle AOT is marked 55 degrees. Angle OTA is marked x degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="140" cy="190" r="80" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="140" y1="190" x2="88.58" y2="128.72"/>
+    <line x1="140" y1="190" x2="195.82" y2="38.73"/>
+  </g>
+  <line x1="88.58" y1="128.72" x2="195.82" y2="38.73" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g fill="#3a2f22">
+    <circle cx="140" cy="190" r="3"/>
+    <circle cx="88.58" cy="128.72" r="3.5"/>
+    <circle cx="195.82" cy="38.73" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="118" y="196" font-size="14" font-weight="400" font-style="italic">O</text>
+    <text x="64" y="128">A</text>
+    <text x="200" y="36">T</text>
+  </g>
+
+  <path d="M88.6 128.7 L96.9 138.7 L106.9 130.3 L98.5 120.4 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
+
+  <path d="M123.29,170.08 L127.02,167.47 L131.14,165.55 L135.54,164.39 L140.08,164.00 L144.61,164.41 L149.00,165.61" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="108" y="185" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">55°</text>
+
+  <path d="M178.97,52.87 L180.26,54.27 L181.66,55.56 L183.16,56.72 L184.77,57.75 L186.45,58.63 L188.21,59.37" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="163" y="78" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AT is a tangent at A. Not to scale.</text>
+</svg>

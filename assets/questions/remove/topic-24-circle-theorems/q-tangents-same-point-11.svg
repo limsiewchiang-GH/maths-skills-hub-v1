@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Tangents from the same point diagram, rotated</title>
+  <desc id="desc">A circle with centre O, positioned differently than the other tangents-from-a-point diagram. From an external point T below the circle, two tangent lines touch the circle at points A and B. Segment TA is marked x plus 2. Segment TB is marked 11.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="110" r="70" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="110" y1="260" x2="100.16" y2="114.73"/>
+    <line x1="110" y1="260" x2="217.31" y2="161.59"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="110" r="3"/>
+    <circle cx="110" cy="260" r="3.5"/>
+    <circle cx="100.16" cy="114.73" r="3.5"/>
+    <circle cx="217.31" cy="161.59" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="150" y="106" font-size="14" font-weight="400" font-style="italic">O</text>
+    <text x="90" y="253">T</text>
+    <text x="76" y="112">A</text>
+    <text x="223" y="166">B</text>
+  </g>
+
+  <text x="80" y="185" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x + 2</text>
+  <text x="168" y="215" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">11</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">TA and TB are tangents from T. Not to scale.</text>
+</svg>

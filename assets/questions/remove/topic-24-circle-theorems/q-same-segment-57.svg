@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Angles in the same segment diagram, rotated</title>
+  <desc id="desc">A circle with chord AB across the top. Points C and D are on the major arc below, both in the same segment. Lines CA and CB form the angle at C, marked 57 degrees. Lines DA and DB form the angle at D, marked x degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <line x1="71.33" y1="114.09" x2="268.67" y2="114.09" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="134.09" y1="248.67" x2="71.33" y2="114.09"/>
+    <line x1="134.09" y1="248.67" x2="268.67" y2="114.09"/>
+    <line x1="205.91" y1="248.67" x2="71.33" y2="114.09"/>
+    <line x1="205.91" y1="248.67" x2="268.67" y2="114.09"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="71.33" cy="114.09" r="3.5"/>
+    <circle cx="268.67" cy="114.09" r="3.5"/>
+    <circle cx="134.09" cy="248.67" r="3.5"/>
+    <circle cx="205.91" cy="248.67" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="50" y="112">A</text>
+    <text x="274" y="112">B</text>
+    <text x="122" y="255">C</text>
+    <text x="211" y="255">D</text>
+  </g>
+
+  <path d="M124.79,228.73 L129.01,227.26 L133.45,226.68 L137.91,227.00 L142.21,228.22 L146.18,230.29 L149.64,233.11" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="118" y="216" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">57°</text>
+
+  <path d="M190.36,233.11 L193.82,230.29 L197.79,228.22 L202.09,227.00 L206.55,226.68 L210.99,227.26 L215.21,228.73" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="192" y="216" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">C and D are in the same segment. Not to scale.</text>
+</svg>

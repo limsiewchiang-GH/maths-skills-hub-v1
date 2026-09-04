@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Angle at the centre diagram, rotated</title>
+  <desc id="desc">A circle with centre O. Points A and B are on the circumference on the left. Lines OA and OB form the angle at the centre, marked 124 degrees. Point C is on the circumference at the bottom right; lines CA and CB form the angle at the circumference on the same arc, marked x degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="105" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <g stroke="#3a2f22" stroke-width="2" stroke-linecap="round">
+    <line x1="170" y1="150" x2="66.60" y2="131.77"/>
+    <line x1="170" y1="150" x2="102.51" y2="230.43"/>
+  </g>
+  <g stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round">
+    <line x1="222.5" y1="240.93" x2="66.60" y2="131.77"/>
+    <line x1="222.5" y1="240.93" x2="102.51" y2="230.43"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3"/>
+    <circle cx="66.60" cy="131.77" r="3.5"/>
+    <circle cx="102.51" cy="230.43" r="3.5"/>
+    <circle cx="222.5" cy="240.93" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="188" y="146" font-size="14" font-weight="400" font-style="italic">O</text>
+    <text x="42" y="128">A</text>
+    <text x="78" y="244">B</text>
+    <text x="228" y="256">C</text>
+  </g>
+
+  <path d="M144.39,145.49 L144.00,150.00 L144.39,154.51 L145.57,158.89 L147.48,163.00 L150.08,166.71 L153.29,169.92" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="118" y="175" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">124°</text>
+
+  <path d="M204.48,228.31 L203.45,229.93 L202.56,231.64 L201.83,233.41 L201.25,235.24 L200.83,237.11 L200.58,239.02" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="185" y="222" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">O is the centre. Diagram not to scale.</text>
+</svg>

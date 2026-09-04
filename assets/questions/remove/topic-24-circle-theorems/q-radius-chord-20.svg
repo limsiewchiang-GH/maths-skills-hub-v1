@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Radius perpendicular to chord diagram, vertical</title>
+  <desc id="desc">A circle with centre O and a vertical chord AB, positioned differently than the other radius-chord diagram. A perpendicular line from O meets the chord at its midpoint M, marked with a right angle symbol. The chord AB is 20 cm long, so each half AM and MB is marked as unknown.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="100" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <line x1="135.80" y1="56.03" x2="135.80" y2="243.97" stroke="#2a5db0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="170" y1="150" x2="135.80" y2="150" stroke="#3a2f22" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3"/>
+    <circle cx="135.80" cy="56.03" r="3.5"/>
+    <circle cx="135.80" cy="243.97" r="3.5"/>
+    <circle cx="135.80" cy="150" r="3"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="176" y="146" font-size="14" font-weight="400" font-style="italic">O</text>
+    <text x="112" y="52">A</text>
+    <text x="112" y="256">B</text>
+    <text x="112" y="146" font-size="14" font-weight="400" font-style="italic">M</text>
+  </g>
+
+  <path d="M135.8 150.0 L135.8 137.0 L148.8 137.0 L148.8 150.0 Z" fill="none" stroke="#d9480f" stroke-width="2"/>
+
+  <text x="107" y="105" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
+  <text x="107" y="200" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB = 20 cm. Diagram not to scale.</text>
+</svg>
