@@ -1,6 +1,6 @@
 # Math Rendering QA Report
 
-Checked 6055 question/answer/hint strings from data/questions through the live scripts/shared.js + scripts/igcse-page.js pipeline.
+Checked 6060 question/answer/hint strings from data/questions through the live scripts/shared.js + scripts/igcse-page.js pipeline.
 
 - Leaked internal placeholder tokens: 0
 - Unbalanced "\(" / "\)" delimiter pairs: 0

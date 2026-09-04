@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-theorem circle diagram: angle at centre, cyclic quadrilateral, triangle</title>
+  <desc id="desc">A circle with centre O and cyclic quadrilateral ABCD inscribed. Radii OB and OD are drawn, with the angle at O between them marked 150 degrees. Diagonal BD is drawn as a dashed line. Inside triangle ABD, the angle at D is marked 35 degrees, and the angle at B is marked x degrees, the unknown to find.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="100" fill="none" stroke="#3a2f22" stroke-width="2"/>
+
+  <polygon points="83.40,100.00 187.36,51.52 263.97,115.80 105.72,226.60" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="187.36" y1="51.52" x2="105.72" y2="226.60" stroke="#2a5db0" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <g stroke="#3a2f22" stroke-width="2" stroke-linecap="round">
+    <line x1="170" y1="150" x2="187.36" y2="51.52"/>
+    <line x1="170" y1="150" x2="105.72" y2="226.60"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="150" r="3"/>
+    <circle cx="83.40" cy="100.00" r="3.5"/>
+    <circle cx="187.36" cy="51.52" r="3.5"/>
+    <circle cx="263.97" cy="115.80" r="3.5"/>
+    <circle cx="105.72" cy="226.60" r="3.5"/>
+  </g>
+
+  <g fill="#3a2f22" font-family="Arial, sans-serif" font-size="17" font-weight="700">
+    <text x="58" y="94">A</text>
+    <text x="193" y="44">B</text>
+    <text x="270" y="112">C</text>
+    <text x="80" y="240">D</text>
+    <text x="145" y="146" font-size="14" font-weight="400" font-style="italic">O</text>
+  </g>
+
+  <path d="M174.17,126.36 L163.79,126.82 L154.57,131.61 L148.25,139.86 L146.00,150.00 L148.25,160.14 L154.57,168.39" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="122" y="152" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">150°</text>
+
+  <path d="M102.25,206.91 L104.27,206.66 L106.30,206.61 L108.33,206.78 L110.33,207.14 L112.29,207.71 L114.17,208.48" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="100" y="200" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">35°</text>
+
+  <path d="M169.24,59.97 L170.34,62.02 L171.68,63.92 L173.22,65.66 L174.96,67.21 L176.87,68.54 L178.91,69.65" fill="none" stroke="#d9480f" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="178" y="82" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x°</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">O is the centre. Diagram not to scale.</text>
+</svg>
