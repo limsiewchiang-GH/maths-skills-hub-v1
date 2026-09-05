@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Two similar squares, linear scale factor 3</title>
+  <desc id="desc">Two similar squares. The small square has side 1 unit. The large square has side 3 units, a linear scale factor of 3. The area scale factor is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="50" y="180" width="40" height="40" fill="#2a5db0" fill-opacity="0.14" stroke="#2a5db0" stroke-width="2.2"/>
+  <rect x="140" y="100" width="120" height="120" fill="#d9480f" fill-opacity="0.1" stroke="#2a5db0" stroke-width="2.2"/>
+
+  <text x="70" y="235" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">side 1</text>
+  <text x="200" y="235" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">side 3</text>
+
+  <text x="70" y="203" text-anchor="middle" fill="#2a5db0" font-family="Arial, sans-serif" font-size="13" font-weight="700">Area = 1</text>
+  <text x="200" y="163" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Area = ?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Linear scale factor 3. Diagram not to scale.</text>
+</svg>

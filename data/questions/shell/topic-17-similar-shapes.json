@@ -62,6 +62,9 @@
         {
           "q": "Two similar shapes have corresponding sides 6 and 15. A third side on the small shape is 8. Find the corresponding side on the large shape.",
           "a": "20",
+          "image": "assets/questions/shell/topic-17-similar-shapes/q-similar-triangles.svg",
+          "imageAlt": "Two similar triangles. Small triangle sides 6 and 8; large triangle corresponding side 15 and unknown side x.",
+          "imageCaption": "The two triangles are similar. Diagram not to scale.",
           "hints": [
             "Find the scale factor from the known pair of corresponding sides, then apply it to the third length.",
             "Scale factor = 15/6 = 2.5, so 8 x 2.5.",
@@ -75,6 +78,9 @@
         {
           "q": "The linear scale factor is 3. Find the area scale factor.",
           "a": "9",
+          "image": "assets/questions/shell/topic-17-similar-shapes/q-similar-shapes-area.svg",
+          "imageAlt": "Two similar squares, side 1 and side 3, linear scale factor 3. The area scale factor is unknown.",
+          "imageCaption": "Linear scale factor 3. Diagram not to scale.",
           "hints": [
             "The area scale factor is the linear scale factor squared.",
             "3^2.",
