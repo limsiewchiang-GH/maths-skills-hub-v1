@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Two similar triangles</title>
+  <desc id="desc">Two similar triangles. The small triangle has sides 6 and 8. The corresponding side to 6 on the large triangle is 15. The side on the large triangle corresponding to 8 is unknown, marked x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="50,220 140,220 80,140" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="180,220 315,220 217.5,95" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <text x="95" y="234" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">6</text>
+  <text x="247" y="234" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">15</text>
+  <text x="121" y="176" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">8</text>
+  <text x="277" y="153" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">x</text>
+
+  <g fill="#3a2f22">
+    <circle cx="50" cy="220" r="3"/>
+    <circle cx="140" cy="220" r="3"/>
+    <circle cx="80" cy="140" r="3"/>
+    <circle cx="180" cy="220" r="3"/>
+    <circle cx="315" cy="220" r="3"/>
+    <circle cx="217.5" cy="95" r="3"/>
+  </g>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">The two triangles are similar. Diagram not to scale.</text>
+</svg>
