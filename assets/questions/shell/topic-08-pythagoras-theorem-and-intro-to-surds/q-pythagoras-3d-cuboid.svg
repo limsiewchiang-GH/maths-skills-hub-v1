@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Cuboid with body diagonal, Pythagoras in 3D</title>
+  <desc id="desc">A cuboid measuring 3 by 4 by 12. The body diagonal, from one bottom corner to the opposite top corner, is unknown, marked x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="110" y1="190" x2="220" y2="190" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="110" y1="190" x2="60" y2="220" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="110" y1="190" x2="110" y2="60" stroke="#6b6157" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <polygon points="60,220 170,220 170,90 60,90" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="60" y1="90" x2="110" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="90" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="110" y1="60" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="220" x2="220" y2="190" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="220" y1="190" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="60" y1="220" x2="220" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <g fill="#3a2f22">
+    <circle cx="60" cy="220" r="3.5"/>
+    <circle cx="220" cy="60" r="3.5"/>
+  </g>
+
+  <text x="105" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">3</text>
+  <text x="178" y="160" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">12</text>
+  <text x="188" y="200" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">4</text>
+  <text x="148" y="153" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">x</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

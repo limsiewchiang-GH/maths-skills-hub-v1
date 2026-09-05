@@ -8,6 +8,9 @@
         {
           "q": "Right triangle legs 6 and 8. Find the hypotenuse.",
           "a": "10",
+          "image": "assets/questions/shell/topic-08-pythagoras-theorem-and-intro-to-surds/q-pythagoras-basic.svg",
+          "imageAlt": "A right-angled triangle with legs 6 and 8. The hypotenuse is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use a² + b² = c², where c is the hypotenuse.",
             "6² + 8² = 36 + 64 = 100.",
@@ -26,6 +29,9 @@
         {
           "q": "Rectangle 9 by 12. Find the diagonal.",
           "a": "15",
+          "image": "assets/questions/shell/topic-08-pythagoras-theorem-and-intro-to-surds/q-pythagoras-rectangle.svg",
+          "imageAlt": "A rectangle measuring 9 by 12 with its diagonal drawn, unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "A rectangle's diagonal is the hypotenuse of a right triangle formed by its sides.",
             "9² + 12² = 81 + 144 = 225.",
@@ -62,6 +68,9 @@
         {
           "q": "A ladder 15 m long leans against a wall, its foot 9 m from the wall. Find how high up the wall it reaches.",
           "a": "12",
+          "image": "assets/questions/shell/topic-08-pythagoras-theorem-and-intro-to-surds/q-pythagoras-ladder.svg",
+          "imageAlt": "A ladder 15 m long leaning against a wall, foot 9 m from the wall. The height reached is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "The ladder, wall, and ground form a right triangle — use Pythagoras with the ladder as the hypotenuse.",
             "height = sqrt(15^2 - 9^2) = sqrt(225 - 81).",
@@ -75,6 +84,9 @@
         {
           "q": "A cuboid is 3 by 4 by 12. Find the body diagonal.",
           "a": "13",
+          "image": "assets/questions/shell/topic-08-pythagoras-theorem-and-intro-to-surds/q-pythagoras-3d-cuboid.svg",
+          "imageAlt": "A cuboid measuring 3 by 4 by 12. The body diagonal is unknown, marked x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "For a cuboid, body diagonal² = length² + width² + height².",
             "3² + 4² + 12² = 9 + 16 + 144 = 169.",
