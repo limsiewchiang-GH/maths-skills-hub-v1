@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangle with sides 8 and x plus 3</title>
+  <desc id="desc">A rectangle with one side 8 and the other side x + 3. The area is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="70" y="90" width="200" height="80" fill="#d9480f" fill-opacity="0.06" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="170" y="188" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">x + 3</text>
+  <text x="50" y="135" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">8</text>
+
+  <text x="170" y="135" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Area = ?</text>
+
+  <text x="170" y="240" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Trapezium with parallel sides 8 and 12, height 5</title>
+  <desc id="desc">A trapezium with parallel sides 8 and 12, and height 5 between them. The area is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="110,90 230,90 270,190 70,190" fill="#d9480f" fill-opacity="0.06" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <line x1="170" y1="90" x2="170" y2="190" stroke="#3a2f22" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <path d="M178 90 L178 98 L170 98" fill="none" stroke="#3a2f22" stroke-width="1.6"/>
+
+  <text x="170" y="80" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">8</text>
+  <text x="170" y="212" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">12</text>
+  <text x="184" y="145" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">5</text>
+
+  <text x="110" y="145" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Area = ?</text>
+
+  <text x="170" y="240" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>
