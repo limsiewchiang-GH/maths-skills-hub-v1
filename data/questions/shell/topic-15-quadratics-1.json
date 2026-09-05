@@ -209,6 +209,9 @@
         {
           "q": "For y = x^2 - 4, find the x-intercepts.",
           "a": "x = -2 and x = 2",
+          "image": "assets/questions/shell/topic-15-quadratics-1/q-parabola-xintercepts.svg",
+          "imageAlt": "The graph of y = x squared minus 4, crossing the x-axis at two unknown points.",
+          "imageCaption": "y = x² − 4",
           "hints": [
             "x-intercepts occur where y = 0 — factorise as a difference of two squares.",
             "x^2 - 4 = 0 gives (x-2)(x+2) = 0.",
@@ -227,6 +230,9 @@
         {
           "q": "For y = -x^2 + 6x - 5, does it open up or down?",
           "a": "Down",
+          "image": "assets/questions/shell/topic-15-quadratics-1/q-parabola-opens-down.svg",
+          "imageAlt": "The graph of y = negative x squared plus 6x minus 5, a downward-opening parabola.",
+          "imageCaption": "y = −x² + 6x − 5",
           "hints": [
             "Look at the sign of the x^2 coefficient.",
             "The coefficient of x^2 is -1, which is negative.",

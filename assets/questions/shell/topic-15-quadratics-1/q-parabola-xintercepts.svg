@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph of y = x squared minus 4</title>
+  <desc id="desc">The graph of y = x^2 - 4, crossing the x-axis at two unknown points, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="30" y1="138.2" x2="310" y2="138.2" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="30" x2="170" y2="230" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="313" y="142" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="174" y="38" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <path d="M40.0,56.4 L46.5,70.7 L53.0,84.3 L59.5,97.2 L66.0,109.4 L72.5,120.8 L79.0,131.5 L85.5,141.4 L92.0,150.6 L98.5,159.1 L105.0,166.8 L111.5,173.8 L118.0,180.1 L124.5,185.6 L131.0,190.4 L137.5,194.4 L144.0,197.7 L150.5,200.3 L157.0,202.2 L163.5,203.3 L170.0,203.6 L176.5,203.3 L183.0,202.2 L189.5,200.3 L196.0,197.7 L202.5,194.4 L209.0,190.4 L215.5,185.6 L222.0,180.1 L228.5,173.8 L235.0,166.8 L241.5,159.1 L248.0,150.6 L254.5,141.4 L261.0,131.5 L267.5,120.8 L274.0,109.4 L280.5,97.2 L287.0,84.3 L293.5,70.7 L300.0,56.4" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <g fill="#d9480f">
+    <circle cx="83.3" cy="138.2" r="5"/>
+    <circle cx="256.7" cy="138.2" r="5"/>
+  </g>
+  <text x="83.3" y="160" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">?</text>
+  <text x="256.7" y="160" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">y = x² − 4</text>
+</svg>
