@@ -78,6 +78,9 @@
         {
           "q": "Distance between (1,2) and (7,10)",
           "a": "10",
+          "image": "assets/questions/shell/topic-09-coordinates/q-distance-pythagoras.svg",
+          "imageAlt": "A coordinate grid with points (1,2) and (7,10) joined by a line, and a right-angled triangle with legs 6 and 8 constructed to find the distance using Pythagoras.",
+          "imageCaption": "Distance = ?",
           "hints": [
             "Find the horizontal and vertical differences, then use Pythagoras.",
             "Differences are 6 and 8, so distance = sqrt(6^2 + 8^2) = sqrt(100).",
