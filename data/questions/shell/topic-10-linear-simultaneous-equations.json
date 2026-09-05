@@ -133,6 +133,9 @@
         {
           "q": "Find the intersection of y = 2x + 1 and y = 7 - x.",
           "a": "(2,5)",
+          "image": "assets/questions/shell/topic-10-linear-simultaneous-equations/q-lines-intersect.svg",
+          "imageAlt": "Two lines, y = 2x + 1 and y = 7 - x, crossing at an unknown point.",
+          "imageCaption": "Find the coordinates where the lines cross.",
           "hints": [
             "At the intersection, both equations have the same y-value — set them equal.",
             "2x + 1 = 7 - x, so 3x = 6, x = 2.",
@@ -151,6 +154,9 @@
         {
           "q": "Do y = 2x + 1 and y = 2x - 3 intersect?",
           "a": "No, they are parallel",
+          "image": "assets/questions/shell/topic-10-linear-simultaneous-equations/q-lines-no-intersection.svg",
+          "imageAlt": "Two lines, y = 2x + 1 and y = 2x - 3, both gradient 2, drawn parallel.",
+          "imageCaption": "Do these lines intersect?",
           "hints": [
             "Compare the gradients (the number in front of x) of the two lines.",
             "Both lines have gradient 2.",

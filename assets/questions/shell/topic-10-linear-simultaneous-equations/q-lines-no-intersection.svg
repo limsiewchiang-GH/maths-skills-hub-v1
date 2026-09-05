@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Lines y = 2x + 1 and y = 2x minus 3</title>
+  <desc id="desc">Two straight lines, y = 2x + 1 and y = 2x - 3, both with gradient 2, drawn parallel and never crossing. Whether they intersect is to be determined.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="60" y1="230" x2="280" y2="230" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="20" x2="170" y2="260" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="283" y="234" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="174" y="28" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <line x1="146" y1="220" x2="230" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="146" y1="260" x2="230" y2="100" stroke="#d9480f" stroke-width="2.5"/>
+
+  <text x="234" y="55" fill="#2a5db0" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = 2x + 1</text>
+  <text x="234" y="100" fill="#d9480f" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = 2x − 3</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Do these lines intersect?</text>
+</svg>
