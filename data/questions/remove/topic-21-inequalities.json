@@ -8,6 +8,9 @@
         {
           "q": "Solve: 3x + 5 > 17",
           "a": "x > 4",
+          "image": "assets/questions/remove/topic-21-inequalities/q-numberline-strict.svg",
+          "imageAlt": "A number line showing x greater than 4, open circle at 4, shaded to the right.",
+          "imageCaption": "x > 4 — open circle: 4 is not included.",
           "hints": [
             "Treat it like an equation — isolate the x-term, then divide by the coefficient.",
             "3x > 17 - 5, so 3x > 12.",
@@ -17,6 +20,9 @@
         {
           "q": "Solve: 2x - 7 <= 9",
           "a": "x <= 8",
+          "image": "assets/questions/remove/topic-21-inequalities/q-numberline-nonstrict.svg",
+          "imageAlt": "A number line showing x less than or equal to 8, closed circle at 8, shaded to the left.",
+          "imageCaption": "x ≤ 8 — closed circle: 8 is included.",
           "hints": [
             "Treat it like an equation — isolate the x-term, then divide by the coefficient.",
             "2x <= 9 + 7, so 2x <= 16.",
@@ -187,6 +193,9 @@
         {
           "q": "Does the point (1,2) satisfy both y > x and y < 3?",
           "a": "Yes",
+          "image": "assets/questions/remove/topic-21-inequalities/q-region-shading.svg",
+          "imageAlt": "A coordinate grid with the region y greater than x and y less than 3 shaded, bounded by two dashed lines. The point (1,2) is marked.",
+          "imageCaption": "Shaded: y > x and y < 3 (dashed lines — both strict).",
           "hints": [
             "Substitute the point into each inequality separately and check both hold.",
             "y > x: 2 > 1 is true. y < 3: 2 < 3 is true.",
