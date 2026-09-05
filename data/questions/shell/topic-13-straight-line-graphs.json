@@ -8,6 +8,9 @@
         {
           "q": "Find the gradient between (1,2) and (5,10).",
           "a": "2",
+          "image": "assets/questions/shell/topic-13-straight-line-graphs/q-gradient-triangle.svg",
+          "imageAlt": "A line through (1,2) and (5,10) with a gradient triangle showing rise=8 and run=4.",
+          "imageCaption": "Gradient = ?",
           "hints": [
             "Gradient = (change in y) / (change in x).",
             "(10-2)/(5-1).",
@@ -191,6 +194,9 @@
         {
           "q": "Find the intersection of y = 2x + 1 and y = 9 - x.",
           "a": "(8/3,19/3)",
+          "image": "assets/questions/shell/topic-13-straight-line-graphs/q-lines-intersection.svg",
+          "imageAlt": "Two lines, y = 2x + 1 and y = 9 - x, crossing at an unknown point.",
+          "imageCaption": "Find the coordinates where the lines cross.",
           "hints": [
             "At the intersection, both equations have the same y-value — set them equal.",
             "2x + 1 = 9 - x, so 3x = 8, x = 8/3.",
@@ -267,6 +273,9 @@
         {
           "q": "Are y = 2x + 1 and y = 2x - 9 parallel?",
           "a": "Yes",
+          "image": "assets/questions/shell/topic-13-straight-line-graphs/q-lines-parallel.svg",
+          "imageAlt": "Two lines, y = 2x + 1 and y = 2x - 9, both with gradient 2.",
+          "imageCaption": "Are these lines parallel?",
           "hints": [
             "Compare the gradients (the number in front of x) of the two lines.",
             "Both lines have gradient 2.",
@@ -334,6 +343,9 @@
         {
           "q": "Are y = 1/2 x + 4 and y = -2x + 1 perpendicular?",
           "a": "Yes",
+          "image": "assets/questions/shell/topic-13-straight-line-graphs/q-lines-perpendicular.svg",
+          "imageAlt": "Two lines, y = 1/2 x + 4 and y = -2x + 1, with gradients 1/2 and -2.",
+          "imageCaption": "Are these lines perpendicular?",
           "hints": [
             "Multiply the two gradients — perpendicular lines give -1.",
             "(1/2) x (-2) = -1.",
