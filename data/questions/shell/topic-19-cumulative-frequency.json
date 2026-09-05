@@ -8,6 +8,9 @@
         {
           "q": "Frequencies are 3, 5, 7, 4. Find the cumulative frequencies.",
           "a": "3, 8, 15, 19",
+          "image": "assets/questions/shell/topic-19-cumulative-frequency/q-cumulative-frequency-curve.svg",
+          "imageAlt": "A cumulative frequency ogive plotted from cumulative frequencies 3, 8, 15, 19 at upper class boundaries 10, 20, 30, 40, with a construction line showing how to read the median.",
+          "imageCaption": "Half of 19 is 9.5 — read across, then down.",
           "hints": [
             "Add each frequency to the running total of all frequencies before it.",
             "3, 3+5=8, 8+7=15, 15+4=19.",
