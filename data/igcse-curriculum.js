@@ -7,9 +7,9 @@ window.igcseCurriculum = [
         "title": "Basic Algebra",
         "skills": [
           "Simplifying by collecting like terms",
-          "1 bracket with constant term",
-          "2 brackets (‘FOIL’)",
-          "3 brackets",
+          "Multiplying: 1 bracket with constant term",
+          "Multiplying: 2 brackets (‘FOIL’)",
+          "Multiplying: 3 brackets",
           "Factorising by taking out a common factor"
         ]
       },
