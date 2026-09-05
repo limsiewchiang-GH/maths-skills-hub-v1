@@ -65,9 +65,6 @@
         {
           "q": "Class A has width 5, frequency 20. Class B has width 8, frequency 24. Which class has the taller bar?",
           "a": "Class A",
-          "image": "assets/questions/shell/topic-20-histograms/q-histogram-two-bars.svg",
-          "imageAlt": "A histogram with two bars: Class A (width 5, frequency 20) and Class B (width 8, frequency 24), showing which bar is taller.",
-          "imageCaption": "Which bar is taller?",
           "hints": [
             "Find the frequency density (height) of each class, then compare.",
             "Class A: 20/5 = 4. Class B: 24/8 = 3.",
