@@ -314,12 +314,6 @@ function graphDiagram(skill) {
       <line x1="350" y1="30" x2="350" y2="180"/>
       <line x1="400" y1="30" x2="400" y2="180"/>
     </g>`;
-  const cartGrid = `
-    <g stroke="#eadfce" stroke-width="1">
-      <line x1="70" y1="40" x2="70" y2="180"/><line x1="110" y1="40" x2="110" y2="180"/><line x1="150" y1="40" x2="150" y2="180"/><line x1="190" y1="40" x2="190" y2="180"/>
-      <line x1="230" y1="40" x2="230" y2="180"/><line x1="270" y1="40" x2="270" y2="180"/><line x1="310" y1="40" x2="310" y2="180"/><line x1="350" y1="40" x2="350" y2="180"/><line x1="390" y1="40" x2="390" y2="180"/>
-      <line x1="50" y1="50" x2="420" y2="50"/><line x1="50" y1="80" x2="420" y2="80"/><line x1="50" y1="110" x2="420" y2="110"/><line x1="50" y1="140" x2="420" y2="140"/><line x1="50" y1="170" x2="420" y2="170"/>
-    </g>`;
 
   if (normalized.includes("histogram")) {
     if (normalized.includes("completing a table")) {
@@ -350,128 +344,7 @@ function graphDiagram(skill) {
         </div>
       `;
     }
-    return `
-      <div class="diagram-card">
-        <div class="diagram-title">Histogram example (unequal class widths)</div>
-        <svg class="diagram-svg" viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Histogram example with unequal class widths">
-          ${statGrid}
-          <line x1="50" y1="180" x2="420" y2="180" stroke="#8f6a45" stroke-width="2"/>
-          <line x1="50" y1="180" x2="50" y2="30" stroke="#8f6a45" stroke-width="2"/>
-          <rect x="70" y="130" width="45" height="50" fill="#c9aa85"/>
-          <rect x="115" y="90" width="90" height="90" fill="#b98a53"/>
-          <rect x="205" y="70" width="70" height="110" fill="#8f6a45"/>
-          <rect x="275" y="105" width="120" height="75" fill="#c9aa85"/>
-          <text x="68" y="198" font-size="11" fill="#4f4438">0-5</text>
-          <text x="133" y="198" font-size="11" fill="#4f4438">5-15</text>
-          <text x="220" y="198" font-size="11" fill="#4f4438">15-22</text>
-          <text x="307" y="198" font-size="11" fill="#4f4438">22-34</text>
-          <text x="14" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 14,24)">Frequency density</text>
-          <text x="46" y="183" font-size="10" fill="#4f4438">0</text>
-          <text x="42" y="153" font-size="10" fill="#4f4438">2</text>
-          <text x="42" y="123" font-size="10" fill="#4f4438">4</text>
-          <text x="42" y="93" font-size="10" fill="#4f4438">6</text>
-        </svg>
-        <div class="diagram-note">Remember: frequency = class width x frequency density. Suggested y-scale: 1 large square = 2 density units.</div>
-      </div>
-    `;
-  }
-
-  if (normalized.includes("cumulative frequency") || normalized.includes("c.f. graph")) {
-    return `
-      <div class="diagram-card">
-        <div class="diagram-title">Cumulative frequency (ogive) example</div>
-        <svg class="diagram-svg" viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cumulative frequency curve">
-          ${statGrid}
-          <line x1="50" y1="180" x2="420" y2="180" stroke="#8f6a45" stroke-width="2"/>
-          <line x1="50" y1="180" x2="50" y2="30" stroke="#8f6a45" stroke-width="2"/>
-          <polyline fill="none" stroke="#8f6a45" stroke-width="3" points="70,170 120,155 170,132 220,104 270,78 320,56 370,42"/>
-          <circle cx="120" cy="155" r="3" fill="#8f6a45"/>
-          <circle cx="220" cy="104" r="3" fill="#8f6a45"/>
-          <circle cx="320" cy="56" r="3" fill="#8f6a45"/>
-          <text x="290" y="198" font-size="11" fill="#4f4438">Class boundary</text>
-          <text x="12" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 12,24)">Cum. frequency</text>
-          <text x="44" y="183" font-size="10" fill="#4f4438">0</text>
-          <text x="40" y="153" font-size="10" fill="#4f4438">20</text>
-          <text x="40" y="123" font-size="10" fill="#4f4438">40</text>
-          <text x="40" y="93" font-size="10" fill="#4f4438">60</text>
-          <text x="40" y="63" font-size="10" fill="#4f4438">80</text>
-        </svg>
-        <div class="diagram-note">Read quartiles and median by moving horizontally from CF values to the curve, then down. Suggested scale: x = class boundaries, y = 20 CF per large square.</div>
-      </div>
-    `;
-  }
-
-  if (normalized.includes("travel graph") || normalized.includes("s-d-t") || normalized.includes("distance-time")) {
-    return `
-      <div class="diagram-card">
-        <div class="diagram-title">Travel graph example</div>
-        <svg class="diagram-svg" viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Distance-time travel graph">
-          ${cartGrid}
-          <line x1="50" y1="180" x2="420" y2="180" stroke="#8f6a45" stroke-width="2"/>
-          <line x1="50" y1="180" x2="50" y2="30" stroke="#8f6a45" stroke-width="2"/>
-          <polyline fill="none" stroke="#8f6a45" stroke-width="3" points="70,170 140,120 200,120 280,70 360,100"/>
-          <text x="205" y="114" font-size="11" fill="#4f4438">stationary</text>
-          <text x="332" y="196" font-size="11" fill="#4f4438">time</text>
-          <text x="14" y="24" font-size="12" fill="#4f4438" transform="rotate(-90 14,24)">distance (km)</text>
-          <text x="230" y="196" font-size="10" fill="#4f4438">30</text>
-          <text x="310" y="196" font-size="10" fill="#4f4438">45</text>
-          <text x="34" y="143" font-size="10" fill="#4f4438">20</text>
-          <text x="34" y="83" font-size="10" fill="#4f4438">40</text>
-        </svg>
-        <div class="diagram-note">Steeper sections mean faster speed. Flat section means stationary. Suggested scale: x = 5 min per large square, y = 5 km per large square.</div>
-      </div>
-    `;
-  }
-
-  if (
-    normalized.includes("plotting graphs") ||
-    normalized.includes("graphical solution") ||
-    normalized.includes("tangent to estimate gradient")
-  ) {
-    return `
-      <div class="diagram-card">
-        <div class="diagram-title">Coordinate graph example</div>
-        <svg class="diagram-svg" viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Straight line graph example">
-          ${cartGrid}
-          <line x1="50" y1="180" x2="420" y2="180" stroke="#8f6a45" stroke-width="2"/>
-          <line x1="230" y1="200" x2="230" y2="30" stroke="#8f6a45" stroke-width="2"/>
-          <line x1="70" y1="160" x2="380" y2="70" stroke="#b98a53" stroke-width="3"/>
-          <line x1="70" y1="90" x2="380" y2="160" stroke="#8f6a45" stroke-width="3"/>
-          <circle cx="230" cy="115" r="4" fill="#8f6a45"/>
-          <text x="238" y="110" font-size="11" fill="#4f4438">intersection</text>
-          <text x="407" y="196" font-size="11" fill="#4f4438">x</text>
-          <text x="236" y="24" font-size="11" fill="#4f4438">y</text>
-          <text x="266" y="196" font-size="10" fill="#4f4438">1</text>
-          <text x="306" y="196" font-size="10" fill="#4f4438">2</text>
-          <text x="346" y="196" font-size="10" fill="#4f4438">3</text>
-          <text x="214" y="143" font-size="10" fill="#4f4438">-1</text>
-          <text x="214" y="83" font-size="10" fill="#4f4438">1</text>
-        </svg>
-        <div class="diagram-note">Use gradients and intercepts to sketch quickly; intersections solve simultaneous graphically. Suggested scale: 1 large square = 1 unit on both axes.</div>
-      </div>
-    `;
-  }
-
-  if (normalized.includes("trig graphs")) {
-    return `
-      <div class="diagram-card">
-        <div class="diagram-title">Trig graph example \\(y = \\sin x\\)</div>
-        <svg class="diagram-svg" viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sine graph over one cycle">
-          ${cartGrid}
-          <line x1="50" y1="110" x2="420" y2="110" stroke="#8f6a45" stroke-width="2"/>
-          <line x1="50" y1="180" x2="50" y2="40" stroke="#8f6a45" stroke-width="2"/>
-          <path d="M50,110 C95,40 140,40 185,110 C230,180 275,180 320,110 C365,40 410,40 420,55" fill="none" stroke="#8f6a45" stroke-width="3"/>
-          <text x="115" y="195" font-size="11" fill="#4f4438">\\(90^\\circ\\)</text>
-          <text x="210" y="195" font-size="11" fill="#4f4438">\\(180^\\circ\\)</text>
-          <text x="300" y="195" font-size="11" fill="#4f4438">\\(270^\\circ\\)</text>
-          <text x="388" y="195" font-size="11" fill="#4f4438">\\(360^\\circ\\)</text>
-          <text x="35" y="113" font-size="10" fill="#4f4438">0</text>
-          <text x="35" y="53" font-size="10" fill="#4f4438">1</text>
-          <text x="35" y="173" font-size="10" fill="#4f4438">-1</text>
-        </svg>
-        <div class="diagram-note">Key points: 0deg, 90deg, 180deg, 270deg, 360deg. Suggested scale: x = 90deg blocks, y = 1 unit per large square.</div>
-      </div>
-    `;
+    return "";
   }
 
   return "";
