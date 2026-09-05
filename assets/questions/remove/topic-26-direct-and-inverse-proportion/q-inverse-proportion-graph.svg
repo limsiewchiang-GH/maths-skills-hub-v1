@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph shape of inverse proportion, y = k over x</title>
+  <desc id="desc">A curve that falls steeply then levels off, never touching either axis, showing the shape of an inverse proportion relationship y = k divided by x.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="60" y1="220" x2="60" y2="40" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="60" y1="220" x2="300" y2="220" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="303" y="224" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="64" y="48" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <path d="M76.7,112.0 L81.2,135.3 L85.8,150.3 L90.4,160.8 L95.0,168.6 L99.6,174.5 L104.2,179.2 L108.8,183.1 L113.3,186.2 L117.9,188.9 L122.5,191.2 L127.1,193.2 L131.7,194.9 L136.2,196.4 L140.8,197.7 L145.4,198.9 L150.0,200.0 L154.6,201.0 L159.2,201.8 L163.8,202.7 L168.3,203.4 L172.9,204.1 L177.5,204.7 L182.1,205.3 L186.7,205.8 L191.2,206.3 L195.8,206.7 L200.4,207.2 L205.0,207.6 L209.6,208.0 L214.2,208.3 L218.8,208.7 L223.3,209.0 L227.9,209.3 L232.5,209.6 L237.1,209.8 L241.7,210.1 L246.2,210.3 L250.8,210.6 L255.4,210.8 L260.0,211.0" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">y = k / x — falls steeply, never touches either axis.</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph shape of direct proportion, y = kx</title>
+  <desc id="desc">A straight line through the origin, showing the shape of a direct proportion relationship y = kx.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="60" y1="220" x2="60" y2="40" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="60" y1="220" x2="300" y2="220" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="303" y="224" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="64" y="48" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <line x1="60" y1="220" x2="260" y2="60" stroke="#2a5db0" stroke-width="2.5"/>
+  <circle cx="60" cy="220" r="3.5" fill="#3a2f22"/>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">y = kx — a straight line through the origin.</text>
+</svg>
