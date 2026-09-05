@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Lines y = half x plus 4 and y = negative 2x plus 1</title>
+  <desc id="desc">Two straight lines, y = 1/2 x + 4 and y = -2x + 1, with gradients 1/2 and -2. Whether they are perpendicular is to be determined.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="60" y1="150" x2="280" y2="150" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="10" x2="170" y2="260" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="283" y="154" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="174" y="18" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <line x1="120" y1="75" x2="220" y2="25" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="120" y1="25" x2="220" y2="225" stroke="#d9480f" stroke-width="2.5"/>
+
+  <text x="225" y="20" fill="#2a5db0" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = ½x + 4</text>
+  <text x="225" y="222" fill="#d9480f" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = −2x + 1</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Are these lines perpendicular?</text>
+</svg>
