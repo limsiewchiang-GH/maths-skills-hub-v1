@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle law: AB plus BC equals AC</title>
+  <desc id="desc">Triangle ABC with vectors AB and BC drawn tip to tail, and vector AC drawn directly from A to C, dashed. The sum AB + BC equals an unknown vector, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="70" y1="220" x2="180" y2="90" stroke="#2a5db0" stroke-width="2.5"/>
+  <polygon points="180,90 177.6,99.8 170.8,94.0" fill="#2a5db0"/>
+  <text x="115" y="145" fill="#2a5db0" font-family="Arial, sans-serif" font-size="15" font-weight="700">AB</text>
+
+  <line x1="180" y1="90" x2="280" y2="220" stroke="#3a2f22" stroke-width="2.5"/>
+  <polygon points="280,220 270.9,215.6 278.1,210.1" fill="#3a2f22"/>
+  <text x="245" y="150" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">BC</text>
+
+  <line x1="70" y1="220" x2="280" y2="220" stroke="#d9480f" stroke-width="2.2" stroke-dasharray="7 4"/>
+  <polygon points="280,220 271,224.5 271,215.5" fill="#d9480f"/>
+  <text x="165" y="240" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">AC = ?</text>
+
+  <g fill="#3a2f22">
+    <circle cx="70" cy="220" r="3.5"/>
+    <circle cx="180" cy="90" r="3.5"/>
+    <circle cx="280" cy="220" r="3.5"/>
+  </g>
+  <text x="55" y="235" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="176" y="78" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="286" y="224" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">C</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">AB + BC = ?</text>
+</svg>
