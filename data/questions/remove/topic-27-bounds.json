@@ -26,6 +26,9 @@
         {
           "q": "A length 3.4 cm is correct to 1 d.p. State the error interval.",
           "a": "3.35 <= x < 3.45",
+          "image": "assets/questions/remove/topic-27-bounds/q-error-interval.svg",
+          "imageAlt": "A number line showing the error interval 3.35 <= x < 3.45, closed circle at the lower bound, open circle at the upper bound.",
+          "imageCaption": "3.35 ≤ x < 3.45 — lower bound included, upper bound excluded.",
           "hints": [
             "Write the lower and upper bounds as an inequality — the lower bound is included, the upper bound is not.",
             "1 d.p. means half a unit either side: 3.4 - 0.05 and 3.4 + 0.05.",
