@@ -249,6 +249,9 @@
         {
           "q": "Write the graph y = x^2 shifted up 3.",
           "a": "y = x^2 + 3",
+          "image": "assets/questions/fifth-form/topic-44-functions/q-transform-vertical-shift.svg",
+          "imageAlt": "The graph of y = x squared (dashed) and the same curve shifted up 3 units (solid). The equation of the shifted curve is unknown.",
+          "imageCaption": "Solid curve: y = x² shifted up 3.",
           "hints": [
             "Shifting a graph up by a adds a to the whole function.",
             "y = x^2 + 3.",
@@ -267,6 +270,8 @@
         {
           "q": "Write the graph y = x^2 reflected in the x-axis.",
           "a": "y = -x^2",
+          "image": "assets/questions/fifth-form/topic-44-functions/q-transform-reflection.svg",
+          "imageAlt": "The graph of y = x squared (dashed) and the same curve reflected in the x-axis (solid). The equation of the reflected curve is unknown.",
           "hints": [
             "Reflecting in the x-axis negates the whole function.",
             "y = -(x^2).",
