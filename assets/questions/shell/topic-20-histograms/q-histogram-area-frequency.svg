@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Histogram bar: area equals frequency</title>
+  <desc id="desc">A single histogram bar. Its width is the class width and its height is the frequency density. The shaded area of the bar equals the frequency.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="60" y1="220" x2="280" y2="220" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="60" y1="220" x2="60" y2="60" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="230" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">Value</text>
+  <text x="18" y="56" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">Frequency density</text>
+
+  <rect x="100" y="100" width="90" height="120" fill="#d9480f" fill-opacity="0.16" stroke="#2a5db0" stroke-width="2.2"/>
+
+  <text x="145" y="90" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">class width</text>
+  <path d="M100,232 L100,238 M190,232 L190,238" stroke="#3a2f22" stroke-width="1.4"/>
+  <line x1="100" y1="235" x2="190" y2="235" stroke="#3a2f22" stroke-width="1.4"/>
+
+  <text x="60" y="160" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-weight="700" transform="rotate(-90 60 160)">frequency density</text>
+
+  <text x="145" y="165" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">Area = frequency</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">width × frequency density = frequency</text>
+</svg>

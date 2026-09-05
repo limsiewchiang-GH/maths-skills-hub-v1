@@ -26,6 +26,9 @@
         {
           "q": "Why does the area of a histogram bar represent frequency?",
           "a": "Because frequency density x class width = frequency",
+          "image": "assets/questions/shell/topic-20-histograms/q-histogram-area-frequency.svg",
+          "imageAlt": "A single histogram bar. Its width is the class width and height is the frequency density; the shaded area equals the frequency.",
+          "imageCaption": "width × frequency density = frequency",
           "hints": [
             "Think about how bar area is calculated, and compare it to how frequency density is defined.",
             "Area = height x width = frequency density x class width, which reverses the frequency density formula back to frequency.",
