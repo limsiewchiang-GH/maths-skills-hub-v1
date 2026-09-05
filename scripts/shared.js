@@ -123,15 +123,23 @@ function formatInlineMathText(raw) {
   // The unicode π glyph (as opposed to the ascii "pi" keyword above) is added directly to the
   // character class, not as a word-bounded keyword — there's no word-boundary ambiguity for a
   // single unique symbol, unlike "pi" which could theoretically appear inside another word.
+  // "<>=" let a relational operator continue a run already under way, e.g. "x^2 - x - 6 >= 0"
+  // — without them the run stopped dead at the operator (it wasn't a recognised mid-run
+  // character), leaving "x^2 - x - 6" wrapped as its own math region and " >= 0" behind as
+  // literal, HTML-escaped text ("&gt;= 0"). They're deliberately absent from the START and END
+  // character classes: a comparison in this corpus is never the first or last thing in a
+  // candidate run (there's always a left-hand expression before it and a right-hand value
+  // after), so admitting them only as interior/mid-run content is sufficient and keeps the
+  // start/end anchoring exactly as narrow as before.
   const generalFallbackRe = new RegExp(
-    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|[(π])(?:[\\d+\\-*/^().,.\\sxX°π]|${mathKeyword}|${isolatedLetter})*(?:[\\d)°π]|${isolatedLetter})`,
+    `(?:(?<![A-Za-z])[A-Za-z]\\^|${mathKeyword}|(?<![A-Za-z]/\\d*)\\d|[(π])(?:[\\d+\\-*/^().,.\\sxX°π<>=]|${mathKeyword}|${isolatedLetter})*(?:[\\d)°π]|${isolatedLetter})`,
     "g"
   );
   marked = marked.replace(generalFallbackRe, (candidate) => {
     if (candidate.includes("@@M")) return candidate; // already-tokenised region
     const trimmed = candidate.trim();
     const hasOperator =
-      /[+\-*/^π]/.test(trimmed) || /x/i.test(trimmed) || new RegExp(mathKeyword, "i").test(trimmed);
+      /[+\-*/^π<>=]/.test(trimmed) || /x/i.test(trimmed) || new RegExp(mathKeyword, "i").test(trimmed);
     if (hasOperator && trimmed.length >= 3) {
       return pushMath(trimmed);
     }
