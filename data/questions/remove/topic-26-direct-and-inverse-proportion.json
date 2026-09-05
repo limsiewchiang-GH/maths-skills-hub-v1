@@ -8,6 +8,9 @@
         {
           "q": "If y is directly proportional to x and y = 12 when x = 3, find y when x = 5.",
           "a": "20",
+          "image": "assets/questions/remove/topic-26-direct-and-inverse-proportion/q-direct-proportion-graph.svg",
+          "imageAlt": "A straight line graph through the origin, showing the shape of a direct proportion relationship y = kx.",
+          "imageCaption": "y = kx — a straight line through the origin.",
           "hints": [
             "Find the constant of proportionality k using y = kx, then use it for the new x.",
             "k = 12/3 = 4, so y = 4 x 5.",
@@ -133,6 +136,9 @@
         {
           "q": "If y is inversely proportional to x and y = 12 when x = 2, find y when x = 8.",
           "a": "3",
+          "image": "assets/questions/remove/topic-26-direct-and-inverse-proportion/q-inverse-proportion-graph.svg",
+          "imageAlt": "A curve falling steeply then levelling off, never touching either axis, showing the shape of an inverse proportion relationship y = k/x.",
+          "imageCaption": "y = k / x — falls steeply, never touches either axis.",
           "hints": [
             "Find k using y = k/x (so k = xy), then use it for the new x.",
             "k = 12 x 2 = 24, so y = 24/8.",
