@@ -70,7 +70,7 @@
         }
       ]
     },
-    "1 bracket with constant term": {
+    "Multiplying: 1 bracket with constant term": {
       "items": [
         {
           "q": "Expand: 7(x - 4)",
@@ -173,7 +173,7 @@
         }
       ]
     },
-    "2 brackets (‘FOIL’)": {
+    "Multiplying: 2 brackets (‘FOIL’)": {
       "items": [
         {
           "q": "Expand: (x + 4)(x + 1)",
@@ -240,7 +240,7 @@
         }
       ]
     },
-    "3 brackets": {
+    "Multiplying: 3 brackets": {
       "items": [
         {
           "q": "Expand: (x + 1)(x + 2)(x + 3)",
