@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Constructing a perpendicular bisector</title>
+  <desc id="desc">A line segment AB, with equal-radius arcs swung from A and from B (dashed circles), crossing above and below the segment. The perpendicular bisector is the line through the two crossing points.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="90" cy="180" r="110" fill="none" stroke="#6b6157" stroke-width="1.3" stroke-dasharray="4 3"/>
+  <circle cx="250" cy="180" r="110" fill="none" stroke="#6b6157" stroke-width="1.3" stroke-dasharray="4 3"/>
+
+  <line x1="90" y1="180" x2="250" y2="180" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="104.5" x2="170" y2="255.5" stroke="#d9480f" stroke-width="2.5"/>
+
+  <g fill="#3a2f22">
+    <circle cx="90" cy="180" r="4"/>
+    <circle cx="250" cy="180" r="4"/>
+  </g>
+  <text x="80" y="200" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="256" y="200" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Equal arcs from A and B; join where they cross.</text>
+</svg>

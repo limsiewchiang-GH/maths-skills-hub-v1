@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Constructing an angle bisector</title>
+  <desc id="desc">An angle at vertex V with two arms. An arc from V crosses both arms at P1 and P2. Two equal-radius arcs from P1 and P2 cross at a point Q. The line from V through Q bisects the angle.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="70" y1="220" x2="240" y2="220" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="70" y1="220" x2="145" y2="86.9" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <path d="M170.00,220.00 L169.25,207.81 L167.03,195.81 L163.36,184.16 L158.29,173.05 L151.92,162.64 L144.31,153.09 L135.61,144.53 L125.92,137.10 L115.40,130.90 L104.20,126.03" fill="none" stroke="#6b6157" stroke-width="1.4" stroke-dasharray="4 3"/>
+
+  <path d="M95.15,220.00 L96.75,204.60 L101.49,189.86 L109.15,176.41 L119.42,164.83 L131.85,155.60 L145.92,149.13 L161.01,145.69 L176.49,145.44" fill="none" stroke="#6b6157" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <path d="M78.60,196.36 L93.62,200.13 L109.09,200.72 L124.35,198.12 L138.75,192.43 L151.67,183.90 L162.56,172.90 L170.95,159.89 L176.49,145.44" fill="none" stroke="#6b6157" stroke-width="1.4" stroke-dasharray="4 3"/>
+
+  <line x1="70" y1="220" x2="201" y2="128.2" stroke="#d9480f" stroke-width="2.5"/>
+
+  <g fill="#3a2f22">
+    <circle cx="70" cy="220" r="4"/>
+    <circle cx="170" cy="220" r="3"/>
+    <circle cx="104.2" cy="126" r="3"/>
+  </g>
+  <circle cx="176.5" cy="145.4" r="3.5" fill="#d9480f"/>
+
+  <text x="52" y="235" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">V</text>
+  <text x="186" y="140" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">Q</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">VQ bisects the angle.</text>
+</svg>

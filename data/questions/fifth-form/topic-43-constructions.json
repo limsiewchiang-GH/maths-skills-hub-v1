@@ -26,6 +26,9 @@
         {
           "q": "A construction uses arcs from both endpoints of a segment. What line do the arc intersections help construct?",
           "a": "Perpendicular bisector",
+          "image": "assets/questions/fifth-form/topic-43-constructions/q-perpendicular-bisector.svg",
+          "imageAlt": "A line segment AB with equal-radius dashed arcs from A and B crossing above and below, and the perpendicular bisector drawn through the crossing points.",
+          "imageCaption": "Equal arcs from A and B; join where they cross.",
           "hints": [
             "Think about what is equidistant from both endpoints where the arcs cross.",
             "The two arc intersection points are equidistant from both ends, so the line through them is the perpendicular bisector.",
@@ -147,6 +150,9 @@
         {
           "q": "What do points on an angle bisector have equal distance from?",
           "a": "Both arms of the angle",
+          "image": "assets/questions/fifth-form/topic-43-constructions/q-angle-bisector.svg",
+          "imageAlt": "An angle at vertex V with two arms. An arc from V crosses both arms; two equal-radius arcs from those points cross at Q, and VQ bisects the angle.",
+          "imageCaption": "VQ bisects the angle.",
           "hints": [
             "Recall the defining property of every point on an angle bisector.",
             "Every point on the bisector is the same perpendicular distance from each of the two arms.",
@@ -272,6 +278,9 @@
         {
           "q": "When constructing an equilateral triangle, what compass radius is used from each endpoint?",
           "a": "The side length",
+          "image": "assets/questions/fifth-form/topic-43-constructions/q-equilateral-triangle.svg",
+          "imageAlt": "A base segment AB with equal-radius dashed arcs (radius AB) from A and B meeting at C, forming equilateral triangle ABC.",
+          "imageCaption": "Equal arcs of radius AB from A and B meet at C.",
           "hints": [
             "Think about what distance the compass needs to mark out for all three sides to end up equal.",
             "Setting the compass to the side length and drawing arcs from both endpoints locates the third vertex at that same distance from each.",
