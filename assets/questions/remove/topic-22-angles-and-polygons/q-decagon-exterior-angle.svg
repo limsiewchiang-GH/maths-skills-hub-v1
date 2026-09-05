@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Regular decagon with one exterior angle marked</title>
+  <desc id="desc">A regular decagon (10 sides) with one side extended, forming an exterior angle marked x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="170.0,55.0 225.84,73.14 260.35,120.64 260.35,179.36 225.84,226.86 170.0,245.0 114.16,226.86 79.65,179.36 79.65,120.64 114.16,73.14" fill="#d9480f" fill-opacity="0.04" stroke="#2a5db0" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <line x1="114.16" y1="73.14" x2="197.92" y2="45.93" stroke="#6b6157" stroke-width="1.6" stroke-dasharray="4 3"/>
+
+  <path d="M190.92,48.20 L191.39,49.87 L191.73,51.56 L191.93,53.27 L192.00,55.00 L191.93,56.73 L191.73,58.44 L191.39,60.13 L190.92,61.80" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="206" y="59" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">x°</text>
+
+  <circle cx="170.0" cy="55.0" r="3.5" fill="#3a2f22"/>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">A regular decagon (10 equal sides).</text>
+</svg>

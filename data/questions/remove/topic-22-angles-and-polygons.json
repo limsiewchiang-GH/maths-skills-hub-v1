@@ -20,6 +20,9 @@
         {
           "q": "Co-interior angles on parallel lines are x and 115°. Find x.",
           "a": "65",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-co-interior-angles.svg",
+          "imageAlt": "Two parallel lines cut by a transversal. The co-interior angle pair, on the same side between the lines, are marked x and 115 degrees.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Co-interior (allied) angles on parallel lines sum to 180°.",
             "x + 115 = 180.",
@@ -29,6 +32,9 @@
         {
           "q": "Alternate angles on parallel lines are x and 47°. Find x.",
           "a": "47",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-alternate-angles.svg",
+          "imageAlt": "Two parallel lines cut by a transversal. The alternate angle pair, on opposite sides between the lines, are marked 47 degrees and x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Alternate angles on parallel lines are equal.",
             "x = 47.",
@@ -56,6 +62,9 @@
         {
           "q": "Corresponding angles are 3x and 96°. Find x.",
           "a": "32",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-corresponding-angles.svg",
+          "imageAlt": "Two parallel lines cut by a transversal. The corresponding angle pair, in the same position at each intersection, are marked 96 degrees and 3x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Corresponding angles on parallel lines are equal.",
             "3x = 96.",
@@ -69,6 +78,9 @@
         {
           "q": "Find the sum of the interior angles of a pentagon.",
           "a": "540",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-pentagon-angle-sum.svg",
+          "imageAlt": "A pentagon with all five interior angles marked. The sum of the interior angles is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the formula: sum of interior angles = (n - 2) x 180°, where n is the number of sides.",
             "(5 - 2) x 180.",
@@ -96,6 +108,9 @@
         {
           "q": "A quadrilateral has angles 90°, 88°, 101°, and x. Find x.",
           "a": "81",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-quadrilateral-angles.svg",
+          "imageAlt": "A quadrilateral with angles 90, 88 and 101 degrees marked, and one unknown angle x.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "The interior angles of a quadrilateral sum to 360°.",
             "x = 360 - 90 - 88 - 101.",
@@ -127,6 +142,9 @@
         {
           "q": "Find one exterior angle of a regular decagon.",
           "a": "36",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-decagon-exterior-angle.svg",
+          "imageAlt": "A regular decagon with one side extended, forming an exterior angle marked x.",
+          "imageCaption": "A regular decagon (10 equal sides).",
           "hints": [
             "The exterior angles of any regular polygon sum to 360° — divide by the number of sides.",
             "360 / 10.",
@@ -145,6 +163,9 @@
         {
           "q": "Find one interior angle of a regular pentagon.",
           "a": "108",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-pentagon-interior-angle.svg",
+          "imageAlt": "A regular pentagon with one interior angle marked x.",
+          "imageCaption": "A regular pentagon (5 equal sides).",
           "hints": [
             "Find the exterior angle first (360° / n), then subtract from 180°.",
             "Exterior angle = 360/5 = 72, so interior = 180 - 72.",

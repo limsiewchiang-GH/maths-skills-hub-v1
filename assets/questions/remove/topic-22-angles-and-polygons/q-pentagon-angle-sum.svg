@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Pentagon with all interior angles marked</title>
+  <desc id="desc">A pentagon with all five interior angles marked. The sum of the interior angles is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="170,60 255.6,122.19 222.9,222.81 117.1,222.81 84.4,122.19" fill="#d9480f" fill-opacity="0.06" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <g fill="none" stroke="#3a2f22" stroke-width="1.8">
+    <path d="M153.82,71.76 L157.01,75.21 L160.92,77.82 L165.33,79.45 L170.00,80.00 L174.67,79.45 L179.08,77.82 L182.99,75.21 L186.18,71.76"/>
+    <path d="M239.42,110.43 L237.12,114.54 L235.85,119.06 L235.66,123.76 L236.58,128.37 L238.55,132.64 L241.46,136.33 L245.15,139.24 L249.42,141.21"/>
+    <path d="M229.08,203.79 L224.47,202.87 L219.77,203.06 L215.25,204.33 L211.14,206.63 L207.69,209.82 L205.08,213.73 L203.45,218.14 L202.90,222.81"/>
+    <path d="M137.10,222.81 L136.55,218.14 L134.92,213.73 L132.31,209.82 L128.86,206.63 L124.75,204.33 L120.23,203.06 L115.53,202.87 L110.92,203.79"/>
+    <path d="M90.58,141.21 L94.85,139.24 L98.54,136.33 L101.45,132.64 L103.42,128.37 L104.34,123.76 L104.15,119.06 L102.88,114.54 L100.58,110.43"/>
+  </g>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="60" r="3.5"/>
+    <circle cx="255.6" cy="122.19" r="3.5"/>
+    <circle cx="222.9" cy="222.81" r="3.5"/>
+    <circle cx="117.1" cy="222.81" r="3.5"/>
+    <circle cx="84.4" cy="122.19" r="3.5"/>
+  </g>
+
+  <text x="170" y="150" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">Sum = ?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

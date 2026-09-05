@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Quadrilateral with three given angles</title>
+  <desc id="desc">A quadrilateral with angles 90 degrees, 88 degrees, 101 degrees, and one unknown angle x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="70,210 260,225 230,80 100,70" fill="none" stroke="#2a5db0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M75.03,186.53 L79.14,187.81 L82.97,189.80 L86.37,192.45 L89.24,195.66 L91.50,199.33 L93.06,203.35 L93.88,207.58 L93.93,211.89" fill="none" stroke="#3a2f22" stroke-width="1.8"/>
+  <text x="101" y="182" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">90°</text>
+
+  <path d="M236.07,223.11 L236.69,219.30 L237.90,215.64 L239.69,212.22 L242.00,209.12 L244.78,206.44 L247.95,204.24 L251.43,202.58 L255.14,201.50" fill="none" stroke="#3a2f22" stroke-width="1.8"/>
+  <text x="231" y="195" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">88°</text>
+
+  <path d="M234.86,103.50 L229.34,103.99 L223.86,103.20 L218.70,101.17 L214.14,98.02 L210.43,93.90 L207.77,89.04 L206.29,83.70 L206.07,78.16" fill="none" stroke="#3a2f22" stroke-width="1.8"/>
+  <text x="204" y="118" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">101°</text>
+
+  <path d="M123.93,71.84 L123.00,76.86 L121.03,81.57 L118.10,85.76 L114.36,89.23 L109.97,91.83 L105.12,93.45 L100.05,94.00 L94.97,93.47" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="123" y="115" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">x°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="70" cy="210" r="3.5"/>
+    <circle cx="260" cy="225" r="3.5"/>
+    <circle cx="230" cy="80" r="3.5"/>
+    <circle cx="100" cy="70" r="3.5"/>
+  </g>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>
