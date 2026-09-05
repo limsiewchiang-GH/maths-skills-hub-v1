@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Distance-time graph: three-stage journey with a rest</title>
+  <desc id="desc">A distance-time graph showing a journey of 60 km over 2 hours, then a 1 hour rest (flat section), then 40 km over 1 hour. The average speed for the whole 4-hour journey, including the rest, is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="55" y1="220" x2="55" y2="30" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="55" y1="220" x2="310" y2="220" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="10" y="35" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">Distance (km)</text>
+  <text x="270" y="238" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">Time (h)</text>
+
+  <polyline points="55,220 135,100 175,100 215,40" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <g fill="#3a2f22">
+    <circle cx="55" cy="220" r="3"/>
+    <circle cx="135" cy="100" r="3"/>
+    <circle cx="175" cy="100" r="3"/>
+    <circle cx="215" cy="40" r="3"/>
+  </g>
+
+  <text x="55" y="235" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">0</text>
+  <text x="135" y="235" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">2</text>
+  <text x="175" y="235" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">3</text>
+  <text x="215" y="235" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">4</text>
+
+  <text x="35" y="224" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">0</text>
+  <text x="35" y="104" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">60</text>
+  <text x="35" y="44" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">100</text>
+
+  <text x="80" y="150" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12" font-weight="700">60 km</text>
+  <text x="140" y="92" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12" font-weight="700">rest</text>
+  <text x="182" y="65" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12" font-weight="700">40 km</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">Average speed over 4 hours = ?</text>
+</svg>

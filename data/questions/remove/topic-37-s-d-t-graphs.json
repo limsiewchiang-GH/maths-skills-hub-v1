@@ -8,6 +8,9 @@
         {
           "q": "On a distance-time graph, what does a flat section mean?",
           "a": "Stationary",
+          "image": "assets/questions/remove/topic-37-s-d-t-graphs/q-travel-graph-features.svg",
+          "imageAlt": "A distance-time graph with four labelled sections: A (steep rise), B (flat), C (less steep rise), D (falling).",
+          "imageCaption": "Section B is flat.",
           "hints": [
             "Think about what a zero gradient (no change in distance over time) represents.",
             "If distance isn't changing while time passes, the object isn't moving.",
@@ -17,6 +20,9 @@
         {
           "q": "On a distance-time graph, what does a steeper line mean?",
           "a": "Faster speed",
+          "image": "assets/questions/remove/topic-37-s-d-t-graphs/q-travel-graph-features.svg",
+          "imageAlt": "A distance-time graph with four labelled sections: A (steep rise), B (flat), C (less steep rise), D (falling).",
+          "imageCaption": "Compare the steepness of section A and section C.",
           "hints": [
             "Recall what the gradient of a distance-time graph represents.",
             "A steeper gradient means more distance is covered in the same time.",
@@ -44,6 +50,9 @@
         {
           "q": "A section slopes downwards on a distance-time graph. What does this mean?",
           "a": "Returning towards the start",
+          "image": "assets/questions/remove/topic-37-s-d-t-graphs/q-travel-graph-features.svg",
+          "imageAlt": "A distance-time graph with four labelled sections: A (steep rise), B (flat), C (less steep rise), D (falling).",
+          "imageCaption": "Section D slopes downward.",
           "hints": [
             "Think about what decreasing distance over time represents.",
             "As time passes, the distance from the starting point is getting smaller.",
@@ -53,6 +62,9 @@
         {
           "q": "If a travel graph is horizontal for 20 minutes, what is happening?",
           "a": "No movement",
+          "image": "assets/questions/remove/topic-37-s-d-t-graphs/q-travel-graph-features.svg",
+          "imageAlt": "A distance-time graph with four labelled sections: A (steep rise), B (flat), C (less steep rise), D (falling).",
+          "imageCaption": "Section B is flat, or horizontal.",
           "hints": [
             "Think about what a zero gradient (no change in distance over time) represents.",
             "A horizontal section means the distance stays constant while time passes.",
@@ -62,6 +74,9 @@
         {
           "q": "A journey covers 60 km in 2 hours, then the traveller rests for 1 hour, then covers 40 km in 1 hour. Find the average speed for the whole 4-hour journey (including the rest).",
           "a": "25",
+          "image": "assets/questions/remove/topic-37-s-d-t-graphs/q-travel-graph-three-stage.svg",
+          "imageAlt": "A distance-time graph: 60 km over 2 hours, then a 1 hour rest (flat), then 40 km over 1 hour. Average speed over the whole 4 hours is unknown.",
+          "imageCaption": "Average speed over 4 hours = ?",
           "hints": [
             "Average speed = total distance / total time — the rest still counts in the total time.",
             "(60 + 40) / (2 + 1 + 1).",
