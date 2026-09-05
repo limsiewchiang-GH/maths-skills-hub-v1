@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Co-interior angles on parallel lines</title>
+  <desc id="desc">Two parallel lines are cut by a transversal. The co-interior angle pair, on the same side between the lines, are marked x and 115 degrees.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="100" x2="300" y2="100" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="40" y1="200" x2="300" y2="200" stroke="#2a5db0" stroke-width="2.5"/>
+  <path d="M160,90 L170,100 L160,110" fill="none" stroke="#2a5db0" stroke-width="1.6"/>
+  <path d="M160,190 L170,200 L160,210" fill="none" stroke="#2a5db0" stroke-width="1.6"/>
+
+  <line x1="70" y1="55" x2="270" y2="245" stroke="#3a2f22" stroke-width="2"/>
+
+  <path d="M142.00,100.00 L141.89,102.16 L141.58,104.29 L141.05,106.39 L140.33,108.42 L139.40,110.37 L138.29,112.22 L137.01,113.96 L135.56,115.56" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="152" y="118" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">x°</text>
+
+  <path d="M204.44,184.44 L209.63,180.60 L215.71,178.42 L222.16,178.11 L228.42,179.67 L233.96,182.99 L238.29,187.78 L241.05,193.61 L242.00,200.00" fill="none" stroke="#3a2f22" stroke-width="2"/>
+  <text x="233" y="172" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">115°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="120" cy="100" r="3.5"/>
+    <circle cx="220" cy="200" r="3.5"/>
+  </g>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

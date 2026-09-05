@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Regular pentagon with one interior angle marked</title>
+  <desc id="desc">A regular pentagon (5 equal sides) with one interior angle marked x, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <polygon points="170,60 255.6,122.19 222.9,222.81 117.1,222.81 84.4,122.19" fill="#d9480f" fill-opacity="0.04" stroke="#2a5db0" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <path d="M239.42,110.43 L237.12,114.54 L235.85,119.06 L235.66,123.76 L236.58,128.37 L238.55,132.64 L241.46,136.33 L245.15,139.24 L249.42,141.21" fill="none" stroke="#d9480f" stroke-width="2.2"/>
+  <text x="230.75" y="97" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">x°</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="60" r="3.5"/>
+    <circle cx="255.6" cy="122.19" r="3.5"/>
+    <circle cx="222.9" cy="222.81" r="3.5"/>
+    <circle cx="117.1" cy="222.81" r="3.5"/>
+    <circle cx="84.4" cy="122.19" r="3.5"/>
+  </g>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">A regular pentagon (5 equal sides).</text>
+</svg>
