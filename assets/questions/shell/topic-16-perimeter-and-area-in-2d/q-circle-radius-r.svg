@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Circle of radius r</title>
+  <desc id="desc">A circle with radius r. Its circumference is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <circle cx="170" cy="150" r="85" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="170" y1="150" x2="255" y2="150" stroke="#3a2f22" stroke-width="2"/>
+  <circle cx="170" cy="150" r="3.5" fill="#3a2f22"/>
+
+  <text x="205" y="143" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">r</text>
+
+  <text x="170" y="240" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Circumference = ?</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangle with length x plus 5 and width 3</title>
+  <desc id="desc">A rectangle with length x + 5 and width 3. Its perimeter, when x = 7, is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="60" y="110" width="220" height="60" fill="#d9480f" fill-opacity="0.06" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="170" y="198" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">x + 5</text>
+  <text x="40" y="145" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">3</text>
+
+  <text x="170" y="145" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Perimeter = ? when x = 7</text>
+
+  <text x="170" y="230" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>

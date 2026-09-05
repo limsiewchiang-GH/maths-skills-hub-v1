@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Square with side 3x</title>
+  <desc id="desc">A square with side length 3x. Its perimeter is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="90" y="70" width="160" height="160" fill="#d9480f" fill-opacity="0.06" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="170" y="248" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">3x</text>
+
+  <text x="170" y="155" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Perimeter = ?</text>
+</svg>

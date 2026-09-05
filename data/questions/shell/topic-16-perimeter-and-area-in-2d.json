@@ -8,6 +8,9 @@
         {
           "q": "Find the area of a rectangle with sides 8 and x + 3.",
           "a": "8x + 24",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-rectangle-algebraic.svg",
+          "imageAlt": "A rectangle with sides 8 and x + 3. The area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Area of a rectangle = length x width.",
             "8 x (x + 3).",
@@ -17,6 +20,8 @@
         {
           "q": "Find the circumference of a circle of radius r.",
           "a": "2pi r",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-circle-radius-r.svg",
+          "imageAlt": "A circle with radius r. The circumference is unknown.",
           "hints": [
             "Recall the circumference formula in terms of the radius.",
             "Circumference = 2 x pi x r.",
@@ -26,6 +31,9 @@
         {
           "q": "Find the area of a trapezium with parallel sides 8 and 12 and height 5.",
           "a": "50",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-trapezium.svg",
+          "imageAlt": "A trapezium with parallel sides 8 and 12 and height 5. The area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use area = (1/2)(sum of parallel sides)(height).",
             "(1/2)(8 + 12)(5).",
@@ -35,6 +43,9 @@
         {
           "q": "Find the area of a triangle with base 14 and height 9.",
           "a": "63",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-triangle-base-height.svg",
+          "imageAlt": "A triangle with base 14 and a dashed height of 9. The area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use area = (1/2) x base x height.",
             "(1/2)(14)(9).",
@@ -44,6 +55,9 @@
         {
           "q": "Find the area of a semicircle of radius 6.",
           "a": "18pi",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-semicircle-area.svg",
+          "imageAlt": "A semicircle with radius 6. The area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "A semicircle's area is half the area of a full circle: (1/2)πr^2.",
             "(1/2) x pi x 6^2.",
@@ -53,6 +67,8 @@
         {
           "q": "Find the perimeter of a square of side 3x.",
           "a": "12x",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-square-perimeter.svg",
+          "imageAlt": "A square with side 3x. The perimeter is unknown.",
           "hints": [
             "A square's perimeter is 4 times the side length.",
             "4 x 3x.",
@@ -62,6 +78,9 @@
         {
           "q": "Find the perimeter of a rectangle with length (x+5) and width 3, when x = 7.",
           "a": "30",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-rectangle-substitution.svg",
+          "imageAlt": "A rectangle with length x + 5 and width 3. The perimeter when x = 7 is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Substitute x into the length first, then use perimeter = 2(length + width).",
             "length = 7 + 5 = 12, so perimeter = 2(12 + 3).",
