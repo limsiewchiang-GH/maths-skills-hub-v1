@@ -316,7 +316,7 @@
         }
       ]
     },
-    "Algebraic manipulation, including quadratics and inequalities;": {
+    "Algebraic manipulation, including quadratics and inequalities": {
       "items": [
         {
           "q": "Solve: x^2 - 5x + 6 = 0.",
