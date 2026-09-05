@@ -102,6 +102,9 @@
         {
           "q": "If U = {a,b,c,d} and A = {a,c}, find A'.",
           "a": "{b,d}",
+          "image": "assets/questions/fifth-form/topic-40-set-notation/q-venn-complement.svg",
+          "imageAlt": "A universal set U containing a, b, c, d. Set A (circle) contains a and c. The shaded region outside A represents A', unknown.",
+          "imageCaption": "Shaded: outside A, inside U. A' = ?",
           "hints": [
             "The complement A' is every element of U that is NOT in A.",
             "U = {a,b,c,d}, remove a, c.",
@@ -142,6 +145,9 @@
         {
           "q": "If A = {1,2,3} and B = {3,4,5}, find A n B.",
           "a": "{3}",
+          "image": "assets/questions/fifth-form/topic-40-set-notation/q-venn-intersection.svg",
+          "imageAlt": "Two overlapping circles A (1,2) and B (4,5) with 3 in the overlap, shaded, representing A ∩ B, unknown.",
+          "imageCaption": "Shaded: A ∩ B = ?",
           "hints": [
             "The intersection A n B contains only the elements in BOTH sets.",
             "A = {1,2,3}, B = {3,4,5} — the only shared element is 3.",
@@ -151,6 +157,9 @@
         {
           "q": "If A = {1,2,3} and B = {3,4,5}, find A u B.",
           "a": "{1,2,3,4,5}",
+          "image": "assets/questions/fifth-form/topic-40-set-notation/q-venn-union.svg",
+          "imageAlt": "Two overlapping circles A (1,2) and B (4,5) with 3 in the overlap, both circles shaded, representing A ∪ B, unknown.",
+          "imageCaption": "Shaded: A ∪ B = ?",
           "hints": [
             "The union A u B contains every element that is in A OR B (no repeats).",
             "Combine {1,2,3} and {3,4,5}, listing 3 only once.",
@@ -209,6 +218,9 @@
         {
           "q": "In a class of 30, 18 like maths, 12 like physics, and 7 like both. How many like maths only?",
           "a": "11",
+          "image": "assets/questions/fifth-form/topic-40-set-notation/q-venn-numeric-class.svg",
+          "imageAlt": "A Venn diagram for a class of 30. Maths (18 total) and Physics (12 total) circles overlap with 7 in both. Maths only is unknown.",
+          "imageCaption": "Maths only = ?",
           "hints": [
             "Maths only = total who like maths, minus those who like both.",
             "18 - 7.",

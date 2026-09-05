@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Venn diagram: class of 30, maths and physics</title>
+  <desc id="desc">A Venn diagram for a class of 30 students. 18 like maths in total, 12 like physics in total, and 7 like both, shown in the overlap. The number who like maths only is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="40" y="60" width="260" height="180" fill="none" stroke="#3a2f22" stroke-width="2"/>
+  <text x="48" y="52" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">U = 30</text>
+
+  <circle cx="140" cy="150" r="70" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+  <circle cx="215" cy="150" r="70" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="105" y="74" text-anchor="middle" fill="#2a5db0" font-family="Arial, sans-serif" font-size="15" font-weight="700">Maths (18)</text>
+  <text x="255" y="74" text-anchor="middle" fill="#2a5db0" font-family="Arial, sans-serif" font-size="15" font-weight="700">Physics (12)</text>
+
+  <text x="105" y="155" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="18" font-weight="700">?</text>
+  <text x="178" y="155" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="18" font-weight="700">7</text>
+
+  <text x="170" y="256" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Maths only = ?</text>
+</svg>

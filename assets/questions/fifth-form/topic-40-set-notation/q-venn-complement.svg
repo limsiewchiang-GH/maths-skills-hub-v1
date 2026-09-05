@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Venn diagram: complement of set A</title>
+  <desc id="desc">A universal set U containing elements a, b, c, d. Set A, shown as a circle, contains a and c. The shaded region outside A but inside U represents the complement of A, which is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="50" y="50" width="240" height="180" fill="#d9480f" fill-opacity="0.1" stroke="#3a2f22" stroke-width="2"/>
+  <text x="58" y="42" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">U</text>
+
+  <circle cx="170" cy="140" r="65" fill="#fffdf8" stroke="#2a5db0" stroke-width="2.5"/>
+  <text x="170" y="82" text-anchor="middle" fill="#2a5db0" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+
+  <text x="150" y="135" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">a</text>
+  <text x="190" y="150" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">c</text>
+
+  <text x="90" y="200" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">b</text>
+  <text x="250" y="200" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">d</text>
+
+  <text x="170" y="256" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Shaded: outside A, inside U. A' = ?</text>
+</svg>
