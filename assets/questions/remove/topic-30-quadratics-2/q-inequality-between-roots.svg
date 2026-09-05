@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph of y = x squared minus 9, with solution region shaded</title>
+  <desc id="desc">The graph of y = x^2 - 9, a parabola crossing the x-axis at x=-3 and x=3. The solution to x^2-9 less than 0, where the curve is below the x-axis, is highlighted on the x-axis between the two roots.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="30" y1="150.8" x2="310" y2="150.8" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="30" x2="170" y2="230" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="313" y="155" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+
+  <path d="M40.0,40.0 L46.5,56.9 L53.0,72.9 L59.5,88.0 L66.0,102.3 L72.5,115.7 L79.0,128.3 L85.5,140.0 L92.0,150.8 L98.5,160.7 L105.0,169.8 L111.5,178.0 L118.0,185.4 L124.5,191.9 L131.0,197.5 L137.5,202.3 L144.0,206.2 L150.5,209.2 L157.0,211.3 L163.5,212.6 L170.0,213.1 L176.5,212.6 L183.0,211.3 L189.5,209.2 L196.0,206.2 L202.5,202.3 L209.0,197.5 L215.5,191.9 L222.0,185.4 L228.5,178.0 L235.0,169.8 L241.5,160.7 L248.0,150.8 L254.5,140.0 L261.0,128.3 L267.5,115.7 L274.0,102.3 L280.5,88.0 L287.0,72.9 L293.5,56.9 L300.0,40.0" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="92" y1="150.8" x2="248" y2="150.8" stroke="#d9480f" stroke-width="5"/>
+
+  <g fill="#fffdf8" stroke="#d9480f" stroke-width="2.4">
+    <circle cx="92" cy="150.8" r="5"/>
+    <circle cx="248" cy="150.8" r="5"/>
+  </g>
+  <text x="92" y="172" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">-3</text>
+  <text x="248" y="172" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">3</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Highlighted: where x² − 9 &lt; 0. Open circles: endpoints excluded.</text>
+</svg>

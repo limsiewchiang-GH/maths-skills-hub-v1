@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph of y = negative x squared plus 2x plus 3</title>
+  <desc id="desc">The graph of y = -x^2 + 2x + 3, a parabola whose direction of opening (up or down) is to be determined.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="30" y1="113.1" x2="310" y2="113.1" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="30" x2="170" y2="240" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="313" y="117" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="174" y="38" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <path d="M40.0,280.0 L46.5,265.7 L53.0,244.0 L59.5,223.6 L66.0,204.3 L72.5,186.2 L79.0,169.2 L85.5,153.4 L92.0,138.8 L98.5,125.4 L105.0,113.1 L111.5,102.0 L118.0,92.0 L124.5,83.3 L131.0,75.7 L137.5,69.2 L144.0,64.0 L150.5,59.9 L157.0,57.0 L163.5,55.2 L170.0,54.6 L176.5,55.2 L183.0,57.0 L189.5,59.9 L196.0,64.0 L202.5,69.2 L209.0,75.7 L215.5,83.3 L222.0,92.0 L228.5,102.0 L235.0,113.1 L241.5,125.4 L248.0,138.8 L254.5,153.4 L261.0,169.2 L267.5,186.2 L274.0,204.3 L280.5,223.6 L287.0,244.0 L293.5,265.7 L300.0,280.0" fill="none" stroke="#d9480f" stroke-width="2.5"/>
+
+  <circle cx="170" cy="54.6" r="3.5" fill="#3a2f22"/>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">y = −x² + 2x + 3</text>
+</svg>
