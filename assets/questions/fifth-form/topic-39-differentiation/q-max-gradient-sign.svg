@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">A maximum point: gradient changes from positive to negative</title>
+  <desc id="desc">A curve with a maximum point. A tangent to the left of the maximum slopes upward (positive gradient); a tangent to the right slopes downward (negative gradient). What type of stationary point this is, is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <path d="M40.0,253.9 L46.5,237.4 L53.0,221.7 L59.5,206.9 L66.0,192.9 L72.5,179.7 L79.0,167.4 L85.5,156.0 L92.0,145.4 L98.5,135.6 L105.0,126.7 L111.5,118.6 L118.0,111.4 L124.5,105.1 L131.0,99.6 L137.5,94.9 L144.0,91.1 L150.5,88.1 L157.0,86.0 L163.5,84.7 L170.0,84.3 L176.5,84.7 L183.0,86.0 L189.5,88.1 L196.0,91.1 L202.5,94.9 L209.0,99.6 L215.5,105.1 L222.0,111.4 L228.5,118.6 L235.0,126.7 L241.5,135.6 L248.0,145.4 L254.5,156.0 L261.0,167.4 L267.5,179.7 L274.0,192.9 L280.5,206.9 L287.0,221.7 L293.5,237.4 L300.0,253.9" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="97.2" y1="133.1" x2="138.8" y2="89.7" stroke="#3a2f22" stroke-width="2.2"/>
+  <text x="80" y="150" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">+</text>
+
+  <line x1="201.2" y1="89.7" x2="242.8" y2="133.1" stroke="#3a2f22" stroke-width="2.2"/>
+  <text x="250" y="150" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">−</text>
+
+  <circle cx="170" cy="84.3" r="4.5" fill="#d9480f"/>
+
+  <text x="170" y="264" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Type of stationary point = ?</text>
+</svg>

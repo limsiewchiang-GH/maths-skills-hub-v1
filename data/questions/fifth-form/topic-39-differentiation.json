@@ -124,6 +124,9 @@
         {
           "q": "Find the gradient of y = x^2 at x = 3.",
           "a": "6",
+          "image": "assets/questions/fifth-form/topic-39-differentiation/q-tangent-gradient-curve.svg",
+          "imageAlt": "The graph of y = x squared with a tangent line at x = 3. The gradient there is unknown.",
+          "imageCaption": "Gradient at x = 3 is ?",
           "hints": [
             "Differentiate first, then substitute the given x-value.",
             "dy/dx = 2x, so at x=3: 2(3).",
@@ -245,6 +248,9 @@
         {
           "q": "If the gradient changes from positive to negative at a point, what type of stationary point is it?",
           "a": "Maximum",
+          "image": "assets/questions/fifth-form/topic-39-differentiation/q-max-gradient-sign.svg",
+          "imageAlt": "A curve with a maximum point. A tangent to the left slopes upward (positive gradient); a tangent to the right slopes downward (negative gradient). The type of stationary point is unknown.",
+          "imageCaption": "Type of stationary point = ?",
           "hints": [
             "Think about what the curve is doing just before and just after this point.",
             "The curve rises then falls, so the point is a peak.",
@@ -258,6 +264,9 @@
         {
           "q": "Find the x-coordinate of the stationary point of y = x^2 - 4x + 1.",
           "a": "2",
+          "image": "assets/questions/fifth-form/topic-39-differentiation/q-stationary-point.svg",
+          "imageAlt": "The graph of y = x squared minus 4x plus 1, with a horizontal tangent marking the stationary point, whose coordinates are unknown.",
+          "imageCaption": "Stationary point = ?",
           "hints": [
             "Differentiate, set the derivative to zero, then solve for x.",
             "dy/dx = 2x - 4 = 0.",
