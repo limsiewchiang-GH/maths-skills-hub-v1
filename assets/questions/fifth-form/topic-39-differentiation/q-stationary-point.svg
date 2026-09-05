@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph of y = x squared minus 4x plus 1, stationary point</title>
+  <desc id="desc">The graph of y = x^2 - 4x + 1. Its stationary point, where the gradient is zero, is marked with a horizontal tangent line but its coordinates are unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="30" y1="154.5" x2="310" y2="154.5" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="66" y1="20" x2="66" y2="230" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="313" y="158" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="70" y="28" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <path d="M40.0,101.4 L46.5,111.3 L53.0,120.8 L59.5,129.7 L66.0,138.2 L72.5,146.1 L79.0,153.5 L85.5,160.4 L92.0,166.8 L98.5,172.7 L105.0,178.1 L111.5,182.9 L118.0,187.3 L124.5,191.1 L131.0,194.4 L137.5,197.2 L144.0,199.5 L150.5,201.3 L157.0,202.6 L163.5,203.4 L170.0,203.6 L176.5,203.4 L183.0,202.6 L189.5,201.3 L196.0,199.5 L202.5,197.2 L209.0,194.4 L215.5,191.1 L222.0,187.3 L228.5,182.9 L235.0,178.1 L241.5,172.7 L248.0,166.8 L254.5,160.4 L261.0,153.5 L267.5,146.1 L274.0,138.2 L280.5,129.7 L287.0,120.8 L293.5,111.3 L300.0,101.4" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="140" y1="203.6" x2="200" y2="203.6" stroke="#3a2f22" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="170" cy="203.6" r="4.5" fill="#d9480f"/>
+
+  <text x="170" y="264" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Stationary point = ?</text>
+</svg>

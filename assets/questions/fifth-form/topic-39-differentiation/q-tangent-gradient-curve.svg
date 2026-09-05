@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Graph of y = x squared with tangent at x = 3</title>
+  <desc id="desc">The graph of y = x^2 with a tangent line drawn at the point where x = 3. The gradient at that point is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="35" y1="213.3" x2="310" y2="213.3" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="95.5" y1="20" x2="95.5" y2="240" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="313" y="217" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="100" y="28" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <path d="M50.0,205.0 L56.2,207.1 L62.5,209.0 L68.8,210.5 L75.0,211.6 L81.2,212.5 L87.5,213.1 L93.8,213.3 L100.0,213.2 L106.2,212.9 L112.5,212.2 L118.8,211.1 L125.0,209.8 L131.2,208.2 L137.5,206.2 L143.8,203.9 L150.0,201.3 L156.2,198.4 L162.5,195.2 L168.8,191.7 L175.0,187.8 L181.2,183.6 L187.5,179.2 L193.8,174.4 L200.0,169.2 L206.2,163.8 L212.5,158.1 L218.8,152.0 L225.0,145.6 L231.2,139.0 L237.5,132.0 L243.8,124.6 L250.0,117.0 L256.2,109.1 L262.5,100.8 L268.8,92.2 L275.0,83.3 L281.2,74.1 L287.5,64.6 L293.8,54.7 L300.0,44.6" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <line x1="186.4" y1="188.3" x2="286.4" y2="78.3" stroke="#3a2f22" stroke-width="2"/>
+  <circle cx="231.8" cy="138.3" r="4.5" fill="#d9480f"/>
+  <text x="238" y="150" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">(3,9)</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Gradient at x = 3 is ?</text>
+</svg>
