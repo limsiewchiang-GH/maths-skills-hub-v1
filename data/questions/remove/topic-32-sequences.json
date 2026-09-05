@@ -70,7 +70,7 @@
         }
       ]
     },
-    "AdMaths recurrence relationships (there’s not a lot here, but this can extend to difference equations if you want to!)": {
+    "Recurrence relationships": {
       "items": [
         {
           "q": "Given u_(n+1) = u_n + 3 and u_1 = 2, find u_2.",
@@ -128,7 +128,7 @@
         }
       ]
     },
-    "Quadratic sequences are a good area for investigation.": {
+    "Quadratic sequences": {
       "items": [
         {
           "q": "Find the next term in 1, 4, 9, 16, ...",

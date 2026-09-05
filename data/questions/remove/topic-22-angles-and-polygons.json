@@ -8,9 +8,9 @@
         {
           "q": "AB is parallel to CD. Work out the size of the angle marked y.",
           "a": "60",
-          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-parallel-lines.png",
+          "image": "assets/questions/remove/topic-22-angles-and-polygons/q-parallel-lines.svg",
           "imageAlt": "Parallel lines AB and CD cut by a transversal, with a 60 degree marked angle on the right and angle y on the left.",
-          "imageCaption": "Original diagram image stored beside its topic file.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Use the parallel-line angle facts (alternate, corresponding, or co-interior) to relate y to the marked 60° angle.",
             "y and the 60° angle are equal by one of the parallel-line angle rules shown in the diagram.",
