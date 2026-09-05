@@ -75,6 +75,9 @@
         {
           "q": "An L-shape is made from rectangles 8 by 3 and 5 by 2. Find the total area.",
           "a": "34",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-lshape-compound.svg",
+          "imageAlt": "An L-shape made from a rectangle 8 by 3 and a rectangle 5 by 2. The total area is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Split the L-shape into two rectangles and add their areas.",
             "(8 x 3) + (5 x 2).",
@@ -84,6 +87,9 @@
         {
           "q": "A circle of radius 7 sits inside a square of side 14. Find the shaded area outside the circle.",
           "a": "196 - 49pi",
+          "image": "assets/questions/shell/topic-16-perimeter-and-area-in-2d/q-circle-in-square.svg",
+          "imageAlt": "A circle of radius 7 inscribed in a square of side 14, touching all four sides. The shaded area outside the circle is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Subtract the circle's area from the square's area.",
             "14^2 - pi(7)^2.",

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Circle inscribed in a square</title>
+  <desc id="desc">A circle of radius 7 sits inside a square of side 14, touching all four sides. The shaded area outside the circle but inside the square is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <rect x="65" y="60" width="180" height="180" fill="#d9480f" fill-opacity="0.12" stroke="#2a5db0" stroke-width="2.5"/>
+  <circle cx="155" cy="150" r="90" fill="#fffdf8" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <text x="155" y="253" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">14</text>
+  <line x1="155" y1="150" x2="245" y2="150" stroke="#3a2f22" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="195" y="145" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-weight="700">7</text>
+
+  <text x="95" y="90" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">Shaded = ?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Diagram not to scale.</text>
+</svg>
