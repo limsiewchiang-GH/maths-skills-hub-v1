@@ -73,57 +73,57 @@
     "Recurrence relationships": {
       "items": [
         {
-          "q": "Given u_(n+1) = u_n + 3 and u_1 = 2, find u_2.",
+          "q": "Given uₙ₊₁ = uₙ + 3 and u₁ = 2, find u₂.",
           "a": "5",
           "hints": [
             "Substitute n = 1 into the recurrence relation.",
-            "u_2 = u_1 + 3 = 2 + 3.",
-            "u_2 = 5"
+            "u₂ = u₁ + 3 = 2 + 3.",
+            "u₂ = 5"
           ]
         },
         {
-          "q": "Given u_(n+1) = 2u_n and u_1 = 4, find u_3.",
+          "q": "Given uₙ₊₁ = 2uₙ and u₁ = 4, find u₃.",
           "a": "16",
           "hints": [
             "Apply the rule step by step, one term at a time.",
-            "u_2 = 2 x 4 = 8, then u_3 = 2 x 8.",
-            "u_3 = 16"
+            "u₂ = 2 x 4 = 8, then u₃ = 2 x 8.",
+            "u₃ = 16"
           ]
         },
         {
-          "q": "Given u_(n+1) = u_n - 5 and u_1 = 20, find u_4.",
+          "q": "Given uₙ₊₁ = uₙ - 5 and u₁ = 20, find u₄.",
           "a": "5",
           "hints": [
             "Apply the rule step by step, one term at a time.",
-            "u_2 = 20 - 5 = 15, u_3 = 15 - 5 = 10, u_4 = 10 - 5.",
-            "u_4 = 5"
+            "u₂ = 20 - 5 = 15, u₃ = 15 - 5 = 10, u₄ = 10 - 5.",
+            "u₄ = 5"
           ]
         },
         {
-          "q": "Given u_(n+1) = 3u_n and u_1 = 1, find u_4.",
+          "q": "Given uₙ₊₁ = 3uₙ and u₁ = 1, find u₄.",
           "a": "27",
           "hints": [
             "Apply the rule step by step, one term at a time.",
-            "u_2 = 3, u_3 = 9, u_4 = 3 x 9.",
-            "u_4 = 27"
+            "u₂ = 3, u₃ = 9, u₄ = 3 x 9.",
+            "u₄ = 27"
           ]
         },
         {
-          "q": "Given u_(n+1) = u_n + 2 and u_1 = 7, find u_5.",
+          "q": "Given uₙ₊₁ = uₙ + 2 and u₁ = 7, find u₅.",
           "a": "15",
           "hints": [
             "Apply the rule step by step, one term at a time.",
-            "u_2 = 9, u_3 = 11, u_4 = 13, u_5 = 13 + 2.",
-            "u_5 = 15"
+            "u₂ = 9, u₃ = 11, u₄ = 13, u₅ = 13 + 2.",
+            "u₅ = 15"
           ]
         },
         {
-          "q": "Given u_(n+1) = u_n / 2 and u_1 = 32, find u_3.",
+          "q": "Given uₙ₊₁ = uₙ / 2 and u₁ = 32, find u₃.",
           "a": "8",
           "hints": [
             "Apply the rule step by step, one term at a time.",
-            "u_2 = 32/2 = 16, u_3 = 16/2.",
-            "u_3 = 8"
+            "u₂ = 32/2 = 16, u₃ = 16/2.",
+            "u₃ = 8"
           ]
         }
       ]
