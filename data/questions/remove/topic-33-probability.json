@@ -263,6 +263,9 @@
         {
           "q": "A bag has 3 red and 2 blue counters. Two are chosen without replacement. Find P(red then red).",
           "a": "3/10",
+          "image": "assets/questions/remove/topic-33-probability/q-tree-without-replacement.svg",
+          "imageAlt": "A probability tree diagram. A bag has 3 red and 2 blue counters, chosen without replacement. The first stage shows P(red)=3/5, P(blue)=2/5; the second stage probabilities change depending on the first choice. The path for red then red is highlighted.",
+          "imageCaption": "Chosen without replacement — second stage changes.",
           "hints": [
             "Without replacement, the second probability changes because one counter is already gone.",
             "P(first red) = 3/5, P(second red) = 2/4, so (3/5) x (2/4).",
@@ -276,6 +279,9 @@
         {
           "q": "A bag has 1 red and 3 blue counters. One counter is chosen, replaced, then another is chosen. Find P(red then blue).",
           "a": "3/16",
+          "image": "assets/questions/remove/topic-33-probability/q-tree-with-replacement.svg",
+          "imageAlt": "A probability tree diagram. A bag has 1 red and 3 blue counters, chosen with replacement. Each stage shows P(red)=1/4 and P(blue)=3/4. The path for red then blue is highlighted.",
+          "imageCaption": "Chosen with replacement.",
           "hints": [
             "Follow the tree diagram branch: multiply along the red-then-blue path.",
             "P(red) = 1/4, P(blue) = 3/4, so (1/4) x (3/4).",
@@ -285,6 +291,9 @@
         {
           "q": "A fair coin is tossed twice. What is the probability of exactly one head?",
           "a": "1/2",
+          "image": "assets/questions/remove/topic-33-probability/q-tree-coin-twice.svg",
+          "imageAlt": "A probability tree diagram for a fair coin tossed twice, each branch probability 1/2. The two paths giving exactly one head, HT and TH, are highlighted.",
+          "imageCaption": "Highlighted: the outcomes with exactly one head.",
           "hints": [
             "List the two branches that give exactly one head (HT and TH) and add their probabilities.",
             "P(HT) + P(TH) = (1/2)(1/2) + (1/2)(1/2) = 1/4 + 1/4.",
@@ -343,6 +352,9 @@
         {
           "q": "A fair coin is tossed 3 times. Find the probability of exactly 2 heads.",
           "a": "3/8",
+          "image": "assets/questions/remove/topic-33-probability/q-tree-three-tosses.svg",
+          "imageAlt": "A probability tree diagram for a fair coin tossed three times, showing all eight outcomes. The three outcomes with exactly two heads, HHT, HTH and THH, are highlighted.",
+          "imageCaption": "Each branch has probability 1/2. Highlighted: exactly two heads.",
           "hints": [
             "Count the number of ways to choose which 2 tosses are heads, then multiply by the probability of one such arrangement.",
             "C(3,2) x (1/2)^3 = 3 x 1/8.",

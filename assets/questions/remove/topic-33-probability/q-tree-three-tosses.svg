@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Tree diagram: a coin tossed three times</title>
+  <desc id="desc">A probability tree diagram for a fair coin tossed three times, giving eight equally likely outcomes. The three outcomes with exactly two heads, HHT, HTH and THH, are highlighted.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="140" x2="120" y2="70" stroke="#2a5db0" stroke-width="1.6"/>
+  <line x1="40" y1="140" x2="120" y2="210" stroke="#2a5db0" stroke-width="1.6"/>
+
+  <line x1="120" y1="70" x2="200" y2="40" stroke="#2a5db0" stroke-width="1.6"/>
+  <line x1="120" y1="70" x2="200" y2="100" stroke="#2a5db0" stroke-width="1.6"/>
+  <line x1="120" y1="210" x2="200" y2="180" stroke="#2a5db0" stroke-width="1.6"/>
+  <line x1="120" y1="210" x2="200" y2="240" stroke="#2a5db0" stroke-width="1.6"/>
+
+  <line x1="200" y1="40" x2="300" y2="25" stroke="#3a2f22" stroke-width="1.4"/>
+  <line x1="200" y1="40" x2="300" y2="55" stroke="#d9480f" stroke-width="2.2"/>
+  <line x1="200" y1="100" x2="300" y2="85" stroke="#d9480f" stroke-width="2.2"/>
+  <line x1="200" y1="100" x2="300" y2="115" stroke="#3a2f22" stroke-width="1.4"/>
+  <line x1="200" y1="180" x2="300" y2="165" stroke="#d9480f" stroke-width="2.2"/>
+  <line x1="200" y1="180" x2="300" y2="195" stroke="#3a2f22" stroke-width="1.4"/>
+  <line x1="200" y1="240" x2="300" y2="225" stroke="#3a2f22" stroke-width="1.4"/>
+  <line x1="200" y1="240" x2="300" y2="255" stroke="#3a2f22" stroke-width="1.4"/>
+
+  <g fill="#3a2f22">
+    <circle cx="40" cy="140" r="3"/>
+    <circle cx="120" cy="70" r="3"/>
+    <circle cx="120" cy="210" r="3"/>
+    <circle cx="200" cy="40" r="3"/>
+    <circle cx="200" cy="100" r="3"/>
+    <circle cx="200" cy="180" r="3"/>
+    <circle cx="200" cy="240" r="3"/>
+    <circle cx="300" cy="25" r="3"/>
+    <circle cx="300" cy="115" r="3"/>
+    <circle cx="300" cy="195" r="3"/>
+    <circle cx="300" cy="225" r="3"/>
+    <circle cx="300" cy="255" r="3"/>
+  </g>
+  <g fill="#d9480f">
+    <circle cx="300" cy="55" r="3.5"/>
+    <circle cx="300" cy="85" r="3.5"/>
+    <circle cx="300" cy="165" r="3.5"/>
+  </g>
+
+  <text x="122" y="66" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11" font-weight="700">H</text>
+  <text x="122" y="222" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11" font-weight="700">T</text>
+  <text x="202" y="36" fill="#3a2f22" font-family="Arial, sans-serif" font-size="10">HH</text>
+  <text x="202" y="96" fill="#3a2f22" font-family="Arial, sans-serif" font-size="10">HT</text>
+  <text x="202" y="176" fill="#3a2f22" font-family="Arial, sans-serif" font-size="10">TH</text>
+  <text x="202" y="253" fill="#3a2f22" font-family="Arial, sans-serif" font-size="10">TT</text>
+
+  <text x="306" y="29" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11">HHH</text>
+  <text x="306" y="59" fill="#d9480f" font-family="Arial, sans-serif" font-size="11" font-weight="700">HHT</text>
+  <text x="306" y="89" fill="#d9480f" font-family="Arial, sans-serif" font-size="11" font-weight="700">HTH</text>
+  <text x="306" y="119" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11">HTT</text>
+  <text x="306" y="169" fill="#d9480f" font-family="Arial, sans-serif" font-size="11" font-weight="700">THH</text>
+  <text x="306" y="199" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11">THT</text>
+  <text x="306" y="229" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11">TTH</text>
+  <text x="306" y="259" fill="#3a2f22" font-family="Arial, sans-serif" font-size="11">TTT</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="11" font-style="italic">Each branch has probability 1/2. Highlighted: exactly two heads.</text>
+</svg>
