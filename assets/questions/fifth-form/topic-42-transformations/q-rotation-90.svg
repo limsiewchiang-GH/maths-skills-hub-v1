@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Rotate the point (1,0) by 90 degrees anticlockwise about the origin</title>
+  <desc id="desc">A coordinate grid showing the point (1,0) and a curved arrow sweeping 90 degrees anticlockwise about the origin. The rotated point is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="30" y1="200" x2="290" y2="200" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="110" y1="260" x2="110" y2="40" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="293" y="204" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="114" y="48" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <circle cx="170" cy="200" r="4.5" fill="#3a2f22"/>
+  <text x="176" y="216" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">(1,0)</text>
+
+  <path d="M164.0,200.0 L163.3,191.6 L161.4,183.3 L158.1,175.5 L153.7,168.3 L148.2,161.8 L141.7,156.3 L134.5,151.9 L126.7,148.6 L118.4,146.7 L110.0,146.0" fill="none" stroke="#2a5db0" stroke-width="2.2"/>
+  <polygon points="110.0,146.0 118.9,148.4 116.9,155.3" fill="#2a5db0"/>
+  <text x="130" y="180" fill="#2a5db0" font-family="Arial, sans-serif" font-size="14" font-weight="700">90°</text>
+
+  <circle cx="110" cy="146" r="4.5" fill="#d9480f"/>
+  <text x="85" y="140" fill="#d9480f" font-family="Arial, sans-serif" font-size="15" font-weight="700">?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Rotate 90° anticlockwise about the origin.</text>
+</svg>
