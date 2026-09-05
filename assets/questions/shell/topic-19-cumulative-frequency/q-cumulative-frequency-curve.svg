@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Cumulative frequency graph</title>
+  <desc id="desc">A cumulative frequency graph (ogive), an S-shaped smooth curve, plotted from cumulative frequencies 3, 8, 15, 19 at upper class boundaries 10, 20, 30, 40. A dashed construction line shows how the median is read from the graph.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="50" y1="230" x2="310" y2="230" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="50" y1="230" x2="50" y2="30" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="255" y="248" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">Upper class boundary</text>
+  <text x="8" y="26" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">Cumulative</text>
+  <text x="8" y="40" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">frequency</text>
+
+  <path d="M50.0,230.0 C60.0,225.5 90.0,215.0 110.0,203.0 C130.0,191.0 150.0,176.0 170.0,158.0 C190.0,140.0 210.0,111.5 230.0,95.0 C250.0,78.5 280.0,65.0 290.0,59.0" fill="none" stroke="#2a5db0" stroke-width="2.5"/>
+
+  <g fill="#3a2f22">
+    <circle cx="110" cy="203" r="3"/>
+    <circle cx="170" cy="158" r="3"/>
+    <circle cx="230" cy="95" r="3"/>
+    <circle cx="290" cy="59" r="3"/>
+  </g>
+  <g text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">
+    <text x="110" y="245">10</text>
+    <text x="170" y="245">20</text>
+    <text x="230" y="245">30</text>
+    <text x="290" y="245">40</text>
+  </g>
+  <text x="35" y="63" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">19</text>
+
+  <line x1="50" y1="144.5" x2="183.5" y2="144.5" stroke="#d9480f" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <line x1="183.5" y1="144.5" x2="183.5" y2="230" stroke="#d9480f" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="183.5" cy="144.5" r="4" fill="#d9480f"/>
+  <text x="35" y="148" text-anchor="end" fill="#d9480f" font-family="Arial, sans-serif" font-size="12" font-weight="700">9.5</text>
+  <text x="190" y="150" fill="#d9480f" font-family="Arial, sans-serif" font-size="13" font-weight="700">median?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Half of 19 is 9.5 — read across, then down.</text>
+</svg>
