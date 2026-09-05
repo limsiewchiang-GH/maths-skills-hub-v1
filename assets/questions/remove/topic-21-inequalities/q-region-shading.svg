@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Region satisfying y greater than x and y less than 3</title>
+  <desc id="desc">A coordinate grid showing the region satisfying both y greater than x and y less than 3, shaded, bounded by two dashed lines since both inequalities are strict. The point (1,2) is marked to test whether it lies in the region.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="220" x2="320" y2="220" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="20" x2="170" y2="240" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="323" y="224" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="174" y="28" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <polygon points="254,136 114,276 114,136" fill="#d9480f" fill-opacity="0.14" stroke="none"/>
+
+  <line x1="114" y1="276" x2="310" y2="80" stroke="#3a2f22" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="114" y1="136" x2="310" y2="136" stroke="#3a2f22" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <text x="270" y="90" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = x</text>
+  <text x="270" y="130" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = 3</text>
+
+  <circle cx="198" cy="164" r="5" fill="#d9480f"/>
+  <text x="206" y="161" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">(1, 2)</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Shaded: y &gt; x and y &lt; 3 (dashed lines — both strict).</text>
+</svg>
