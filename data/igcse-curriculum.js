@@ -243,7 +243,7 @@ window.igcseCurriculum = [
           "Radius ⟂ tangent",
           "Tangents to the same point",
           "Radius ⟂ chord and bisects chord",
-          "Intersecting Chord Theorem (aka ‘power of a point’"
+          "Intersecting Chord Theorem (aka ‘power of a point’)"
         ]
       },
       {
@@ -315,8 +315,8 @@ window.igcseCurriculum = [
         "title": "Sequences",
         "skills": [
           "Definition of a sequence",
-          "AdMaths recurrence relationships (there’s not a lot here, but this can extend to difference equations if you want to!)",
-          "Quadratic sequences are a good area for investigation.",
+          "Recurrence relationships",
+          "Quadratic sequences",
           "Geometric sequences and series",
           "Arithmetic sequences",
           "Arithmetic series",
