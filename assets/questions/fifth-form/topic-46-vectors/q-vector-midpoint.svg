@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle OAB with M the midpoint of AB</title>
+  <desc id="desc">Triangle OAB, with OA = a and OB = b. M is the midpoint of AB. The vector OM, drawn dashed, is unknown in terms of a and b, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="70" y1="90" x2="280" y2="90" stroke="#6b6157" stroke-width="1.6" stroke-dasharray="4 3"/>
+
+  <line x1="170" y1="230" x2="70" y2="90" stroke="#2a5db0" stroke-width="2.5"/>
+  <polygon points="70,90 78.9,94.7 71.6,99.9" fill="#2a5db0"/>
+  <text x="105" y="150" fill="#2a5db0" font-family="Arial, sans-serif" font-size="16" font-weight="700">a</text>
+
+  <line x1="170" y1="230" x2="280" y2="90" stroke="#3a2f22" stroke-width="2.5"/>
+  <polygon points="280,90 278.0,99.9 270.9,94.3" fill="#3a2f22"/>
+  <text x="235" y="150" fill="#3a2f22" font-family="Arial, sans-serif" font-size="16" font-weight="700">b</text>
+
+  <line x1="170" y1="230" x2="175" y2="90" stroke="#d9480f" stroke-width="2.2" stroke-dasharray="7 4"/>
+  <polygon points="175,90 179.2,99.2 170.2,98.8" fill="#d9480f"/>
+  <text x="182" y="180" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">OM = ?</text>
+
+  <g fill="#3a2f22">
+    <circle cx="170" cy="230" r="3.5"/>
+    <circle cx="70" cy="90" r="3.5"/>
+    <circle cx="280" cy="90" r="3.5"/>
+    <circle cx="175" cy="90" r="3.5"/>
+  </g>
+  <text x="155" y="248" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">O</text>
+  <text x="52" y="82" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="286" y="82" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">B</text>
+  <text x="178" y="76" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">M</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">M is the midpoint of AB.</text>
+</svg>

@@ -62,6 +62,9 @@
         {
           "q": "Find the magnitude of the vector (3,4).",
           "a": "5",
+          "image": "assets/questions/fifth-form/topic-46-vectors/q-vector-magnitude.svg",
+          "imageAlt": "A vector from the origin to (3,4), with dashed lines showing the components 3 and 4. The magnitude is unknown.",
+          "imageCaption": "v = (3, 4)",
           "hints": [
             "Use Pythagoras: magnitude = sqrt(x-component^2 + y-component^2).",
             "sqrt(3^2 + 4^2) = sqrt(9 + 16).",
@@ -75,6 +78,9 @@
         {
           "q": "If a = (2,3) and b = (5,-1), find a + b.",
           "a": "(7,2)",
+          "image": "assets/questions/fifth-form/topic-46-vectors/q-vector-addition.svg",
+          "imageAlt": "Vector a = (2,3) drawn from the origin, then vector b = (5,-1) drawn tip to tail. The resultant a + b is unknown.",
+          "imageCaption": "a = (2,3), b = (5,−1)",
           "hints": [
             "Add column vectors component by component.",
             "(2+5, 3+(-1)).",
@@ -133,6 +139,9 @@
         {
           "q": "Complete: AB + BC = ?",
           "a": "AC",
+          "image": "assets/questions/fifth-form/topic-46-vectors/q-vector-triangle-law.svg",
+          "imageAlt": "Triangle ABC with vectors AB and BC drawn tip to tail, and AC dashed. AB + BC is unknown.",
+          "imageCaption": "AB + BC = ?",
           "hints": [
             "Think of AB and BC as consecutive journeys — where do they end up starting and finishing?",
             "Travelling A to B then B to C is the same as travelling directly A to C.",
@@ -187,6 +196,9 @@
         {
           "q": "In triangle OAB, M is the midpoint of AB. Given OA = a and OB = b, express OM in terms of a and b.",
           "a": "(1/2)(a + b)",
+          "image": "assets/questions/fifth-form/topic-46-vectors/q-vector-midpoint.svg",
+          "imageAlt": "Triangle OAB with OA = a, OB = b, and M the midpoint of AB. Vector OM, dashed, is unknown in terms of a and b.",
+          "imageCaption": "M is the midpoint of AB.",
           "hints": [
             "Write OM as OA plus half of AB, then express AB in terms of a and b.",
             "AB = OB - OA = b - a, so OM = a + (1/2)(b - a).",

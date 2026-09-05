@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Vector (3,4) with magnitude to find</title>
+  <desc id="desc">A vector from the origin to the point (3,4), drawn as an arrow. Dashed horizontal and vertical lines show the components 3 and 4. The magnitude of the vector is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="220" x2="280" y2="220" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="70" y1="240" x2="70" y2="60" stroke="#3a2f22" stroke-width="1.5"/>
+
+  <line x1="70" y1="220" x2="145" y2="220" stroke="#6b6157" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <line x1="145" y1="220" x2="145" y2="120" stroke="#6b6157" stroke-width="1.4" stroke-dasharray="4 3"/>
+
+  <line x1="70" y1="220" x2="141" y2="125.3" stroke="#2a5db0" stroke-width="2.5"/>
+  <path d="M141,125.3 L129.5,131.2 L136.8,140.9 Z" fill="#2a5db0"/>
+
+  <text x="105" y="238" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">3</text>
+  <text x="152" y="174" fill="#3a2f22" font-family="Arial, sans-serif" font-size="14" font-weight="700">4</text>
+
+  <text x="95" y="165" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">|v| = ?</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">v = (3, 4)</text>
+</svg>

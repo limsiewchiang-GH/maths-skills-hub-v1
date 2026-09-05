@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Vector addition: a plus b, tip to tail</title>
+  <desc id="desc">Vector a = (2,3) drawn from the origin, then vector b = (5,-1) drawn tip to tail from the end of a. The resultant, a + b, drawn directly from the origin to the final point, is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="220" x2="280" y2="220" stroke="#3a2f22" stroke-width="1.2" opacity="0.5"/>
+  <line x1="70" y1="240" x2="70" y2="60" stroke="#3a2f22" stroke-width="1.2" opacity="0.5"/>
+
+  <line x1="70" y1="220" x2="106" y2="166" stroke="#2a5db0" stroke-width="2.5"/>
+  <polygon points="106,166 104.9,174.9 98.2,170.4" fill="#2a5db0"/>
+  <text x="80" y="180" fill="#2a5db0" font-family="Arial, sans-serif" font-size="15" font-weight="700">a</text>
+
+  <line x1="106" y1="166" x2="196" y2="184" stroke="#3a2f22" stroke-width="2.5"/>
+  <polygon points="196,184 187.4,186.4 188.9,178.5" fill="#3a2f22"/>
+  <text x="145" y="200" fill="#3a2f22" font-family="Arial, sans-serif" font-size="15" font-weight="700">b</text>
+
+  <line x1="70" y1="220" x2="196" y2="184" stroke="#d9480f" stroke-width="2.2" stroke-dasharray="7 4"/>
+  <polygon points="196,184 189.4,190.0 187.2,182.4" fill="#d9480f"/>
+  <text x="150" y="230" fill="#d9480f" font-family="Arial, sans-serif" font-size="16" font-weight="700">a + b = ?</text>
+
+  <g fill="#3a2f22">
+    <circle cx="70" cy="220" r="3.5"/>
+    <circle cx="106" cy="166" r="3.5"/>
+    <circle cx="196" cy="184" r="3.5"/>
+  </g>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">a = (2,3), b = (5,−1)</text>
+</svg>
