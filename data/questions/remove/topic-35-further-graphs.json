@@ -75,6 +75,9 @@
         {
           "q": "If the graph of y = x^2 - 4 crosses the x-axis at x = a and x = b, find a and b.",
           "a": "-2 and 2",
+          "image": "assets/questions/remove/topic-35-further-graphs/q-graph-xaxis-crossings.svg",
+          "imageAlt": "The graph of y = x squared minus 4, crossing the x-axis at two unknown points a and b.",
+          "imageCaption": "y = x² − 4",
           "hints": [
             "The graph crosses the x-axis where y = 0.",
             "x^2 - 4 = 0, so x^2 = 4.",
@@ -129,6 +132,9 @@
         {
           "q": "For y = x^2 and y = 2x, find the non-zero x-value where they intersect.",
           "a": "2",
+          "image": "assets/questions/remove/topic-35-further-graphs/q-graph-parabola-line-intersect.svg",
+          "imageAlt": "The parabola y = x squared and the line y = 2x, meeting at (0,0) and at a second point with unknown non-zero x-value.",
+          "imageCaption": "Find the non-zero intersection.",
           "hints": [
             "Set the two expressions for y equal to each other, then solve.",
             "x^2 = 2x, so x^2 - 2x = 0, which factorises to x(x - 2) = 0.",
@@ -200,6 +206,9 @@
         {
           "q": "A tangent rises 6 units for a run of 2 units. Estimate the gradient.",
           "a": "3",
+          "image": "assets/questions/remove/topic-35-further-graphs/q-tangent-gradient-rise-run.svg",
+          "imageAlt": "A curve with a straight tangent line touching it at one point, rising 6 units over a run of 2 units. The gradient is unknown.",
+          "imageCaption": "Diagram not to scale.",
           "hints": [
             "Gradient = rise / run.",
             "6 / 2.",
