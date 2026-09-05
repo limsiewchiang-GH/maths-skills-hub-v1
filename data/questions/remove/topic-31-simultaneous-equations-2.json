@@ -8,6 +8,9 @@
         {
           "q": "Solve simultaneously: y = x + 1 and y = x^2 - 1.",
           "a": "(2,3) and (-1,0)",
+          "image": "assets/questions/remove/topic-31-simultaneous-equations-2/q-line-parabola-1.svg",
+          "imageAlt": "The line y = x + 1 and the parabola y = x squared minus 1, meeting at two points, both unknown.",
+          "imageCaption": "Find the coordinates where the line meets the curve.",
           "hints": [
             "Set the two expressions for y equal to each other, then solve the resulting quadratic in x.",
             "x + 1 = x^2 - 1, so x^2 - x - 2 = 0, which factorises to (x-2)(x+1) = 0.",
@@ -62,6 +65,9 @@
         {
           "q": "Solve simultaneously: x + y = 4 and y = x^2 - 2x - 2.",
           "a": "(3,1) and (-2,6)",
+          "image": "assets/questions/remove/topic-31-simultaneous-equations-2/q-line-parabola-2.svg",
+          "imageAlt": "The line x + y = 4 and the parabola y = x squared minus 2x minus 2, meeting at two points, both unknown.",
+          "imageCaption": "Find the coordinates where the line meets the curve.",
           "hints": [
             "Rearrange the linear equation to make y the subject, then set the two expressions for y equal.",
             "y = 4 - x, so 4 - x = x^2 - 2x - 2, giving x^2 - x - 6 = 0, which factorises to (x-3)(x+2) = 0.",
