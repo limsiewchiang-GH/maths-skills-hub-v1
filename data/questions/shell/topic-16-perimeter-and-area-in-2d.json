@@ -116,15 +116,6 @@
           ]
         },
         {
-          "q": "Find the area of a semicircle of radius 6.",
-          "a": "18pi",
-          "hints": [
-            "A semicircle's area is half the area of a full circle: (1/2)πr^2.",
-            "(1/2) x pi x 6^2.",
-            "18pi"
-          ]
-        },
-        {
           "q": "A shape is made from a 10 by 4 rectangle and a 3 by 6 rectangle. Find the total area.",
           "a": "58",
           "hints": [
