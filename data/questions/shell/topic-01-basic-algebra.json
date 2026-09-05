@@ -70,73 +70,6 @@
         }
       ]
     },
-    "Multiplying out:": {
-      "items": [
-        {
-          "q": "Expand: 4(x + 3)",
-          "a": "4x + 12",
-          "hints": [
-            "Multiply the outside number by every term inside the bracket.",
-            "4 x x, and 4 x 3.",
-            "4x + 12"
-          ]
-        },
-        {
-          "q": "Expand: -2(3y - 5)",
-          "a": "-6y + 10",
-          "hints": [
-            "Multiply the outside number by every term inside the bracket — watch the signs carefully.",
-            "-2 x 3y, and -2 x -5.",
-            "-6y + 10"
-          ]
-        },
-        {
-          "q": "Expand: 5(a - 2b + 1)",
-          "a": "5a - 10b + 5",
-          "hints": [
-            "Multiply the outside number by every term inside the bracket.",
-            "5 x a, 5 x -2b, and 5 x 1.",
-            "5a - 10b + 5"
-          ]
-        },
-        {
-          "q": "Expand: 3(2m + n)",
-          "a": "6m + 3n",
-          "hints": [
-            "Multiply the outside number by every term inside the bracket.",
-            "3 x 2m, and 3 x n.",
-            "6m + 3n"
-          ]
-        },
-        {
-          "q": "Expand: -4(p - q + 2)",
-          "a": "-4p + 4q - 8",
-          "hints": [
-            "Multiply the outside number by every term inside the bracket — watch the signs carefully.",
-            "-4 x p, -4 x -q, and -4 x 2.",
-            "-4p + 4q - 8"
-          ]
-        },
-        {
-          "q": "Expand: 6(r + 2s - 1)",
-          "a": "6r + 12s - 6",
-          "hints": [
-            "Multiply the outside number by every term inside the bracket.",
-            "6 x r, 6 x 2s, and 6 x -1.",
-            "6r + 12s - 6"
-          ]
-        },
-        {
-          "q": "Expand: x(3x - 2)",
-          "a": "3x^2 - 2x",
-          "hints": [
-            "Multiply the outside term by every term inside the bracket — this time the outside term is x itself.",
-            "x times 3x, and x times -2.",
-            "3x^2 - 2x"
-          ]
-        }
-      ]
-    },
     "1 bracket with constant term": {
       "items": [
         {
@@ -200,6 +133,42 @@
             "Expand the bracket first, then combine the resulting constant with the +5.",
             "3x - 6 + 5.",
             "3x - 1"
+          ]
+        },
+        {
+          "q": "Expand: 5(a - 2b + 1)",
+          "a": "5a - 10b + 5",
+          "hints": [
+            "Multiply the outside number by every term inside the bracket.",
+            "5 x a, 5 x -2b, and 5 x 1.",
+            "5a - 10b + 5"
+          ]
+        },
+        {
+          "q": "Expand: -4(p - q + 2)",
+          "a": "-4p + 4q - 8",
+          "hints": [
+            "Multiply the outside number by every term inside the bracket — watch the signs carefully.",
+            "-4 x p, -4 x -q, and -4 x 2.",
+            "-4p + 4q - 8"
+          ]
+        },
+        {
+          "q": "Expand: 6(r + 2s - 1)",
+          "a": "6r + 12s - 6",
+          "hints": [
+            "Multiply the outside number by every term inside the bracket.",
+            "6 x r, 6 x 2s, and 6 x -1.",
+            "6r + 12s - 6"
+          ]
+        },
+        {
+          "q": "Expand: x(3x - 2)",
+          "a": "3x^2 - 2x",
+          "hints": [
+            "Multiply the outside term by every term inside the bracket — this time the outside term is x itself.",
+            "x times 3x, and x times -2.",
+            "3x^2 - 2x"
           ]
         }
       ]
