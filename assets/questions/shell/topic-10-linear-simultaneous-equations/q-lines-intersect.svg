@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Intersection of y = 2x + 1 and y = 7 minus x</title>
+  <desc id="desc">Two straight lines, y = 2x + 1 and y = 7 - x, crossing at one point. The coordinates of the intersection are unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="240" x2="300" y2="240" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="170" y1="10" x2="170" y2="260" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="303" y="244" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="174" y="18" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <line x1="140" y1="220" x2="240" y2="20" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="140" y1="10" x2="240" y2="110" stroke="#3a2f22" stroke-width="2.5"/>
+
+  <circle cx="210" cy="80" r="5.5" fill="#d9480f"/>
+  <text x="218" y="76" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">?</text>
+
+  <text x="255" y="30" fill="#2a5db0" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = 2x + 1</text>
+  <text x="255" y="145" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-style="italic">y = 7 − x</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#6b6157" font-family="Arial, sans-serif" font-size="12" font-style="italic">Find the coordinates where the lines cross.</text>
+</svg>
