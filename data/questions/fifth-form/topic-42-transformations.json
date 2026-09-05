@@ -8,6 +8,9 @@
         {
           "q": "Translate the point (2,-1) by the vector (3,4).",
           "a": "(5,3)",
+          "image": "assets/questions/fifth-form/topic-42-transformations/q-translation.svg",
+          "imageAlt": "A coordinate grid showing the point (2,-1) and the translation vector (3,4) drawn as a dashed arrow. The translated point is unknown.",
+          "imageCaption": "Translate by the vector (3, 4).",
           "hints": [
             "Add the vector's components to the point's coordinates.",
             "(2+3, -1+4).",
@@ -17,6 +20,9 @@
         {
           "q": "Reflect the point (5,2) in the y-axis.",
           "a": "(-5,2)",
+          "image": "assets/questions/fifth-form/topic-42-transformations/q-reflection-yaxis.svg",
+          "imageAlt": "A coordinate grid showing the point (5,2) and the y-axis as the mirror line. The reflected point is unknown.",
+          "imageCaption": "Reflect in the y-axis.",
           "hints": [
             "Reflecting in the y-axis negates the x-coordinate and keeps y the same.",
             "(-5, 2).",
@@ -26,6 +32,9 @@
         {
           "q": "Rotate the point (1,0) by 90° anticlockwise about the origin.",
           "a": "(0,1)",
+          "image": "assets/questions/fifth-form/topic-42-transformations/q-rotation-90.svg",
+          "imageAlt": "A coordinate grid showing the point (1,0) and a curved arrow sweeping 90 degrees anticlockwise about the origin. The rotated point is unknown.",
+          "imageCaption": "Rotate 90° anticlockwise about the origin.",
           "hints": [
             "A 90° anticlockwise rotation about the origin sends (x,y) to (-y,x).",
             "(1,0) → (-0, 1).",
