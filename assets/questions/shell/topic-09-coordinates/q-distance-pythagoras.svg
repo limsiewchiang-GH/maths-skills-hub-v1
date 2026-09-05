@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" role="img" aria-labelledby="title desc">
+  <title id="title">Distance between (1,2) and (7,10) using Pythagoras</title>
+  <desc id="desc">A coordinate grid with points (1,2) and (7,10) joined by a line. A right-angled triangle is formed using a horizontal and vertical dashed line, showing how Pythagoras' theorem gives the distance, which is unknown, to be found.</desc>
+  <rect width="340" height="280" fill="#fffdf8"/>
+
+  <line x1="40" y1="240" x2="300" y2="240" stroke="#3a2f22" stroke-width="1.5"/>
+  <line x1="60" y1="255" x2="60" y2="30" stroke="#3a2f22" stroke-width="1.5"/>
+  <text x="303" y="244" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">x</text>
+  <text x="64" y="38" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13">y</text>
+
+  <line x1="75" y1="210" x2="165" y2="90" stroke="#2a5db0" stroke-width="2.5"/>
+  <line x1="75" y1="210" x2="165" y2="210" stroke="#d9480f" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <line x1="165" y1="210" x2="165" y2="90" stroke="#d9480f" stroke-width="1.6" stroke-dasharray="4 3"/>
+
+  <text x="120" y="226" text-anchor="middle" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-weight="700">6</text>
+  <text x="172" y="153" fill="#3a2f22" font-family="Arial, sans-serif" font-size="13" font-weight="700">8</text>
+
+  <g fill="#3a2f22">
+    <circle cx="75" cy="210" r="4"/>
+    <circle cx="165" cy="90" r="4"/>
+  </g>
+  <text x="55" y="225" text-anchor="end" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">(1,2)</text>
+  <text x="170" y="82" fill="#3a2f22" font-family="Arial, sans-serif" font-size="12">(7,10)</text>
+
+  <text x="170" y="264" text-anchor="middle" fill="#d9480f" font-family="Arial, sans-serif" font-size="14" font-weight="700">Distance = ?</text>
+</svg>
