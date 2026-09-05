@@ -319,6 +319,73 @@
           ]
         }
       ]
+    },
+    "Converting between units": {
+      "items": [
+        {
+          "q": "Convert 2.4 m to cm.",
+          "a": "240 cm",
+          "hints": [
+            "There are 100 cm in a metre — multiply.",
+            "2.4 x 100.",
+            "240 cm"
+          ]
+        },
+        {
+          "q": "Convert 3500 g to kg.",
+          "a": "3.5 kg",
+          "hints": [
+            "There are 1000 g in a kilogram — divide.",
+            "3500 / 1000.",
+            "3.5 kg"
+          ]
+        },
+        {
+          "q": "Convert 1.2 km to m.",
+          "a": "1200 m",
+          "hints": [
+            "There are 1000 m in a kilometre — multiply.",
+            "1.2 x 1000.",
+            "1200 m"
+          ]
+        },
+        {
+          "q": "Convert 450 cm to m.",
+          "a": "4.5 m",
+          "hints": [
+            "There are 100 cm in a metre — divide.",
+            "450 / 100.",
+            "4.5 m"
+          ]
+        },
+        {
+          "q": "Convert 0.8 kg to g.",
+          "a": "800 g",
+          "hints": [
+            "There are 1000 g in a kilogram — multiply.",
+            "0.8 x 1000.",
+            "800 g"
+          ]
+        },
+        {
+          "q": "Convert 3600 mm to m.",
+          "a": "3.6 m",
+          "hints": [
+            "There are 1000 mm in a metre — divide.",
+            "3600 / 1000.",
+            "3.6 m"
+          ]
+        },
+        {
+          "q": "Convert 2.5 km to cm.",
+          "a": "250000 cm",
+          "hints": [
+            "Convert in two steps: km to m, then m to cm.",
+            "2.5 km = 2500 m, and 2500 m = 250000 cm.",
+            "250000 cm"
+          ]
+        }
+      ]
     }
   }
 }

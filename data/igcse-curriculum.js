@@ -39,7 +39,6 @@ window.igcseCurriculum = [
         "title": "Recurring decimals",
         "skills": [
           "Terminating decimals as fractions",
-          "Converting recurring decimals into fractions:",
           "One recurring unit",
           "Two recurring units",
           "One or two recurring units with a leading non-recurring element"
@@ -108,7 +107,8 @@ window.igcseCurriculum = [
           "HCF and LCM of two numbers",
           "Laws of Indices",
           "Negative Indices",
-          "Fractional Indices"
+          "Fractional Indices",
+          "Converting between units"
         ]
       },
       {
@@ -167,8 +167,7 @@ window.igcseCurriculum = [
         "skills": [
           "Lengths in similar shapes",
           "Areas in similar shapes",
-          "Volumes in similar shapes",
-          "Converting between units"
+          "Volumes in similar shapes"
         ]
       },
       {

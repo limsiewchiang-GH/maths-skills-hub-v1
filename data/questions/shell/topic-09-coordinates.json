@@ -10,7 +10,7 @@
           "a": "(4,3)",
           "image": "assets/questions/shell/topic-09-coordinates/q-midpoint-grid.svg",
           "imageAlt": "Coordinate grid with point A at (1,2) and point B at (7,4).",
-          "imageCaption": "Sample image-backed question. Replace this SVG or swap the path to use your own diagram.",
+          "imageCaption": "A(1,2), B(7,4). Diagram not to scale.",
           "hints": [
             "Read the coordinates of A and B from the diagram, then average each coordinate.",
             "A = (1,2), B = (7,4), so midpoint = ((1+7)/2, (2+4)/2).",
