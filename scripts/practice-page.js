@@ -31,11 +31,16 @@ function normalizeMath(expr) {
   text = text.replace(/×/g, "\\times ");
   text = text.replace(/÷/g, "\\div ");
   text = text.replace(/±/g, "\\pm ");
+  text = text.replace(/∓/g, "\\mp ");
   text = text.replace(/>=/g, "\\ge ");
   text = text.replace(/<=/g, "\\le ");
   text = text.replace(/≤/g, "\\le ");
   text = text.replace(/≥/g, "\\ge ");
   text = text.replace(/≠/g, "\\ne ");
+  text = text.replace(/∩/g, "\\cap ");
+  text = text.replace(/∪/g, "\\cup ");
+  text = text.replace(/∝/g, "\\propto ");
+  text = text.replace(/∫/g, "\\int ");
 
   // Literal ASCII "x" used as a multiplication sign (the established authoring convention
   // throughout this site's question/answer text, e.g. "9 x 10^6", "2x9").
