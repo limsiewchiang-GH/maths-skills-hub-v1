@@ -440,7 +440,7 @@ window.igcseCurriculum = [
           "Inverses",
           "Inverse of a quadratic",
           "Transformation of graphs",
-          "Algebraic manipulation, including quadratics and inequalities;",
+          "Algebraic manipulation, including quadratics and inequalities",
           "Circle theorems",
           "Probability"
         ]
